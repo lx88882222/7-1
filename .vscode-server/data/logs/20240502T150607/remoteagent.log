@@ -161,3 +161,21 @@
 2024-05-02 16:03:34.142 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
 2024-05-02 16:08:27.660 [info] [<unknown>][2ef17727][ExtensionHostConnection] <17159> Extension Host Process exited with code: 0, signal: null.
 2024-05-02 17:32:30.130 [error] [File Watcher (node.js)] Failed to watch /home/mi/.git for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/.git')
+2024-05-02 17:42:22.683 [info] Getting Manifest... github.copilot
+2024-05-02 17:42:22.779 [info] Installing extension: github.copilot
+2024-05-02 17:42:24.688 [info] Getting Manifest... github.copilot-chat
+2024-05-02 17:42:24.741 [info] Installing extension: github.copilot-chat
+2024-05-02 17:42:24.982 [info] Getting Manifest... github.copilot-chat
+2024-05-02 17:42:25.188 [info] Waiting for already requested installing extension github.copilot-chat github.copilot
+2024-05-02 17:42:25.364 [info] Getting Manifest... github.copilot
+2024-05-02 17:43:30.820 [info] Extension signature is verified: github.copilot
+2024-05-02 17:43:31.204 [info] Extension signature is verified: github.copilot-chat
+2024-05-02 17:43:32.369 [info] Extracted extension to file:///home/mi/.vscode-server/extensions/github.copilot-chat-0.14.1: github.copilot-chat
+2024-05-02 17:43:32.396 [info] Renamed to /home/mi/.vscode-server/extensions/github.copilot-chat-0.14.1
+2024-05-02 17:43:32.417 [info] Extracting extension completed. github.copilot-chat
+2024-05-02 17:43:32.449 [info] Extension installed successfully: github.copilot-chat
+2024-05-02 17:43:32.471 [info] Finished waiting for already requested installing extension github.copilot-chat github.copilot
+2024-05-02 17:43:32.779 [info] Extracted extension to file:///home/mi/.vscode-server/extensions/github.copilot-1.186.0: github.copilot
+2024-05-02 17:43:32.797 [info] Renamed to /home/mi/.vscode-server/extensions/github.copilot-1.186.0
+2024-05-02 17:43:32.808 [info] Extracting extension completed. github.copilot
+2024-05-02 17:43:32.872 [info] Extension installed successfully: github.copilot

@@ -3693,3 +3693,455 @@
 [INFO] [1714642348.467614095] [cyberdog_manager]: [stop:back to end upload device info-------------------]
 [INFO] [1714642360.658457017] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 68.
 [INFO] [1714642362.674628347] [cyberdog_manager]: Battery Capacity Info:68
+[INFO] [1714642378.469632537] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642378.533268056] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642378.570425146] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642378.580515300] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642378.586570160] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642378.595015464] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642378.598610121] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642378.599747936] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642390.847089799] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 68.
+[INFO] [1714642392.852308871] [cyberdog_manager]: Battery Capacity Info:68
+[INFO] [1714642408.602213830] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642408.639382504] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642408.690757232] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642408.695831653] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642408.701338870] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642408.708865493] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642408.712803924] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642408.715907545] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642421.017766286] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 68.
+[INFO] [1714642423.027170922] [cyberdog_manager]: Battery Capacity Info:68
+[INFO] [1714642438.717547206] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642438.755772319] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642438.791854411] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642438.796464451] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642438.807387878] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642438.815781374] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642438.818784580] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642438.819736444] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642451.197855621] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 68.
+[INFO] [1714642453.214063847] [cyberdog_manager]: Battery Capacity Info:68
+[INFO] [1714642468.820688527] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642468.849822294] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642468.893887901] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642468.900900993] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642468.912182689] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642468.918542570] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642468.925954155] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642468.927106273] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642481.377701086] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 68.
+[INFO] [1714642483.392523211] [cyberdog_manager]: Battery Capacity Info:68
+[INFO] [1714642498.927487609] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642498.949356254] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642499.010251125] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642499.016240386] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642499.023000808] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642499.030262826] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642499.034249288] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642499.036801746] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642511.558182353] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 69.
+[INFO] [1714642513.569810586] [cyberdog_manager]: Battery Capacity Info:69
+[INFO] [1714642529.038956091] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642529.059625930] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642529.104390603] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642529.112431110] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642529.117998807] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642529.124605630] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642529.129867665] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642529.130787081] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642541.735493408] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 69.
+[INFO] [1714642543.746240496] [cyberdog_manager]: Battery Capacity Info:69
+[INFO] [1714642559.131136322] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642559.170956365] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642559.222931440] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642559.228635616] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642559.235967457] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642559.240229052] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642559.243399137] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642559.244320601] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642571.918281215] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 69.
+[INFO] [1714642573.930860256] [cyberdog_manager]: Battery Capacity Info:69
+[INFO] [1714642589.244646258] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642589.272697026] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642589.310455615] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642589.316268493] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642589.321816382] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642589.328576868] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642589.331409580] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642589.332418243] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642602.097287679] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 69.
+[INFO] [1714642604.112482026] [cyberdog_manager]: Battery Capacity Info:69
+[INFO] [1714642619.332917338] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642619.369754399] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642619.402808100] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642619.412105717] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642619.416137394] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642619.422207582] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642619.425970942] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642619.427051861] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642632.274261873] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 69.
+[INFO] [1714642634.290545554] [cyberdog_manager]: Battery Capacity Info:69
+[INFO] [1714642649.427405997] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642649.476723239] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642649.541110336] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642649.549880661] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642649.555109449] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642649.573439532] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642649.581152906] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642649.582554686] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642662.459187518] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 69.
+[INFO] [1714642664.470886919] [cyberdog_manager]: Battery Capacity Info:69
+[INFO] [1714642679.585300194] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642679.608558939] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642679.660166337] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642679.663900961] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642679.668276412] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642679.674954787] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642679.678413701] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642679.679936184] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642692.635491253] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 70.
+[INFO] [1714642694.646385285] [cyberdog_manager]: Battery Capacity Info:70
+[INFO] [1714642709.680708045] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642709.715030919] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642709.754944850] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642709.761164893] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642709.768688988] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642709.774118990] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642709.776376282] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642709.777957069] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642722.812887395] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 70.
+[INFO] [1714642724.822759771] [cyberdog_manager]: Battery Capacity Info:70
+[INFO] [1714642739.778408580] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642739.818435374] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642739.861889338] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642739.870756238] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642739.876207872] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642739.891712411] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642739.893514124] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642739.897127149] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642752.993083897] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 70.
+[INFO] [1714642755.006911439] [cyberdog_manager]: Battery Capacity Info:70
+[INFO] [1714642769.900358764] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642769.935915260] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642769.975816423] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642769.982674252] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642769.994445640] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642770.003606393] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642770.007301850] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642770.010521054] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642783.169048115] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 70.
+[INFO] [1714642785.182279439] [cyberdog_manager]: Battery Capacity Info:70
+[INFO] [1714642800.012679783] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642800.053541833] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642800.100861269] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642800.107135135] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642800.112635280] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642800.119822258] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642800.123034231] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642800.125096869] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642813.354982296] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 70.
+[INFO] [1714642815.361910601] [cyberdog_manager]: Battery Capacity Info:70
+[INFO] [1714642830.125483069] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642830.158673697] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642830.220957197] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642830.227403381] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642830.233733023] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642830.239249200] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642830.242361397] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642830.245040863] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642843.537237436] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 70.
+[INFO] [1714642845.539721492] [cyberdog_manager]: Battery Capacity Info:70
+[INFO] [1714642860.246670412] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642860.270931740] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642860.323439835] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642860.331089530] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642860.338697689] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642860.346528918] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642860.351948967] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642860.354291955] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642873.711427974] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 70.
+[INFO] [1714642875.720657411] [cyberdog_manager]: Battery Capacity Info:71
+[INFO] [1714642890.356478236] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642890.397580764] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642890.447682800] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642890.454587157] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642890.462538801] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642890.472716346] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642890.482969826] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642890.485088272] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642903.892744786] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 71.
+[INFO] [1714642905.903907871] [cyberdog_manager]: Battery Capacity Info:71
+[INFO] [1714642920.485566663] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642920.529969611] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642920.573609558] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642920.582403402] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642920.588346488] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642920.601854788] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642920.607023992] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642920.609993502] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642934.072240209] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 71.
+[INFO] [1714642936.089369628] [cyberdog_manager]: Battery Capacity Info:71
+[INFO] [1714642950.612473750] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642950.667376966] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642950.738000994] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642950.750055714] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642950.761537620] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642950.774802922] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642950.787751949] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642950.789376344] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642964.262579002] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 71.
+[INFO] [1714642966.278947529] [cyberdog_manager]: Battery Capacity Info:71
+[INFO] [1714642980.789743487] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714642980.853565653] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714642980.892107252] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714642980.907450862] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714642980.920521303] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714642980.929221341] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714642980.935908816] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714642980.939065563] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714642994.450619816] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 71.
+[INFO] [1714642996.457037764] [cyberdog_manager]: Battery Capacity Info:71
+[INFO] [1714643010.939590150] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643010.986210095] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643011.058053168] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643011.063144494] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643011.066802038] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643011.080766489] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643011.087205422] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643011.088091080] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643024.624216241] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 71.
+[INFO] [1714643026.636139081] [cyberdog_manager]: Battery Capacity Info:71
+[INFO] [1714643041.088465812] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643041.116651992] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643041.173902266] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643041.180604686] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643041.186648453] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643041.196132390] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643041.198568822] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643041.200571529] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643054.801191875] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 72.
+[INFO] [1714643056.816943874] [cyberdog_manager]: Battery Capacity Info:72
+[INFO] [1714643071.201566160] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643071.225614127] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643071.259954474] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643071.266684733] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643071.271521181] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643071.279107883] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643071.289413350] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643071.291077851] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643084.986866090] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 72.
+[INFO] [1714643086.995878638] [cyberdog_manager]: Battery Capacity Info:72
+[INFO] [1714643101.291823449] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643101.318277128] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643101.354755541] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643101.360389583] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643101.367653023] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643101.375349452] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643101.378512534] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643101.380552521] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643115.167422840] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 72.
+[INFO] [1714643117.176958681] [cyberdog_manager]: Battery Capacity Info:72
+[INFO] [1714643131.382003394] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643131.411527197] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643131.457473579] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643131.473979229] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643131.483301023] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643131.488760570] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643131.490894668] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643131.491706438] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643145.343498405] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 72.
+[INFO] [1714643147.355770771] [cyberdog_manager]: Battery Capacity Info:72
+[INFO] [1714643161.492083815] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643161.531338753] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643161.570754074] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643161.586112788] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643161.595182423] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643161.603969341] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643161.606415500] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643161.607835587] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643175.530419945] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 72.
+[INFO] [1714643177.532488059] [cyberdog_manager]: Battery Capacity Info:72
+[INFO] [1714643191.608216867] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643191.646411685] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643191.682777586] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643191.694065639] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643191.701684756] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643191.717242988] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643191.722245483] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643191.723661505] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643205.704194660] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 72.
+[INFO] [1714643207.719499935] [cyberdog_manager]: Battery Capacity Info:72
+[INFO] [1714643221.724107905] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643221.768556249] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643221.822516145] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643221.828704039] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643221.834611456] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643221.841464754] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643221.850189752] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643221.851129490] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643235.880366160] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 73.
+[INFO] [1714643237.893277946] [cyberdog_manager]: Battery Capacity Info:73
+[INFO] [1714643251.851475315] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643251.925013000] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643251.966677714] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643251.976407569] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643251.983043173] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643251.993029122] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643251.998367263] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643251.999536311] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643266.059684455] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 73.
+[INFO] [1714643268.070809117] [cyberdog_manager]: Battery Capacity Info:73
+[INFO] [1714643282.001386286] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643282.025313102] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643282.071029309] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643282.075481471] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643282.081012282] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643282.086992146] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643282.089933439] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643282.091558996] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643296.241080016] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 73.
+[INFO] [1714643298.251889224] [cyberdog_manager]: Battery Capacity Info:73
+[INFO] [1714643312.092464049] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643312.128672512] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643312.171862815] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643312.178615346] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643312.183508018] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643312.193170897] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643312.195856255] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643312.197612660] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643326.423199732] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 73.
+[INFO] [1714643328.443355950] [cyberdog_manager]: Battery Capacity Info:73
+[INFO] [1714643342.198436273] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643342.238655781] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643342.302797337] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643342.316183776] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643342.323134161] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643342.332166165] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643342.338631274] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643342.340207199] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643356.678262065] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 73.
+[INFO] [1714643358.638270940] [cyberdog_manager]: Battery Capacity Info:73
+[INFO] [1714643372.340970429] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643372.373022024] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643372.409944241] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643372.416239495] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643372.422292031] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643372.459880132] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643372.464695204] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643372.474700897] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643386.792370139] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 73.
+[INFO] [1714643388.791341378] [cyberdog_manager]: Battery Capacity Info:73
+[INFO] [1714643402.475167521] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643402.515539284] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643402.557364637] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643402.580124517] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643402.588343534] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643402.615224571] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643402.628931615] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643402.630199767] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643416.957042868] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 74.
+[INFO] [1714643418.972290446] [cyberdog_manager]: Battery Capacity Info:74
+[INFO] [1714643432.630690007] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643432.659391351] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643432.696962429] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643432.703740623] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643432.707230968] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643432.718744779] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643432.724447269] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643432.728194604] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643447.198154286] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 74.
+[INFO] [1714643449.220044636] [cyberdog_manager]: Battery Capacity Info:74
+[INFO] [1714643462.728766092] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643462.767115020] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643462.803291674] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643462.810454411] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643462.815226123] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643462.825007721] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643462.832625271] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643462.833367922] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643477.501026701] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 74.
+[INFO] [1714643479.517378112] [cyberdog_manager]: Battery Capacity Info:74
+[INFO] [1714643492.833707699] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643492.865654973] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643492.935210765] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643492.945585736] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643492.949089233] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643492.956575615] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643492.959450924] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643492.962597047] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[ERROR] [1714643496.656704400] [cyberdog_manager]: motion_manager node heart beat lost
+[ERROR] [1714643499.660641414] [cyberdog_manager]: motion_manager node heart beat lost
+[ERROR] [1714643500.163017582] [cyberdog_manager]: motion_manager node heart beat lost
+[ERROR] [1714643500.663597634] [cyberdog_manager]: motion_manager node heart beat lost
+[INFO] [1714643507.798085426] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 75.
+[INFO] [1714643509.822848493] [cyberdog_manager]: Battery Capacity Info:75
+[INFO] [1714643522.963021655] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643522.987948273] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643523.051372297] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643523.058265275] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643523.065965128] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643523.073438870] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643523.076708928] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643523.078947185] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643538.100187093] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 75.
+[INFO] [1714643540.117957183] [cyberdog_manager]: Battery Capacity Info:75
+[INFO] [1714643553.079368338] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643553.109064588] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643553.151523984] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643553.156932460] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643553.160494805] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643553.166640172] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643553.171368268] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643553.174272953] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643568.400133543] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 75.
+[INFO] [1714643570.417448692] [cyberdog_manager]: Battery Capacity Info:76
+[INFO] [1714643583.174776728] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643583.205504939] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643583.253986056] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643583.260889210] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643583.265929432] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643583.273327431] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643583.277265133] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643583.278157895] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643598.695100154] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 76.
+[INFO] [1714643600.728691803] [cyberdog_manager]: Battery Capacity Info:76
+[INFO] [1714643613.279103779] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643613.298237732] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643613.345868806] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643613.351841726] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643613.355976323] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643613.364263179] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643613.367110648] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643613.368478895] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643628.997892249] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 76.
+[INFO] [1714643631.018103603] [cyberdog_manager]: Battery Capacity Info:76
+[INFO] [1714643643.369237901] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643643.404807520] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643643.441533323] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643643.454389269] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643643.462664894] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643643.469502736] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643643.473095960] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643643.474474991] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643659.298610982] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 77.
+[INFO] [1714643661.317177866] [cyberdog_manager]: Battery Capacity Info:77
+[INFO] [1714643673.474866000] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643673.511038718] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643673.560732243] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643673.574851541] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643673.579024697] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643673.591532613] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643673.601592290] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643673.603956690] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1714643689.598880438] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 77.
+[INFO] [1714643691.610250794] [cyberdog_manager]: Battery Capacity Info:77
+[INFO] [1714643703.604381523] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1714643703.652939919] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1714643703.698785757] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1714643703.703324223] [cyberdog_manager]: success to call voice control services.
+[INFO] [1714643703.710489455] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1714643703.718140252] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1714643703.721612165] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1714643703.723608631] [cyberdog_manager]: [stop:back to end upload device info-------------------]

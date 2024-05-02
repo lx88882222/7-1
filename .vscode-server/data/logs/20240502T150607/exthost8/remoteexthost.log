@@ -10,3 +10,9 @@
 2024-05-02 17:32:21.727 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
 2024-05-02 17:32:35.040 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2024-05-02 17:32:40.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-05-02 17:33:14.797 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-05-02 17:40:40.799 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-05-02 17:43:32.740 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 17:43:34.366 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 17:47:04.405 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-05-02 17:54:43.342 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10108

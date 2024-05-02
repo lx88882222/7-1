@@ -4347,3 +4347,606 @@
 [INFO] [1714642361.820703556] [az1.connector_ctrl_bluetooth]: Advertising is closed
 [INFO] [1714642363.820905838] [az1.connector]:  bluetooth connect(app and cyberdog)
 [INFO] [1714642365.817029660] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642369.821610958] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642369.826534884] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642373.816238485] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642375.816651678] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642377.818533658] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642379.834858395] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642381.818194966] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642385.816956313] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642385.821976526] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642389.816478166] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642391.817202045] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642393.818002114] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642397.816009068] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642397.816556712] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642401.816006309] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642403.815980018] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642405.818149580] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642409.817502538] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642409.817948903] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642413.816780714] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642415.815469857] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642417.820311204] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642419.816393426] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642421.817033337] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642423.816794504] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642425.820575732] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642429.817954307] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642429.820365487] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642433.817289890] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642435.815996442] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642437.815831784] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642439.818419390] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642441.817524114] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642445.816561235] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642445.820318675] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642449.818631418] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642449.822592569] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642453.815977834] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642455.816342003] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642457.819437797] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642459.817006119] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642461.816062843] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642465.817297706] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642465.817735654] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642469.817794270] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642469.821243009] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642473.818119061] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642475.816586062] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642477.819904606] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642481.818256197] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642481.819381052] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642485.815838835] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642487.816220924] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642489.820685219] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642491.816739665] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642493.816156002] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642495.817342821] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642497.818358824] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642501.818905437] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642501.819867380] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642505.821371520] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642505.825685692] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642509.815941704] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642511.819582965] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642513.819948927] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642515.821288448] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642517.815892122] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642521.819059192] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642521.823258228] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642525.817301664] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642527.816036887] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642529.818881036] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642531.816400909] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642533.818168075] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642537.816355827] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642537.818827998] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642541.816223981] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642543.818657509] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642545.819157837] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642549.815655140] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642549.819697281] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642553.817124432] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642553.820652882] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642557.816422223] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642559.816717017] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642561.816248682] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642565.815628808] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642565.816080996] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642569.816278555] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642569.816761559] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642573.816129590] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642575.816472575] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642577.816282381] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642579.816703702] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642581.817288318] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642583.817297674] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642585.817684819] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642589.816110810] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642589.816659733] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642593.816767789] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642593.818741948] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642597.818259513] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642597.822654164] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642601.816381122] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642603.820443372] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642605.818024109] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642607.821374717] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642609.816778321] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642613.815822066] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642613.821730207] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642617.816954209] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642617.821806904] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642621.816035490] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642623.816802408] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642625.819647260] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642627.819544138] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642629.818073155] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642633.816974853] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642633.818031388] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642637.816106245] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642639.817524486] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642641.817448595] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642643.818658197] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642645.818867456] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642649.817494884] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642649.818739386] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642653.820387493] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642653.823958854] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642657.819223431] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642659.817228453] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642661.816859829] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642665.816672943] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642665.817117451] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642669.817987549] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642669.818524664] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642673.817679513] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642675.816388528] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642677.816886360] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642681.816056728] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642681.820458643] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642685.816026386] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642687.816070494] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642689.815967051] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642693.817886260] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642693.819987138] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642697.815827166] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642699.816180808] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642701.816305587] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642703.816735612] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642705.816096014] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642709.817230621] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642709.818697104] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642713.817268086] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642713.819667329] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642717.820192662] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642717.823658456] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642721.817059433] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642723.818925830] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642725.815936588] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642729.817110587] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642729.818276017] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642733.816375098] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642735.818132632] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642737.815635705] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642739.823188037] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642741.818994774] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642745.818270805] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642745.820144069] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642749.817331606] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642751.815904910] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642753.816075226] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642755.815970247] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642757.817101130] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642759.818148845] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642761.815855373] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642765.818542191] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642765.819017931] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642769.816565081] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642771.815780972] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642773.818676768] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642775.817476855] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642777.818127390] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642779.817562031] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642781.818698322] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642783.818555776] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642785.822859431] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642787.819597616] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642789.818124009] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642791.819774375] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642793.819659188] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642797.817040900] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642797.820409031] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642801.818873677] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642801.825327222] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642805.816089022] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642807.816015275] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642809.816120695] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642813.816982952] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642813.818086463] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642817.816950657] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642819.817742695] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642821.815921123] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642825.816631222] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642825.817093906] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642829.816312178] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642831.817508148] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642833.815629809] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642837.817064957] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642837.817484954] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642841.826031178] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642841.826785475] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642845.818587394] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642847.816035588] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642849.818097119] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642851.816410042] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642853.817076865] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642855.817677416] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642857.818009362] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642859.818831831] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642861.815982108] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642863.819514027] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642865.816452529] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642869.815399923] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642869.821408256] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642873.815848392] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642873.817736984] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642877.816320029] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642877.816928056] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642881.815787227] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642883.815798375] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642885.816541549] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642887.816236572] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642889.818061593] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642891.817062478] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642893.818602702] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642897.815722591] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642897.820004091] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642901.815877367] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642901.819037596] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642905.816990470] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642905.821130627] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642909.816877568] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642911.817902084] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642913.819239301] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642915.818573783] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642917.817888201] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642921.817275464] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642921.820822345] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642925.818458788] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642925.820100242] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642929.817136076] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642931.818497047] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642933.821027414] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642935.818706179] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642937.816279675] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642941.817499906] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642941.819426707] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642945.816333024] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642947.821648009] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642949.820324591] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642953.816231174] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642953.816631989] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642957.817755630] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642957.818193192] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642961.819332411] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642961.821505450] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642965.817918877] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642967.820461833] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642969.815913403] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642971.823654188] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642973.817204798] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642975.825981387] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642977.817045198] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642981.819851722] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642981.823752688] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642985.816388176] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642987.818012684] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642989.816695612] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642993.819954517] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714642993.825085331] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642997.816672058] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714642999.822706265] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643001.820656110] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643005.816934454] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643005.825068288] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643009.818169436] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643009.824433554] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643013.818890118] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643013.819326787] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643017.833180662] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643017.836579839] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643021.817197967] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643023.819822309] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643025.817070239] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643027.825156400] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643029.816880335] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643033.817063676] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643033.822350041] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643037.815919666] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643039.817979884] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643041.816473694] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643043.825779303] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643045.816023375] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643049.816863928] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643049.823917385] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643053.816366986] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643055.817133549] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643057.816575896] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643061.816516903] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643061.817577952] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643065.817911103] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643065.818457051] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643069.816284554] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643071.816029356] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643073.817956992] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643077.819393046] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643077.821332458] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643081.817922017] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643083.818130816] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643085.819084281] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643089.815549233] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643089.824185368] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643093.817310406] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643093.820197459] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643097.815400659] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643099.816425581] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643101.816501772] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643103.816771083] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643105.818287201] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643109.815849873] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643109.820640306] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643113.815912753] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643113.816408622] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643117.816324079] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643117.824186075] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643121.816894828] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643121.821986186] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643125.817642823] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643125.820120503] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643129.817715655] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643129.821941611] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643133.818681857] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643133.824963703] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643137.820250871] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643137.820902419] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643141.817972967] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643143.820451926] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643145.816049364] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643149.819571389] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643149.823261508] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643153.816069525] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643155.816794000] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643157.819510750] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643159.819040065] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643161.816189397] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643165.818729316] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643165.825327992] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643169.816248117] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643171.817974570] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643173.815671033] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643175.823541893] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643177.816616115] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643181.817404751] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643181.823065993] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643185.819458529] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643185.823894756] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643189.817057074] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643191.816223480] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643193.818277706] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643195.816807828] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643197.818748967] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643199.818043180] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643201.815814427] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643203.819579138] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643205.819463523] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643209.815918140] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643209.816991732] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643213.816040539] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643213.819838882] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643217.815513919] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643219.815753086] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643221.817641681] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643223.816599064] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643225.820250720] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643227.818912745] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643229.817014806] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643233.816081917] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643233.816952951] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643237.818487533] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643237.825167585] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643241.815893151] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643243.817602868] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643245.816347036] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643249.817588597] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643249.824059561] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643253.815687778] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643255.821024894] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643257.818838733] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643261.815990144] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643261.819520681] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643265.817029082] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643265.821184606] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643269.816589309] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643271.816693981] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643273.817089626] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643277.817451320] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643277.821639516] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643281.817166779] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643283.817298010] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643285.817026940] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643287.820985986] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643289.818020662] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643293.819838922] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643293.821219361] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643297.819696556] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643299.816181955] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643301.818422836] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643303.826138433] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643305.817384412] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643309.816480002] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643309.824280430] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643313.816531042] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643313.820099787] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643317.816203813] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643319.817078783] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643321.815987815] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643325.816530212] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643325.819167474] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643329.821412323] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643329.821836577] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643333.816368166] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643335.816515397] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643337.816255463] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643339.816665220] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643341.816015369] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643345.815812266] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643345.820978600] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643349.815612940] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643351.817052995] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643353.817369249] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643355.821405894] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643357.834640750] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643359.827263168] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643361.819934321] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643365.819317621] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643365.821058634] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643369.815354352] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643371.816473033] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643373.816179435] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643375.817687169] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643377.822196803] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643379.819866387] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643381.816214060] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643385.816346379] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643385.817250213] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643389.816262508] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643391.816511499] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643393.822721441] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643397.815663377] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643397.827005701] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643401.818496862] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643401.821723241] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643405.817055368] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643407.816325774] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643409.816850186] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643411.820819472] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643413.816930890] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643417.817543942] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643417.818996669] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643421.816756460] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643423.816826988] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643425.819199900] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643427.818837759] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643429.816914284] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643433.815638805] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643433.816067218] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643437.818892672] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643437.823021732] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643441.818670881] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643443.816409361] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643445.816054131] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643449.820535222] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643449.828327970] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643453.816103476] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643455.816885199] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643457.816938319] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643459.818484805] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643461.816496498] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643465.816589426] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643465.818009416] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643469.816652306] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643469.822212045] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643473.820202491] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643473.823435077] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643477.819521632] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643479.816809426] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643481.820099068] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643485.816565204] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643485.818743014] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643489.816261527] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643491.816654580] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643493.817797901] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643495.817302416] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643497.816726452] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643501.816717301] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643501.818931942] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643505.816894420] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643505.821977618] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643509.817781519] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643509.826097879] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643513.818639497] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643513.823885542] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643517.816264282] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643519.816332089] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643521.816808918] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643523.817722096] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643525.816835959] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643527.818674858] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643529.815940989] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643533.818191598] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643533.822115476] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643537.819243848] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643537.824934434] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643541.816182077] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643543.816978455] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643545.816854073] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643549.816691226] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643549.821761880] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643553.818060593] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643553.819509352] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643557.820930623] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643557.821364508] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643561.819545800] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643563.816400637] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643565.817892276] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643567.816552605] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643569.821033503] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643571.817184761] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643573.816391551] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643575.817811381] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643577.821102432] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643581.819395467] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643581.821169535] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643585.819771657] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643585.824499946] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643589.819512459] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643591.818370451] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643593.819880009] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643597.821709214] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643597.824640458] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643601.817008189] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643603.816382146] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643605.817589690] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643607.819100144] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643609.820228553] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643613.817377212] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643613.819180176] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643617.816866848] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643619.816200005] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643621.816597698] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643623.816546115] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643625.817397437] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643627.824052241] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643629.816553475] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643633.818404311] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643633.820359850] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643637.816297286] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643639.816280422] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643641.819286546] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643643.816665956] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643645.818579479] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643647.817684350] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643649.816433638] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643653.817130338] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643653.818615608] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643657.821295591] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643657.824416498] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643661.818050749] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643663.817188227] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643665.820790635] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643667.817887006] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643669.825381165] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643673.823292155] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643673.824802737] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643677.816499337] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643679.816185163] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643681.819051960] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643683.817150469] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643685.815735183] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643689.821048044] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643689.824097079] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643693.815814575] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643695.817382853] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643697.819373432] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643699.818447454] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643701.817758339] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643705.820503985] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643705.823707708] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643709.818745245] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643711.820076308] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643713.818056898] [az1.connector_ctrl_bluetooth]: Advertising is closed
+[INFO] [1714643717.816760139] [az1.connector]:  bluetooth connect(app and cyberdog)
+[INFO] [1714643717.817218152] [az1.connector_ctrl_bluetooth]: Advertising is closed
