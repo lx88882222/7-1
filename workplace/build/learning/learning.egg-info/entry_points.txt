@@ -1,0 +1,4 @@
+[console_scripts]
+stand = learning.stand:main
+walktest = learning.walktest:main
+

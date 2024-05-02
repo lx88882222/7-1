@@ -1,0 +1,48 @@
+[INFO] [1714633796.137880852] [camera.camera]: 
+	camera lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1714633911.774160335] [camera.camera]: RealSense ROS v4.0.4
+[INFO] [1714633911.774417832] [camera.camera]: Built with LibRealSense v2.50.0
+[INFO] [1714633911.774562020] [camera.camera]: Running with LibRealSense v2.50.0
+[INFO] [1714633911.882901665] [camera.camera]: Device with serial number 215222075522 was found.
+
+[INFO] [1714633911.884288697] [camera.camera]: Device with physical ID /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video4 was found.
+[INFO] [1714633911.884466004] [camera.camera]: Device with name Intel RealSense D430I was found.
+[INFO] [1714633911.888271911] [camera.camera]: Device with port number 2-3.3 was found.
+[INFO] [1714633911.888552031] [camera.camera]: Device USB type: 3.2
+[INFO] [1714633911.888720698] [camera.camera]: set_devices_changed_callback
+[INFO] [1714633911.908185707] [camera.realsense2_camera_node]: getParameters...
+[INFO] [1714633911.939656581] [camera.realsense2_camera_node]: JSON file is not provided
+[INFO] [1714633911.939903550] [camera.realsense2_camera_node]: Device Name: Intel RealSense D430I
+[INFO] [1714633911.940028090] [camera.realsense2_camera_node]: Device Serial No: 215222075522
+[INFO] [1714633911.940150679] [camera.realsense2_camera_node]: Device physical port: /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video4
+[INFO] [1714633911.940267827] [camera.realsense2_camera_node]: Device FW version: 05.13.00.55
+[INFO] [1714633911.940379760] [camera.realsense2_camera_node]: Device Product ID: 0x0B4B
+[INFO] [1714633911.940515500] [camera.realsense2_camera_node]: Sync Mode: On
+[WARN] [1714633912.190072791] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[WARN] [1714633912.212176414] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[ERROR] [1714633912.343242895] [camera.realsense2_camera_node]: The PointCloudHeightScale is out of range,make PointCloudHeightScale = 5
+[INFO] [1714633912.343453257] [camera.realsense2_camera_node]: PointCloudHeightScale = 5
+[ERROR] [1714633912.344632615] [camera.realsense2_camera_node]: The PointCloudWeightScale is out of range,make PointCloudWeightScale = 1
+[INFO] [1714633912.344784835] [camera.realsense2_camera_node]: PointCloudWeightScale = 1
+[ERROR] [1714633912.345868900] [camera.realsense2_camera_node]: The PointCloudPublishFrequency is out of range,make PointCloudPublishFrequency = 1
+[INFO] [1714633912.346021695] [camera.realsense2_camera_node]: PointCloudPublishFrequency = 1
+[INFO] [1714633912.347100640] [camera.realsense2_camera_node]: PointCloudTop = 0
+[ERROR] [1714633912.348180513] [camera.realsense2_camera_node]: The PointCloudBottom is out of range,make PointCloudBottom = 480
+[INFO] [1714633912.348319549] [camera.realsense2_camera_node]: PointCloudBottom = 480
+[INFO] [1714633912.362417129] [camera.realsense2_camera_node]: Start Sensor: Stereo Module
+[INFO] [1714633912.522659318] [camera.realsense2_camera_node]: Open profile: stream_type: Infra(1), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1714633912.522967213] [camera.realsense2_camera_node]: Open profile: stream_type: Infra(2), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1714633912.523139016] [camera.realsense2_camera_node]: Open profile: stream_type: Depth(0), Format: Z16, Width: 640, Height: 480, FPS: 30
+[INFO] [1714633912.523431999] [camera.realsense2_camera_node]: Start Sensor: Motion Module
+[WARN] [1714633912.595791812] [camera.realsense2_camera_node]: 
+[INFO] [1714633912.620778264] [camera.realsense2_camera_node]: Open profile: stream_type: Accel(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1714633912.621053392] [camera.realsense2_camera_node]: Open profile: stream_type: Gyro(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1714633912.630209577] [camera.realsense2_camera_node]: RealSense Node Is Up!
+[INFO] [1714633912.630694683] [camera.camera]: Sending synchronous signal ...
+[WARN] [1714633913.449690204] [camera.realsense2_camera_node]: XXX Hardware Notification:Motion Module failure,1.71463e+12,Error,Hardware Error
+[WARN] [1714633913.450044146] [camera.realsense2_camera_node]: Hardware Notification:Motion Module failure,1.71463e+12,Error,Hardware Error
+[INFO] [1714633913.631147848] [camera.camera]: Synchronous signal has been sent
+[INFO] [1714633913.633670976] [camera.camera]: Creating bond (camera) to lifecycle manager.
+[INFO] [1714633978.354680405] [rclcpp]: signal_handler(signal_value=2)

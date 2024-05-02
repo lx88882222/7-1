@@ -1,0 +1,44 @@
+[INFO] [1714636432.717346170] [camera.camera]: 
+	camera lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1714636437.524636559] [camera.camera]: RealSense ROS v4.0.4
+[INFO] [1714636437.526501336] [camera.camera]: Built with LibRealSense v2.50.0
+[INFO] [1714636437.526705071] [camera.camera]: Running with LibRealSense v2.50.0
+[INFO] [1714636437.672875073] [camera.camera]: Device with serial number 215222075522 was found.
+
+[INFO] [1714636437.673161620] [camera.camera]: Device with physical ID /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video6 was found.
+[INFO] [1714636437.673282798] [camera.camera]: Device with name Intel RealSense D430I was found.
+[INFO] [1714636437.675132344] [camera.camera]: Device with port number 2-3.3 was found.
+[INFO] [1714636437.675316560] [camera.camera]: Device USB type: 3.2
+[INFO] [1714636437.675533574] [camera.camera]: set_devices_changed_callback
+[INFO] [1714636437.737042585] [camera.realsense2_camera_node]: getParameters...
+[INFO] [1714636437.761834072] [camera.realsense2_camera_node]: JSON file is not provided
+[INFO] [1714636437.762031599] [camera.realsense2_camera_node]: Device Name: Intel RealSense D430I
+[INFO] [1714636437.762194536] [camera.realsense2_camera_node]: Device Serial No: 215222075522
+[INFO] [1714636437.766518334] [camera.realsense2_camera_node]: Device physical port: /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video6
+[INFO] [1714636437.766709334] [camera.realsense2_camera_node]: Device FW version: 05.13.00.55
+[INFO] [1714636437.766828752] [camera.realsense2_camera_node]: Device Product ID: 0x0B4B
+[INFO] [1714636437.766932939] [camera.realsense2_camera_node]: Sync Mode: On
+[WARN] [1714636438.365292696] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[WARN] [1714636438.421640348] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[ERROR] [1714636438.729055652] [camera.realsense2_camera_node]: The PointCloudHeightScale is out of range,make PointCloudHeightScale = 5
+[INFO] [1714636438.736602565] [camera.realsense2_camera_node]: PointCloudHeightScale = 5
+[ERROR] [1714636438.737898504] [camera.realsense2_camera_node]: The PointCloudWeightScale is out of range,make PointCloudWeightScale = 1
+[INFO] [1714636438.738067649] [camera.realsense2_camera_node]: PointCloudWeightScale = 1
+[ERROR] [1714636438.743941327] [camera.realsense2_camera_node]: The PointCloudPublishFrequency is out of range,make PointCloudPublishFrequency = 1
+[INFO] [1714636438.748994916] [camera.realsense2_camera_node]: PointCloudPublishFrequency = 1
+[INFO] [1714636438.750579003] [camera.realsense2_camera_node]: PointCloudTop = 0
+[ERROR] [1714636438.752481762] [camera.realsense2_camera_node]: The PointCloudBottom is out of range,make PointCloudBottom = 480
+[INFO] [1714636438.752690553] [camera.realsense2_camera_node]: PointCloudBottom = 480
+[INFO] [1714636438.779044559] [camera.realsense2_camera_node]: Start Sensor: Stereo Module
+[ERROR] [1714636439.154696945] [camera.realsense2_camera_node]: /carpo_ws/src/realsense-ros/realsense2_camera/src/realsense2_camera_node/rs_node_setup.cpp:340:An exception has been thrown: xioctl(VIDIOC_S_FMT) failed Last Error: Device or resource busy
+[INFO] [1714636439.263723075] [camera.camera]: Device with serial number 215222075522 was found.
+
+[INFO] [1714636439.264038420] [camera.camera]: Device with physical ID /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video6 was found.
+[INFO] [1714636439.264252394] [camera.camera]: Device with name Intel RealSense D430I was found.
+[INFO] [1714636439.269002733] [camera.camera]: Device with port number 2-3.3 was found.
+[INFO] [1714636439.269348957] [camera.camera]: Device USB type: 3.2
+[INFO] [1714636439.269530741] [camera.camera]: set_devices_changed_callback
+[INFO] [1714636439.558969057] [camera.realsense2_camera_node]: getParameters...
+[INFO] [1714636439.588217520] [camera.realsense2_camera_node]: JSON file i

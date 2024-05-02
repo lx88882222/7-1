@@ -1,0 +1,20 @@
+{
+    "audio": 0,
+    "motion_manager": 0,
+    "algorithm_manager": 0,
+    "vp_engine": 0,
+    "RealSenseActuator": 0,
+    "device": {
+        "bms": 0,
+        "led": 0,
+        "touch": 0,
+        "uwb": 0,
+        "bluetooth": 0,
+        "others": 0
+    },
+    "sensor": {
+        "lidar": 0,
+        "tof": 0,
+        "others": 0
+    }
+}

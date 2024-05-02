@@ -1,0 +1,44 @@
+[11.828s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
+[17.069s] running egg_info
+[17.081s] creating ../../build/learning/learning.egg-info
+[17.103s] writing ../../build/learning/learning.egg-info/PKG-INFO
+[17.117s] writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt
+[17.129s] writing entry points to ../../build/learning/learning.egg-info/entry_points.txt
+[17.137s] writing requirements to ../../build/learning/learning.egg-info/requires.txt
+[17.139s] writing top-level names to ../../build/learning/learning.egg-info/top_level.txt
+[17.179s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[17.209s] reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[17.229s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[17.230s] running build
+[17.239s] running build_py
+[17.241s] creating /home/mi/workplace/build/learning/build
+[17.242s] creating /home/mi/workplace/build/learning/build/lib
+[17.244s] creating /home/mi/workplace/build/learning/build/lib/learning
+[17.244s] copying learning/walktest.py -> /home/mi/workplace/build/learning/build/lib/learning
+[17.246s] copying learning/__init__.py -> /home/mi/workplace/build/learning/build/lib/learning
+[17.248s] running install
+[17.249s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[17.250s]   setuptools.SetuptoolsDeprecationWarning,
+[17.251s] running install_lib
+[17.265s] creating /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[17.273s] copying /home/mi/workplace/build/learning/build/lib/learning/walktest.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[17.274s] copying /home/mi/workplace/build/learning/build/lib/learning/__init__.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[17.274s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/walktest.py to walktest.cpython-36.pyc
+[17.275s]   File "/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/walktest.py", line 7
+[17.295s]     '''subscribe the message of sensor'''
+[17.296s]     ^
+[17.303s] SyntaxError: invalid character in identifier
+[17.304s] 
+[17.305s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__init__.py to __init__.cpython-36.pyc
+[17.305s] running install_data
+[17.305s] creating /home/mi/workplace/install/learning/share/ament_index
+[17.320s] creating /home/mi/workplace/install/learning/share/ament_index/resource_index
+[17.320s] creating /home/mi/workplace/install/learning/share/ament_index/resource_index/packages
+[17.321s] copying resource/learning -> /home/mi/workplace/install/learning/share/ament_index/resource_index/packages
+[17.338s] copying package.xml -> /home/mi/workplace/install/learning/share/learning
+[17.339s] running install_egg_info
+[17.339s] Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[17.340s] running install_scripts
+[17.580s] Installing walktest script to /home/mi/workplace/install/learning/lib/learning
+[17.584s] writing list of installed files to '/home/mi/workplace/build/learning/install.log'
+[17.956s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Photography;
+Name=Photos lens for Unity
+GenericName=unity-lens-photos
+Icon=unity-lens-photos
+Terminal=false
+Type=Application
+X-Ubuntu-Gettext-Domain=unity-lens-photos
+NotShowIn=LXDE

@@ -1,0 +1,34 @@
+[INFO] [1714632904.597452063] [bes_transmit_waiter Backend_Http]: base url:https://test-server.cyberdog.xiaomi.com
+[INFO] [1714632904.597895010] [bes_transmit_waiter TransmitCenter]: http client is ready
+[INFO] [1714632904.834710817] [bes_transmit_waiter TransmitCenter]: start spin
+[INFO] [1714632912.193982077] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714632922.216706699] [bes_transmit_waiter]: Not able to connect to : ssl://cyber-cnbj1-outer-rmq-mqtt.api.xiaomi.com
+[ERROR] [1714632922.217109390] [bes_transmit_waiter TransmitCenter]: Failed to init mqtt
+[INFO] [1714632975.346160647] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714632985.371581674] [bes_transmit_waiter]: Not able to connect to : ssl://cyber-cnbj1-outer-rmq-mqtt.api.xiaomi.com
+[ERROR] [1714632985.374983940] [bes_transmit_waiter TransmitCenter]: Failed to init mqtt
+[INFO] [1714633005.462063073] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714633008.117219699] [bes_transmit_waiter]: Not able to connect to : ssl://cyber-cnbj1-outer-rmq-mqtt.api.xiaomi.com
+[ERROR] [1714633008.117673590] [bes_transmit_waiter TransmitCenter]: Failed to init mqtt
+[INFO] [1714633035.557431581] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714633037.571587050] [bes_transmit_waiter]: Not able to connect to : ssl://cyber-cnbj1-outer-rmq-mqtt.api.xiaomi.com
+[ERROR] [1714633037.571959405] [bes_transmit_waiter TransmitCenter]: Failed to init mqtt
+[INFO] [1714633065.690449467] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714633067.708486790] [bes_transmit_waiter]: Not able to connect to : ssl://cyber-cnbj1-outer-rmq-mqtt.api.xiaomi.com
+[ERROR] [1714633067.709921425] [bes_transmit_waiter TransmitCenter]: Failed to init mqtt
+[INFO] [1714633080.545438382] [bes_transmit_waiter TransmitCenter]: Switch to product mode for http
+[INFO] [1714633080.545730928] [bes_transmit_waiter TransmitCenter]: Product mode is ready
+[INFO] [1714633095.711916473] [bes_transmit_waiter TransmitCenter]: Product mode is ready
+[INFO] [1714633095.761020988] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714633097.772680164] [bes_transmit_waiter]: Not able to connect to : ssl://cyber-cnbj1-outer-rmq-mqtt.api.xiaomi.com
+[ERROR] [1714633097.773048920] [bes_transmit_waiter TransmitCenter]: Failed to init mqtt
+[INFO] [1714633110.857780946] [bes_transmit_waiter TransmitCenter]: Product mode is ready
+[INFO] [1714633125.851501393] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714633127.869670500] [bes_transmit_waiter]: Not able to connect to : ssl://cyber-cnbj1-outer-rmq-mqtt.api.xiaomi.com
+[ERROR] [1714633127.871120762] [bes_transmit_waiter TransmitCenter]: Failed to init mqtt
+[INFO] [1714633155.938797198] [bes_transmit_waiter TransmitCenter]: Switch to product mode for mqtt pub
+[INFO] [1714633156.133831836] [bes_transmit_waiter]: Thread joined.
+[INFO] [1714633156.134146984] [bes_transmit_waiter]: Initializing
+[INFO] [1714633180.529713039] [bes_transmit_waiter TransmitCenter]: Product mode is ready
+[INFO] [1714633180.601946979] [bes_transmit_waiter Backend_Http]: base_url_:https://server.cyberdog.xiaomi.com, request url:/v1/device/system/log?info=%7B%22time%22%3A1714633180515%7D&account=429823296&number=2H02YNN00109, file_name:/var/log/carpo_log/cyberdog_log.zip, info: %7B%22time%22%3A1714633180515%7D
+[INFO] [1714633182.493886485] [bes_transmit_waiter Backend_Http]: response body: {"code":"200","message":"??????","data":"https://staging-cnbj2-fds.api.xiaomi.net/cyberdog-system-log-test/2H02YNN00109/429823296/1714633180685cyberdog_log.zip","request_id":"f9711eaf-c1d3-4029-90f0-732929465b69"}

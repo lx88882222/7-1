@@ -1,0 +1,10 @@
+[INFO] [1714632913.547578574] [az1.controller_server_ab]: 
+	controller_server_ab lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1714632914.375730836] [az1.controller_server_ab]: Creating controller server
+[INFO] [1714632916.788534044] [az1.local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1714632916.820599539] [az1.local_costmap.local_costmap]: Creating Costmap

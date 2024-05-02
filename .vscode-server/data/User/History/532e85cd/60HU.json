@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "remote.SSH.remotePlatform": {
+        "10.0.0.123": "linux",
+        "10.0.0.170": "linux",
+        "10.0.0.168": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.path": "c:\\Users\\li xiang\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\18.1.3\\clangd_18.1.3\\bin\\clangd.exe",
+    "workbench.startupEditor": "none"
+}

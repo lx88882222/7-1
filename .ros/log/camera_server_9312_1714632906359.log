@@ -1,0 +1,43 @@
+[INFO] [1714632907.600089347] [MainCameraNode]: CameraServerNode: Creating node camera_server.
+[INFO] [1714632908.534996286] [uninitialized WebRTCManager]: WebRTCManager has been created
+[INFO] [1714632908.535385857] [CameraContext]: initialize: initialize
+[INFO] [1714632908.535972133] [MainCameraNode]: on_configure: camera_server Configuring
+[INFO] [1714632908.626981826] [CameraContext]: createSession: createSession
+[INFO] [1714632908.627272484] [MainCameraNode]: on_activate: camera_server Activating
+[INFO] [1714633161.895136129] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+
+[INFO] [1714633161.895612587] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+[INFO] [1714633161.895894658] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 28us
+[INFO] [1714633162.405254576] [MainCameraNode]: serviceCallback: service received command START_IMAGE_PUBLISH, argument 
+
+[INFO] [1714633162.405577987] [MainCameraNode]: serviceCallback: width = 2560, height = 1920, fps = 10
+[INFO] [1714633163.240415862] [StreamConsumer]: StreamConsumer: Stream size: 2560x1920
+[INFO] [1714633163.247497949] [RGBStream]: RGBStreamConsumer: publish rate = 10
+[INFO] [1714633163.253068501] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+[INFO] [1714633163.506157049] [CameraContext]: startCameraStream: Starting repeat capture requests.
+
+[INFO] [1714633163.515488071] [NCSClient]: NCSClient: Create
+[INFO] [1714633163.515827122] []: ~TimePerf: START_IMAGE_PUBLISH cost time: 1109680us
+[INFO] [1714633163.961027841] [RGBStream]: publishImage: Publishing image #0
+[INFO] [1714633165.030515527] [RGBStream]: processBuffer: 19.80 frames per second
+[INFO] [1714633166.033291213] [RGBStream]: processBuffer: 23.93 frames per second
+[INFO] [1714633167.009813113] [RGBStream]: publishImage: Publishing image #72
+[INFO] [1714633167.064155575] [RGBStream]: processBuffer: 26.19 frames per second
+[INFO] [1714633168.091916717] [RGBStream]: processBuffer: 26.27 frames per second
+[INFO] [1714633169.191904057] [RGBStream]: processBuffer: 24.55 frames per second
+[INFO] [1714633170.171485941] [RGBStream]: publishImage: Publishing image #150
+[INFO] [1714633170.246515157] [RGBStream]: processBuffer: 22.76 frames per second
+[INFO] [1714633171.328760872] [RGBStream]: processBuffer: 24.95 frames per second
+[INFO] [1714633172.403417169] [RGBStream]: processBuffer: 25.12 frames per second
+[INFO] [1714633173.194787322] [RGBStream]: publishImage: Publishing image #225
+[INFO] [1714633173.502292577] [RGBStream]: processBuffer: 24.57 frames per second
+[INFO] [1714633174.589432701] [RGBStream]: processBuffer: 24.84 frames per second
+[INFO] [1714633175.614619258] [RGBStream]: processBuffer: 26.34 frames per second
+[INFO] [1714633176.271770560] [RGBStream]: publishImage: Publishing image #303
+[INFO] [1714633176.659675385] [RGBStream]: processBuffer: 25.84 frames per second
+[INFO] [1714633177.806101986] [RGBStream]: processBuffer: 15.70 frames per second
+[INFO] [1714633178.383073611] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+
+[INFO] [1714633178.383559961] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+[INFO] [1714633178.581177173] [StreamConsumer]: threadExecute: stop stream thread
+[INFO] [1714633179.781086068] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 1397265us

@@ -1,0 +1,273 @@
+[INFO] [1714634411.597340924] [camera.camera]: 
+	camera lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1714634416.214583695] [camera.camera]: RealSense ROS v4.0.4
+[INFO] [1714634416.214829571] [camera.camera]: Built with LibRealSense v2.50.0
+[INFO] [1714634416.214970653] [camera.camera]: Running with LibRealSense v2.50.0
+[INFO] [1714634416.593639830] [camera.camera]: Device with serial number 215222075522 was found.
+
+[INFO] [1714634416.593919304] [camera.camera]: Device with physical ID /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video4 was found.
+[INFO] [1714634416.594063810] [camera.camera]: Device with name Intel RealSense D430I was found.
+[INFO] [1714634416.596798558] [camera.camera]: Device with port number 2-3.3 was found.
+[INFO] [1714634416.597029363] [camera.camera]: Device USB type: 3.2
+[INFO] [1714634416.597185676] [camera.camera]: set_devices_changed_callback
+[INFO] [1714634416.614580840] [camera.realsense2_camera_node]: getParameters...
+[INFO] [1714634416.642746848] [camera.realsense2_camera_node]: JSON file is not provided
+[INFO] [1714634416.644304309] [camera.realsense2_camera_node]: Device Name: Intel RealSense D430I
+[INFO] [1714634416.644513771] [camera.realsense2_camera_node]: Device Serial No: 215222075522
+[INFO] [1714634416.644653476] [camera.realsense2_camera_node]: Device physical port: /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video4
+[INFO] [1714634416.644786942] [camera.realsense2_camera_node]: Device FW version: 05.13.00.55
+[INFO] [1714634416.644953078] [camera.realsense2_camera_node]: Device Product ID: 0x0B4B
+[INFO] [1714634416.645078224] [camera.realsense2_camera_node]: Sync Mode: On
+[WARN] [1714634416.978811735] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[WARN] [1714634417.003420345] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[ERROR] [1714634417.242618524] [camera.realsense2_camera_node]: The PointCloudHeightScale is out of range,make PointCloudHeightScale = 5
+[INFO] [1714634417.242902094] [camera.realsense2_camera_node]: PointCloudHeightScale = 5
+[ERROR] [1714634417.244426213] [camera.realsense2_camera_node]: The PointCloudWeightScale is out of range,make PointCloudWeightScale = 1
+[INFO] [1714634417.244581597] [camera.realsense2_camera_node]: PointCloudWeightScale = 1
+[ERROR] [1714634417.245975130] [camera.realsense2_camera_node]: The PointCloudPublishFrequency is out of range,make PointCloudPublishFrequency = 1
+[INFO] [1714634417.246175633] [camera.realsense2_camera_node]: PointCloudPublishFrequency = 1
+[INFO] [1714634417.255084581] [camera.realsense2_camera_node]: PointCloudTop = 0
+[ERROR] [1714634417.256548895] [camera.realsense2_camera_node]: The PointCloudBottom is out of range,make PointCloudBottom = 480
+[INFO] [1714634417.256765716] [camera.realsense2_camera_node]: PointCloudBottom = 480
+[INFO] [1714634417.278589756] [camera.realsense2_camera_node]: Start Sensor: Stereo Module
+[INFO] [1714634417.498422112] [camera.realsense2_camera_node]: Open profile: stream_type: Infra(1), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1714634417.501365619] [camera.realsense2_camera_node]: Open profile: stream_type: Infra(2), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1714634417.503996053] [camera.realsense2_camera_node]: Open profile: stream_type: Depth(0), Format: Z16, Width: 640, Height: 480, FPS: 30
+[INFO] [1714634417.506982821] [camera.realsense2_camera_node]: Start Sensor: Motion Module
+[WARN] [1714634417.561022755] [camera.realsense2_camera_node]: 
+[INFO] [1714634417.769246580] [camera.realsense2_camera_node]: Open profile: stream_type: Accel(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1714634417.776120554] [camera.realsense2_camera_node]: Open profile: stream_type: Gyro(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1714634417.787574852] [camera.realsense2_camera_node]: RealSense Node Is Up!
+[INFO] [1714634417.790602163] [camera.camera]: Sending synchronous signal ...
+[INFO] [1714634418.791250434] [camera.camera]: Synchronous signal has been sent
+[INFO] [1714634418.791601489] [camera.camera]: Creating bond (camera) to lifecycle manager.
+[ERROR] [1714634419.183292057] [camera.camera]: The device has been disconnected!
+[INFO] [1714634419.187870237] [camera.realsense2_camera_node]: Stop Sensor: Stereo Module
+[INFO] [1714634419.189911611] [camera.realsense2_camera_node]: Close Sensor. 
+[INFO] [1714634419.193458033] [camera.realsense2_camera_node]: Close Sensor - Done. 
+[INFO] [1714634419.193779458] [camera.realsense2_camera_node]: Stop Sensor: Motion Module
+[ERROR] [1714634419.200588155] [camera.realsense2_camera_node]: Exception: /carpo_ws/src/realsense-ros/realsense2_camera/src/realsense_stream/ros_sensor.cpp:229:Failed to enable_sensor /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.3/0003:8086:0B4B.0002/HID-SENSOR-2000e1.3.auto/enable_sensor Last Error: No such file or directory
+[INFO] [1714634419.200913515] [camera.realsense2_camera_node]: Close Sensor. 
+[ERROR] [1714634419.202178222] [camera.realsense2_camera_node]: Exception: /carpo_ws/src/realsense-ros/realsense2_camera/src/realsense_stream/ros_sensor.cpp:238:close() failed. Hid device is streaming!
+[INFO] [1714634419.204310728] [camera.realsense2_camera_node]: Close Sensor - Done. 
+[INFO] [1714634419.237393843] [camera.realsense2_camera_node]: Stop Sensor: Motion Module
+[ERROR] [1714634419.241171934] [camera.realsense2_camera_node]: Exception: /carpo_ws/src/realsense-ros/realsense2_camera/src/realsense_stream/ros_sensor.cpp:229:Failed to enable_sensor /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.3/0003:8086:0B4B.0002/HID-SENSOR-2000e1.3.auto/enable_sensor Last Error: No such file or directory
+[INFO] [1714634419.241469552] [camera.realsense2_camera_node]: Close Sensor. 
+[ERROR] [1714634419.243112417] [camera.realsense2_camera_node]: Exception: /carpo_ws/src/realsense-ros/realsense2_camera/src/realsense_stream/ros_sensor.cpp:238:close() failed. Hid device is streaming!
+[INFO] [1714634419.243353333] [camera.realsense2_camera_node]: Close Sensor - Done. 
+[INFO] [1714634421.473852502] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634423.474985692] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634425.476122947] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634427.477391683] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634429.478511146] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634431.479705677] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634433.480829172] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634435.482187920] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634437.483368116] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634439.484567383] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634441.485678687] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634443.487659868] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634445.489106100] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634447.490431761] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634449.492376688] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634451.493605490] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634453.496633982] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634455.497642122] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634457.498861868] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634459.499993299] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634461.501022782] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634463.501972366] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634465.503132307] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634467.504409170] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634469.507388640] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634471.508461257] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634473.509586992] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634475.512351752] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634477.514990023] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634479.516058896] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634481.518929539] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634483.520058666] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634485.523507169] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634487.524563979] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634489.525907783] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634491.528879286] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634493.530062522] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634495.531233822] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634497.532455296] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634499.533841723] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634501.534970753] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634503.535991757] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634505.537834674] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634507.538868893] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634509.539926759] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634511.541247588] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634513.542235122] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634515.543259261] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634517.547115393] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634519.550016051] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634521.553331664] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634523.554414233] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634525.557163346] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634527.560948665] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634529.570777694] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634531.571763244] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634533.572802071] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634535.574730263] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634537.575728292] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634539.576794285] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634541.578020847] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634543.579327469] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634545.580382136] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634547.581463105] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634549.582560745] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634551.583672528] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634553.584619648] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634555.588038200] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634557.593672583] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634559.595299157] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634561.596379646] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634563.597680477] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634565.598932030] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634567.599964297] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634569.601079472] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634571.602118651] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634573.603281632] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634575.605865409] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634577.606995911] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634579.608075312] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634581.609289651] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634583.611790744] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634585.612898495] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634587.613909548] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634589.615082032] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634591.616100700] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634593.617148039] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634595.618179634] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634597.619259611] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634599.622212042] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634601.623952340] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634603.624985343] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634605.625995947] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634607.627827056] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634609.628904345] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634611.630516105] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634613.631583538] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634615.632560192] [camera.camera]: wait for the device recovery timeout !
+[WARN] [1714634615.723333369] [rcl_lifecycle]: No transition matching configure found for current state active
+[INFO] [1714634617.633796290] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634619.634797710] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634621.636004945] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634623.637101018] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634625.638932478] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634627.639903405] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634629.642524940] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634631.643561815] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634633.644651999] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634635.645669995] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634637.646684695] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634639.647598216] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634641.648602613] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634643.650260066] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634645.651271759] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634647.653084116] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634649.654345845] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634651.655423294] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634653.658128697] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634655.659253952] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634657.662566845] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634659.666421697] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634661.667399823] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634663.668529142] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634665.669851923] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634667.672798434] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634669.674283864] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634671.676617381] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634673.677744331] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634675.679015371] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634677.683837184] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634679.685901946] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634681.689342898] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634683.690341791] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634685.692171076] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634687.693235245] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634689.694272985] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634691.695264646] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634693.697819592] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634695.700753048] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634697.704705335] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634699.708376644] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634701.711067423] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634703.712868038] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634705.713956142] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634707.715107668] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634709.716070498] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634711.717147628] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634713.718338543] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634715.719658381] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634717.720838065] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634719.724546844] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634721.729798460] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634723.731952914] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634725.733139222] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634727.734666729] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634729.740219467] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634731.744263880] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634733.751532796] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634735.752584016] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634737.753643620] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634739.755533582] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634741.756607905] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634743.759773700] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634745.760918469] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634747.763359239] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634749.764318335] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634751.765994098] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634753.767152456] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634755.771285373] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634757.775536556] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634759.776878283] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634761.778804468] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634763.779964915] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634765.781091158] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634767.782175114] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634769.783315260] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634771.784442099] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634773.787708503] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634775.790220760] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634777.791353511] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634779.792443772] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634781.794778596] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634783.795992193] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634785.797161761] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634787.798440539] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634789.799553565] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634791.800639744] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634793.803353590] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634795.804539605] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634797.805865069] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634799.807095657] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634801.810078642] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634803.812482134] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634805.813728754] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634807.814870131] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634809.815958710] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634811.819221362] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634813.821325700] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634815.822797813] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634817.827977910] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634819.830952895] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634821.833648694] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634823.834722521] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634825.837346931] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634827.838424759] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634829.839906440] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634831.842946734] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634833.843962197] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634835.845221648] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634837.846574598] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634839.847837057] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634841.848908229] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634843.849779923] [camera.camera]: wait for the device recovery timeout !
+[INFO] [1714634845.85087835

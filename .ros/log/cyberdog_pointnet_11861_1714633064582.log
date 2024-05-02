@@ -1,0 +1,14 @@
+[INFO] [1714633064.884551809] [az1.cyberdog_pointnet]: Create service: release_pointnet
+[INFO] [1714633065.087265689] [uninitialized cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714633065.087548859] [uninitialized cyberdog_model]: is_specified_version: 0
+[INFO] [1714633065.087683196] [uninitialized cyberdog_model]: specified_version: 1.1
+[INFO] [1714633065.087789725] [uninitialized cyberdog_model]: module_name: ground_segmentation
+[INFO] [1714633065.087901022] [uninitialized cyberdog_model]: model_dir: /SDCARD/vision/ground_segmentation/
+[INFO] [1714633065.088604707] [uninitialized cyberdog_model]: temp_download_path: /SDCARD/vision/ground_segmentation/temp/
+[INFO] [1714633065.854575402] [az1.cyberdog_pointnet]: [WifiSignalCallback] internet is ok!!!
+[INFO] [1714633065.855015886] [uninitialized cyberdog_model]: update models fuc begin
+[INFO] [1714633065.855165231] [uninitialized cyberdog_model]: init fuc
+[ERROR] [1714633138.636341673] [uninitialized FdsImpl]: Connection reset by peer
+[INFO] [1714633138.636763945] [uninitialized cyberdog_model]: can not get model version from fds,please checkout network is fine
+[ERROR] [1714633138.636926340] [uninitialized cyberdog_model]: Init failed
+[INFO] [1714633138.637142483] [az1.cyberdog_pointnet]: Download and update ground_segmentation model from Fds failed or timeout

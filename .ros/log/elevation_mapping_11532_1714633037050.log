@@ -1,0 +1,44 @@
+[WARN] [1714633037.289875218] [az1.elevation_mapping]: filterChainParametersName_:postprocessor_pipeline
+[INFO] [1714633037.300292322] [az1.elevation_mapping]: str_chain_param_name: 0
+[WARN] [1714633037.301243145] [az1.elevation_mapping]: Could not configure the filter chain. Will publish the raw elevation map without postprocessing!
+[INFO] [1714633037.306468498] [az1.elevation_mapping]: Elevation mapping node started.
+[WARN] [1714633037.306683379] [az1.elevation_mapping]: read elemap_yaml_path!
+[INFO] [1714633037.312279742] [az1.elevation_mapping]: robot_pose_with_covariance_topic: 
+[INFO] [1714633037.312536608] [az1.elevation_mapping]: track_point_frame_id: camera_depth_optical_frame
+[INFO] [1714633037.312799458] [az1.elevation_mapping]: track_point_x: 0.000000
+[INFO] [1714633037.313128357] [az1.elevation_mapping]: track_point_y: 0.000000
+[INFO] [1714633037.313295270] [az1.elevation_mapping]: track_point_z: 0.000000
+[INFO] [1714633037.313442695] [az1.elevation_mapping]: robot_pose_cache_size: 500
+[INFO] [1714633037.313657001] [az1.elevation_mapping]: minUpdateRate: 2.0
+[INFO] [1714633037.313803114] [az1.elevation_mapping]: maxNoUpdateDuration_: 0.500000
+[INFO] [1714633037.313961099] [az1.elevation_mapping]: time_tolerance set to defaul value: 0.0
+[WARN] [1714633037.314121420] [az1.elevation_mapping]: this param is not used in the ros2 version!
+[WARN] [1714633037.314280750] [az1.elevation_mapping]: visibility_cleanup_rate is not used in ros2 version
+[INFO] [1714633037.314466351] [az1.elevation_mapping]: map_frame_id: vodom
+[INFO] [1714633037.314645201] [az1.elevation_mapping]: length_in_x: 6.000000
+[INFO] [1714633037.314852370] [az1.elevation_mapping]: length_in_y: 6.000000
+[INFO] [1714633037.315077236] [az1.elevation_mapping]: position_x: 0.000000
+[INFO] [1714633037.315240309] [az1.elevation_mapping]: position_y: 0.000000
+[INFO] [1714633037.315448439] [az1.elevation_mapping]: resolution: 0.050000
+[INFO] [1714633037.316672128] [az1.elevation_mapping]: Elevation map grid resized to 120 rows and 120 columns.
+[INFO] [1714633037.316961026] [az1.elevation_mapping]: min_variance set to defaul value: pow(0.003, 2)
+[INFO] [1714633037.317232708] [az1.elevation_mapping]: max_variance set to defaul value: pow(0.003, 2)
+[INFO] [1714633037.317474054] [az1.elevation_mapping]: mahalanobis_distance_threshold set to defaul value: 2.5
+[INFO] [1714633037.317665096] [az1.elevation_mapping]: multi_height_noise set to defaul value: pow(0.003, 2)
+[INFO] [1714633037.317845609] [az1.elevation_mapping]: min_horizontal_variance set to defaul value: pow(resolution / 2.0, 2)
+[INFO] [1714633037.318871345] [az1.elevation_mapping]: max_horizontal_variance set to defaul value: 0.5
+[WARN] [1714633037.319110611] [az1.elevation_mapping]: underlying_map_topic is not used in ros2 version, should not set this param
+[WARN] [1714633037.319297236] [az1.elevation_mapping]: enable_visibility_cleanup is not used in ros2 version
+[INFO] [1714633037.321199651] [az1.elevation_mapping]: enable_continuous_cleanup: 0
+[INFO] [1714633037.321864264] [az1.elevation_mapping]: scanning_duration set to defaul value: 1.0
+[WARN] [1714633037.322062154] [az1.elevation_mapping]: masked_replace_service_mask_layer_name is not used in ros2 version
+[INFO] [1714633037.324564061] [az1.elevation_mapping]: initialize_elevation_map: 0
+[INFO] [1714633037.324788159] [az1.elevation_mapping]: initialization_method: 0
+[INFO] [1714633037.324989920] [az1.elevation_mapping]: length_in_x_init_submap: 1.000000
+[INFO] [1714633037.325169058] [az1.elevation_mapping]: length_in_y_init_submap: 1.000000
+[INFO] [1714633037.325351011] [az1.elevation_mapping]: margin_init_submap: 0.300000
+[INFO] [1714633037.329186112] [az1.elevation_mapping]: init_submap_height_offset: 0.010000
+[INFO] [1714633037.329416994] [az1.elevation_mapping]: target_frame_init_submap: base_link
+[WARN] [1714633037.329602788] [az1.elevation_mapping]: robot_base_frame_id: base_link
+[WARN] [1714633037.329771749] [az1.elevation_mapping]: input_data_format: depthimage
+[INFO] [1714633037.331136687] [az1.elevation_mapping]: motion_status_topic_n

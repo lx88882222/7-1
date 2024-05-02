@@ -1,0 +1,5 @@
+1714634511.7230921 [INFO] [launch]: All log files can be found below /home/mi/.ros/log/2024-05-02-15-21-51-707695-mi-desktop-28057
+1714634511.7247362 [INFO] [launch]: Default logging verbosity is set to INFO
+1714634512.1687174 [INFO] [realsense2_camera_node-1]: process started with pid [28080]
+1714634842.6015444 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1714634843.3346665 [INFO] [realsense2_camera_node-1]: process has finished cleanly [pid 28080]

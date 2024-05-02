@@ -1,0 +1,31 @@
+27/04/24 11:56:00 Xvnc version TightVNC-1.3.10
+27/04/24 11:56:00 Copyright (C) 2000-2009 TightVNC Group
+27/04/24 11:56:00 Copyright (C) 1999 AT&T Laboratories Cambridge
+27/04/24 11:56:00 All Rights Reserved.
+27/04/24 11:56:00 See http://www.tightvnc.com/ for information on TightVNC
+27/04/24 11:56:00 Desktop name 'X' (mi-desktop:1)
+27/04/24 11:56:00 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+27/04/24 11:56:00 Listening for VNC connections on TCP port 5901
+Font directory '/usr/share/fonts/X11/Type1/' not found - ignoring
+Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
+Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring
+/home/mi/.vnc/xstartup: 20: /home/mi/.vnc/xstartup: gnome-panel: not found
+/home/mi/.vnc/xstartup: 21: /home/mi/.vnc/xstartup: gnmoe-settings-daemon: not found
+/home/mi/.vnc/xstartup: 13: /home/mi/.vnc/xstartup: mate-session: not found
+/home/mi/.vnc/xstartup: 22: /home/mi/.vnc/xstartup: metacity: not found
+
+27/04/24 11:56:52 Got connection from client 10.0.0.197
+27/04/24 11:56:52 Using protocol version 3.8
+27/04/24 11:56:52 Enabling TightVNC protocol extensions
+27/04/24 11:56:55 Full-control authentication passed by 10.0.0.197
+27/04/24 11:56:55 Using tight encoding for client 10.0.0.197
+27/04/24 11:56:55 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+27/04/24 11:56:55 Using image quality level 6 for client 10.0.0.197
+27/04/24 11:56:55 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+27/04/24 11:56:55 Enabling LastRect protocol extension for client 10.0.0.197
+27/04/24 11:56:55 Enabling cursor position updates for client 10.0.0.197
+27/04/24 11:56:55 Enabling full-color cursor updates for client 10.0.0.197
+
+(nautilus:10912): GVFS-RemoteVolumeMonitor-WARNING **: 16:41:11.991: Owner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(nautilus:10912): GVFS-RemoteVolumeMonitor-WARNING **: 16:41:11.995: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts

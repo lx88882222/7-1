@@ -1,0 +1,81 @@
+2024-05-02 16:03:33.467 [info] 日志级别: Info
+2024-05-02 16:03:33.467 [info] 正在验证在以下位置找到的 git: "git"
+2024-05-02 16:03:33.467 [info] 将使用位于 "2.17.1" 的 Git "git"
+2024-05-02 16:03:33.467 [info] > git rev-parse --show-toplevel [62ms]
+2024-05-02 16:03:33.467 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.467 [info] > git rev-parse --show-toplevel [353ms]
+2024-05-02 16:03:33.467 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.479 [info] > git rev-parse --show-toplevel [12ms]
+2024-05-02 16:03:33.479 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.511 [info] > git rev-parse --show-toplevel [10ms]
+2024-05-02 16:03:33.511 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.542 [info] > git rev-parse --show-toplevel [14ms]
+2024-05-02 16:03:33.542 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.629 [info] > git rev-parse --show-toplevel [65ms]
+2024-05-02 16:03:33.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.659 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-02 16:03:33.659 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.690 [info] > git rev-parse --show-toplevel [12ms]
+2024-05-02 16:03:33.690 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.727 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-02 16:03:33.727 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.749 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-02 16:03:33.749 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.781 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-02 16:03:33.781 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.809 [info] > git rev-parse --show-toplevel [12ms]
+2024-05-02 16:03:33.809 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.842 [info] > git rev-parse --show-toplevel [17ms]
+2024-05-02 16:03:33.842 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.868 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-02 16:03:33.868 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.891 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-02 16:03:33.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.912 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-02 16:03:33.912 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.932 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-02 16:03:33.932 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:33.979 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-02 16:03:33.979 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.003 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-02 16:03:34.003 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.023 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-02 16:03:34.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.045 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-02 16:03:34.046 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.070 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-02 16:03:34.070 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.096 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-02 16:03:34.096 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.114 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-02 16:03:34.114 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.133 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-02 16:03:34.134 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.156 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-02 16:03:34.157 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.175 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-02 16:03:34.176 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 16:03:34.195 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-02 16:03:34.195 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-02 17:32:29.922 [info] > git init [24ms]
+2024-05-02 17:32:29.940 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-02 17:32:29.964 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-05-02 17:32:30.053 [info] Open repository: /home/mi
+2024-05-02 17:32:30.088 [info] > git config --get commit.template [4ms]
+2024-05-02 17:32:30.112 [info] No remotes found in the git config file.
+2024-05-02 17:32:30.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-05-02 17:32:30.124 [warning] No such branch: master.
+2024-05-02 17:32:30.523 [info] > git status -z -uall [378ms] (cancelled)
+2024-05-02 17:32:30.523 [info] > git show --textconv :realsense2_camera.bash [45ms]
+2024-05-02 17:32:30.537 [info] > git ls-files --stage -- /home/mi/realsense2_camera.bash [38ms]
+2024-05-02 17:32:30.711 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-02 17:32:39.812 [info] > git config --get commit.template [4566ms]
+2024-05-02 17:32:39.842 [info] No remotes found in the git config file.
+2024-05-02 17:32:39.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2024-05-02 17:32:39.868 [warning] No such branch: master.
+2024-05-02 17:32:44.987 [info] > git status -z -uall [5100ms] (cancelled)
+2024-05-02 17:32:45.494 [info] > git check-ignore -v -z --stdin [7ms]
+2024-05-02 17:32:56.989 [info] > git check-ignore -v -z --stdin [5ms]
+2024-05-02 17:32:58.648 [info] > git check-ignore -v -z --stdin [7ms]
+2024-05-02 17:32:59.824 [info] > git check-ignore -v -z --stdin [7ms]
+2024-05-02 17:33:00.837 [info] > git check-ignore -v -z --stdin [8ms]

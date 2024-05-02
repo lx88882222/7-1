@@ -1,0 +1,43 @@
+[INFO] [1714636127.455960899] [camera.camera]: 
+	camera lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1714636437.527156026] [camera.camera]: RealSense ROS v4.0.4
+[INFO] [1714636437.527353393] [camera.camera]: Built with LibRealSense v2.50.0
+[INFO] [1714636437.527479499] [camera.camera]: Running with LibRealSense v2.50.0
+[INFO] [1714636437.697182071] [camera.camera]: Device with serial number 215222075522 was found.
+
+[INFO] [1714636437.697610115] [camera.camera]: Device with physical ID /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video6 was found.
+[INFO] [1714636437.697741533] [camera.camera]: Device with name Intel RealSense D430I was found.
+[INFO] [1714636437.712030980] [camera.camera]: Device with port number 2-3.3 was found.
+[INFO] [1714636437.712310391] [camera.camera]: Device USB type: 3.2
+[INFO] [1714636437.712450097] [camera.camera]: set_devices_changed_callback
+[INFO] [1714636437.758013098] [camera.realsense2_camera_node]: getParameters...
+[INFO] [1714636437.801246031] [camera.realsense2_camera_node]: JSON file is not provided
+[INFO] [1714636437.801496004] [camera.realsense2_camera_node]: Device Name: Intel RealSense D430I
+[INFO] [1714636437.801620254] [camera.realsense2_camera_node]: Device Serial No: 215222075522
+[INFO] [1714636437.801765431] [camera.realsense2_camera_node]: Device physical port: /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video6
+[INFO] [1714636437.802480790] [camera.realsense2_camera_node]: Device FW version: 05.13.00.55
+[INFO] [1714636437.802603568] [camera.realsense2_camera_node]: Device Product ID: 0x0B4B
+[INFO] [1714636437.802702700] [camera.realsense2_camera_node]: Sync Mode: On
+[WARN] [1714636438.387886878] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[WARN] [1714636438.423269264] [camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[ERROR] [1714636438.648491526] [camera.realsense2_camera_node]: The PointCloudHeightScale is out of range,make PointCloudHeightScale = 5
+[INFO] [1714636438.648720764] [camera.realsense2_camera_node]: PointCloudHeightScale = 5
+[ERROR] [1714636438.650062077] [camera.realsense2_camera_node]: The PointCloudWeightScale is out of range,make PointCloudWeightScale = 1
+[INFO] [1714636438.654615722] [camera.realsense2_camera_node]: PointCloudWeightScale = 1
+[ERROR] [1714636438.656822435] [camera.realsense2_camera_node]: The PointCloudPublishFrequency is out of range,make PointCloudPublishFrequency = 1
+[INFO] [1714636438.657041529] [camera.realsense2_camera_node]: PointCloudPublishFrequency = 1
+[INFO] [1714636438.661651490] [camera.realsense2_camera_node]: PointCloudTop = 0
+[ERROR] [1714636438.665316472] [camera.realsense2_camera_node]: The PointCloudBottom is out of range,make PointCloudBottom = 480
+[INFO] [1714636438.665676743] [camera.realsense2_camera_node]: PointCloudBottom = 480
+[INFO] [1714636438.681889045] [camera.realsense2_camera_node]: Start Sensor: Stereo Module
+[INFO] [1714636438.939988242] [camera.realsense2_camera_node]: Open profile: stream_type: Infra(1), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1714636438.942049458] [camera.realsense2_camera_node]: Open profile: stream_type: Infra(2), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1714636438.942242633] [camera.realsense2_camera_node]: Open profile: stream_type: Depth(0), Format: Z16, Width: 640, Height: 480, FPS: 30
+[INFO] [1714636438.942602137] [camera.realsense2_camera_node]: Start Sensor: Motion Module
+[WARN] [1714636439.001532100] [camera.realsense2_camera_node]: 
+[INFO] [1714636439.219225976] [camera.realsense2_camera_node]: Open profile: stream_type: Accel(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1714636439.219508683] [camera.realsense2_camera_node]: Open profile: stream_type: Gyro(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1714636439.229730256] [camera.realsense2_camera_node]: RealSense Node Is Up!
+[INFO] [1714636439.239797212] [camera.camera]: Send

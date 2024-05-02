@@ -1,0 +1,19 @@
+2024-04-27 11:42:17.561 [info] 日志级别: Info
+2024-04-27 11:42:17.561 [info] 正在验证在以下位置找到的 git: "git"
+2024-04-27 11:42:17.561 [info] 将使用位于 "2.17.1" 的 Git "git"
+2024-04-27 11:42:17.561 [info] > git rev-parse --show-toplevel [34ms]
+2024-04-27 11:42:17.561 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-27 11:42:17.561 [info] > git rev-parse --show-toplevel [12ms]
+2024-04-27 11:42:17.561 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-27 11:42:17.561 [info] > git rev-parse --show-toplevel [7ms]
+2024-04-27 11:42:17.561 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-27 11:42:17.588 [info] > git rev-parse --show-toplevel [7ms]
+2024-04-27 11:42:17.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-27 11:42:17.614 [info] > git rev-parse --show-toplevel [8ms]
+2024-04-27 11:42:17.614 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-27 11:43:25.941 [info] > git rev-parse --show-toplevel [7ms]
+2024-04-27 11:43:25.941 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-27 11:47:14.868 [info] > git rev-parse --show-toplevel [4ms]
+2024-04-27 11:47:14.868 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-27 11:48:05.191 [info] > git rev-parse --show-toplevel [6ms]
+2024-04-27 11:48:05.191 [info] fatal: not a git repository (or any of the parent directories): .git

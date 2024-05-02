@@ -1,0 +1,1399 @@
+[INFO] [1714632900.269250731] [MotionManager]: Init on call
+[INFO] [1714632908.374727276] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1714632908.375035151] [MotionManager MotionAction]: 1
+[INFO] [1714632908.375162448] [MotionManager]: Get Feedback: 5
+[INFO] [1714632908.375349393] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1714632908.375506418] [MotionManager MotionAction]: 1
+[INFO] [1714632908.375606067] [MotionManager]: Get Feedback: 4
+[INFO] [1714632908.375733684] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1714632908.375867445] [MotionManager MotionAction]: 1
+[INFO] [1714632908.375959030] [MotionManager]: Get Feedback: 3
+[INFO] [1714632908.380716698] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1714632908.387357165] [MotionManager MotionAction]: 1
+[INFO] [1714632908.387506223] [MotionManager]: Get Feedback: 2
+[INFO] [1714632908.402549506] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1714632908.402796740] [MotionManager MotionAction]: 1
+[INFO] [1714632908.402906693] [MotionManager]: Get Feedback: 1
+[INFO] [1714632908.957683027] [MotionManager]: [PROTOCOL][INFO] Creat embed protocol[elec_skin], protocol:"can", path:"/opt/ros2/cyberdog/share/elec_skin/toml_config/elec_skin.toml"
+[INFO] [1714632908.960201158] [MotionManager]: [CAN_PROTOCOL][INFO] Creat can protocol[elec_skin]: 0 error, 0 warning
+[INFO] [1714632908.960422856] [MotionManager]: [CAN_PROTOCOL][INFO][elec_skin] No recv canid, enable send-only mode
+[INFO] [1714632909.066766330] [az1.skin_manager]: Default color: 0
+[INFO] [1714632909.067663233] [az1.skin_manager]: Start direction: 0
+[INFO] [1714632909.067874019] [az1.skin_manager]: Gradual duration: 50
+[INFO] [1714632909.068067780] [az1.skin_manager]: defaul_duration: 2000
+[INFO] [1714632909.068238757] [az1.skin_manager]: enable: 0
+[INFO] [1714632910.204101771] [MotionManager]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+[INFO] [1714632910.407593737] [MotionManager]: MachineActuator start on call.
+[INFO] [1714632910.412374702] [MotionManager]: MachineActuator checkout state: SetUp.
+[INFO] [1714632910.412551503] [MotionManager]: Get fsm: Setup
+[INFO] [1714632910.412657552] [MotionManager]: MachineActuator service setup on call.
+[INFO] [1714632910.432426408] [MotionManager]: Running on...
+[INFO] [1714632920.278195749] [MotionManager]: MachineActuator service callback on call.
+	 ===> target_state: SelfCheck
+[INFO] [1714632920.278451463] [MotionManager]: MachineActuator checkout state: SelfCheck.
+[INFO] [1714632920.278577928] [MotionManager]: Get fsm: SelfCheck
+[INFO] [1714632920.280981722] [MotionManager MotionAction]: MR813 LCM: Ready
+[INFO] [1714632920.281150235] [MotionManager]: MotionManager SelfCheck OK
+[INFO] [1714632927.961486975] [MotionManager]: MachineActuator service callback on call.
+	 ===> target_state: Active
+[INFO] [1714632927.961833441] [MotionManager]: MachineActuator checkout state: Active.
+[INFO] [1714632927.961981251] [MotionManager]: Get fsm: Active
+[INFO] [1714633079.559427562] [MotionManager]: MachineActuator service callback on call.
+	 ===> target_state: Active
+[INFO] [1714633079.559638155] [MotionManager]: MachineActuator checkout state: Active.
+[INFO] [1714633079.559751596] [MotionManager]: Get fsm: Active
+[INFO] [1714633211.421104379] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633211.421433752] [MotionManager]: Current motion id: 0
+[INFO] [1714633211.421660308] [MotionManager]: Current Motion: 0, AllowServoCmd: 0, pmc: 0
+[INFO] [1714633211.421771411] [MotionManager]: Current motion id: 0
+[INFO] [1714633211.421919431] [MotionManager]: Trying to be ready for ServoCmd
+[INFO] [1714633211.422463971] [MotionManager MotionAction]: ResultCmd: 12, 0, 0, 0
+[INFO] [1714633213.450814607] [MotionManager]: Motion 111 done
+[INFO] [1714633213.451421817] [MotionManager MotionAction]: ServoCmd: 11, 27, 1, 0
+[INFO] [1714633213.453965597] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633213.457547435] [MotionManager MotionAction]: ResultCmd: 11, 1, 2, 0
+[INFO] [1714633213.793479685] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633213.794078514] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.794287923] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633213.794493845] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.794804952] [MotionManager MotionAction]: ServoCmd: 11, 27, 3, 0
+[INFO] [1714633213.846949624] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633213.847241025] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.847385365] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633213.847524140] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.847794523] [MotionManager MotionAction]: ServoCmd: 11, 27, 4, 0
+[INFO] [1714633213.916844970] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633213.917134323] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.917279752] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633213.917383113] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.917668051] [MotionManager MotionAction]: ServoCmd: 11, 27, 5, 0
+[INFO] [1714633213.942803453] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633213.943116479] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.943263635] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633213.943359094] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.943649791] [MotionManager MotionAction]: ServoCmd: 11, 27, 6, 0
+[INFO] [1714633213.994759254] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633213.995035683] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.995171450] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633213.995309521] [MotionManager]: Current motion id: 303
+[INFO] [1714633213.995570019] [MotionManager MotionAction]: ServoCmd: 11, 27, 7, 0
+[INFO] [1714633214.043226534] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.043530027] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.043690683] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.043790557] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.044057229] [MotionManager MotionAction]: ServoCmd: 11, 27, 8, 0
+[INFO] [1714633214.099556255] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.100155275] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.100296929] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.100443829] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.101626610] [MotionManager MotionAction]: ServoCmd: 11, 27, 9, 0
+[INFO] [1714633214.142007068] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.142276747] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.142494986] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.142657721] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.142993268] [MotionManager MotionAction]: ServoCmd: 11, 27, 10, 0
+[INFO] [1714633214.192901140] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.193171683] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.193281602] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.193489956] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.193746327] [MotionManager MotionAction]: ServoCmd: 11, 27, 11, 0
+[INFO] [1714633214.242765185] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.243079427] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.243228310] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.243328152] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.243637116] [MotionManager MotionAction]: ServoCmd: 11, 27, 12, 0
+[INFO] [1714633214.292604246] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.293390538] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.293765433] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.293918379] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.296908042] [MotionManager MotionAction]: ServoCmd: 11, 27, 13, 0
+[INFO] [1714633214.343016350] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.346042930] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.346183560] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.346356084] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.346801774] [MotionManager MotionAction]: ServoCmd: 11, 27, 14, 0
+[INFO] [1714633214.395410036] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.395719543] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.395888197] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.395998979] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.396265427] [MotionManager MotionAction]: ServoCmd: 11, 27, 15, 0
+[INFO] [1714633214.445541617] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.445866415] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.446024832] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.446157176] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.447210876] [MotionManager MotionAction]: ServoCmd: 11, 27, 16, 0
+[INFO] [1714633214.512998463] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.513515300] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.513708937] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714633214.513839810] [MotionManager]: Current motion id: 303
+[INFO] [1714633214.514125484] [MotionManager MotionAction]: ServoCmd: 11, 27, 17, 0
+[INFO] [1714633214.542102241] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714633214.543332912] [MotionManager MotionAction]: ResultCmd: 11, 1, 18, 0
+[INFO] [1714633215.582596573] [MotionManager]: Receive ResultCmd from 0 with motion_id: 101
+[INFO] [1714633215.583259606] [MotionManager]: estop: 0
+[INFO] [1714633215.585144577] [MotionManager]: Current motion id: 112
+[INFO] [1714633215.585514354] [MotionManager MotionAction]: ResultCmd: 7, 1, 19, 0
+[WARN] [1714633215.600901864] [MotionManager]: Transitioning waiting
+[INFO] [1714633217.313521835] [MotionManager]: Motion 101 done
+[INFO] [1714633217.313949899] [MotionManager]: Will return HandleResultCmd
+[INFO] [1714633217.314145520] [MotionManager]: Will return DecideResultCmd
+[INFO] [1714633217.314274698] [MotionManager]: Will return MotionResultCmdCallback
+[ERROR] [1714633913.726460251] [MotionManager MotionAction]: Cannot read LCM from MR813
+[ERROR] [1714634793.902715351] [MotionManager MotionAction]: Cannot read LCM from MR813
+[ERROR] [1714636432.365766488] [MotionManager MotionAction]: Cannot read LCM from MR813
+[INFO] [1714636907.107356008] [MotionManager]: Receive ResultCmd from 0 with motion_id: 111
+[INFO] [1714636907.111197403] [MotionManager]: estop: 0
+[INFO] [1714636907.117263755] [MotionManager MotionAction]: ResultCmd: 12, 0, 20, 0
+[INFO] [1714636909.146642969] [MotionManager]: Motion 111 done
+[INFO] [1714636909.152616813] [MotionManager]: Will return HandleResultCmd
+[INFO] [1714636909.152889185] [MotionManager]: Will return DecideResultCmd
+[INFO] [1714636909.153013883] [MotionManager]: Will return MotionResultCmdCallback
+[INFO] [1714636970.174619919] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.174942656] [MotionManager]: Current motion id: 111
+[INFO] [1714636970.175069691] [MotionManager]: Current Motion: 111, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.175177750] [MotionManager]: Current motion id: 111
+[INFO] [1714636970.175445546] [MotionManager MotionAction]: ServoCmd: 11, 3, 21, 0
+[INFO] [1714636970.259580997] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.259835450] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.259972916] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.260088878] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.262038199] [MotionManager MotionAction]: ServoCmd: 11, 3, 22, 0
+[INFO] [1714636970.367660013] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.369969157] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.374619124] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.378482119] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.382457716] [MotionManager MotionAction]: ServoCmd: 11, 3, 23, 0
+[INFO] [1714636970.472424906] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.475778419] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.506687334] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.506948538] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.507335273] [MotionManager MotionAction]: ServoCmd: 11, 3, 24, 0
+[INFO] [1714636970.570594831] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.577489305] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.586772600] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.587011341] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.587296800] [MotionManager MotionAction]: ServoCmd: 11, 3, 25, 0
+[INFO] [1714636970.654876996] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.655835448] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.656912200] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.657104511] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.657402162] [MotionManager MotionAction]: ServoCmd: 11, 3, 26, 0
+[INFO] [1714636970.755688690] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.760466715] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.760708688] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.760828011] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.761141565] [MotionManager MotionAction]: ServoCmd: 11, 3, 27, 0
+[INFO] [1714636970.860991830] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.861344102] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.861472001] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.861581372] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.861862607] [MotionManager MotionAction]: ServoCmd: 11, 3, 28, 0
+[INFO] [1714636970.961701289] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636970.962015547] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.962139669] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636970.962247281] [MotionManager]: Current motion id: 308
+[INFO] [1714636970.965009684] [MotionManager MotionAction]: ServoCmd: 11, 3, 29, 0
+[INFO] [1714636971.062983458] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.063293396] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.063456717] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.063628901] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.063873562] [MotionManager MotionAction]: ServoCmd: 11, 3, 30, 0
+[INFO] [1714636971.154235998] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.154585902] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.154720456] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.154831395] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.155093943] [MotionManager MotionAction]: ServoCmd: 11, 3, 31, 0
+[INFO] [1714636971.261858298] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.262183500] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.262430432] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.262580090] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.262830287] [MotionManager MotionAction]: ServoCmd: 11, 3, 32, 0
+[INFO] [1714636971.354734253] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.355084413] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.355242038] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.356459072] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.356775473] [MotionManager MotionAction]: ServoCmd: 11, 3, 33, 0
+[INFO] [1714636971.463477655] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.463817032] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.463960577] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.464066364] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.464298578] [MotionManager MotionAction]: ServoCmd: 11, 3, 34, 0
+[INFO] [1714636971.561823700] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.562070985] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.562222754] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.562409466] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.562693229] [MotionManager MotionAction]: ServoCmd: 11, 3, 35, 0
+[INFO] [1714636971.659490479] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.659802369] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.659930172] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.660072309] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.660333930] [MotionManager MotionAction]: ServoCmd: 11, 3, 36, 0
+[INFO] [1714636971.755167268] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.755510133] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.756711519] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.756868600] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.757170986] [MotionManager MotionAction]: ServoCmd: 11, 3, 37, 0
+[INFO] [1714636971.864563729] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.866288515] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.868974859] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.869205984] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.869517874] [MotionManager MotionAction]: ServoCmd: 11, 3, 38, 0
+[INFO] [1714636971.953662062] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636971.955553305] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.955798862] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636971.955915784] [MotionManager]: Current motion id: 308
+[INFO] [1714636971.956152286] [MotionManager MotionAction]: ServoCmd: 11, 3, 39, 0
+[INFO] [1714636972.051761942] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.052055656] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.052174243] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.052360411] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.052626799] [MotionManager MotionAction]: ServoCmd: 11, 3, 40, 0
+[INFO] [1714636972.159992503] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.163857929] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.166641804] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.166848163] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.167096919] [MotionManager MotionAction]: ServoCmd: 11, 3, 41, 0
+[INFO] [1714636972.256219315] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.256570243] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.256691006] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.256806840] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.257066765] [MotionManager MotionAction]: ServoCmd: 11, 3, 42, 0
+[INFO] [1714636972.376599122] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.376865862] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.377026623] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.377130618] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.377373807] [MotionManager MotionAction]: ServoCmd: 11, 3, 43, 0
+[INFO] [1714636972.465390460] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.469908241] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.475180100] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.475927491] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.476199223] [MotionManager MotionAction]: ServoCmd: 11, 3, 44, 0
+[INFO] [1714636972.566734962] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.570860025] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.571028882] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.571152972] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.571389761] [MotionManager MotionAction]: ServoCmd: 11, 3, 45, 0
+[INFO] [1714636972.655201867] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.656710088] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.659875481] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.660152205] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.660440416] [MotionManager MotionAction]: ServoCmd: 11, 3, 46, 0
+[INFO] [1714636972.763360624] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.767572466] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.768745630] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.771667802] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.774488636] [MotionManager MotionAction]: ServoCmd: 11, 3, 47, 0
+[INFO] [1714636972.854739622] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.860627133] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.861966209] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.863026481] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.864443602] [MotionManager MotionAction]: ServoCmd: 11, 3, 48, 0
+[INFO] [1714636972.955930083] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636972.961198870] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.961395245] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636972.961533191] [MotionManager]: Current motion id: 308
+[INFO] [1714636972.961820666] [MotionManager MotionAction]: ServoCmd: 11, 3, 49, 0
+[INFO] [1714636973.055573638] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.069265214] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.069530579] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.069682316] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.069982302] [MotionManager MotionAction]: ServoCmd: 11, 3, 50, 0
+[INFO] [1714636973.163859236] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.164180118] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.164307568] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.164411243] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.164636641] [MotionManager MotionAction]: ServoCmd: 11, 3, 51, 0
+[INFO] [1714636973.254975526] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.257658701] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.257887075] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.258004126] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.258271922] [MotionManager MotionAction]: ServoCmd: 11, 3, 52, 0
+[INFO] [1714636973.350929902] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.352092634] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.352952692] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.353755631] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.355314729] [MotionManager MotionAction]: ServoCmd: 11, 3, 53, 0
+[INFO] [1714636973.457395039] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.464836240] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.465080549] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.465208384] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.465487155] [MotionManager MotionAction]: ServoCmd: 11, 3, 54, 0
+[INFO] [1714636973.553500448] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.560363148] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.566812394] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.567859451] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.568653880] [MotionManager MotionAction]: ServoCmd: 11, 3, 55, 0
+[INFO] [1714636973.672222954] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.674889330] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.676212343] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.678662665] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.681021215] [MotionManager MotionAction]: ServoCmd: 11, 3, 56, 0
+[INFO] [1714636973.758402922] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.760381169] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.760629926] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.760745888] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.761010196] [MotionManager MotionAction]: ServoCmd: 11, 3, 57, 0
+[INFO] [1714636973.855069714] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.857392362] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.858736813] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.861804707] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.862200210] [MotionManager MotionAction]: ServoCmd: 11, 3, 58, 0
+[INFO] [1714636973.954649880] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636973.956529091] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.958466444] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636973.960626923] [MotionManager]: Current motion id: 308
+[INFO] [1714636973.961723418] [MotionManager MotionAction]: ServoCmd: 11, 3, 59, 0
+[INFO] [1714636974.054109347] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636974.054456275] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.055749209] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636974.056503543] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.057351345] [MotionManager MotionAction]: ServoCmd: 11, 3, 60, 0
+[INFO] [1714636974.154259247] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636974.155643248] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.156385615] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636974.156599782] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.157044945] [MotionManager MotionAction]: ServoCmd: 11, 3, 61, 0
+[INFO] [1714636974.257303705] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636974.257691847] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.257861856] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636974.257976122] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.258221839] [MotionManager MotionAction]: ServoCmd: 11, 3, 62, 0
+[INFO] [1714636974.355700083] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636974.355977447] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.356122912] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636974.356259834] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.356530286] [MotionManager MotionAction]: ServoCmd: 11, 3, 63, 0
+[INFO] [1714636974.457673229] [MotionManager]: Receive ServoCmd from 0 with motion_id: 308
+[INFO] [1714636974.466049845] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.467877059] [MotionManager]: Current Motion: 308, AllowServoCmd: 1, pmc: 0
+[INFO] [1714636974.468828408] [MotionManager]: Current motion id: 308
+[INFO] [1714636974.471093426] [MotionManager MotionAction]: ServoCmd: 11, 3, 64, 0
+[WARN] [1714636974.717345114] [MotionManager]: Servo data lost time with 4 times
+[INFO] [1714636974.726634744] [MotionManager MotionAction]: ResultCmd: 11, 1, 65, 0
+[INFO] [1714640143.478602426] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.478996148] [MotionManager]: Current motion id: 112
+[INFO] [1714640143.479132946] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.479242128] [MotionManager]: Current motion id: 112
+[INFO] [1714640143.479495948] [MotionManager MotionAction]: ServoCmd: 11, 27, 66, 0
+[INFO] [1714640143.520767674] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.522891000] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.524778778] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.526934712] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.528839129] [MotionManager MotionAction]: ServoCmd: 11, 27, 67, 0
+[INFO] [1714640143.573267093] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.575794573] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.577616368] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.578964058] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.580365380] [MotionManager MotionAction]: ServoCmd: 11, 27, 68, 0
+[INFO] [1714640143.619715729] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.621761104] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.623394006] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.624689922] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.626144042] [MotionManager MotionAction]: ServoCmd: 11, 27, 69, 0
+[INFO] [1714640143.666608677] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.668297386] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.669383897] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.670249963] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.670709636] [MotionManager MotionAction]: ServoCmd: 11, 27, 70, 0
+[INFO] [1714640143.727909332] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.729399324] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.730180656] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.731632377] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.733179168] [MotionManager MotionAction]: ServoCmd: 11, 27, 71, 0
+[INFO] [1714640143.770292913] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.772216242] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.773066468] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.773937078] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.774949446] [MotionManager MotionAction]: ServoCmd: 11, 27, 72, 0
+[INFO] [1714640143.818410993] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.819194661] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.819540095] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.819689021] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.819973561] [MotionManager MotionAction]: ServoCmd: 11, 27, 73, 0
+[INFO] [1714640143.870109593] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.871730976] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.871993147] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.872135545] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.872389045] [MotionManager MotionAction]: ServoCmd: 11, 27, 74, 0
+[INFO] [1714640143.930904272] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.932518711] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.932759059] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.932961391] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.933273802] [MotionManager MotionAction]: ServoCmd: 11, 27, 75, 0
+[INFO] [1714640143.968241789] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640143.968571832] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.968691286] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640143.968785556] [MotionManager]: Current motion id: 303
+[INFO] [1714640143.969107023] [MotionManager MotionAction]: ServoCmd: 11, 27, 76, 0
+[INFO] [1714640144.016711000] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.019083827] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.019348206] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.019486284] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.019968645] [MotionManager MotionAction]: ServoCmd: 11, 27, 77, 0
+[INFO] [1714640144.073826986] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.074139941] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.074263011] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.074457824] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.074712124] [MotionManager MotionAction]: ServoCmd: 11, 27, 78, 0
+[INFO] [1714640144.118072297] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.120375364] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.122419715] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.123758958] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.124124648] [MotionManager MotionAction]: ServoCmd: 11, 27, 79, 0
+[INFO] [1714640144.171196442] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.172652899] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.173844528] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.174716194] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.175708562] [MotionManager MotionAction]: ServoCmd: 11, 27, 80, 0
+[INFO] [1714640144.221572055] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.222891362] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.224231692] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.225554231] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.228374858] [MotionManager MotionAction]: ServoCmd: 11, 27, 81, 0
+[INFO] [1714640144.270086833] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.271731543] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.273245855] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.274559178] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.285090914] [MotionManager MotionAction]: ServoCmd: 11, 27, 82, 0
+[INFO] [1714640144.320013110] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.321226530] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.322096212] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.323408287] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.325352704] [MotionManager MotionAction]: ServoCmd: 11, 27, 83, 0
+[INFO] [1714640144.370035736] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.372539952] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.372827692] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.372955082] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.373225637] [MotionManager MotionAction]: ServoCmd: 11, 27, 84, 0
+[INFO] [1714640144.422544371] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.423697729] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.425082891] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.425252360] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.425587651] [MotionManager MotionAction]: ServoCmd: 11, 27, 85, 0
+[INFO] [1714640144.474616309] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.475165388] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.476516023] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.476684116] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.478031999] [MotionManager MotionAction]: ServoCmd: 11, 27, 86, 0
+[INFO] [1714640144.520769205] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.523494410] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.525789797] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.526185055] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.527206767] [MotionManager MotionAction]: ServoCmd: 11, 27, 87, 0
+[INFO] [1714640144.572293408] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.574893591] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.576427902] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.578208386] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.585630827] [MotionManager MotionAction]: ServoCmd: 11, 27, 88, 0
+[INFO] [1714640144.625542607] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.626845274] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.627710349] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.628297635] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.629014072] [MotionManager MotionAction]: ServoCmd: 11, 27, 89, 0
+[INFO] [1714640144.669877068] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.672279974] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.674044938] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.675141017] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.676591297] [MotionManager MotionAction]: ServoCmd: 11, 27, 90, 0
+[INFO] [1714640144.720487878] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.721464214] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.724098828] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.725878576] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.727751186] [MotionManager MotionAction]: ServoCmd: 11, 27, 91, 0
+[INFO] [1714640144.771480761] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.771810324] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.771943825] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.772073551] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.772362699] [MotionManager MotionAction]: ServoCmd: 11, 27, 92, 0
+[INFO] [1714640144.817564058] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.820184016] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.821881813] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.823233600] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.824693769] [MotionManager MotionAction]: ServoCmd: 11, 27, 93, 0
+[INFO] [1714640144.867863320] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.870655948] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.873352385] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.875438656] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.877640925] [MotionManager MotionAction]: ServoCmd: 11, 27, 94, 0
+[INFO] [1714640144.920416115] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.920733166] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.920889515] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.921042633] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.921290341] [MotionManager MotionAction]: ServoCmd: 11, 27, 95, 0
+[INFO] [1714640144.967684897] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640144.968476757] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.970766256] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640144.971602147] [MotionManager]: Current motion id: 303
+[INFO] [1714640144.973139658] [MotionManager MotionAction]: ServoCmd: 11, 27, 96, 0
+[INFO] [1714640145.022593494] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.023663653] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.023951648] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.024263963] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.024558871] [MotionManager MotionAction]: ServoCmd: 11, 27, 97, 0
+[INFO] [1714640145.070836469] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.071607561] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.072427100] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.073030066] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.073687783] [MotionManager MotionAction]: ServoCmd: 11, 27, 98, 0
+[INFO] [1714640145.125227506] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.126870584] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.128214562] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.130744122] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.131647019] [MotionManager MotionAction]: ServoCmd: 11, 27, 99, 0
+[INFO] [1714640145.173810411] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.175082199] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.175315283] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.176284484] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.177699277] [MotionManager MotionAction]: ServoCmd: 11, 27, 100, 0
+[INFO] [1714640145.221782415] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.224086954] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.224988924] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.226215720] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.227218520] [MotionManager MotionAction]: ServoCmd: 11, 27, 101, 0
+[INFO] [1714640145.271218459] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.273231771] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.274152588] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.275586805] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.277626388] [MotionManager MotionAction]: ServoCmd: 11, 27, 102, 0
+[INFO] [1714640145.317590167] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.319226813] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.320244557] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.321017985] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.322706246] [MotionManager MotionAction]: ServoCmd: 11, 27, 103, 0
+[INFO] [1714640145.371475100] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.372688009] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.373984564] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.375299871] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.376380526] [MotionManager MotionAction]: ServoCmd: 11, 27, 104, 0
+[INFO] [1714640145.418619757] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.419780314] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.420951912] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.421456992] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.422146389] [MotionManager MotionAction]: ServoCmd: 11, 27, 105, 0
+[INFO] [1714640145.471948283] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.473624160] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.475660832] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.478125752] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.479420356] [MotionManager MotionAction]: ServoCmd: 11, 27, 106, 0
+[INFO] [1714640145.521854239] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.522752561] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.523750081] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.525229833] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.527221290] [MotionManager MotionAction]: ServoCmd: 11, 27, 107, 0
+[INFO] [1714640145.575498888] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.577437609] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.579332651] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.581030576] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.583578151] [MotionManager MotionAction]: ServoCmd: 11, 27, 108, 0
+[INFO] [1714640145.621412940] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.627875813] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.629027315] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.631136433] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.633000020] [MotionManager MotionAction]: ServoCmd: 11, 27, 109, 0
+[INFO] [1714640145.670219746] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.671096980] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.671708586] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.672182595] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.673187315] [MotionManager MotionAction]: ServoCmd: 11, 27, 110, 0
+[INFO] [1714640145.717696717] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.719870795] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.720748093] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.722253541] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.723728333] [MotionManager MotionAction]: ServoCmd: 11, 27, 111, 0
+[INFO] [1714640145.772763488] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.773495924] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.773967884] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.774540131] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.775871374] [MotionManager MotionAction]: ServoCmd: 11, 27, 112, 0
+[INFO] [1714640145.826156908] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.829582902] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.831186076] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.832281931] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.833558326] [MotionManager MotionAction]: ServoCmd: 11, 27, 113, 0
+[INFO] [1714640145.872977154] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.875002082] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.875813621] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.877017986] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.878490794] [MotionManager MotionAction]: ServoCmd: 11, 27, 114, 0
+[INFO] [1714640145.934764841] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.936005493] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.936997318] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.938606540] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.939542269] [MotionManager MotionAction]: ServoCmd: 11, 27, 115, 0
+[INFO] [1714640145.974917001] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.976565615] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.977404001] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640145.978220148] [MotionManager]: Current motion id: 303
+[INFO] [1714640145.979368738] [MotionManager MotionAction]: ServoCmd: 11, 27, 116, 0
+[INFO] [1714640145.997286917] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640145.999918523] [MotionManager MotionAction]: ResultCmd: 11, 1, 117, 0
+[INFO] [1714640146.371415065] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.372759203] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.373813810] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.374730692] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.375739028] [MotionManager MotionAction]: ServoCmd: 11, 27, 118, 0
+[INFO] [1714640146.424420908] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.425429596] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.426078353] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.426889124] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.427663928] [MotionManager MotionAction]: ServoCmd: 11, 27, 119, 0
+[INFO] [1714640146.473320992] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.474583372] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.476509645] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.477623484] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.483297601] [MotionManager MotionAction]: ServoCmd: 11, 27, 120, 0
+[INFO] [1714640146.524361267] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.525118662] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.526384210] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.527422722] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.528146198] [MotionManager MotionAction]: ServoCmd: 11, 27, 121, 0
+[INFO] [1714640146.577389221] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.577928605] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.578072154] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.578186361] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.589327623] [MotionManager MotionAction]: ServoCmd: 11, 27, 122, 0
+[INFO] [1714640146.627075629] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.628831825] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.629098957] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.629222475] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.629518694] [MotionManager MotionAction]: ServoCmd: 11, 27, 123, 0
+[INFO] [1714640146.674147039] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.675684518] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.675935970] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.676053440] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.676303868] [MotionManager MotionAction]: ServoCmd: 11, 27, 124, 0
+[INFO] [1714640146.728890646] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.729695017] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.730252704] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.730933206] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.731650826] [MotionManager MotionAction]: ServoCmd: 11, 27, 125, 0
+[INFO] [1714640146.779321938] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.780111078] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.781039799] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.784067815] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.786044679] [MotionManager MotionAction]: ServoCmd: 11, 27, 126, 0
+[INFO] [1714640146.829645680] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.833071481] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.834448132] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.840278375] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.840941084] [MotionManager MotionAction]: ServoCmd: 11, 27, 127, 0
+[INFO] [1714640146.878759169] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.880556741] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.886766178] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.887784113] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.889249786] [MotionManager MotionAction]: ServoCmd: 11, 27, -128, 0
+[INFO] [1714640146.926208237] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.928090223] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.928695205] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.929243260] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.930852835] [MotionManager MotionAction]: ServoCmd: 11, 27, -127, 0
+[INFO] [1714640146.984406125] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640146.992429581] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.993196481] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640146.993409182] [MotionManager]: Current motion id: 303
+[INFO] [1714640146.993678041] [MotionManager MotionAction]: ServoCmd: 11, 27, -126, 0
+[INFO] [1714640147.029075365] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640147.030028790] [MotionManager]: Current motion id: 303
+[INFO] [1714640147.031033862] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640147.032876648] [MotionManager]: Current motion id: 303
+[INFO] [1714640147.034466575] [MotionManager MotionAction]: ServoCmd: 11, 27, -125, 0
+[INFO] [1714640147.080378931] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640147.081609760] [MotionManager]: Current motion id: 303
+[INFO] [1714640147.085852924] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640147.087714750] [MotionManager]: Current motion id: 303
+[INFO] [1714640147.094071161] [MotionManager MotionAction]: ServoCmd: 11, 27, -124, 0
+[INFO] [1714640147.127967709] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640147.130582835] [MotionManager]: Current motion id: 303
+[INFO] [1714640147.131685825] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640147.132100187] [MotionManager]: Current motion id: 303
+[INFO] [1714640147.132435669] [MotionManager MotionAction]: ServoCmd: 11, 27, -123, 0
+[INFO] [1714640147.171828225] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640147.174480055] [MotionManager MotionAction]: ResultCmd: 11, 1, -122, 0
+[INFO] [1714640148.680928009] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.681280900] [MotionManager]: Current motion id: 112
+[INFO] [1714640148.681420353] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.681540767] [MotionManager]: Current motion id: 112
+[INFO] [1714640148.681810939] [MotionManager MotionAction]: ServoCmd: 11, 27, -121, 0
+[INFO] [1714640148.688108215] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.690137334] [MotionManager]: Current motion id: 112
+[INFO] [1714640148.691451553] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.692833323] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.693989017] [MotionManager MotionAction]: ServoCmd: 11, 27, -120, 0
+[INFO] [1714640148.739199624] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.740482004] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.741044331] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.741501412] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.742112186] [MotionManager MotionAction]: ServoCmd: 11, 27, -119, 0
+[INFO] [1714640148.786357785] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.787549798] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.788442039] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.789414088] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.790539606] [MotionManager MotionAction]: ServoCmd: 11, 27, -118, 0
+[INFO] [1714640148.840991378] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.842169055] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.842484346] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.842612504] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.842869876] [MotionManager MotionAction]: ServoCmd: 11, 27, -117, 0
+[INFO] [1714640148.889436397] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.891569323] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.892618555] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.893213617] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.893835047] [MotionManager MotionAction]: ServoCmd: 11, 27, -116, 0
+[INFO] [1714640148.941897737] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.943622734] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.945389425] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.946339362] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.947511312] [MotionManager MotionAction]: ServoCmd: 11, 27, -115, 0
+[INFO] [1714640148.988812957] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640148.990468707] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.990724927] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640148.990844221] [MotionManager]: Current motion id: 303
+[INFO] [1714640148.991127704] [MotionManager MotionAction]: ServoCmd: 11, 27, -114, 0
+[INFO] [1714640149.037603348] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.040428423] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.041284825] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.042637731] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.044368040] [MotionManager MotionAction]: ServoCmd: 11, 27, -113, 0
+[INFO] [1714640149.091092703] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.092944001] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.094378410] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.095569880] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.096388394] [MotionManager MotionAction]: ServoCmd: 11, 27, -112, 0
+[INFO] [1714640149.136889733] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.139032323] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.140697704] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.143329534] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.144672393] [MotionManager MotionAction]: ServoCmd: 11, 27, -111, 0
+[INFO] [1714640149.190181843] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.192493806] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.193232867] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.193463519] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.193741339] [MotionManager MotionAction]: ServoCmd: 11, 27, -110, 0
+[INFO] [1714640149.242867851] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.245005353] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.246847308] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.248519313] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.250251638] [MotionManager MotionAction]: ServoCmd: 11, 27, -109, 0
+[INFO] [1714640149.291700417] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.292424885] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.292688465] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.292857551] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.294096635] [MotionManager MotionAction]: ServoCmd: 11, 27, -108, 0
+[INFO] [1714640149.350545015] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.352747348] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.352976752] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.353127566] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.353404745] [MotionManager MotionAction]: ServoCmd: 11, 27, -107, 0
+[INFO] [1714640149.396462587] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.397841925] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.400040930] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.403427148] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.407217936] [MotionManager MotionAction]: ServoCmd: 11, 27, -106, 0
+[INFO] [1714640149.444673211] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.447743946] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.449364080] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.450577692] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.450935319] [MotionManager MotionAction]: ServoCmd: 11, 27, -105, 0
+[INFO] [1714640149.501833803] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.510925018] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.511276501] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.512501089] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.512794237] [MotionManager MotionAction]: ServoCmd: 11, 27, -104, 0
+[INFO] [1714640149.555535251] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.557481428] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.558073227] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.560113482] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.561728945] [MotionManager MotionAction]: ServoCmd: 11, 27, -103, 0
+[INFO] [1714640149.649230782] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.650902371] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.651172287] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.651285725] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.651575832] [MotionManager MotionAction]: ServoCmd: 11, 27, -102, 0
+[INFO] [1714640149.700626634] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.700949189] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.701093731] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.701241345] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.701493021] [MotionManager MotionAction]: ServoCmd: 11, 27, -101, 0
+[INFO] [1714640149.749081350] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.750203604] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.751356066] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.752944200] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.753951960] [MotionManager MotionAction]: ServoCmd: 11, 27, -100, 0
+[INFO] [1714640149.794996234] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.796563441] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.797581921] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.800113785] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.800586769] [MotionManager MotionAction]: ServoCmd: 11, 27, -99, 0
+[INFO] [1714640149.846012125] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.846631635] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.846856047] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.847107979] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.847435046] [MotionManager MotionAction]: ServoCmd: 11, 27, -98, 0
+[INFO] [1714640149.899448073] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.903229133] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.904889810] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.906521368] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.906956849] [MotionManager MotionAction]: ServoCmd: 11, 27, -97, 0
+[INFO] [1714640149.944821974] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640149.946558618] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.947874661] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640149.949294894] [MotionManager]: Current motion id: 303
+[INFO] [1714640149.950974516] [MotionManager MotionAction]: ServoCmd: 11, 27, -96, 0
+[INFO] [1714640149.997529006] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.000660220] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.004357441] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.006945847] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.008538110] [MotionManager MotionAction]: ServoCmd: 11, 27, -95, 0
+[INFO] [1714640150.046486337] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.046797276] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.046949338] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.047050968] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.047328436] [MotionManager MotionAction]: ServoCmd: 11, 27, -94, 0
+[INFO] [1714640150.099663793] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.102447205] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.103998220] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.104199913] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.104487525] [MotionManager MotionAction]: ServoCmd: 11, 27, -93, 0
+[INFO] [1714640150.146215723] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.147928176] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.148204684] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.148466344] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.148769507] [MotionManager MotionAction]: ServoCmd: 11, 27, -92, 0
+[INFO] [1714640150.194398699] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.197323005] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.198010098] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.199178431] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.199584825] [MotionManager MotionAction]: ServoCmd: 11, 27, -91, 0
+[INFO] [1714640150.244569324] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.245728985] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.246670378] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.247892599] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.249076324] [MotionManager MotionAction]: ServoCmd: 11, 27, -90, 0
+[INFO] [1714640150.295472000] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.297806491] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.299559487] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.301546815] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.302739276] [MotionManager MotionAction]: ServoCmd: 11, 27, -89, 0
+[INFO] [1714640150.345824765] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.346156216] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.346379221] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.346538642] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.347643104] [MotionManager MotionAction]: ServoCmd: 11, 27, -88, 0
+[INFO] [1714640150.395094924] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.396311769] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.396970478] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640150.398465430] [MotionManager]: Current motion id: 303
+[INFO] [1714640150.409405384] [MotionManager MotionAction]: ServoCmd: 11, 27, -87, 0
+[INFO] [1714640150.412048830] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640150.418187068] [MotionManager MotionAction]: ResultCmd: 11, 1, -86, 0
+[INFO] [1714640151.572068834] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.573259695] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.575047507] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.575577002] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.577156977] [MotionManager MotionAction]: ServoCmd: 11, 27, -85, 0
+[INFO] [1714640151.648999480] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.651088311] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.652439457] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.654974873] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.661862059] [MotionManager MotionAction]: ServoCmd: 11, 27, -84, 0
+[INFO] [1714640151.701763535] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.706924157] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.708375013] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.709911469] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.711715408] [MotionManager MotionAction]: ServoCmd: 11, 27, -83, 0
+[INFO] [1714640151.749383288] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.749724082] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.749843344] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.749988078] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.750374792] [MotionManager MotionAction]: ServoCmd: 11, 27, -82, 0
+[INFO] [1714640151.804316588] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.805978194] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.806172558] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.806538473] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.806915875] [MotionManager MotionAction]: ServoCmd: 11, 27, -81, 0
+[INFO] [1714640151.851507804] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.853048803] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.853708121] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.854542347] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.855520028] [MotionManager MotionAction]: ServoCmd: 11, 27, -80, 0
+[INFO] [1714640151.903981879] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.904782346] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.904948936] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.905095558] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.905363009] [MotionManager MotionAction]: ServoCmd: 11, 27, -79, 0
+[INFO] [1714640151.949885660] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640151.950784045] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.951355556] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640151.951847292] [MotionManager]: Current motion id: 303
+[INFO] [1714640151.952418419] [MotionManager MotionAction]: ServoCmd: 11, 27, -78, 0
+[INFO] [1714640152.003683010] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640152.003996317] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.004589939] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640152.004782160] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.005045708] [MotionManager MotionAction]: ServoCmd: 11, 27, -77, 0
+[INFO] [1714640152.059671621] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640152.060022656] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.060157886] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640152.060278620] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.060620342] [MotionManager MotionAction]: ServoCmd: 11, 27, -76, 0
+[INFO] [1714640152.104803510] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640152.106030242] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.106185184] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640152.106518907] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.106829558] [MotionManager MotionAction]: ServoCmd: 11, 27, -75, 0
+[INFO] [1714640152.150031077] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640152.151092948] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.151333424] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640152.151524013] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.151776969] [MotionManager MotionAction]: ServoCmd: 11, 27, -74, 0
+[INFO] [1714640152.201848523] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640152.204407490] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.204684126] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640152.204798908] [MotionManager]: Current motion id: 303
+[INFO] [1714640152.205088983] [MotionManager MotionAction]: ServoCmd: 11, 27, -73, 0
+[INFO] [1714640152.243197272] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640152.249337814] [MotionManager MotionAction]: ResultCmd: 11, 1, -72, 0
+[INFO] [1714640153.310727167] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.311218775] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.311400660] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.311514738] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.311864109] [MotionManager MotionAction]: ServoCmd: 11, 27, -71, 0
+[INFO] [1714640153.358586052] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.359091100] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.359278169] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.359419350] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.359797040] [MotionManager MotionAction]: ServoCmd: 11, 27, -70, 0
+[INFO] [1714640153.409441049] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.409767444] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.409908402] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.410027568] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.410625702] [MotionManager MotionAction]: ServoCmd: 11, 27, -69, 0
+[INFO] [1714640153.467681145] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.468066483] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.468199728] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.468301647] [MotionManager]: Current motion id: 112
+[INFO] [1714640153.468568299] [MotionManager MotionAction]: ServoCmd: 11, 27, -68, 0
+[INFO] [1714640153.510435407] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.510746730] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.510865960] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.510963623] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.511217827] [MotionManager MotionAction]: ServoCmd: 11, 27, -67, 0
+[INFO] [1714640153.572273109] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.572617680] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.572738350] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.572838188] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.573088040] [MotionManager MotionAction]: ServoCmd: 11, 27, -66, 0
+[INFO] [1714640153.613149642] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.621042412] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.621386055] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.621503269] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.621751649] [MotionManager MotionAction]: ServoCmd: 11, 27, -65, 0
+[INFO] [1714640153.660823346] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.661608197] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.662073470] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.662575766] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.665984256] [MotionManager MotionAction]: ServoCmd: 11, 27, -64, 0
+[INFO] [1714640153.710703671] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.711449163] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.711989538] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640153.712503354] [MotionManager]: Current motion id: 303
+[INFO] [1714640153.713076785] [MotionManager MotionAction]: ServoCmd: 11, 27, -63, 0
+[INFO] [1714640153.762648731] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640153.765993957] [MotionManager MotionAction]: ResultCmd: 11, 1, -62, 0
+[INFO] [1714640154.268060066] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.270993843] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.273278319] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.274980980] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.278115426] [MotionManager MotionAction]: ServoCmd: 11, 27, -61, 0
+[INFO] [1714640154.314193635] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.316416223] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.318143396] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.319811593] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.322568061] [MotionManager MotionAction]: ServoCmd: 11, 27, -60, 0
+[INFO] [1714640154.363735501] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.364571872] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.365562896] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.367762861] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.369603791] [MotionManager MotionAction]: ServoCmd: 11, 27, -59, 0
+[INFO] [1714640154.415212376] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.421001212] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.422070123] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.423301495] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.424657090] [MotionManager MotionAction]: ServoCmd: 11, 27, -58, 0
+[INFO] [1714640154.475023903] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.477764851] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.478975616] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.481560919] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.483788755] [MotionManager MotionAction]: ServoCmd: 11, 27, -57, 0
+[INFO] [1714640154.522732134] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.525097761] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.526730663] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.528653992] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.529052034] [MotionManager MotionAction]: ServoCmd: 11, 27, -56, 0
+[INFO] [1714640154.577067684] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.578466382] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.579823800] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.581017925] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.583940023] [MotionManager MotionAction]: ServoCmd: 11, 27, -55, 0
+[INFO] [1714640154.624828523] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.626929609] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.628765356] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.630985449] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.632099351] [MotionManager MotionAction]: ServoCmd: 11, 27, -54, 0
+[INFO] [1714640154.669064202] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.669415396] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.669563362] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.669708703] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.669960923] [MotionManager MotionAction]: ServoCmd: 11, 27, -53, 0
+[INFO] [1714640154.723996766] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.725204299] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.725520102] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.726603156] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.727684323] [MotionManager MotionAction]: ServoCmd: 11, 27, -52, 0
+[INFO] [1714640154.771172782] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.773025424] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.774288540] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.775048368] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.776994097] [MotionManager MotionAction]: ServoCmd: 11, 27, -51, 0
+[INFO] [1714640154.824444861] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.825301583] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.826279840] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.827304783] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.828300415] [MotionManager MotionAction]: ServoCmd: 11, 27, -50, 0
+[INFO] [1714640154.881152309] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.881443856] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.881570478] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.881711180] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.882011847] [MotionManager MotionAction]: ServoCmd: 11, 27, -49, 0
+[INFO] [1714640154.916852828] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.918049129] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.919582224] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.919825932] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.920092328] [MotionManager MotionAction]: ServoCmd: 11, 27, -48, 0
+[INFO] [1714640154.967522580] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640154.968306856] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.968834079] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640154.969338103] [MotionManager]: Current motion id: 112
+[INFO] [1714640154.971436086] [MotionManager MotionAction]: ServoCmd: 11, 27, -47, 0
+[INFO] [1714640155.019559287] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640155.020856290] [MotionManager]: Current motion id: 112
+[INFO] [1714640155.021867506] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640155.022040079] [MotionManager]: Current motion id: 112
+[INFO] [1714640155.022402505] [MotionManager MotionAction]: ServoCmd: 11, 27, -46, 0
+[INFO] [1714640155.051349308] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640155.057402203] [MotionManager MotionAction]: ResultCmd: 11, 1, -45, 0
+[INFO] [1714640156.043565523] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.044157354] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.044522884] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.044717217] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.044983420] [MotionManager MotionAction]: ServoCmd: 11, 27, -44, 0
+[INFO] [1714640156.075454903] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.079573877] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.079834193] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.079969647] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.080450663] [MotionManager MotionAction]: ServoCmd: 11, 27, -43, 0
+[INFO] [1714640156.128070672] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.134062033] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.135815829] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.137380188] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.138788165] [MotionManager MotionAction]: ServoCmd: 11, 27, -42, 0
+[INFO] [1714640156.175982324] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.177792215] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.179130562] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.180023636] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.181488700] [MotionManager MotionAction]: ServoCmd: 11, 27, -41, 0
+[INFO] [1714640156.242235668] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.246565359] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.248637422] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.250125398] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.251330883] [MotionManager MotionAction]: ServoCmd: 11, 27, -40, 0
+[INFO] [1714640156.277731646] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.278640080] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.278777422] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.278878956] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.279143304] [MotionManager MotionAction]: ServoCmd: 11, 27, -39, 0
+[INFO] [1714640156.329362119] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.330128699] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.330811600] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.332902031] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.333717282] [MotionManager MotionAction]: ServoCmd: 11, 27, -38, 0
+[INFO] [1714640156.375924641] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.376663413] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.377219596] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.378130718] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.379179885] [MotionManager MotionAction]: ServoCmd: 11, 27, -37, 0
+[INFO] [1714640156.423099153] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.424463739] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.426471227] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.428488923] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.430108545] [MotionManager MotionAction]: ServoCmd: 11, 27, -36, 0
+[INFO] [1714640156.478756986] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.479575661] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.479735466] [MotionManager]: Current Motion: 112, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.479839529] [MotionManager]: Current motion id: 112
+[INFO] [1714640156.480087365] [MotionManager MotionAction]: ServoCmd: 11, 27, -35, 0
+[INFO] [1714640156.529106231] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.533425970] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.533682062] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.533815052] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.536074760] [MotionManager MotionAction]: ServoCmd: 11, 27, -34, 0
+[INFO] [1714640156.579607186] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.582598530] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.584717025] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.585374774] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.588925246] [MotionManager MotionAction]: ServoCmd: 11, 27, -33, 0
+[INFO] [1714640156.629081630] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.632069230] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.633517783] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.635167261] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.635944144] [MotionManager MotionAction]: ServoCmd: 11, 27, -32, 0
+[INFO] [1714640156.675528057] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.677082560] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.678824485] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.680297453] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.682449195] [MotionManager MotionAction]: ServoCmd: 11, 27, -31, 0
+[INFO] [1714640156.726774888] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.729827672] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.730034388] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.730271216] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.732558348] [MotionManager MotionAction]: ServoCmd: 11, 27, -30, 0
+[INFO] [1714640156.780061111] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.781488448] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.782929833] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.783833275] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.784906794] [MotionManager MotionAction]: ServoCmd: 11, 27, -29, 0
+[INFO] [1714640156.826294838] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.828954603] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.830054042] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.830721903] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.832917676] [MotionManager MotionAction]: ServoCmd: 11, 27, -28, 0
+[INFO] [1714640156.880009150] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.882028541] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.884204059] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.884490166] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.884810833] [MotionManager MotionAction]: ServoCmd: 11, 27, -27, 0
+[INFO] [1714640156.928340155] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.928660886] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.928915730] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.929085423] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.929575079] [MotionManager MotionAction]: ServoCmd: 11, 27, -26, 0
+[INFO] [1714640156.978290303] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640156.978686009] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.979303983] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640156.979485004] [MotionManager]: Current motion id: 303
+[INFO] [1714640156.979792999] [MotionManager MotionAction]: ServoCmd: 11, 27, -25, 0
+[INFO] [1714640157.027809609] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.029791114] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.033630061] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640157.036180868] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.036692348] [MotionManager MotionAction]: ServoCmd: 11, 27, -24, 0
+[INFO] [1714640157.078455330] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.079503537] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.079756621] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640157.079938091] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.080304069] [MotionManager MotionAction]: ServoCmd: 11, 27, -23, 0
+[INFO] [1714640157.126733633] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.128562563] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.129468213] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640157.130033580] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.131223321] [MotionManager MotionAction]: ServoCmd: 11, 27, -22, 0
+[INFO] [1714640157.179945200] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.180813762] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.181587126] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640157.182137613] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.183997136] [MotionManager MotionAction]: ServoCmd: 11, 27, -21, 0
+[INFO] [1714640157.229199199] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.231061953] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.231243487] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640157.231383900] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.231748503] [MotionManager MotionAction]: ServoCmd: 11, 27, -20, 0
+[INFO] [1714640157.279482206] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.279831800] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.279981430] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640157.280088820] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.280483470] [MotionManager MotionAction]: ServoCmd: 11, 27, -19, 0
+[INFO] [1714640157.330611311] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.332308756] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.332460657] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640157.333696413] [MotionManager]: Current motion id: 303
+[INFO] [1714640157.334036856] [MotionManager MotionAction]: ServoCmd: 11, 27, -18, 0
+[INFO] [1714640157.380928812] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.383863166] [MotionManager MotionAction]: ResultCmd: 11, 1, -17, 0
+[INFO] [1714640157.388838062] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640157.392266392] [MotionManager MotionAction]: ResultCmd: 11, 1, -16, 0
+[INFO] [1714640158.685147609] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640158.686626594] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.686861438] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640158.686982268] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.687243768] [MotionManager MotionAction]: ServoCmd: 11, 27, -15, 0
+[INFO] [1714640158.741490136] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640158.742985408] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.744447496] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640158.745386809] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.747365914] [MotionManager MotionAction]: ServoCmd: 11, 27, -14, 0
+[INFO] [1714640158.789135232] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640158.792320909] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.794504619] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640158.798628745] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.799512475] [MotionManager MotionAction]: ServoCmd: 11, 27, -13, 0
+[INFO] [1714640158.837602364] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640158.838780937] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.839343616] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640158.839846712] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.840170515] [MotionManager MotionAction]: ServoCmd: 11, 27, -12, 0
+[INFO] [1714640158.887047944] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640158.887361731] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.887516864] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640158.887624287] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.887884698] [MotionManager MotionAction]: ServoCmd: 11, 27, -11, 0
+[INFO] [1714640158.941174153] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640158.943133834] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.944947277] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640158.945882558] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.949068587] [MotionManager MotionAction]: ServoCmd: 11, 27, -10, 0
+[INFO] [1714640158.986894576] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640158.990215356] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.991352105] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640158.992249211] [MotionManager]: Current motion id: 303
+[INFO] [1714640158.993675012] [MotionManager MotionAction]: ServoCmd: 11, 27, -9, 0
+[INFO] [1714640159.034961458] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.037376748] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.038095328] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.038465371] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.039348845] [MotionManager MotionAction]: ServoCmd: 11, 27, -8, 0
+[INFO] [1714640159.089256817] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.091486574] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.091727562] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.091852712] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.092114468] [MotionManager MotionAction]: ServoCmd: 11, 27, -7, 0
+[INFO] [1714640159.136870842] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.137218005] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.137406258] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.137510416] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.137763212] [MotionManager MotionAction]: ServoCmd: 11, 27, -6, 0
+[INFO] [1714640159.186896253] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.190619746] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.192331686] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.193907149] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.194733312] [MotionManager MotionAction]: ServoCmd: 11, 27, -5, 0
+[INFO] [1714640159.238274730] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.239347417] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.239528982] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.239700307] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.239995567] [MotionManager MotionAction]: ServoCmd: 11, 27, -4, 0
+[INFO] [1714640159.291270974] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.293539833] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.295291582] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.296878116] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.299605369] [MotionManager MotionAction]: ServoCmd: 11, 27, -3, 0
+[INFO] [1714640159.338769481] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.340726121] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.342599692] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.344285201] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.344997381] [MotionManager MotionAction]: ServoCmd: 11, 27, -2, 0
+[INFO] [1714640159.384969864] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.387079623] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.387431297] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.387558111] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.387810427] [MotionManager MotionAction]: ServoCmd: 11, 27, -1, 0
+[INFO] [1714640159.442990060] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.443389221] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.443531203] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.443681793] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.443990844] [MotionManager MotionAction]: ServoCmd: 11, 27, 0, 0
+[INFO] [1714640159.487976767] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.488353689] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.488486295] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.488584757] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.488843345] [MotionManager MotionAction]: ServoCmd: 11, 27, 1, 0
+[INFO] [1714640159.535186798] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.535531209] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.535655591] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.535763301] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.536059712] [MotionManager MotionAction]: ServoCmd: 11, 27, 2, 0
+[INFO] [1714640159.589299216] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.594818008] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.597245521] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.597452142] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.597744809] [MotionManager MotionAction]: ServoCmd: 11, 27, 3, 0
+[INFO] [1714640159.638220036] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.640599774] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.640831579] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.640942265] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.641219828] [MotionManager MotionAction]: ServoCmd: 11, 27, 4, 0
+[INFO] [1714640159.690424260] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.690795486] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.690934716] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.691032987] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.697155065] [MotionManager MotionAction]: ServoCmd: 11, 27, 5, 0
+[INFO] [1714640159.738046765] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.740414664] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.741373528] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.742445031] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.744594085] [MotionManager MotionAction]: ServoCmd: 11, 27, 6, 0
+[INFO] [1714640159.791729910] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.792431435] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.793154271] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.794694246] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.795807253] [MotionManager MotionAction]: ServoCmd: 11, 27, 7, 0
+[INFO] [1714640159.839988533] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.841490877] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.842747753] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.843676026] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.845575996] [MotionManager MotionAction]: ServoCmd: 11, 27, 8, 0
+[INFO] [1714640159.890629422] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.890987816] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.891168677] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.891268707] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.891515007] [MotionManager MotionAction]: ServoCmd: 11, 27, 9, 0
+[INFO] [1714640159.947307974] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.947617761] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.947851742] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.948134617] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.948455764] [MotionManager MotionAction]: ServoCmd: 11, 27, 10, 0
+[INFO] [1714640159.992756466] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640159.994244698] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.995471047] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640159.996047197] [MotionManager]: Current motion id: 303
+[INFO] [1714640159.997120108] [MotionManager MotionAction]: ServoCmd: 11, 27, 11, 0
+[INFO] [1714640160.038621559] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640160.038949234] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.041394667] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640160.042691350] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.044396219] [MotionManager MotionAction]: ServoCmd: 11, 27, 12, 0
+[INFO] [1714640160.087230544] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640160.088740248] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.090141794] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640160.091600299] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.093607787] [MotionManager MotionAction]: ServoCmd: 11, 27, 13, 0
+[INFO] [1714640160.138001383] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640160.138688348] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.138837210] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640160.138954808] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.140094086] [MotionManager MotionAction]: ServoCmd: 11, 27, 14, 0
+[INFO] [1714640160.189353269] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640160.190678688] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.190880348] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640160.190991803] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.191272950] [MotionManager MotionAction]: ServoCmd: 11, 27, 15, 0
+[INFO] [1714640160.243127612] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640160.245273401] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.246906559] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640160.248642372] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.250601061] [MotionManager MotionAction]: ServoCmd: 11, 27, 16, 0
+[INFO] [1714640160.290764996] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640160.292388011] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.295915026] [MotionManager]: Current Motion: 303, AllowServoCmd: 1, pmc: 0
+[INFO] [1714640160.297478681] [MotionManager]: Current motion id: 303
+[INFO] [1714640160.298874883] [MotionManager MotionAction]: ServoCmd: 11, 27, 17, 0
+[INFO] [1714640160.332902725] [MotionManager]: Receive ServoCmd from 0 with motion_id: 303
+[INFO] [1714640160.337552059] [MotionManager MotionAction]: ResultCmd: 11, 1, 18, 0
+[INFO] [1714640162.423016710] [MotionManager]: Receive ResultCmd from 0 with motion_id: 101
+[INFO] [1714640162.424729675] [MotionManager]: estop: 0
+[INFO] [1714640162.425192452] [MotionManager]: Current motion id: 112
+[INFO] [1714640162.425560958] [MotionManager MotionAction]: ResultCmd: 7, 1, 19, 0
+[WARN] [1714640162.440947753] [MotionManager]: Transitioning waiting
+[INFO] [1714640163.882510410] [MotionManager]: Motion 101 done
+[INFO] [1714640163.887968275] [MotionManager]: Will return HandleResultCmd
+[INFO] [1714640163.888620201] [MotionManager]: Will return DecideResultCmd
+[INFO] [1714640163.889100897] [MotionManager]: Will return MotionResultCmdCallback

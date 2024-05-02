@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Logout
+Comment=Log out of your account.
+GenericName=Log Out
+Exec=gnome-session-quit --logout
+Terminal=false
+Type=Application
+Categories=Utility
+Icon=/usr/share/unity/icons/logout_highlight.png
+NotShowIn=GNOME-Flashback;LXDE;
+X-AppStream-Ignore=true
+X-Ubuntu-Gettext-Domain=session-shortcuts

@@ -1,0 +1,17 @@
+2024-04-27 11:26:06.231 [info] Extension host with pid 19251 started
+2024-04-27 11:26:06.231 [error] Error: EEXIST: file already exists, open '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3/vscode.lock'
+2024-04-27 11:26:06.316 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-04-27 11:26:06.378 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-27 11:26:06.422 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3/vscode.lock': The lock does not look stale, elapsed: 691 ms, giving up.
+2024-04-27 11:26:06.429 [error] Error: EEXIST: file already exists, open '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3-1/vscode.lock'
+2024-04-27 11:26:06.433 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-04-27 11:26:06.435 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3-1/vscode.lock': The lock does not look stale, elapsed: 886 ms, giving up.
+2024-04-27 11:26:06.497 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3-2/vscode.lock': Lock acquired.
+2024-04-27 11:26:06.572 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-27 11:26:06.575 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-27 11:26:07.809 [info] Eager extensions activated
+2024-04-27 11:26:07.811 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 11:26:07.815 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 11:37:09.638 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-04-27 11:37:09.641 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/61a6ded4dad5d8d1d83b49afa63946d3-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-27 11:37:09.724 [info] Extension host with pid 19251 exiting with code 0

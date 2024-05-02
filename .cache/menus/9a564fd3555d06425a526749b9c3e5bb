@@ -1,0 +1,2569 @@
+1.2
+lxde-applications.menu+hidden
+20
+D/home/mi/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/var/lib/menu-xdg/desktop-directories/menu-xdg
+D/home/mi/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/var/lib/menu-xdg/applications/menu-xdg
+D/etc/xdg/menus/applications-merged
+D/etc/xdg/xdg-ux-LXDE/menus/applications-merged
+D/home/mi/.config/menus/applications-merged
+F/home/mi/.config/menus/lxde-applications.menu
+F/etc/xdg/xdg-ux-LXDE/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+F/etc/xdg/menus/debian-menu.menu
+MATE;Unity;GNOME-Flashback;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+0
+-activity-log-manager.desktop
+Activity Log Manager
+Configure what gets logged in your Zeitgeist activity log
+activity-log-manager
+
+8
+Activity Log Manager
+activity-log-manager
+0
+-65
+
+
+GNOME;GTK;Utility
+
+-org.gnome.FileRoller.desktop
+Archive Manager
+Create and modify an archive
+file-roller
+
+8
+
+file-roller %U
+6
+-5
+file-roller
+
+GTK;GNOME;Utility;Archiving;Compression;X-GNOME-Utilities
+zip,tar,extract,unpack
+-file-roller.desktop
+Archive Manager
+Create and modify an archive
+file-roller
+
+8
+
+file-roller %U
+2
+-5
+file-roller
+
+GTK;GNOME;Utility;Archiving;Compression;X-GNOME-Utilities
+zip,tar,extract,unpack
+-bluetooth-sendto.desktop
+Bluetooth Transfer
+Send files via Bluetooth
+bluetooth
+
+8
+
+bluetooth-sendto
+6
+0
+
+
+GTK;GNOME;Utility;FileTools
+
+-gucharmap.desktop
+Character Map
+Insert special characters into documents
+accessories-character-map
+
+8
+
+gucharmap
+2
+0
+
+
+GNOME;GTK;Utility
+font,unicode
+-clipit.desktop
+ClipIt
+Clipboard Manager
+clipit-trayicon
+
+8
+
+clipit
+0
+0
+
+
+GTK;GNOME;Application;Utility
+
+-compton.desktop
+compton
+A X compositor
+compton
+
+8
+X compositor
+compton
+0
+0
+compton
+
+Utility
+x,x11,compositor
+-org.gnome.DiskUtility.desktop
+Disks
+Manage Drives and Media
+gnome-disks
+
+8
+
+gnome-disks
+2
+0
+
+
+GNOME;GTK;Utility;X-GNOME-Utilities;Settings;HardwareSettings
+disk,drive,volume,harddisk,hdd,disc,cdrom,dvd,partition,iso,image,backup,restore,benchmark,raid,luks,encryption,S.M.A.R.T.,smart
+-nautilus-folder-handler.desktop
+Files
+Access and organize files
+org.gnome.Nautilus
+
+8
+
+nautilus --new-window %U
+6
+66
+
+
+GNOME;GTK;Utility;Core
+
+-org.gnome.Nautilus.desktop
+Files
+Access and organize files
+org.gnome.Nautilus
+
+8
+
+nautilus --new-window %U
+2
+66
+
+
+GNOME;GTK;Utility;Core;FileManager
+folder,manager,explore,disk,filesystem
+-nautilus.desktop
+Files
+Access and organize files
+org.gnome.Nautilus
+
+8
+
+nautilus --new-window %U
+2
+-67
+
+
+GNOME;GTK;Utility;Core;FileManager
+folder,manager,explore,disk,filesystem
+-org.gnome.font-viewer.desktop
+Fonts
+View fonts on your system
+preferences-desktop-font
+
+8
+
+gnome-font-viewer %u
+2
+0
+
+
+GTK;GNOME;Utility;X-GNOME-Utilities
+fonts,fontface
+-gpicview.desktop
+Image Viewer
+View your images easily
+gpicview
+
+8
+Image Viewer
+gpicview %f
+2
+0
+
+
+Graphics;Utility;Core;GTK;Viewer;RasterGraphics;2DGraphics;Photography
+graphics,pictures,viever,photography
+-leafpad.desktop
+Leafpad
+Simple text editor
+leafpad
+
+8
+
+leafpad %f
+0
+0
+
+
+GTK;Utility;TextEditor
+text,editor
+-logout.desktop
+Logout
+Log out of your account.
+/usr/share/unity/icons/logout_highlight.png
+
+6
+Log Out
+gnome-session-quit --logout
+0
+-130
+
+
+Utility
+
+-seahorse.desktop
+Passwords and Keys
+Manage your passwords and encryption keys
+seahorse
+
+8
+
+/usr/bin/seahorse
+2
+0
+
+
+GNOME;GTK;Security;Utility;DesktopSettings;X-XFCE-SettingsDialog
+keyring,encryption,security,sign,ssh
+-reboot.desktop
+Reboot
+Reboot the computer
+/usr/share/unity/icons/restart_highlight.png
+
+6
+Reboot
+gnome-session-quit --reboot
+0
+-130
+
+
+Utility
+
+-apport-gtk.desktop
+Report a problem...
+Report a malfunction to the developers
+apport
+
+8
+
+/usr/share/apport/apport-gtk -c %f
+6
+0
+
+
+GNOME;GTK;Utility
+
+-org.gnome.Screenshot.desktop
+Screenshot
+Save images of your screen or individual windows
+applets-screenshooter
+
+8
+
+gnome-screenshot --interactive
+2
+-5
+
+
+GTK;GNOME;Utility;X-GNOME-Utilities
+snapshot,capture,print,screenshot
+-shutdown.desktop
+Shutdown
+Power off the computer
+/usr/share/unity/icons/shutdown_highlight.png
+
+6
+Shut Down
+gnome-session-quit --power-off
+0
+-130
+
+
+Utility
+
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+8
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+-xarchiver.desktop
+Xarchiver
+A GTK+ only archive manager
+xarchiver
+
+8
+Archive manager
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Compression;Utility
+GTK,archiver,archiving,compression,front end,frontend,7-zip,7z,7za,7zip,7zr,ar,arj,bunzip2,bz2,bzip2,compress,cpio,deb,epub,gtar,gunzip,gz,gzip,jar,lha,lrz,lrzip,lsar,lz,lz4,lzh,lzip,lzma,lzo,lzop,oxt,rar,rar4,rar5,rpm,tar,unar,unarchiver,unarj,unrar,unzip,xpi,xz,zip,zst,Zstandard,zstd
+
++Debian
+Debian
+
+debian-logo
+debian.directory
+2
+0
++Applications
+Applications
+
+debian-applications
+debian-applications.directory
+5
+0
++Accessibility
+Accessibility
+
+debian-applications-accessibility
+debian-applications-accessibility.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Accessibility-xmag.desktop
+Xmag
+Xmag: magnify parts of the X screen
+
+X-Debian-Applications-Accessibility-xmag.desktop
+12
+
+xmag
+0
+0
+
+
+X-Debian-Applications-Accessibility
+
+
++Editors
+Editors
+
+debian-applications-editors
+debian-applications-editors.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Editors-xedit.desktop
+Xedit
+Xedit: a simple text editor for X
+
+X-Debian-Applications-Editors-xedit.desktop
+12
+
+xedit
+0
+0
+
+
+X-Debian-Applications-Editors
+
+
++Graphics
+Graphics
+
+debian-applications-graphics
+debian-applications-graphics.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Graphics-dotty.desktop
+dotty
+
+
+X-Debian-Applications-Graphics-dotty.desktop
+12
+
+/usr/bin/dotty
+0
+0
+
+
+X-Debian-Applications-Graphics
+
+-menu-xdg-X-Debian-Applications-Graphics-lefty.desktop
+lefty
+
+
+X-Debian-Applications-Graphics-lefty.desktop
+12
+
+/usr/bin/lefty
+0
+0
+
+
+X-Debian-Applications-Graphics
+
+-menu-xdg-X-Debian-Applications-Graphics-x_window_snapshot.desktop
+X Window Snapshot
+X Window Snapshot: take snapshot of any X window (xwd|xwud)
+
+X-Debian-Applications-Graphics-x_window_snapshot.desktop
+12
+
+xwd | xwud
+0
+0
+
+
+X-Debian-Applications-Graphics
+
+
++Network
+Network
+
+debian-applications-network
+debian-applications-network.directory
+5
+0
++Communication
+Communication
+
+debian-applications-network-communication
+debian-applications-network-communication.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Network-Communication-manhole_twisted_client.desktop
+Manhole Twisted Client
+
+
+X-Debian-Applications-Network-Communication-manhole_twisted_client.desktop
+12
+
+/usr/bin/manhole
+0
+0
+
+
+X-Debian-Applications-Network-Communication
+
+-menu-xdg-X-Debian-Applications-Network-Communication-xbiff.desktop
+Xbiff
+Xbiff: mailbox flag for X
+
+X-Debian-Applications-Network-Communication-xbiff.desktop
+12
+
+xbiff
+0
+0
+
+
+X-Debian-Applications-Network-Communication
+
+
++File Transfer
+File Transfer
+
+debian-applications-network-file-transfer
+debian-applications-network-file-transfer.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Network-File-Transfer-transmission_bittorrent_client_(gtk).desktop
+Transmission BitTorrent Client (GTK)
+
+/usr/share/pixmaps/transmission.xpm
+X-Debian-Applications-Network-File-Transfer-transmission_bittorrent_client_(gtk).desktop
+12
+
+/usr/bin/transmission-gtk
+0
+0
+
+
+X-Debian-Applications-Network-File-Transfer
+
+
+
++Programming
+Programming
+
+debian-applications-programming
+debian-applications-programming.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Programming-gdb.desktop
+GDB
+
+
+X-Debian-Applications-Programming-gdb.desktop
+12
+
+/usr/bin/gdb
+1
+0
+
+
+X-Debian-Applications-Programming
+
+-menu-xdg-X-Debian-Applications-Programming-tclsh8.6.desktop
+Tclsh8.6
+
+
+X-Debian-Applications-Programming-tclsh8.6.desktop
+12
+
+/usr/bin/tclsh8.6
+1
+0
+
+
+X-Debian-Applications-Programming
+
+-menu-xdg-X-Debian-Applications-Programming-tkwish8.6.desktop
+TkWish8.6
+
+
+X-Debian-Applications-Programming-tkwish8.6.desktop
+12
+
+x-terminal-emulator -e /usr/bin/wish8.6
+0
+0
+
+
+X-Debian-Applications-Programming
+
+
++Science
+Science
+
+debian-applications-science
+debian-applications-science.directory
+5
+0
++Geoscience
+Geoscience
+
+debian-applications-science-geoscience
+debian-applications-science-geoscience.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Science-Geoscience-xgps.desktop
+xgps
+
+
+X-Debian-Applications-Science-Geoscience-xgps.desktop
+12
+
+/usr/bin/xgps
+0
+0
+
+
+X-Debian-Applications-Science-Geoscience
+
+
++Mathematics
+Mathematics
+
+debian-applications-science-mathematics
+debian-applications-science-mathematics.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Science-Mathematics-bc.desktop
+Bc
+
+
+X-Debian-Applications-Science-Mathematics-bc.desktop
+12
+
+/usr/bin/bc
+1
+0
+
+
+X-Debian-Applications-Science-Mathematics
+
+-menu-xdg-X-Debian-Applications-Science-Mathematics-xcalc.desktop
+Xcalc
+Xcalc: scientific calculator for X
+
+X-Debian-Applications-Science-Mathematics-xcalc.desktop
+12
+
+xcalc
+0
+0
+
+
+X-Debian-Applications-Science-Mathematics
+
+
+
++Shells
+Shells
+
+debian-applications-shells
+debian-applications-shells.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Shells-bash.desktop
+Bash
+
+
+X-Debian-Applications-Shells-bash.desktop
+12
+
+/bin/bash --login
+1
+0
+
+
+X-Debian-Applications-Shells
+
+-menu-xdg-X-Debian-Applications-Shells-dash.desktop
+Dash
+
+
+X-Debian-Applications-Shells-dash.desktop
+12
+
+/bin/dash -i
+1
+0
+
+
+X-Debian-Applications-Shells
+
+-menu-xdg-X-Debian-Applications-Shells-sh.desktop
+Sh
+
+
+X-Debian-Applications-Shells-sh.desktop
+12
+
+/bin/sh --login
+1
+0
+
+
+X-Debian-Applications-Shells
+
+
++System
+System
+
+debian-applications-system
+debian-applications-system.directory
+5
+0
++Administration
+Administration
+
+debian-applications-system-administration
+debian-applications-system-administration.directory
+5
+0
+-menu-xdg-X-Debian-Applications-System-Administration-debian_task_selector.desktop
+Debian Task selector
+
+
+X-Debian-Applications-System-Administration-debian_task_selector.desktop
+12
+
+su-to-root -c tasksel
+1
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-dsl_pppoe_configuration_tool.desktop
+DSL/PPPoE configuration tool
+
+/usr/share/pixmaps/pppoeconf.xpm
+X-Debian-Applications-System-Administration-dsl_pppoe_configuration_tool.desktop
+12
+
+/usr/sbin/pppoeconf
+1
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-editres.desktop
+Editres
+Editres: resource editor for X Toolkit applications
+
+X-Debian-Applications-System-Administration-editres.desktop
+12
+
+editres
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-logout_(obsession).desktop
+Logout (obsession)
+
+
+X-Debian-Applications-System-Administration-logout_(obsession).desktop
+12
+
+/usr/bin/obsession-logout
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-pppconfig.desktop
+pppconfig
+
+
+X-Debian-Applications-System-Administration-pppconfig.desktop
+12
+
+su-to-root -p root -c /usr/sbin/pppconfig
+1
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-xclipboard.desktop
+Xclipboard
+Xclipboard: clipboard for text cut and paste operations in X
+
+X-Debian-Applications-System-Administration-xclipboard.desktop
+12
+
+xclipboard
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-xfontsel.desktop
+Xfontsel
+Xfontsel: font viewer/selector for X
+
+X-Debian-Applications-System-Administration-xfontsel.desktop
+12
+
+xfontsel
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-xkill.desktop
+Xkill
+Xkill: tool to kill X clients by clicking on their windows
+
+X-Debian-Applications-System-Administration-xkill.desktop
+12
+
+xkill
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+-menu-xdg-X-Debian-Applications-System-Administration-xrefresh.desktop
+Xrefresh
+Xrefresh: redraw X screen
+
+X-Debian-Applications-System-Administration-xrefresh.desktop
+12
+
+xrefresh
+0
+0
+
+
+X-Debian-Applications-System-Administration
+
+
++Hardware
+Hardware
+
+debian-applications-system-hardware
+debian-applications-system-hardware.directory
+5
+0
+-menu-xdg-X-Debian-Applications-System-Hardware-xvidtune.desktop
+Xvidtune
+Xvidtune: tool for customizing X server modelines
+
+X-Debian-Applications-System-Hardware-xvidtune.desktop
+12
+
+xvidtune
+0
+0
+
+
+X-Debian-Applications-System-Hardware
+
+
++Monitoring
+Monitoring
+
+debian-applications-system-monitoring
+debian-applications-system-monitoring.directory
+5
+0
+-menu-xdg-X-Debian-Applications-System-Monitoring-pstree.desktop
+Pstree
+
+/usr/share/pixmaps/pstree16.xpm
+X-Debian-Applications-System-Monitoring-pstree.desktop
+12
+
+/usr/bin/pstree.x11
+1
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+-menu-xdg-X-Debian-Applications-System-Monitoring-top.desktop
+Top
+
+
+X-Debian-Applications-System-Monitoring-top.desktop
+12
+
+/usr/bin/top
+1
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+-menu-xdg-X-Debian-Applications-System-Monitoring-xconsole.desktop
+Xconsole
+Xconsole: monitor system console messages with X
+
+X-Debian-Applications-System-Monitoring-xconsole.desktop
+12
+
+xconsole -file /dev/xconsole
+0
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+-menu-xdg-X-Debian-Applications-System-Monitoring-xev.desktop
+Xev
+Xev: display X events
+
+X-Debian-Applications-System-Monitoring-xev.desktop
+12
+
+x-terminal-emulator -e xev
+0
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+-menu-xdg-X-Debian-Applications-System-Monitoring-xload.desktop
+Xload
+Xload: system load average display for X
+
+X-Debian-Applications-System-Monitoring-xload.desktop
+12
+
+xload
+0
+0
+
+
+X-Debian-Applications-System-Monitoring
+
+
+
++Text
+Text
+
+debian-applications-text
+debian-applications-text.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Text-clipit.desktop
+ClipIt
+
+
+X-Debian-Applications-Text-clipit.desktop
+12
+
+/usr/bin/clipit
+0
+0
+
+
+X-Debian-Applications-Text
+
+
++Viewers
+Viewers
+
+debian-applications-viewers
+debian-applications-viewers.directory
+5
+0
+-menu-xdg-X-Debian-Applications-Viewers-docker.desktop
+docker
+
+
+X-Debian-Applications-Viewers-docker.desktop
+12
+
+/usr/bin/wmdocker
+0
+0
+
+
+X-Debian-Applications-Viewers
+
+-menu-xdg-X-Debian-Applications-Viewers-xditview.desktop
+Xditview
+Xditview: a ditroff file viewer for X
+
+X-Debian-Applications-Viewers-xditview.desktop
+12
+
+xditview
+0
+0
+
+
+X-Debian-Applications-Viewers
+
+
+
++Games
+Games
+
+debian-games
+debian-games.directory
+5
+0
++Toys
+Toys
+
+debian-games-toys
+debian-games-toys.directory
+5
+0
+-menu-xdg-X-Debian-Games-Toys-oclock.desktop
+Oclock
+Oclock: analog clock for X
+
+X-Debian-Games-Toys-oclock.desktop
+12
+
+oclock
+0
+0
+
+
+X-Debian-Games-Toys
+
+-menu-xdg-X-Debian-Games-Toys-xclock_(analog).desktop
+Xclock (analog)
+Xclock (analog): analog clock for X
+
+X-Debian-Games-Toys-xclock_(analog).desktop
+12
+
+xclock -analog
+0
+0
+
+
+X-Debian-Games-Toys
+
+-menu-xdg-X-Debian-Games-Toys-xclock_(digital).desktop
+Xclock (digital)
+Xclock (digital): digital clock for X
+
+X-Debian-Games-Toys-xclock_(digital).desktop
+12
+
+xclock -digital -update 1
+0
+0
+
+
+X-Debian-Games-Toys
+
+-menu-xdg-X-Debian-Games-Toys-xeyes.desktop
+Xeyes
+Xeyes: demo in which a pair of eyes follow the mouse pointer in X
+
+X-Debian-Games-Toys-xeyes.desktop
+12
+
+xeyes
+0
+0
+
+
+X-Debian-Games-Toys
+
+-menu-xdg-X-Debian-Games-Toys-xlogo.desktop
+Xlogo
+Xlogo: demo which displays the X logo
+
+X-Debian-Games-Toys-xlogo.desktop
+12
+
+xlogo
+0
+0
+
+
+X-Debian-Games-Toys
+
+
+
++Help
+Help
+
+debian-help
+debian-help.directory
+5
+0
+-menu-xdg-X-Debian-Help-xman.desktop
+Xman
+Xman: manual page browser for X
+
+X-Debian-Help-xman.desktop
+12
+
+xman
+0
+0
+
+
+X-Debian-Help
+
+
++Screen
+Screen
+
+debian-screen
+debian-screen.directory
+5
+0
++Locking
+Locking
+
+debian-screen-locking
+debian-screen-locking.directory
+5
+0
+-menu-xdg-X-Debian-Screen-Locking-lock_screen_(xscreensaver).desktop
+Lock Screen (XScreenSaver)
+
+
+X-Debian-Screen-Locking-lock_screen_(xscreensaver).desktop
+12
+
+/usr/bin/xscreensaver-command -lock
+0
+0
+
+
+X-Debian-Screen-Locking
+
+
++Saving
+Saving
+
+debian-screen-saving
+debian-screen-saving.directory
+5
+0
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(next).desktop
+Activate ScreenSaver (Next)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(next).desktop
+12
+
+/usr/bin/xscreensaver-command -next
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(previous).desktop
+Activate ScreenSaver (Previous)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(previous).desktop
+12
+
+/usr/bin/xscreensaver-command -prev
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-activate_screensaver_(random).desktop
+Activate ScreenSaver (Random)
+
+
+X-Debian-Screen-Saving-activate_screensaver_(random).desktop
+12
+
+/usr/bin/xscreensaver-command -activate
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-demo_screen_hacks.desktop
+Demo Screen Hacks
+
+
+X-Debian-Screen-Saving-demo_screen_hacks.desktop
+12
+
+/usr/bin/xscreensaver-command -demo
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-disable_xscreensaver.desktop
+Disable XScreenSaver
+
+
+X-Debian-Screen-Saving-disable_xscreensaver.desktop
+12
+
+/usr/bin/xscreensaver-command -exit
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-enable_xscreensaver.desktop
+Enable XScreenSaver
+
+
+X-Debian-Screen-Saving-enable_xscreensaver.desktop
+12
+
+/usr/bin/xscreensaver
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-reinitialize_xscreensaver.desktop
+Reinitialize XScreenSaver
+
+
+X-Debian-Screen-Saving-reinitialize_xscreensaver.desktop
+12
+
+/usr/bin/xscreensaver-command -restart
+0
+0
+
+
+X-Debian-Screen-Saving
+
+-menu-xdg-X-Debian-Screen-Saving-screensaver_preferences.desktop
+ScreenSaver Preferences
+
+
+X-Debian-Screen-Saving-screensaver_preferences.desktop
+12
+
+/usr/bin/xscreensaver-command -prefs
+0
+0
+
+
+X-Debian-Screen-Saving
+
+
+
+
++Education
+Education
+
+applications-science
+lxde-education.directory
+2
+4
+
++Games
+Games
+Games and amusements
+applications-games
+lxde-game.directory
+2
+0
+-sol.desktop
+AisleRiot Solitaire
+Play many different solitaire games
+gnome-aisleriot
+
+8
+
+/usr/games/sol
+2
+0
+
+
+GNOME;GTK;Game;CardGame
+solitaire,cards,klondike,spider,freecell,patience
+-gnome-mahjongg.desktop
+Mahjongg
+Disassemble a pile of tiles by removing matching pairs
+gnome-mahjongg
+
+8
+
+gnome-mahjongg
+2
+0
+
+
+GNOME;GTK;Game;BoardGame
+game,strategy,puzzle,board
+-gnome-mines.desktop
+Mines
+Clear hidden mines from a minefield
+gnome-mines
+
+8
+
+gnome-mines
+2
+0
+
+
+GNOME;GTK;Game;LogicGame
+minesweeper
+-gnome-sudoku.desktop
+Sudoku
+Test your logic skills in this number grid puzzle
+gnome-sudoku
+
+8
+
+gnome-sudoku
+2
+0
+
+
+GNOME;GTK;Game;LogicGame
+magic,square
+
++Graphics
+Graphics
+Graphics applications
+applications-graphics
+lxde-graphics.directory
+2
+0
+-evince.desktop
+Document Viewer
+View multi-page documents
+evince
+
+8
+
+evince %U
+2
+0
+evince
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,document,presentation,viewer
+-eog.desktop
+Image Viewer
+Browse and rotate images
+eog
+
+8
+
+eog %U
+2
+0
+eog
+
+GNOME;GTK;Graphics;2DGraphics;RasterGraphics;Viewer
+Picture,Slideshow,Graphics
+-evince-previewer.desktop
+Print Preview
+Preview before printing
+document-print-preview
+
+8
+
+evince-previewer %U
+6
+0
+evince-previewer
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+
+-simple-scan.desktop
+Simple Scan
+Scan Documents
+scanner
+
+8
+Document Scanner
+simple-scan
+2
+0
+
+
+GNOME;GTK;Graphics;Scanning
+scan,scanner,flatbed,adf
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+0
+-org.remmina.Remmina.desktop
+Remmina
+Connect to remote desktops
+remmina
+
+8
+Remote Desktop Client
+/usr/bin/remmina
+0
+0
+/usr/bin/remmina
+
+GTK;GNOME;X-GNOME-NetworkSettings;Network
+remote desktop,rdp,vnc,nx,ssh,spice,xdmcp
+-transmission-gtk.desktop
+Transmission
+Download and share files over BitTorrent
+transmission
+
+8
+BitTorrent Client
+transmission-gtk %U
+2
+0
+transmission-gtk
+
+Network;FileTransfer;P2P;GTK
+
+-lxde-x-www-browser.desktop
+Web Browser
+
+web-browser
+
+8
+X Web Browser
+/usr/bin/x-www-browser %u
+4
+0
+
+
+GTK;WebBrowser;Network
+
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+2
+0
+-evince.desktop
+Document Viewer
+View multi-page documents
+evince
+
+8
+
+evince %U
+2
+0
+evince
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,document,presentation,viewer
+-evince-previewer.desktop
+Print Preview
+Preview before printing
+document-print-preview
+
+8
+
+evince-previewer %U
+6
+0
+evince-previewer
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+
+
++Other
+Other
+Applications that did not fit in other categories
+applications-other
+lxde-other.directory
+2
+0
+-gcr-prompter.desktop
+Access Prompt
+Unlock access to passwords and other secrets
+security-medium
+
+8
+
+/usr/lib/gcr/gcr-prompter
+4
+0
+
+
+
+
+-mount-archive.desktop
+Archive Mounter
+
+
+
+8
+
+/usr/lib/gvfs/gvfsd-archive file=%u
+4
+0
+
+
+
+
+-compiz.desktop
+Compiz
+
+
+
+8
+
+compiz
+4
+0
+
+
+
+
+-nautilus-classic.desktop
+Desktop Icons
+Classic session desktop file for desktop icons
+
+
+8
+
+nautilus-desktop --force
+4
+2
+
+
+
+
+-vino-server.desktop
+Desktop Sharing
+GNOME Desktop Sharing Server
+preferences-desktop-remote-desktop
+
+8
+
+/usr/lib/vino/vino-server --sm-disable
+4
+0
+
+
+
+vnc,share,remote
+-gnome-disk-image-mounter.desktop
+Disk Image Mounter
+Mount Disk Images
+drive-removable-media
+
+8
+
+gnome-disk-image-mounter %U
+4
+0
+
+
+
+
+-gnome-disk-image-writer.desktop
+Disk Image Writer
+Write Disk Images to Devices
+drive-removable-media
+
+8
+
+gnome-disks --restore-disk-image %U
+4
+0
+
+
+
+
+-snap-handle-link.desktop
+Handler for snap:// URIs
+Prompt the user to install gnome-software then pass control to it
+
+
+8
+
+/usr/bin/snap handle-link %U
+4
+0
+
+
+
+
+-ibus-setup-table.desktop
+IBus Table Setup
+Set ibus-table preferences
+/usr/share/ibus-table/icons/chinese.svg
+
+8
+
+/usr/lib/ibus/ibus-setup-table
+6
+0
+
+
+
+
+-ktelnetservice5.desktop
+KTelnetService
+
+utilities-terminal
+
+8
+
+ktelnetservice5 %u
+4
+0
+
+
+
+
+-lxde-logout.desktop
+Logout
+Logout, shutdown or reboot
+gnome-logout
+
+8
+
+lxde-logout
+4
+0
+lxsession-logout
+
+
+
+-nm-applet.desktop
+Network
+Manage your network connections
+nm-device-wireless
+
+8
+
+nm-applet
+4
+-7
+
+
+
+
+-notification-daemon.desktop
+Notification Daemon
+Display notifications
+
+
+8
+
+/usr/lib/notification-daemon/notification-daemon
+4
+0
+
+
+
+
+-unity-lens-photos.desktop
+Photos lens for Unity
+
+unity-lens-photos
+
+6
+unity-lens-photos
+
+0
+-2
+
+
+Photography
+
+-remmina-file.desktop
+Remmina Remote File
+Access remote desktops with Remmina
+remmina
+
+8
+
+/usr/bin/remmina --connect %U
+6
+0
+
+
+
+
+-nautilus-autorun-software.desktop
+Run Software
+
+application-x-executable
+
+8
+
+nautilus-autorun-software %u
+6
+0
+nautilus-autorun-software
+
+
+
+-lxde-screenlock.desktop
+ScreenLock
+Lock your screen
+system-lock-screen
+
+8
+
+lxlock
+4
+0
+lxlock
+
+
+
+-io.snapcraft.SessionAgent.desktop
+Snapd User Session Agent
+
+
+
+8
+
+/bin/false
+4
+0
+
+
+
+
+-gcr-viewer.desktop
+View file
+
+
+
+8
+
+/usr/bin/gcr-viewer
+4
+0
+
+
+
+
+-geoclue-where-am-i.desktop
+Where am I?
+Find your current location
+mark-location-symbolic
+
+8
+Demo geolocation application
+/usr/lib/geoclue-2.0/demos/where-am-i
+5
+0
+
+
+
+geolocation
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+0
+-python2.7.desktop
+Python (v2.7)
+Python Interpreter (v2.7)
+/usr/share/pixmaps/python2.7.xpm
+
+8
+
+/usr/bin/python2.7
+7
+0
+
+
+Development
+
+-python3.6.desktop
+Python (v3.6)
+Python Interpreter (v3.6)
+/usr/share/pixmaps/python3.6.xpm
+
+8
+
+/usr/bin/python3.6
+7
+0
+
+
+Development
+
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-cheese.desktop
+Cheese
+Take photos and videos with your webcam, with fun graphical effects
+org.gnome.Cheese
+
+8
+Webcam Booth
+cheese
+2
+0
+
+
+GNOME;AudioVideo;Video;Recorder
+photo,video,webcam
+-org.gnome.Cheese.desktop
+Cheese
+Take photos and videos with your webcam, with fun graphical effects
+org.gnome.Cheese
+
+8
+Webcam Booth
+cheese
+6
+0
+
+
+GNOME;AudioVideo;Video;Recorder
+photo,video,webcam
+-smplayer_enqueue.desktop
+Enqueue in SMPlayer
+Add file(s) to the SMPlayer playlist
+smplayer
+
+8
+
+smplayer -add-to-playlist %U
+4
+0
+
+
+Qt;KDE;AudioVideo;Player;Video
+
+-lxmusic.desktop
+LXMusic simple music player
+Play your music files easily
+lxmusic
+
+8
+Music Player
+lxmusic
+2
+0
+
+
+AudioVideo;Audio;Player;GTK
+
+-mpv.desktop
+mpv Media Player
+Play movies and songs
+mpv
+
+8
+Multimedia player
+mpv --player-operation-mode=pseudo-gui -- %U
+0
+0
+mpv
+
+AudioVideo;Audio;Video;Player;TV
+mpv,media,player,video,audio,tv
+-pavucontrol.desktop
+PulseAudio Volume Control
+Adjust the volume level
+multimedia-volume-control
+
+8
+Volume Control
+pavucontrol
+2
+0
+
+
+AudioVideo;Audio;Mixer;GTK
+
+-rhythmbox-device.desktop
+Rhythmbox
+Play and organize your music collection
+rhythmbox
+
+8
+Music Player
+rhythmbox-client --select-source %U
+4
+0
+
+
+GNOME;GTK;AudioVideo
+
+-rhythmbox.desktop
+Rhythmbox
+Play and organize your music collection
+rhythmbox
+
+8
+Music Player
+rhythmbox %U
+2
+0
+
+
+GNOME;GTK;AudioVideo;Audio;Player
+Audio,Song,MP3,CD,Podcast,MTP,iPod,Playlist,Last.fm,UPnP,DLNA,Radio
+-smplayer.desktop
+SMPlayer
+A great MPlayer front-end
+smplayer
+
+8
+Media Player
+smplayer %U
+0
+0
+
+
+Qt;KDE;AudioVideo;Player;Video
+movie,player,media,kde,qt
+-org.gnome.Totem.desktop
+Videos
+Play movies
+org.gnome.Totem
+
+8
+
+totem %U
+6
+0
+
+
+GTK;GNOME;AudioVideo;Player;Video
+Video,Movie,Film,Clip,Series,Player,DVD,TV,Disc
+-totem.desktop
+Videos
+Play movies
+org.gnome.Totem
+
+8
+
+totem %U
+2
+0
+
+
+GTK;GNOME;AudioVideo;Player;Video
+Video,Movie,Film,Clip,Series,Player,DVD,TV,Disc
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+0
+-apturl.desktop
+AptURL
+
+
+
+8
+
+apturl %u
+4
+0
+
+
+System
+
+-org.gnome.baobab.desktop
+Disk Usage Analyzer
+Check folder sizes and available disk space
+baobab
+
+8
+
+baobab
+2
+-5
+baobab
+
+GTK;GNOME;System;Filesystem;X-GNOME-Utilities
+storage,space,cleanup
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+8
+File Manager
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-gnome-system-monitor-kde.desktop
+GNOME System Monitor
+View current processes and monitor system state
+utilities-system-monitor
+
+8
+
+gnome-system-monitor
+2
+4
+gnome-system-monitor
+
+GNOME;GTK;System;Monitor
+Monitor,System,Process,CPU,Memory,Network,History,Usage
+-gkbd-keyboard-display.desktop
+Keyboard Layout
+Preview keyboard layouts
+preferences-desktop-keyboard
+
+8
+
+gkbd-keyboard-display
+6
+2
+
+
+GNOME;GTK;Core;System
+
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+8
+Terminal
+lxterminal
+0
+0
+lxterminal
+
+GTK;System;TerminalEmulator
+console,command line,execute
+-org.gnome.PowerStats.desktop
+Power Statistics
+Observe power management
+org.gnome.PowerStats
+
+8
+
+gnome-power-statistics
+2
+66
+
+
+GNOME;GTK;System;Monitor
+battery,consumption,charge
+-gnome-software-local-file.desktop
+Software Install
+Install selected software on the system
+system-software-install
+
+8
+
+gnome-software --local-filename=%f
+6
+0
+
+
+System
+
+-gnome-system-monitor.desktop
+System Monitor
+View current processes and monitor system state
+utilities-system-monitor
+
+8
+
+gnome-system-monitor
+2
+-5
+gnome-system-monitor
+
+GNOME;GTK;System;Monitor
+Monitor,System,Process,CPU,Memory,Network,History,Usage,Performance,Task,Manager,Activity
+-lxtask.desktop
+Task Manager
+Manage running processes
+utilities-system-monitor
+
+8
+Process manager
+lxtask
+2
+0
+
+
+GTK;System;Monitor
+task,kill,suspend,processor,memory,monitoring,performance
+-org.gnome.Terminal.desktop
+Terminal
+Use the command line
+utilities-terminal
+
+8
+
+gnome-terminal
+6
+66
+gnome-terminal
+
+GNOME;GTK;System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-gnome-terminal.desktop
+Terminal
+Use the command line
+utilities-terminal
+
+8
+
+gnome-terminal
+2
+66
+gnome-terminal
+
+GNOME;GTK;System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-lxde-x-terminal-emulator.desktop
+Terminal emulator
+Terminal Emulator
+terminal
+
+8
+Terminal Emulator
+/usr/bin/x-terminal-emulator
+6
+0
+
+
+System;TerminalEmulator;Utility
+
+-debian-uxterm.desktop
+UXTerm
+standard terminal emulator for the X window system
+xterm-color
+
+8
+
+uxterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-debian-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color
+
+8
+
+xterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+
++Universal Access
+Universal Access
+Universal Access Settings
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+2
+0
+-onboard.desktop
+Onboard
+Flexible onscreen keyboard
+onboard
+
+8
+Onboard onscreen keyboard
+onboard
+0
+0
+
+
+Utility;Accessibility
+onscreen,keyboard,accessibility,utility
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+0
+-software-properties-drivers.desktop
+Additional Drivers
+Configure third-party and proprietary drivers
+jockey
+
+8
+
+/usr/bin/software-properties-gtk --open-tab=4
+0
+-7
+
+
+X-XFCE;GTK;Settings;HardwareSettings
+Drivers
+-org.gnome.Software.Editor.desktop
+Banner Designer
+Design the featured banners for GNOME Software
+org.gnome.Software
+
+8
+
+gnome-software-editor
+6
+0
+
+
+GNOME;GTK;System;PackageManager
+AppStream,Software,App
+-lxappearance.desktop
+Customize Look and Feel
+Customizes look and feel of your desktop and applications
+preferences-desktop-theme
+
+8
+Customize Look and Feel
+lxappearance
+2
+-47
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+windows,preferences,settings,theme,style,appearance
+-lxsession-default-apps.desktop
+Default applications for LXSession
+Change the default applications on LXDE
+preferences-desktop
+
+8
+
+lxsession-default-apps
+0
+1
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behavior of desktop manager
+user-desktop
+
+8
+
+pcmanfm --desktop-pref
+2
+-47
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-lxsession-edit.desktop
+Desktop Session Settings
+Manage applications loaded in desktop session
+preferences-desktop
+
+8
+
+lxsession-edit
+0
+1
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-ibus-setup.desktop
+IBus Preferences
+Set IBus Preferences
+ibus-setup
+
+8
+
+ibus-setup
+2
+-67
+
+
+Settings
+keyboard,input
+-im-config.desktop
+Input Method
+Set Keyboard Input Method
+input-keyboard
+
+8
+
+im-config
+0
+6
+
+
+Settings
+keyboard,input
+-lxinput.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+8
+
+lxinput
+2
+-47
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-gnome-language-selector.desktop
+Language Support
+Configure multiple and native language support on your system
+preferences-desktop-locale
+
+8
+
+/usr/bin/gnome-language-selector
+0
+-5
+
+
+GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+Language,Input method,Region,Format
+-software-properties-livepatch.desktop
+Livepatch
+Manage Canonical Livepatch
+livepatch
+
+8
+
+/usr/bin/software-properties-gtk --open-tab=6
+0
+2
+
+
+GTK;Settings;HardwareSettings
+Security,Update
+-lxrandr.desktop
+Monitor Settings
+Change screen resolution and configure external monitors
+video-display
+
+8
+
+lxrandr
+0
+-47
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+screen,display,tv,extend,projector,xrandr,refresh rate,position,enable,disable
+-network.desktop
+Network
+Configure network devices and connections
+preferences-system-network
+
+8
+
+network-admin
+2
+0
+
+
+GNOME;GTK;System;Settings;X-GNOME-NetworkSettings
+
+-nm-connection-editor.desktop
+Network Connections
+Manage and change your network connection settings
+preferences-system-network
+
+8
+
+nm-connection-editor
+2
+-7
+
+
+GNOME;GTK;Settings;X-GNOME-NetworkSettings
+
+-onboard-settings.desktop
+Onboard Settings
+Change Onboard settings
+onboard
+
+8
+Onboard onscreen keyboard settings
+onboard-settings
+0
+0
+
+
+Settings;Accessibility
+onscreen,keyboard,accessibility,utility,settings,configuration
+-obconf.desktop
+Openbox Configuration Manager
+Tweak settings for Openbox
+obconf
+
+8
+Configuration Manager
+obconf %f
+2
+0
+
+
+Settings;DesktopSettings;GTK
+openbox,settings,configurations,themes
+-system-config-printer.desktop
+Printers
+Configure printers
+printer
+
+8
+Printers
+system-config-printer
+2
+-7
+
+
+GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;System;Printing
+Printer,Queue,Print,Paper,Ink,Toner
+-xscreensaver-properties.desktop
+Screensaver
+Change screensaver properties
+xscreensaver
+
+8
+
+xscreensaver-demo
+0
+0
+
+
+Settings;DesktopSettings;Security;X-XFCE
+
+-unity-activity-log-manager-panel.desktop
+Security & Privacy
+Privacy and Activity Manager
+activity-log-manager
+
+8
+
+unity-control-center activity-log-manager
+2
+64
+unity-control-center
+
+GNOME;GTK;System;Archiving;Utility;Settings;X-GNOME-PersonalSettings;X-Unity-Settings-Panel
+privacy,activity,log,zeitgeist,diagnostics,error reports
+-lxhotkey-gtk.desktop
+Setup Hot Keys
+View and change Window Manager global shortcuts
+preferences-desktop-keyboard
+
+8
+
+lxhotkey --gui=gtk
+2
+-47
+
+
+DesktopSettings;Settings;Core;GTK
+hotkey,shortcut,system,settings
+-shares.desktop
+Shared Folders
+Configure which folders are available for your network neighborhood
+folder-remote
+
+8
+
+shares-admin
+6
+0
+
+
+GNOME;GTK;System;Settings;X-GNOME-NetworkSettings
+
+-org.gnome.Software.desktop
+Software
+Add, remove or update software on this computer
+org.gnome.Software
+
+8
+
+gnome-software %U
+2
+0
+
+
+GNOME;GTK;System;PackageManager
+Updates,Upgrade,Sources,Repositories,Preferences,Install,Uninstall,Program,Software,App,Store
+-software-properties-gtk.desktop
+Software & Updates
+Configure the sources for installable software and updates
+software-properties
+
+8
+Software & Updates
+software-properties-gtk
+0
+0
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel
+Drivers,Repositories,Repository,PPA
+-gnome-session-properties.desktop
+Startup Applications
+Choose what applications to start when you log in
+session-properties
+
+8
+
+gnome-session-properties
+2
+66
+
+
+GTK;GNOME;Settings;X-GNOME-PersonalSettings
+
+-time.desktop
+Time and Date
+Change system time, date, and timezone
+time-admin
+
+8
+
+time-admin
+2
+0
+
+
+GNOME;GTK;System;Settings
+
+-users.desktop
+Users and Groups
+Add or remove users and groups
+config-users
+
+8
+
+users-admin
+2
+0
+
+
+GNOME;GTK;System;Settings
+
+
+

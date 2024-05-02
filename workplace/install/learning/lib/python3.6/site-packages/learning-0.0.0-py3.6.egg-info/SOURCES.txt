@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/learning/learning.egg-info/PKG-INFO
+../../build/learning/learning.egg-info/SOURCES.txt
+../../build/learning/learning.egg-info/dependency_links.txt
+../../build/learning/learning.egg-info/entry_points.txt
+../../build/learning/learning.egg-info/requires.txt
+../../build/learning/learning.egg-info/top_level.txt
+../../build/learning/learning.egg-info/zip-safe
+learning/__init__.py
+learning/stand.py
+learning/walktest.py
+resource/learning
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
