@@ -1,4 +1,7 @@
 [console_scripts]
+camera = learning.camera:main
+rgb = learning.rgb_cam_suber:main
 stand = learning.stand:main
+track = learning.track:main
 walktest = learning.walktest:main
 

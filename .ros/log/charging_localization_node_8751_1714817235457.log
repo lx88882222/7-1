@@ -1,0 +1,13 @@
+[INFO] [1714817235.458642120] [charging_localization]: Hello, Charging Localization Now!
+[INFO] [1714817235.548627905] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] threshold_intensity:35000 end
+[INFO] [1714817235.551163186] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] threshold_radius:2 end
+[INFO] [1714817235.553123910] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] threshold_min_dis:0.035 end
+[INFO] [1714817235.554810907] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] threshold_max_dis:0.165 end
+[INFO] [1714817235.555068282] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] high_light_find_num:36 end
+[INFO] [1714817235.555293144] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] scan_topic_name:scan end
+[INFO] [1714817235.555567415] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] publish_topic_name:chargetolidar end
+[INFO] [1714817235.555813077] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] b_activate:0 end
+[INFO] [1714817235.556008820] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] b_refind:1 end
+[INFO] [1714817235.556199027] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] image_topic_name:camera/depth/image_rect_raw end
+[INFO] [1714817235.556403538] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] camerainfo_topic_name:camera/depth/camera_info end
+[INFO] [1714817235.556643056] [az1.charging_localization]: [CHARGING_LOCALIZATION][INITPARAMS] threshold_max_depth:0.7 end

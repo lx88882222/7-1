@@ -5,21 +5,24 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-7a019b1f-608d-4b04-96f8-df91af6afc33
-Extension host agent listening on /tmp/code-7a019b1f-608d-4b04-96f8-df91af6afc33
+Server bound to /tmp/code-90b39d33-9d67-49de-8e0b-8753ae51331b
+Extension host agent listening on /tmp/code-90b39d33-9d67-49de-8e0b-8753ae51331b
 
-[15:06:07] 
-
-
+[21:28:50] 
 
 
-[15:06:07] Extension host agent started.
-[15:06:07] [<unknown>][8840ddec][ExtensionHostConnection] New connection established.
-[15:06:07] [<unknown>][a731083c][ManagementConnection] New connection established.
-[15:06:08] [<unknown>][8840ddec][ExtensionHostConnection] <17709> Launched Extension Host Process.
-[15:06:41] [<unknown>][5080d589][ExtensionHostConnection] New connection established.
-[15:06:41] [<unknown>][5080d589][ExtensionHostConnection] <18200> Launched Extension Host Process.
-[15:06:41] [<unknown>][80497a2f][ManagementConnection] New connection established.
+
+
+[21:28:50] Extension host agent started.
+[21:28:51] [<unknown>][0b42bafb][ExtensionHostConnection] New connection established.
+[21:28:51] [<unknown>][dcbf2134][ManagementConnection] New connection established.
+[21:28:54] [<unknown>][0b42bafb][ExtensionHostConnection] <31763> Launched Extension Host Process.
+[21:28:59] Getting Manifest... ms-python.debugpy
+[21:28:59] Installing extension: ms-python.debugpy
+[21:29:01] Getting Manifest... ms-python.python
+[21:29:09] [<unknown>][559d871d][ManagementConnection] New connection established.
+[21:29:09] [<unknown>][10e2b58c][ExtensionHostConnection] New connection established.
+[21:29:09] [<unknown>][10e2b58c][ExtensionHostConnection] <32158> Launched Extension Host Process.
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
@@ -35,7 +38,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[15:06:43] Error [CodeExpectedError]: Could not find pty on pty host
+[21:29:12] Error [CodeExpectedError]: Could not find pty on pty host
     at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
     at D.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
     at j.<computed> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
@@ -49,3 +52,9 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[21:29:15] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+[21:29:15] Getting Manifest... ms-python.debugpy
+[21:29:15] Getting Manifest... ms-python.python
+[21:29:15] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+[21:29:15] Extension is already requested to install ms-python.debugpy
+[21:29:15] Installing extension: ms-python.python

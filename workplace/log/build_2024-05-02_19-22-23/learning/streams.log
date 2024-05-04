@@ -1,0 +1,28 @@
+[4.120s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
+[5.732s] running egg_info
+[5.734s] writing ../../build/learning/learning.egg-info/PKG-INFO
+[5.735s] writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt
+[5.736s] writing entry points to ../../build/learning/learning.egg-info/entry_points.txt
+[5.739s] writing requirements to ../../build/learning/learning.egg-info/requires.txt
+[5.740s] writing top-level names to ../../build/learning/learning.egg-info/top_level.txt
+[5.755s] reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[5.761s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[5.762s] running build
+[5.764s] running build_py
+[5.764s] copying learning/rgb_cam_suber.py -> /home/mi/workplace/build/learning/build/lib/learning
+[5.765s] running install
+[5.767s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.768s]   setuptools.SetuptoolsDeprecationWarning,
+[5.769s] running install_lib
+[5.774s] copying /home/mi/workplace/build/learning/build/lib/learning/rgb_cam_suber.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[5.776s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/rgb_cam_suber.py to rgb_cam_suber.cpython-36.pyc
+[5.778s] running install_data
+[5.781s] running install_egg_info
+[5.790s] removing '/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[5.791s] Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[5.797s] running install_scripts
+[5.899s] Installing rgb_cam_suber script to /home/mi/workplace/install/learning/lib/learning
+[5.901s] Installing stand script to /home/mi/workplace/install/learning/lib/learning
+[5.901s] Installing walktest script to /home/mi/workplace/install/learning/lib/learning
+[5.903s] writing list of installed files to '/home/mi/workplace/build/learning/install.log'
+[6.025s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed

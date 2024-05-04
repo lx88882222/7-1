@@ -1,0 +1,21 @@
+2024-05-02 22:30:05.789 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-05-02 22:30:08.634 [info] [Info  - 10:30:08 PM] (26621) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-05-02 22:30:08.639 [info] [Info  - 10:30:08 PM] (26621) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-02 22:30:08.643 [info] [Info  - 10:30:08 PM] (26621) Starting service instance "home"
+2024-05-02 22:30:08.960 [info] [Info  - 10:30:08 PM] (26621) Setting pythonPath for service "home": "/home/mi/.venv/bin/python"
+2024-05-02 22:30:08.963 [info] [Info  - 10:30:08 PM] (26621) Setting environmentName for service "home": "3.6.9 (.venv venv)"
+2024-05-02 22:30:09.150 [info] [Info  - 10:30:09 PM] (26621) Assuming Python version 3.6.9.final.0
+2024-05-02 22:30:09.836 [info] [Info  - 10:30:09 PM] (26621) Found 43 source files
+2024-05-02 22:30:11.897 [info] [Info  - 10:30:11 PM] (26621) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-02 22:30:11.900 [info] [Info  - 10:30:11 PM] (26621) Background analysis(1) started
+2024-05-02 22:30:13.224 [info] [Info  - 10:30:13 PM] (26621) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-05-02 22:30:13.225 [info] [Info  - 10:30:13 PM] (26621) Indexing(2) started
+2024-05-02 22:30:17.529 [info] [Info  - 10:30:17 PM] (26621) [IDX(2)] Long operation: scan packages file:///home (4250ms)
+2024-05-02 22:30:17.534 [info] [Info  - 10:30:17 PM] (26621) scanned(2) 143 files over 1 exec env
+2024-05-02 22:30:18.783 [info] [Info  - 10:30:18 PM] (26621) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/track.py (5151ms)
+2024-05-02 22:30:18.793 [info] [Info  - 10:30:18 PM] (26621) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/track.py (6646ms)
+2024-05-02 22:30:25.342 [info] [Info  - 10:30:25 PM] (26621) [IDX(2)] Long operation: indexing: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stubs/networkx/networkx/__init__.pyi (2079ms)
+2024-05-02 22:30:25.384 [info] [Info  - 10:30:25 PM] (26621) [IDX(2)] Long operation: index execution environment file:///home (4102ms)
+2024-05-02 22:30:25.429 [info] [Info  - 10:30:25 PM] (26621) [IDX(2)] Long operation: index packages file:///home (4222ms)
+2024-05-02 22:30:25.430 [info] [Info  - 10:30:25 PM] (26621) indexed(2) 14 files over 1 exec env
+2024-05-02 22:30:25.641 [info] [Info  - 10:30:25 PM] (26621) Indexing finished(2).

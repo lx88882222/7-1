@@ -1,0 +1,96 @@
+2024-05-02 22:26:46.769 [info] 
+
+
+
+
+2024-05-02 22:26:46.769 [info] Extension host agent started.
+2024-05-02 22:26:46.769 [info] [<unknown>][447b6197][ExtensionHostConnection] New connection established.
+2024-05-02 22:26:46.769 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mi/.vscode-server/extensions
+2024-05-02 22:26:46.769 [info] [<unknown>][c53f3118][ManagementConnection] New connection established.
+2024-05-02 22:26:47.199 [info] Installing extensions...
+2024-05-02 22:26:47.953 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mi/.vscode-server/extensions
+2024-05-02 22:26:49.622 [info] [<unknown>][447b6197][ExtensionHostConnection] <23981> Launched Extension Host Process.
+2024-05-02 22:26:51.975 [info] Installing extension 'ms-ceintl.vscode-language-pack-zh-hans'...
+2024-05-02 22:26:52.822 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2024-05-02 22:26:52.882 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+2024-05-02 22:26:53.256 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-02 22:26:53.266 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27683)
+    at j.<computed> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-02 22:27:58.401 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-zh-hans
+2024-05-02 22:27:59.013 [info] Extracted extension to file:///home/mi/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.88.2024041009: ms-ceintl.vscode-language-pack-zh-hans
+2024-05-02 22:27:59.040 [info] Renamed to /home/mi/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.88.2024041009
+2024-05-02 22:27:59.063 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+2024-05-02 22:27:59.082 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2024-05-02 22:27:59.378 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+2024-05-02 22:27:59.385 [info] Extension 'ms-ceintl.vscode-language-pack-zh-hans' v1.88.2024041009 was successfully installed.
+2024-05-02 22:28:05.340 [info] Getting Manifest... ms-python.python
+2024-05-02 22:28:05.425 [info] Installing extension: ms-python.python
+2024-05-02 22:28:06.903 [info] Getting Manifest... ms-python.vscode-pylance
+2024-05-02 22:28:06.953 [info] Getting Manifest... ms-python.debugpy
+2024-05-02 22:28:07.179 [info] Installing extension: ms-python.vscode-pylance
+2024-05-02 22:28:07.180 [info] Installing extension: ms-python.debugpy
+2024-05-02 22:28:39.988 [info] [<unknown>][c9c56e74][ExtensionHostConnection] New connection established.
+2024-05-02 22:28:40.011 [info] [<unknown>][c9c56e74][ExtensionHostConnection] <25449> Launched Extension Host Process.
+2024-05-02 22:28:40.016 [info] [<unknown>][730f26d8][ManagementConnection] New connection established.
+2024-05-02 22:28:42.722 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-02 22:29:13.446 [info] Extension signature is verified: ms-python.debugpy
+2024-05-02 22:29:14.288 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-05-02 22:29:14.319 [info] Extension signature is verified: ms-python.python
+2024-05-02 22:29:18.524 [info] Extracted extension to file:///home/mi/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-arm64: ms-python.debugpy
+2024-05-02 22:29:19.380 [info] Renamed to /home/mi/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-arm64
+2024-05-02 22:29:19.407 [info] Extracting extension completed. ms-python.debugpy
+2024-05-02 22:29:32.025 [info] Extracted extension to file:///home/mi/.vscode-server/extensions/ms-python.python-2024.4.1: ms-python.python
+2024-05-02 22:29:32.059 [info] Renamed to /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1
+2024-05-02 22:29:32.084 [info] Extracting extension completed. ms-python.python
+2024-05-02 22:29:42.486 [info] Extracted extension to file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1: ms-python.vscode-pylance
+2024-05-02 22:29:42.497 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-05-02 22:29:42.517 [info] Renamed to /home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1
+2024-05-02 22:29:42.537 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-05-02 22:29:42.578 [info] Extension installed successfully: ms-python.debugpy
+2024-05-02 22:29:42.580 [info] Extension installed successfully: ms-python.python
+2024-05-02 22:29:42.580 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-05-02 22:31:46.446 [info] New EH opened, aborting shutdown
+2024-05-02 22:33:40.227 [info] [<unknown>][447b6197][ExtensionHostConnection] <23981> Extension Host Process exited with code: 0, signal: null.
+2024-05-03 01:49:15.784 [info] [<unknown>][c9c56e74][ExtensionHostConnection] <25449> Extension Host Process exited with code: 0, signal: null.
+2024-05-03 01:49:15.789 [info] Last EH closed, waiting before shutting down
+2024-05-03 01:54:15.791 [info] Last EH closed, shutting down

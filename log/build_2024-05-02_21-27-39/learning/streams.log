@@ -1,0 +1,58 @@
+[4.236s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning build --build-base /home/mi/build/learning/build install --prefix /home/mi/install/learning --record /home/mi/build/learning/install.log --single-version-externally-managed
+[5.981s] running egg_info
+[5.989s] creating ../../../build/learning/learning.egg-info
+[5.991s] writing ../../../build/learning/learning.egg-info/PKG-INFO
+[5.992s] writing dependency_links to ../../../build/learning/learning.egg-info/dependency_links.txt
+[5.993s] writing entry points to ../../../build/learning/learning.egg-info/entry_points.txt
+[5.994s] writing requirements to ../../../build/learning/learning.egg-info/requires.txt
+[5.995s] writing top-level names to ../../../build/learning/learning.egg-info/top_level.txt
+[5.996s] writing manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[6.007s] reading manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[6.019s] writing manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[6.020s] running build
+[6.021s] running build_py
+[6.021s] creating /home/mi/build/learning/build
+[6.022s] creating /home/mi/build/learning/build/lib
+[6.022s] creating /home/mi/build/learning/build/lib/learning
+[6.023s] copying learning/walktest.py -> /home/mi/build/learning/build/lib/learning
+[6.026s] copying learning/ZED_Tracker_color_range.py -> /home/mi/build/learning/build/lib/learning
+[6.027s] copying learning/__init__.py -> /home/mi/build/learning/build/lib/learning
+[6.027s] copying learning/camera.py -> /home/mi/build/learning/build/lib/learning
+[6.028s] copying learning/stand.py -> /home/mi/build/learning/build/lib/learning
+[6.029s] copying learning/track.py -> /home/mi/build/learning/build/lib/learning
+[6.036s] copying learning/rgb_cam_suber.py -> /home/mi/build/learning/build/lib/learning
+[6.037s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.037s]   setuptools.SetuptoolsDeprecationWarning,
+[6.038s] running install
+[6.039s] running install_lib
+[6.039s] creating /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.040s] copying /home/mi/build/learning/build/lib/learning/walktest.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.040s] copying /home/mi/build/learning/build/lib/learning/ZED_Tracker_color_range.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.040s] copying /home/mi/build/learning/build/lib/learning/__init__.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.041s] copying /home/mi/build/learning/build/lib/learning/camera.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.042s] copying /home/mi/build/learning/build/lib/learning/stand.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.042s] copying /home/mi/build/learning/build/lib/learning/track.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.046s] copying /home/mi/build/learning/build/lib/learning/rgb_cam_suber.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.047s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/walktest.py to walktest.cpython-36.pyc
+[6.048s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/ZED_Tracker_color_range.py to ZED_Tracker_color_range.cpython-36.pyc
+[6.052s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/__init__.py to __init__.cpython-36.pyc
+[6.052s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/camera.py to camera.cpython-36.pyc
+[6.054s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/stand.py to stand.cpython-36.pyc
+[6.054s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/track.py to track.cpython-36.pyc
+[6.055s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/rgb_cam_suber.py to rgb_cam_suber.cpython-36.pyc
+[6.055s] running install_data
+[6.056s] creating /home/mi/install/learning/share/ament_index
+[6.056s] creating /home/mi/install/learning/share/ament_index/resource_index
+[6.057s] creating /home/mi/install/learning/share/ament_index/resource_index/packages
+[6.057s] copying resource/learning -> /home/mi/install/learning/share/ament_index/resource_index/packages
+[6.058s] copying package.xml -> /home/mi/install/learning/share/learning
+[6.058s] running install_egg_info
+[6.063s] Copying ../../../build/learning/learning.egg-info to /home/mi/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[6.068s] running install_scripts
+[6.165s] Installing camera script to /home/mi/install/learning/lib/learning
+[6.166s] Installing rgb_cam_suber script to /home/mi/install/learning/lib/learning
+[6.166s] Installing stand script to /home/mi/install/learning/lib/learning
+[6.167s] Installing track script to /home/mi/install/learning/lib/learning
+[6.168s] Installing walktest script to /home/mi/install/learning/lib/learning
+[6.169s] writing list of installed files to '/home/mi/build/learning/install.log'
+[6.300s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning build --build-base /home/mi/build/learning/build install --prefix /home/mi/install/learning --record /home/mi/build/learning/install.log --single-version-externally-managed

@@ -1,5 +1,0 @@
-1714635177.1929862 [INFO] [launch]: All log files can be found below /home/mi/.ros/log/2024-05-02-15-32-57-176246-mi-desktop-5044
-1714635177.1948118 [INFO] [launch]: Default logging verbosity is set to INFO
-1714635177.6237438 [INFO] [realsense2_camera_node-1]: process started with pid [5070]
-1714635278.3971663 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-1714635279.0202253 [INFO] [realsense2_camera_node-1]: process has finished cleanly [pid 5070]

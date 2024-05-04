@@ -1,31 +1,39 @@
-27/04/24 11:56:00 Xvnc version TightVNC-1.3.10
-27/04/24 11:56:00 Copyright (C) 2000-2009 TightVNC Group
-27/04/24 11:56:00 Copyright (C) 1999 AT&T Laboratories Cambridge
-27/04/24 11:56:00 All Rights Reserved.
-27/04/24 11:56:00 See http://www.tightvnc.com/ for information on TightVNC
-27/04/24 11:56:00 Desktop name 'X' (mi-desktop:1)
-27/04/24 11:56:00 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
-27/04/24 11:56:00 Listening for VNC connections on TCP port 5901
+02/05/24 21:31:26 Xvnc version TightVNC-1.3.10
+02/05/24 21:31:26 Copyright (C) 2000-2009 TightVNC Group
+02/05/24 21:31:26 Copyright (C) 1999 AT&T Laboratories Cambridge
+02/05/24 21:31:26 All Rights Reserved.
+02/05/24 21:31:26 See http://www.tightvnc.com/ for information on TightVNC
+02/05/24 21:31:26 Desktop name 'X' (mi-desktop:1)
+02/05/24 21:31:26 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+02/05/24 21:31:26 Listening for VNC connections on TCP port 5901
 Font directory '/usr/share/fonts/X11/Type1/' not found - ignoring
 Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
 Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring
 /home/mi/.vnc/xstartup: 20: /home/mi/.vnc/xstartup: gnome-panel: not found
-/home/mi/.vnc/xstartup: 21: /home/mi/.vnc/xstartup: gnmoe-settings-daemon: not found
-/home/mi/.vnc/xstartup: 13: /home/mi/.vnc/xstartup: mate-session: not found
 /home/mi/.vnc/xstartup: 22: /home/mi/.vnc/xstartup: metacity: not found
+/home/mi/.vnc/xstartup: 13: /home/mi/.vnc/xstartup: mate-session: not found
+/home/mi/.vnc/xstartup: 21: /home/mi/.vnc/xstartup: gnmoe-settings-daemon: not found
 
-27/04/24 11:56:52 Got connection from client 10.0.0.197
-27/04/24 11:56:52 Using protocol version 3.8
-27/04/24 11:56:52 Enabling TightVNC protocol extensions
-27/04/24 11:56:55 Full-control authentication passed by 10.0.0.197
-27/04/24 11:56:55 Using tight encoding for client 10.0.0.197
-27/04/24 11:56:55 rfbProcessClientNormalMessage: ignoring unknown encoding 16
-27/04/24 11:56:55 Using image quality level 6 for client 10.0.0.197
-27/04/24 11:56:55 rfbProcessClientNormalMessage: ignoring unknown encoding -223
-27/04/24 11:56:55 Enabling LastRect protocol extension for client 10.0.0.197
-27/04/24 11:56:55 Enabling cursor position updates for client 10.0.0.197
-27/04/24 11:56:55 Enabling full-color cursor updates for client 10.0.0.197
+02/05/24 21:31:36 Got connection from client 10.0.0.195
+02/05/24 21:31:36 Using protocol version 3.8
+02/05/24 21:31:36 Enabling TightVNC protocol extensions
+02/05/24 21:31:39 Full-control authentication passed by 10.0.0.195
+02/05/24 21:31:39 Using tight encoding for client 10.0.0.195
+02/05/24 21:31:39 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+02/05/24 21:31:39 Using image quality level 6 for client 10.0.0.195
+02/05/24 21:31:39 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+02/05/24 21:31:39 Enabling LastRect protocol extension for client 10.0.0.195
+02/05/24 21:31:39 Enabling cursor position updates for client 10.0.0.195
+02/05/24 21:31:39 Enabling full-color cursor updates for client 10.0.0.195
+02/05/24 21:41:54 Client 10.0.0.195 gone
+02/05/24 21:41:54 Statistics:
+02/05/24 21:41:54   key events received 0, pointer events 735
+02/05/24 21:41:54   framebuffer updates 362, rectangles 1314, bytes 422214
+02/05/24 21:41:54     LastRect markers 99, bytes 1188
+02/05/24 21:41:54     cursor shape updates 16, bytes 15272
+02/05/24 21:41:54     cursor position updates 1, bytes 12
+02/05/24 21:41:54     copyRect rectangles 191, bytes 3056
+02/05/24 21:41:54     tight rectangles 1007, bytes 402686
+02/05/24 21:41:54   raw bytes equivalent 18040112, compression ratio 44.799452
+Gdk-Message: 21:42:58.432: nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
 
-(nautilus:10912): GVFS-RemoteVolumeMonitor-WARNING **: 16:41:11.991: Owner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(nautilus:10912): GVFS-RemoteVolumeMonitor-WARNING **: 16:41:11.995: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts

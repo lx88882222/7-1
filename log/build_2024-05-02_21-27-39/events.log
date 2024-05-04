@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.012190] (learning) JobQueued: {'identifier': 'learning', 'dependencies': OrderedDict()}
+[0.012492] (learning) JobStarted: {'identifier': 'learning'}
+[0.098297] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.303923] (-) TimerEvent: {}
+[0.405015] (-) TimerEvent: {}
+[0.506003] (-) TimerEvent: {}
+[0.607586] (-) TimerEvent: {}
+[0.709064] (-) TimerEvent: {}
+[0.813599] (-) TimerEvent: {}
+[0.918342] (-) TimerEvent: {}
+[1.019997] (-) TimerEvent: {}
+[1.123306] (-) TimerEvent: {}
+[1.224300] (-) TimerEvent: {}
+[1.325223] (-) TimerEvent: {}
+[1.426135] (-) TimerEvent: {}
+[1.527125] (-) TimerEvent: {}
+[1.628977] (-) TimerEvent: {}
+[1.729849] (-) TimerEvent: {}
+[1.830783] (-) TimerEvent: {}
+[1.931700] (-) TimerEvent: {}
+[2.036463] (-) TimerEvent: {}
+[2.139191] (-) TimerEvent: {}
+[2.242103] (-) TimerEvent: {}
+[2.343168] (-) TimerEvent: {}
+[2.446247] (-) TimerEvent: {}
+[2.549926] (-) TimerEvent: {}
+[2.650862] (-) TimerEvent: {}
+[2.751900] (-) TimerEvent: {}
+[2.852867] (-) TimerEvent: {}
+[2.954030] (-) TimerEvent: {}
+[3.055076] (-) TimerEvent: {}
+[3.156234] (-) TimerEvent: {}
+[3.257352] (-) TimerEvent: {}
+[3.358563] (-) TimerEvent: {}
+[3.460349] (-) TimerEvent: {}
+[3.561795] (-) TimerEvent: {}
+[3.662786] (-) TimerEvent: {}
+[3.764380] (-) TimerEvent: {}
+[3.865382] (-) TimerEvent: {}
+[3.966367] (-) TimerEvent: {}
+[4.067293] (-) TimerEvent: {}
+[4.168350] (-) TimerEvent: {}
+[4.244098] (learning) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/learning', 'build', '--build-base', '/home/mi/build/learning/build', 'install', '--prefix', '/home/mi/install/learning', '--record', '/home/mi/build/learning/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/workplace/src/learning', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.168 45132 22', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'SHLVL': '1', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'SSH_TTY': '/dev/pts/37', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mi/workplace/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '6', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros2/cyberdog/bin:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mi/workplace/install/learning:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'PWD': '/home/mi/build/learning', 'SSH_CONNECTION': '10.0.0.168 45132 10.0.0.168 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/install/learning/lib/python3.6/site-packages:/home/mi/workplace/install/learning/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[4.270520] (-) TimerEvent: {}
+[4.372304] (-) TimerEvent: {}
+[4.473239] (-) TimerEvent: {}
+[4.574221] (-) TimerEvent: {}
+[4.675420] (-) TimerEvent: {}
+[4.776757] (-) TimerEvent: {}
+[4.877659] (-) TimerEvent: {}
+[4.979846] (-) TimerEvent: {}
+[5.080836] (-) TimerEvent: {}
+[5.181725] (-) TimerEvent: {}
+[5.282763] (-) TimerEvent: {}
+[5.383980] (-) TimerEvent: {}
+[5.485024] (-) TimerEvent: {}
+[5.586064] (-) TimerEvent: {}
+[5.687106] (-) TimerEvent: {}
+[5.788260] (-) TimerEvent: {}
+[5.889169] (-) TimerEvent: {}
+[5.991234] (-) TimerEvent: {}
+[5.992434] (learning) StdoutLine: {'line': b'running egg_info\n'}
+[6.000186] (learning) StdoutLine: {'line': b'creating ../../../build/learning/learning.egg-info\n'}
+[6.002650] (learning) StdoutLine: {'line': b'writing ../../../build/learning/learning.egg-info/PKG-INFO\n'}
+[6.003854] (learning) StdoutLine: {'line': b'writing dependency_links to ../../../build/learning/learning.egg-info/dependency_links.txt\n'}
+[6.004935] (learning) StdoutLine: {'line': b'writing entry points to ../../../build/learning/learning.egg-info/entry_points.txt\n'}
+[6.005514] (learning) StdoutLine: {'line': b'writing requirements to ../../../build/learning/learning.egg-info/requires.txt\n'}
+[6.006965] (learning) StdoutLine: {'line': b'writing top-level names to ../../../build/learning/learning.egg-info/top_level.txt\n'}
+[6.008526] (learning) StdoutLine: {'line': b"writing manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'\n"}
+[6.018912] (learning) StdoutLine: {'line': b"reading manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'\n"}
+[6.028360] (learning) StdoutLine: {'line': b"writing manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'\n"}
+[6.032332] (learning) StdoutLine: {'line': b'running build\n'}
+[6.032891] (learning) StdoutLine: {'line': b'running build_py\n'}
+[6.033600] (learning) StdoutLine: {'line': b'creating /home/mi/build/learning/build\n'}
+[6.034041] (learning) StdoutLine: {'line': b'creating /home/mi/build/learning/build/lib\n'}
+[6.034474] (learning) StdoutLine: {'line': b'creating /home/mi/build/learning/build/lib/learning\n'}
+[6.034951] (learning) StdoutLine: {'line': b'copying learning/walktest.py -> /home/mi/build/learning/build/lib/learning\n'}
+[6.035390] (learning) StdoutLine: {'line': b'copying learning/ZED_Tracker_color_range.py -> /home/mi/build/learning/build/lib/learning\n'}
+[6.038944] (learning) StdoutLine: {'line': b'copying learning/__init__.py -> /home/mi/build/learning/build/lib/learning\n'}
+[6.039435] (learning) StdoutLine: {'line': b'copying learning/camera.py -> /home/mi/build/learning/build/lib/learning\n'}
+[6.040108] (learning) StdoutLine: {'line': b'copying learning/stand.py -> /home/mi/build/learning/build/lib/learning\n'}
+[6.040616] (learning) StdoutLine: {'line': b'copying learning/track.py -> /home/mi/build/learning/build/lib/learning\n'}
+[6.042223] (learning) StdoutLine: {'line': b'copying learning/rgb_cam_suber.py -> /home/mi/build/learning/build/lib/learning\n'}
+[6.048694] (learning) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.049460] (learning) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[6.050025] (learning) StdoutLine: {'line': b'running install\n'}
+[6.050586] (learning) StdoutLine: {'line': b'running install_lib\n'}
+[6.051296] (learning) StdoutLine: {'line': b'creating /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.051845] (learning) StdoutLine: {'line': b'copying /home/mi/build/learning/build/lib/learning/walktest.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.052327] (learning) StdoutLine: {'line': b'copying /home/mi/build/learning/build/lib/learning/ZED_Tracker_color_range.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.052773] (learning) StdoutLine: {'line': b'copying /home/mi/build/learning/build/lib/learning/__init__.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.053202] (learning) StdoutLine: {'line': b'copying /home/mi/build/learning/build/lib/learning/camera.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.053967] (learning) StdoutLine: {'line': b'copying /home/mi/build/learning/build/lib/learning/stand.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.054390] (learning) StdoutLine: {'line': b'copying /home/mi/build/learning/build/lib/learning/track.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.054827] (learning) StdoutLine: {'line': b'copying /home/mi/build/learning/build/lib/learning/rgb_cam_suber.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning\n'}
+[6.059053] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/walktest.py to walktest.cpython-36.pyc\n'}
+[6.059892] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/ZED_Tracker_color_range.py to ZED_Tracker_color_range.cpython-36.pyc\n'}
+[6.060410] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/__init__.py to __init__.cpython-36.pyc\n'}
+[6.064497] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/camera.py to camera.cpython-36.pyc\n'}
+[6.065499] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/stand.py to stand.cpython-36.pyc\n'}
+[6.066388] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/track.py to track.cpython-36.pyc\n'}
+[6.067155] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/rgb_cam_suber.py to rgb_cam_suber.cpython-36.pyc\n'}
+[6.067608] (learning) StdoutLine: {'line': b'running install_data\n'}
+[6.068197] (learning) StdoutLine: {'line': b'creating /home/mi/install/learning/share/ament_index\n'}
+[6.068643] (learning) StdoutLine: {'line': b'creating /home/mi/install/learning/share/ament_index/resource_index\n'}
+[6.069198] (learning) StdoutLine: {'line': b'creating /home/mi/install/learning/share/ament_index/resource_index/packages\n'}
+[6.069634] (learning) StdoutLine: {'line': b'copying resource/learning -> /home/mi/install/learning/share/ament_index/resource_index/packages\n'}
+[6.070085] (learning) StdoutLine: {'line': b'copying package.xml -> /home/mi/install/learning/share/learning\n'}
+[6.070596] (learning) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.075378] (learning) StdoutLine: {'line': b'Copying ../../../build/learning/learning.egg-info to /home/mi/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info\n'}
+[6.079911] (learning) StdoutLine: {'line': b'running install_scripts\n'}
+[6.092327] (-) TimerEvent: {}
+[6.176006] (learning) StdoutLine: {'line': b'Installing camera script to /home/mi/install/learning/lib/learning\n'}
+[6.177668] (learning) StdoutLine: {'line': b'Installing rgb_cam_suber script to /home/mi/install/learning/lib/learning\n'}
+[6.178593] (learning) StdoutLine: {'line': b'Installing stand script to /home/mi/install/learning/lib/learning\n'}
+[6.179175] (learning) StdoutLine: {'line': b'Installing track script to /home/mi/install/learning/lib/learning\n'}
+[6.179819] (learning) StdoutLine: {'line': b'Installing walktest script to /home/mi/install/learning/lib/learning\n'}
+[6.180600] (learning) StdoutLine: {'line': b"writing list of installed files to '/home/mi/build/learning/install.log'\n"}
+[6.192726] (-) TimerEvent: {}
+[6.310786] (learning) CommandEnded: {'returncode': 0}
+[6.315240] (-) TimerEvent: {}
+[6.387102] (learning) JobEnded: {'identifier': 'learning', 'rc': 0}
+[6.392319] (-) EventReactorShutdown: {}

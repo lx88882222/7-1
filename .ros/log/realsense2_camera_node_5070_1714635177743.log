@@ -1,5 +1,0 @@
-[INFO] [1714635177.829619138] [camera.camera]: 
-	camera lifecycle node launched. 
-	Waiting on external lifecycle transitions to activate
-	See https://design.ros2.org/articles/node_lifecycle.html for more information.
-[INFO] [1714635278.396353990] [rclcpp]: signal_handler(signal_value=2)

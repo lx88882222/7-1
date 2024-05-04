@@ -1,8 +1,0 @@
-{
-    "workbench.colorTheme": "Default Light Modern",
-    "remote.SSH.remotePlatform": {
-        "10.0.0.123": "linux",
-        "10.0.0.170": "linux"
-    },
-    "security.workspace.trust.untrustedFiles": "open"
-}

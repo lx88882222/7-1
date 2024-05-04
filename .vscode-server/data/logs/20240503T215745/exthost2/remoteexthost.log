@@ -1,0 +1,68 @@
+2024-05-03 21:59:19.724 [info] Extension host with pid 12466 started
+2024-05-03 21:59:19.793 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock': Lock acquired.
+2024-05-03 21:59:19.816 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-03 21:59:20.096 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-03 21:59:20.191 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-03 21:59:20.193 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-03 21:59:21.460 [info] Eager extensions activated
+2024-05-03 21:59:21.461 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-03 21:59:21.464 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-03 21:59:21.466 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-05-03 21:59:21.468 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-03 21:59:37.974 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6179
+2024-05-03 21:59:45.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6179
+2024-05-03 21:59:57.994 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-05-03 22:01:34.023 [error] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-03 22:01:37.512 [error] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-03 22:01:52.140 [error] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-03 22:10:26.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6214
+2024-05-03 22:10:38.646 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6214
+2024-05-03 22:17:40.343 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:17:48.821 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:17:57.443 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:18:05.988 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:18:14.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:18:31.909 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:18:40.466 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:18:49.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:18:57.459 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:19:05.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:19:14.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:19:22.788 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:21:54.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:22:03.184 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6226
+2024-05-03 22:22:25.805 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6233
+2024-05-03 22:22:34.397 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6233
+2024-05-03 22:22:43.110 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6233
+2024-05-03 22:22:51.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:23:00.136 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:23:08.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:23:17.163 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:24:09.838 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:24:18.277 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:24:26.688 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:24:40.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:24:48.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:24:57.405 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:28:09.420 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:28:17.941 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:28:26.464 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:28:45.660 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6234
+2024-05-03 22:28:54.835 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6235
+2024-05-03 22:29:03.331 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6235
+2024-05-03 22:29:17.390 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6235
+2024-05-03 22:29:25.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6236
+2024-05-03 22:29:34.460 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6236
+2024-05-03 22:29:43.081 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6236
+2024-05-03 22:29:51.613 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6236
+2024-05-03 22:30:00.143 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6237
+2024-05-03 22:30:08.686 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6237
+2024-05-03 22:30:17.324 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6237
+2024-05-03 22:30:25.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6238
+2024-05-03 22:31:42.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6238
+2024-05-03 22:31:44.974 [error] Error: read ECONNRESET
+    at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-03 22:31:51.640 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6238

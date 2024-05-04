@@ -1,0 +1,17 @@
+2024-05-04 18:02:05.071 [info] Extension host with pid 18984 started
+2024-05-04 18:02:05.142 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock': Lock acquired.
+2024-05-04 18:02:05.166 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-04 18:02:05.516 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-04 18:02:05.597 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-04 18:02:05.599 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-04 18:02:06.109 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-04 18:02:06.113 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-04 18:02:06.982 [info] Eager extensions activated
+2024-05-04 18:02:06.985 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-04 18:02:06.989 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-04 18:02:06.991 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-05-04 18:02:06.994 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-04 18:02:19.640 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6321
+2024-05-04 18:02:26.422 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6321
+2024-05-04 18:02:55.877 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-05-04 18:06:18.712 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6332

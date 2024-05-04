@@ -1,0 +1,350 @@
+1714817234.2921510 [INFO] [launch]: All log files can be found below /home/mi/.ros/log/2024-05-04-18-07-14-273634-mi-desktop-8455
+1714817234.2941144 [INFO] [launch]: Default logging verbosity is set to INFO
+1714817234.3807249 [INFO] [launch.user]: mi 正在初始化 launch ...
+1714817234.3820775 [INFO] [launch.user]: 正在加载 launch 文件:/opt/ros2/cyberdog/share/cyberdog_bringup/launch/base.launch.py
+1714817237.0325508 [INFO] [launch.user]: mi 正在初始化 base launch ...
+1714817237.1119945 [INFO] [launch.user]: 正在加载 launch 文件:/opt/ros2/cyberdog/share/navigation_bringup/launch/navigation.launch.py
+1714817237.1935461 [INFO] [launch.user]: navigation sleep ...
+1714817239.3341644 [INFO] [cyberdog_vp_engine-12]: process started with pid [9287]
+1714817239.3658571 [INFO] [stereo_camera-20]: process started with pid [9377]
+1714817239.4729147 [INFO] [connector-1]: process started with pid [9248]
+1714817239.4794745 [INFO] [cyberdog_audio-2]: process started with pid [9249]
+1714817239.5000508 [INFO] [device_manager-3]: process started with pid [9251]
+1714817239.5147192 [INFO] [sensor_manager-4]: process started with pid [9253]
+1714817239.5417981 [INFO] [motion_manager-5]: process started with pid [9257]
+1714817239.5472395 [INFO] [realsense2_actuator_node-6]: process started with pid [9267]
+1714817239.5601916 [INFO] [cyberdog_manager-7]: process started with pid [9270]
+1714817239.5722303 [INFO] [odom_out_publisher-8]: process started with pid [9274]
+1714817239.5728383 [INFO] [motor_bridge-9]: process started with pid [9275]
+1714817239.5879428 [INFO] [app_server-10]: process started with pid [9276]
+1714817239.6040070 [INFO] [bes_transmit_waiter-11]: process started with pid [9277]
+1714817239.6231797 [INFO] [cyberdog_face-13]: process started with pid [9307]
+1714817239.6240401 [INFO] [cyberdog_action-14]: process started with pid [9337]
+1714817239.6335280 [INFO] [cyberdog_interactive-15]: process started with pid [9360]
+1714817239.6425595 [INFO] [cyberdog_train-16]: process started with pid [9361]
+1714817239.6433206 [INFO] [cyberdog_ai_sports-17]: process started with pid [9363]
+1714817239.6566076 [INFO] [camera_server-18]: process started with pid [9366]
+1714817239.6679938 [INFO] [vision_manager-19]: process started with pid [9376]
+1714817244.8816078 [vision_manager-19] [INFO] [1714817244.756639145] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817244.8858862 [vision_manager-19] [INFO] [1714817244.757069030] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817244.8883688 [vision_manager-19] [INFO] [1714817244.757193990] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817244.8888597 [vision_manager-19] [INFO] [1714817244.757292197] [vision_manager cyberdog_model]: module_name: auto_track
+1714817244.8892012 [vision_manager-19] [INFO] [1714817244.757389380] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/auto_track/
+1714817244.8894911 [vision_manager-19] [INFO] [1714817244.757487716] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/auto_track/temp/
+1714817244.8897951 [vision_manager-19] [INFO] [1714817244.758439230] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817244.8992686 [vision_manager-19] [INFO] [1714817244.758595709] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817244.8997905 [vision_manager-19] [INFO] [1714817244.758702172] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817244.9001348 [vision_manager-19] [INFO] [1714817244.758874491] [vision_manager cyberdog_model]: module_name: body_gesture
+1714817244.9039903 [vision_manager-19] [INFO] [1714817244.758979387] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/body_gesture/
+1714817244.9050977 [vision_manager-19] [INFO] [1714817244.759075994] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/body_gesture/temp/
+1714817244.9060152 [vision_manager-19] [INFO] [1714817244.760005460] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817244.9069452 [vision_manager-19] [INFO] [1714817244.760149332] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817244.9073718 [vision_manager-19] [INFO] [1714817244.760247251] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817244.9139986 [vision_manager-19] [INFO] [1714817244.760346610] [vision_manager cyberdog_model]: module_name: face_recognition/age
+1714817244.9165046 [vision_manager-19] [INFO] [1714817244.760442578] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/age/
+1714817244.9302487 [vision_manager-19] [INFO] [1714817244.760544529] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/age/temp/
+1714817244.9307268 [vision_manager-19] [INFO] [1714817244.761427884] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817244.9311981 [vision_manager-19] [INFO] [1714817244.761572971] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817244.9319022 [vision_manager-19] [INFO] [1714817244.761672650] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817244.9322536 [vision_manager-19] [INFO] [1714817244.802046099] [vision_manager cyberdog_model]: module_name: face_recognition/detect
+1714817244.9331908 [vision_manager-19] [INFO] [1714817244.802194322] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/detect/
+1714817244.9335523 [vision_manager-19] [INFO] [1714817244.802321074] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/detect/temp/
+1714817244.9339738 [vision_manager-19] [INFO] [1714817244.805191616] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817244.9342861 [vision_manager-19] [INFO] [1714817244.805389887] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817244.9345744 [vision_manager-19] [INFO] [1714817244.806478488] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817244.9360495 [vision_manager-19] [INFO] [1714817244.806694007] [vision_manager cyberdog_model]: module_name: face_recognition/emotion
+1714817244.9381299 [vision_manager-19] [INFO] [1714817244.806859766] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/emotion/
+1714817244.9385605 [vision_manager-19] [INFO] [1714817244.806974229] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/emotion/temp/
+1714817244.9391518 [vision_manager-19] [INFO] [1714817244.807945935] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817244.9399099 [vision_manager-19] [INFO] [1714817244.808081838] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817244.9406433 [vision_manager-19] [INFO] [1714817244.808181006] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817244.9409604 [vision_manager-19] [INFO] [1714817244.808276589] [vision_manager cyberdog_model]: module_name: face_recognition/feature
+1714817244.9412556 [vision_manager-19] [INFO] [1714817244.808372492] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/feature/
+1714817244.9415553 [vision_manager-19] [INFO] [1714817244.808473644] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/feature/temp/
+1714817244.9418280 [vision_manager-19] [INFO] [1714817244.809318215] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817244.9425843 [vision_manager-19] [INFO] [1714817244.809441126] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817244.9472458 [vision_manager-19] [INFO] [1714817244.809548357] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817244.9477212 [vision_manager-19] [INFO] [1714817244.809649125] [vision_manager cyberdog_model]: module_name: face_recognition/landmark
+1714817245.0059094 [vision_manager-19] [INFO] [1714817244.809750468] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/landmark/
+1714817245.0063858 [vision_manager-19] [INFO] [1714817244.809859043] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/landmark/temp/
+1714817245.0066881 [vision_manager-19] [INFO] [1714817244.810734334] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817245.0071311 [vision_manager-19] [INFO] [1714817244.811925367] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817245.0074220 [vision_manager-19] [INFO] [1714817244.812035958] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817245.0076995 [vision_manager-19] [INFO] [1714817244.812136373] [vision_manager cyberdog_model]: module_name: keypoints_detection
+1714817245.0079908 [vision_manager-19] [INFO] [1714817244.812232117] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/keypoints_detection/
+1714817245.0082593 [vision_manager-19] [INFO] [1714817244.812333012] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/keypoints_detection/temp/
+1714817245.0085232 [vision_manager-19] [INFO] [1714817244.813261903] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1714817245.0088108 [vision_manager-19] [INFO] [1714817244.813403374] [vision_manager cyberdog_model]: is_specified_version: 0
+1714817245.0091381 [vision_manager-19] [INFO] [1714817244.813501773] [vision_manager cyberdog_model]: specified_version: 0.0
+1714817245.0094061 [vision_manager-19] [INFO] [1714817244.813593165] [vision_manager cyberdog_model]: module_name: person_reid
+1714817245.0106881 [vision_manager-19] [INFO] [1714817244.813688812] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/person_reid/
+1714817245.0126419 [vision_manager-19] [INFO] [1714817244.813784747] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/person_reid/temp/
+1714817245.0152965 [vision_manager-19] [INFO] [1714817244.944474476] [az1.vision_manager]: Vision manager constructor complated.
+1714817245.8720274 [camera_server-18] [INFO] [1714817245.870848967] [MainCameraNode]: CameraServerNode: Creating node camera_server.
+1714817246.5037353 [camera_server-18] [INFO] [1714817246.474798808] [uninitialized WebRTCManager]: WebRTCManager has been created
+1714817246.5346606 [camera_server-18] [INFO] [1714817246.475181333] [CameraContext]: initialize: initialize
+1714817246.5353589 [camera_server-18] [INFO] [1714817246.475552947] [MainCameraNode]: on_configure: camera_server Configuring
+1714817246.5358064 [camera_server-18] [INFO] [1714817246.481747245] [CameraContext]: createSession: createSession
+1714817246.5515440 [camera_server-18] [INFO] [1714817246.481998604] [MainCameraNode]: on_activate: camera_server Activating
+1714817246.8622029 [vision_manager-19] [INFO] [1714817246.846690292] [az1.vision_manager]: Received signal to download model. 
+1714817246.8633931 [vision_manager-19] [INFO] [1714817246.847151057] [az1.vision_manager]: Internet is ready, begin to download model.
+1714817246.8739562 [vision_manager-19] [INFO] [1714817246.847380816] [vision_manager cyberdog_model]: update models fuc begin
+1714817246.8803573 [vision_manager-19] [INFO] [1714817246.847511407] [vision_manager cyberdog_model]: init fuc
+1714817247.5112078 [vision_manager-19] [INFO] [1714817247.300753338] [vision_manager cyberdog_model]: auto_track has 2 versions in fsd
+1714817247.5322449 [vision_manager-19] [INFO] [1714817247.301002136] [vision_manager cyberdog_model]: read model version in toml file
+1714817247.5414622 [vision_manager-19] [INFO] [1714817247.301143383] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817247.5419388 [vision_manager-19] [INFO] [1714817247.322941010] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817247.5422604 [vision_manager-19] [INFO] [1714817247.323203696] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817247.5425956 [vision_manager-19] [INFO] [1714817247.323732013] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/auto_track/temp/version.toml do not exist!
+1714817247.5669899 [vision_manager-19] [INFO] [1714817247.323874924] [vision_manager cyberdog_model]: obj: 1.0/
+1714817247.5675974 [vision_manager-19] [INFO] [1714817247.325044229] [vision_manager cyberdog_model]: obj: 1.1/
+1714817247.5679400 [vision_manager-19] [INFO] [1714817247.325186340] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817247.5682468 [vision_manager-19] [INFO] [1714817247.325290947] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817247.5685878 [vision_manager-19] [INFO] [1714817247.325392291] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817247.6006351 [vision_manager-19] [INFO] [1714817247.325493986] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817247.6011393 [vision_manager-19] [INFO] [1714817247.325590338] [vision_manager cyberdog_model]: do not need download
+1714817247.6014764 [vision_manager-19] [ERROR] [1714817247.325683265] [vision_manager cyberdog_model]: download failed or do not need download
+1714817247.6017773 [vision_manager-19] [ERROR] [1714817247.325814752] [az1.vision_manager]: Download model from Fds fail. 
+1714817247.6020558 [vision_manager-19] [INFO] [1714817247.326036127] [vision_manager cyberdog_model]: update models fuc begin
+1714817247.6023459 [vision_manager-19] [INFO] [1714817247.326142526] [vision_manager cyberdog_model]: init fuc
+1714817247.9442453 [vision_manager-19] [INFO] [1714817247.692425757] [vision_manager cyberdog_model]: body_gesture has 2 versions in fsd
+1714817247.9461768 [vision_manager-19] [INFO] [1714817247.692668891] [vision_manager cyberdog_model]: read model version in toml file
+1714817247.9540329 [vision_manager-19] [INFO] [1714817247.692831290] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817247.9553895 [vision_manager-19] [INFO] [1714817247.697285311] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817247.9557934 [vision_manager-19] [INFO] [1714817247.697517918] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817247.9561195 [vision_manager-19] [INFO] [1714817247.697679581] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/body_gesture/temp/version.toml do not exist!
+1714817247.9568577 [vision_manager-19] [INFO] [1714817247.719180121] [vision_manager cyberdog_model]: obj: 1.0/
+1714817247.9577239 [vision_manager-19] [INFO] [1714817247.721082574] [vision_manager cyberdog_model]: obj: 1.1/
+1714817247.9584947 [vision_manager-19] [INFO] [1714817247.721212717] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817247.9593806 [vision_manager-19] [INFO] [1714817247.721325100] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817247.9601545 [vision_manager-19] [INFO] [1714817247.721452043] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817247.9608760 [vision_manager-19] [INFO] [1714817247.721559499] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817247.9615808 [vision_manager-19] [INFO] [1714817247.721659082] [vision_manager cyberdog_model]: do not need download
+1714817247.9619017 [vision_manager-19] [ERROR] [1714817247.721842857] [vision_manager cyberdog_model]: download failed or do not need download
+1714817247.9621837 [vision_manager-19] [ERROR] [1714817247.721964136] [az1.vision_manager]: Download model from Fds fail. 
+1714817247.9624710 [vision_manager-19] [INFO] [1714817247.725707313] [vision_manager cyberdog_model]: update models fuc begin
+1714817247.9627328 [vision_manager-19] [INFO] [1714817247.725826673] [vision_manager cyberdog_model]: init fuc
+1714817248.1626961 [vision_manager-19] [INFO] [1714817248.160689868] [vision_manager cyberdog_model]: face_recognition/age has 2 versions in fsd
+1714817248.1655374 [vision_manager-19] [INFO] [1714817248.160929994] [vision_manager cyberdog_model]: read model version in toml file
+1714817248.1659276 [vision_manager-19] [INFO] [1714817248.161075721] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817248.1719620 [vision_manager-19] [INFO] [1714817248.164812210] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817248.1724188 [vision_manager-19] [INFO] [1714817248.166121482] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817248.1727140 [vision_manager-19] [INFO] [1714817248.166291209] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/age/temp/version.toml do not exist!
+1714817248.1729844 [vision_manager-19] [INFO] [1714817248.166439976] [vision_manager cyberdog_model]: obj: 1.0/
+1714817248.1732953 [vision_manager-19] [INFO] [1714817248.166552968] [vision_manager cyberdog_model]: obj: 1.1/
+1714817248.1735759 [vision_manager-19] [INFO] [1714817248.166665063] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817248.1798384 [vision_manager-19] [INFO] [1714817248.173883707] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817248.1821837 [vision_manager-19] [INFO] [1714817248.174129305] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817248.1831546 [vision_manager-19] [INFO] [1714817248.174250361] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817248.1838729 [vision_manager-19] [INFO] [1714817248.174352888] [vision_manager cyberdog_model]: do not need download
+1714817248.1844890 [vision_manager-19] [ERROR] [1714817248.174455031] [vision_manager cyberdog_model]: download failed or do not need download
+1714817248.1850767 [vision_manager-19] [ERROR] [1714817248.174561815] [az1.vision_manager]: Download model from Fds fail. 
+1714817248.1904194 [vision_manager-19] [INFO] [1714817248.180940304] [vision_manager cyberdog_model]: update models fuc begin
+1714817248.1914432 [vision_manager-19] [INFO] [1714817248.181084047] [vision_manager cyberdog_model]: init fuc
+1714817248.3513868 [vision_manager-19] [INFO] [1714817248.342781841] [vision_manager cyberdog_model]: face_recognition/detect has 2 versions in fsd
+1714817248.3523362 [vision_manager-19] [INFO] [1714817248.343033936] [vision_manager cyberdog_model]: read model version in toml file
+1714817248.3528297 [vision_manager-19] [INFO] [1714817248.343213231] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817248.3533373 [vision_manager-19] [INFO] [1714817248.345612960] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817248.3562720 [vision_manager-19] [INFO] [1714817248.345804383] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817248.3567939 [vision_manager-19] [INFO] [1714817248.345992958] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/detect/temp/version.toml do not exist!
+1714817248.3574026 [vision_manager-19] [INFO] [1714817248.346132317] [vision_manager cyberdog_model]: obj: 1.0/
+1714817248.3983450 [vision_manager-19] [INFO] [1714817248.346239036] [vision_manager cyberdog_model]: obj: 1.1/
+1714817248.4092264 [vision_manager-19] [INFO] [1714817248.346344700] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817248.4159067 [vision_manager-19] [INFO] [1714817248.346452027] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817248.4172399 [vision_manager-19] [INFO] [1714817248.346552218] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817248.4188061 [vision_manager-19] [INFO] [1714817248.346657562] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817248.4418030 [vision_manager-19] [INFO] [1714817248.348290288] [vision_manager cyberdog_model]: do not need download
+1714817248.4425287 [vision_manager-19] [ERROR] [1714817248.348449103] [vision_manager cyberdog_model]: download failed or do not need download
+1714817248.4431989 [vision_manager-19] [ERROR] [1714817248.348573966] [az1.vision_manager]: Download model from Fds fail. 
+1714817248.4438350 [vision_manager-19] [INFO] [1714817248.348877580] [vision_manager cyberdog_model]: update models fuc begin
+1714817248.4464071 [vision_manager-19] [INFO] [1714817248.348989803] [vision_manager cyberdog_model]: init fuc
+1714817248.6430640 [vision_manager-19] [INFO] [1714817248.626275787] [vision_manager cyberdog_model]: face_recognition/emotion has 1 versions in fsd
+1714817248.6498933 [vision_manager-19] [INFO] [1714817248.640143542] [vision_manager cyberdog_model]: read model version in toml file
+1714817248.6508853 [vision_manager-19] [INFO] [1714817248.640386932] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817248.6553922 [vision_manager-19] [INFO] [1714817248.643963326] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817248.6560235 [vision_manager-19] [INFO] [1714817248.644416316] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817248.6568551 [vision_manager-19] [INFO] [1714817248.644607930] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/emotion/temp/version.toml do not exist!
+1714817248.6573489 [vision_manager-19] [INFO] [1714817248.644751258] [vision_manager cyberdog_model]: obj: 1.1/
+1714817248.6577873 [vision_manager-19] [INFO] [1714817248.644865913] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817248.6585956 [vision_manager-19] [INFO] [1714817248.644970488] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817248.6590092 [vision_manager-19] [INFO] [1714817248.645071000] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817248.6600385 [vision_manager-19] [INFO] [1714817248.645176727] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817248.6603646 [vision_manager-19] [INFO] [1714817248.645274070] [vision_manager cyberdog_model]: do not need download
+1714817248.6810884 [vision_manager-19] [ERROR] [1714817248.645368598] [vision_manager cyberdog_model]: download failed or do not need download
+1714817248.6826429 [vision_manager-19] [ERROR] [1714817248.645473813] [az1.vision_manager]: Download model from Fds fail. 
+1714817248.6902580 [vision_manager-19] [INFO] [1714817248.645706900] [vision_manager cyberdog_model]: update models fuc begin
+1714817248.6908941 [vision_manager-19] [INFO] [1714817248.645814195] [vision_manager cyberdog_model]: init fuc
+1714817248.8468034 [vision_manager-19] [INFO] [1714817248.835657929] [vision_manager cyberdog_model]: face_recognition/feature has 2 versions in fsd
+1714817248.8676119 [vision_manager-19] [INFO] [1714817248.835904360] [vision_manager cyberdog_model]: read model version in toml file
+1714817248.8679600 [vision_manager-19] [INFO] [1714817248.836060455] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817248.8682442 [vision_manager-19] [INFO] [1714817248.837977211] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817248.8685145 [vision_manager-19] [INFO] [1714817248.842160194] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817248.8687785 [vision_manager-19] [INFO] [1714817248.842356448] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/feature/temp/version.toml do not exist!
+1714817248.8809118 [vision_manager-19] [INFO] [1714817248.842518815] [vision_manager cyberdog_model]: obj: 1.1/
+1714817248.8850520 [vision_manager-19] [INFO] [1714817248.842623327] [vision_manager cyberdog_model]: obj: 1/
+1714817248.8858020 [vision_manager-19] [INFO] [1714817248.842722494] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817248.8861747 [vision_manager-19] [INFO] [1714817248.842880125] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817248.8865027 [vision_manager-19] [INFO] [1714817248.854426711] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817248.8868599 [vision_manager-19] [INFO] [1714817248.867107913] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817248.8874094 [vision_manager-19] [INFO] [1714817248.867349544] [vision_manager cyberdog_model]: do not need download
+1714817248.8877792 [vision_manager-19] [ERROR] [1714817248.867467303] [vision_manager cyberdog_model]: download failed or do not need download
+1714817248.8890605 [vision_manager-19] [ERROR] [1714817248.867595270] [az1.vision_manager]: Download model from Fds fail. 
+1714817248.8939910 [vision_manager-19] [INFO] [1714817248.867828645] [vision_manager cyberdog_model]: update models fuc begin
+1714817248.9095156 [vision_manager-19] [INFO] [1714817248.868042755] [vision_manager cyberdog_model]: init fuc
+1714817248.9953284 [vision_manager-19] [INFO] [1714817248.990336695] [vision_manager cyberdog_model]: face_recognition/landmark has 1 versions in fsd
+1714817248.9963651 [vision_manager-19] [INFO] [1714817248.990600661] [vision_manager cyberdog_model]: read model version in toml file
+1714817248.9975998 [vision_manager-19] [INFO] [1714817248.990824500] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817249.0256290 [vision_manager-19] [INFO] [1714817248.998360838] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817249.0263009 [vision_manager-19] [INFO] [1714817248.998599332] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817249.0444739 [vision_manager-19] [INFO] [1714817249.000387129] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/landmark/temp/version.toml do not exist!
+1714817249.0450218 [vision_manager-19] [INFO] [1714817249.000608600] [vision_manager cyberdog_model]: obj: 1.1/
+1714817249.0453479 [vision_manager-19] [INFO] [1714817249.000730423] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817249.0456533 [vision_manager-19] [INFO] [1714817249.000857143] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817249.0459356 [vision_manager-19] [INFO] [1714817249.000990582] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817249.0462077 [vision_manager-19] [INFO] [1714817249.001099029] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817249.0464928 [vision_manager-19] [INFO] [1714817249.008108618] [vision_manager cyberdog_model]: do not need download
+1714817249.0468493 [vision_manager-19] [ERROR] [1714817249.008352969] [vision_manager cyberdog_model]: download failed or do not need download
+1714817249.0471451 [vision_manager-19] [ERROR] [1714817249.008603015] [az1.vision_manager]: Download model from Fds fail. 
+1714817249.0474498 [vision_manager-19] [INFO] [1714817249.009263139] [vision_manager cyberdog_model]: update models fuc begin
+1714817249.0477362 [vision_manager-19] [INFO] [1714817249.009392514] [vision_manager cyberdog_model]: init fuc
+1714817249.1438096 [vision_manager-19] [INFO] [1714817249.135818141] [vision_manager cyberdog_model]: keypoints_detection has 2 versions in fsd
+1714817249.1473482 [vision_manager-19] [INFO] [1714817249.136062523] [vision_manager cyberdog_model]: read model version in toml file
+1714817249.1483259 [vision_manager-19] [INFO] [1714817249.136211610] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817249.1487069 [vision_manager-19] [INFO] [1714817249.137833136] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817249.1490233 [vision_manager-19] [INFO] [1714817249.138018319] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817249.1501555 [vision_manager-19] [INFO] [1714817249.138178894] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/keypoints_detection/temp/version.toml do not exist!
+1714817249.1511128 [vision_manager-19] [INFO] [1714817249.138304590] [vision_manager cyberdog_model]: obj: 1.0/
+1714817249.1516201 [vision_manager-19] [INFO] [1714817249.138406861] [vision_manager cyberdog_model]: obj: 1.1/
+1714817249.1555336 [vision_manager-19] [INFO] [1714817249.138504588] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817249.1565223 [vision_manager-19] [INFO] [1714817249.138616492] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817249.1568837 [vision_manager-19] [INFO] [1714817249.138713515] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817249.1574986 [vision_manager-19] [INFO] [1714817249.138905546] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817249.1581159 [vision_manager-19] [INFO] [1714817249.139005769] [vision_manager cyberdog_model]: do not need download
+1714817249.1584415 [vision_manager-19] [ERROR] [1714817249.139101865] [vision_manager cyberdog_model]: download failed or do not need download
+1714817249.1587200 [vision_manager-19] [ERROR] [1714817249.139205864] [az1.vision_manager]: Download model from Fds fail. 
+1714817249.1611655 [vision_manager-19] [INFO] [1714817249.139417799] [vision_manager cyberdog_model]: update models fuc begin
+1714817249.1615822 [vision_manager-19] [INFO] [1714817249.139515238] [vision_manager cyberdog_model]: init fuc
+1714817249.2543015 [INFO] [launch.user]: navigation launch nav2_base
+1714817250.6274846 [vision_manager-19] [INFO] [1714817249.262210999] [vision_manager cyberdog_model]: person_reid has 2 versions in fsd
+1714817250.6287420 [vision_manager-19] [INFO] [1714817249.263294481] [vision_manager cyberdog_model]: read model version in toml file
+1714817250.6290615 [vision_manager-19] [INFO] [1714817249.263516367] [vision_manager cyberdog_model]: Get_Model_Version func 
+1714817250.6293833 [vision_manager-19] [INFO] [1714817249.268399409] [vision_manager cyberdog_model]: read key value from toml successfully
+1714817250.6296937 [vision_manager-19] [INFO] [1714817249.268626096] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1714817250.6305943 [vision_manager-19] [INFO] [1714817249.268791151] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/person_reid/temp/version.toml do not exist!
+1714817250.6310546 [vision_manager-19] [INFO] [1714817249.268918350] [vision_manager cyberdog_model]: obj: 1.0/
+1714817250.6313405 [vision_manager-19] [INFO] [1714817249.269019182] [vision_manager cyberdog_model]: obj: 1.1/
+1714817250.6316481 [vision_manager-19] [INFO] [1714817249.269115373] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1714817250.6319976 [vision_manager-19] [INFO] [1714817249.269249228] [vision_manager cyberdog_model]: nx_version  is 1.1
+1714817250.6322849 [vision_manager-19] [INFO] [1714817249.269345228] [vision_manager cyberdog_model]: nx model version is the newest version
+1714817250.6325648 [vision_manager-19] [INFO] [1714817249.269451563] [vision_manager cyberdog_model]: DownloadModels fuc
+1714817250.6339898 [vision_manager-19] [INFO] [1714817249.269557610] [vision_manager cyberdog_model]: do not need download
+1714817250.6343777 [vision_manager-19] [ERROR] [1714817249.269649386] [vision_manager cyberdog_model]: download failed or do not need download
+1714817250.6347077 [vision_manager-19] [ERROR] [1714817249.269760073] [az1.vision_manager]: Download model from Fds fail. 
+1714817250.6471751 [INFO] [controller_server-21]: process started with pid [10223]
+1714817250.6480350 [INFO] [planner_server-22]: process started with pid [10224]
+1714817250.6486125 [INFO] [bt_navigator_pose-23]: process started with pid [10225]
+1714817250.6491051 [INFO] [recoveries_server-24]: process started with pid [10226]
+1714817269.2531259 [INFO] [launch.user]: navigation launch occmap
+1714817270.3175662 [INFO] [create_gridmap_node-25]: process started with pid [10583]
+1714817270.3195336 [INFO] [publish_gridmap_node-26]: process started with pid [10584]
+1714817270.6290097 [create_gridmap_node-25] [0m[INFO] [1714817270.625781681] [az1.create_gridmap_node]: create map path /home/mi/mapping/[0m
+1714817270.6479328 [create_gridmap_node-25] [0m[INFO] [1714817270.635903930] [az1.create_gridmap_node]: loop pose path /SDCARD/miloc/maps/default/viusal/[0m
+1714817270.6593020 [create_gridmap_node-25] [0m[INFO] [1714817270.643186897] [az1.create_gridmap_node]: calibration_file /SDCARD/calibrate.yaml[0m
+1714817270.6654201 [create_gridmap_node-25] [0m[INFO] [1714817270.643626716] [az1.create_gridmap_node]: subscribe odom topic odom_slam[0m
+1714817270.6693802 [create_gridmap_node-25] [0m[INFO] [1714817270.643891173] [az1.create_gridmap_node]: subscribe laser topic scan[0m
+1714817270.6698785 [create_gridmap_node-25] [0m[INFO] [1714817270.645589479] [az1.create_gridmap_node]: create map service cyberdog_occmap/create_map_service[0m
+1714817270.7401454 [create_gridmap_node-25] [0m[INFO] [1714817270.647257524] [az1.create_gridmap_node]: finish map service cyberdog_occmap/finish_map_service[0m
+1714817270.7407193 [create_gridmap_node-25] [0m[INFO] [1714817270.647474601] [az1.create_gridmap_node]: start_nav_service cyberdog_occmap/start_nav_service[0m
+1714817270.7410307 [create_gridmap_node-25] [0m[INFO] [1714817270.647660844] [az1.create_gridmap_node]: stop_nav_service cyberdog_occmap/stop_nav_service[0m
+1714817274.6321654 [vision_manager-19] [INFO] [1714817274.628576709] [az1.vision_manager]: Configuring vision_manager. 
+1714817274.6433260 [vision_manager-19] Semaphore set id is: 0
+1714817274.6543961 [vision_manager-19] [INFO] [1714817274.631979824] [az1.vision_manager]: Create ROS object. 
+1714817274.6850297 [vision_manager-19] [INFO] [1714817274.683180413] [az1.vision_manager]: Configure complated. 
+1714817289.2582631 [INFO] [launch.user]: navigation launch state_publisher
+1714817289.4276025 [INFO] [robot_state_publisher-27]: process started with pid [10786]
+1714817293.2533071 [INFO] [launch.user]: navigation launch tracking
+1714817293.4315097 [INFO] [cyberdog_tracking-28]: process started with pid [10831]
+1714817297.2535536 [INFO] [launch.user]: navigation launch realsense
+1714817297.6193697 [INFO] [realsense2_camera_node-29]: process started with pid [10881]
+1714817301.2577295 [INFO] [launch.user]: navigation launch realsense_align
+1714817301.5811105 [INFO] [realsense_align_node-30]: process started with pid [10929]
+1714817305.2555456 [INFO] [launch.user]: navigation launch mcr_uwb
+1714817305.3789141 [INFO] [mcr_uwb-31]: process started with pid [10976]
+1714817305.5915651 [mcr_uwb-31] [INFO] [1714817305.589974236] [az1.mcr_uwb]: 
+1714817305.5923579 [mcr_uwb-31] 	mcr_uwb lifecycle node launched. 
+1714817305.5937989 [mcr_uwb-31] 	Waiting on external lifecycle transitions to activate
+1714817305.5968382 [mcr_uwb-31] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+1714817305.5998235 [mcr_uwb-31] [INFO] [1714817305.590614674] [az1.mcr_uwb]: Creating
+1714817309.2537766 [INFO] [launch.user]: navigation launch velocity_adaptor
+1714817309.3800726 [INFO] [velocity_adaptor-32]: process started with pid [11022]
+1714817313.2605679 [INFO] [launch.user]: navigation launch map_label_server
+1714817313.3858888 [INFO] [label_server-33]: process started with pid [11072]
+1714817317.2542450 [INFO] [launch.user]: navigation launch laser_mapping
+1714817317.5049043 [INFO] [mapping-34]: process started with pid [11122]
+1714817321.2605889 [INFO] [launch.user]: navigation launch laser_localization
+1714817321.5158882 [INFO] [localization-35]: process started with pid [11176]
+1714817325.2544899 [INFO] [launch.user]: navigation launch mivins_localization
+1714817325.7334895 [INFO] [mivins_node-36]: process started with pid [11226]
+1714817329.2566116 [INFO] [launch.user]: navigation launch mivins_mapping
+1714817329.8097844 [INFO] [mivins_node-37]: process started with pid [11272]
+1714817333.2552786 [INFO] [launch.user]: navigation launch mivins_vo
+1714817333.7149508 [INFO] [mivins_node-38]: process started with pid [11318]
+1714817337.2621379 [INFO] [launch.user]: navigation launch miloc
+1714817337.4377596 [INFO] [miloc_server-39]: process started with pid [11363]
+1714817341.2550907 [INFO] [launch.user]: navigation launch elevation_mapping_odom
+1714817341.3996513 [INFO] [elevation_mapping-40]: process started with pid [11426]
+1714817345.2577612 [INFO] [launch.user]: navigation launch head_tof_pc_publisher
+1714817345.4505479 [INFO] [head_tof_pcl_publisher.py-41]: process started with pid [11472]
+1714817349.2563326 [INFO] [launch.user]: navigation launch stair_align
+1714817349.3922358 [INFO] [stair_align-42]: process started with pid [11517]
+1714817353.2554667 [INFO] [launch.user]: navigation launch tracking_indication
+1714817353.3895109 [INFO] [tracking_indication-43]: process started with pid [11563]
+1714817357.2558293 [INFO] [launch.user]: navigation launch rosbag_recorder
+1714817357.3911982 [INFO] [rosbag_recorder-44]: process started with pid [11614]
+1714817357.5323820 [rosbag_recorder-44] [WARN] [1714817357.480718885] [az1.cyberdog_rosbag_recorder]: Rosbag recorder is not use, please set flag use: true, you can record.
+1714817361.2566795 [INFO] [launch.user]: navigation launch tracking_base
+1714817361.5713844 [INFO] [tracking_base-45]: process started with pid [11659]
+1714817365.2599888 [INFO] [launch.user]: navigation launch emergency_stop
+1714817365.3851683 [INFO] [cyberdog_emergency_stop-46]: process started with pid [11704]
+1714817365.9909377 [cyberdog_emergency_stop-46] [INFO] [1714817365.914501038] [az1.cyberdog_emergency_stop]: Create enable emergency stop service......
+1714817369.2610106 [INFO] [launch.user]: navigation launch cyberdog_pointnet
+1714817369.3895926 [INFO] [cyberdog_pointnet-47]: process started with pid [11754]
+1714817369.8684111 [cyberdog_pointnet-47] [INFO] [1714817369.863123070] [az1.cyberdog_pointnet]: Create service: release_pointnet
+1714817370.0000792 [cyberdog_pointnet-47] [INFO] [1714817369.997891601] [uninitialized cyberdog_model]: cyberdog_model Constructor
+1714817370.0007393 [cyberdog_pointnet-47] [INFO] [1714817369.998166010] [uninitialized cyberdog_model]: is_specified_version: 0
+1714817370.0039597 [cyberdog_pointnet-47] [INFO] [1714817369.998292338] [uninitialized cyberdog_model]: specified_version: 1.1
+1714817370.0044584 [cyberdog_pointnet-47] [INFO] [1714817369.998400432] [uninitialized cyberdog_model]: module_name: ground_segmentation
+1714817370.0047908 [cyberdog_pointnet-47] [INFO] [1714817369.998502160] [uninitialized cyberdog_model]: model_dir: /SDCARD/vision/ground_segmentation/
+1714817370.0075340 [cyberdog_pointnet-47] [INFO] [1714817369.998608847] [uninitialized cyberdog_model]: temp_download_path: /SDCARD/vision/ground_segmentation/temp/
+1714817372.0155869 [cyberdog_pointnet-47] [INFO] [1714817372.013555769] [az1.cyberdog_pointnet]: [WifiSignalCallback] internet is ok!!!
+1714817372.0218053 [cyberdog_pointnet-47] [INFO] [1714817372.014859166] [uninitialized cyberdog_model]: update models fuc begin
+1714817372.0248048 [cyberdog_pointnet-47] [INFO] [1714817372.015200243] [uninitialized cyberdog_model]: init fuc
+1714817372.1632998 [cyberdog_pointnet-47] [INFO] [1714817372.160029572] [uninitialized cyberdog_model]: ground_segmentation has 2 versions in fsd
+1714817372.1723571 [cyberdog_pointnet-47] [INFO] [1714817372.162382911] [uninitialized cyberdog_model]: read model version in toml file
+1714817372.1734674 [cyberdog_pointnet-47] [INFO] [1714817372.164340439] [uninitialized cyberdog_model]: Get_Model_Version func 
+1714817372.1770291 [cyberdog_pointnet-47] [INFO] [1714817372.173112876] [uninitialized cyberdog_model]: read key value from toml successfully
+1714817372.1779234 [cyberdog_pointnet-47] [INFO] [1714817372.173450241] [uninitialized cyberdog_model]: the model version in toml file is 1.0 
+1714817372.1783671 [cyberdog_pointnet-47] [INFO] [1714817372.173612846] [uninitialized cyberdog_model]: temp toml path /SDCARD/vision/ground_segmentation/temp/version.toml exist!
+1714817372.1786649 [cyberdog_pointnet-47] [INFO] [1714817372.173752194] [uninitialized cyberdog_model]: new models already downloaded into temp path, do not download again
+1714817372.1790426 [cyberdog_pointnet-47] [INFO] [1714817372.173915343] [uninitialized cyberdog_model]: DownloadModels fuc
+1714817372.1793323 [cyberdog_pointnet-47] [INFO] [1714817372.174059202] [uninitialized cyberdog_model]: do not need download
+1714817372.1796396 [cyberdog_pointnet-47] [ERROR] [1714817372.174182907] [uninitialized cyberdog_model]: download failed or do not need download
+1714817372.1799436 [cyberdog_pointnet-47] [INFO] [1714817372.174324174] [az1.cyberdog_pointnet]: Download and update ground_segmentation model from Fds failed or timeout
+1714817373.2582641 [INFO] [launch.user]: navigation launch algorithm_manager
+1714817373.3950641 [INFO] [algorithm_manager-48]: process started with pid [11808]
+1714817375.0211732 [algorithm_manager-48] [INFO] [1714817375.017786952] [AlgorithmTaskManager]: diff_x threashold: 0.700000, diff_y threashold: 0.700000
+1714817375.0633433 [algorithm_manager-48] [INFO] [1714817375.020520939] [AlgorithmTaskManager]: detect_duration: 5
+1714817375.0682628 [algorithm_manager-48] [INFO] [1714817375.020668829] [AlgorithmTaskManager]: pose_topic_name: tracking_pose_transformed
+1714817375.0687156 [algorithm_manager-48] [INFO] [1714817375.020806481] [AlgorithmTaskManager]: filter_size: 5
+1714817375.6708972 [algorithm_manager-48] [INFO] [1714817375.668525904] [az1.LaserMapping]: DeclareParameters.
+1714817380.2836876 [algorithm_manager-48] [INFO] [1714817380.277105169] [az1.VisionTracking]: tracking_keep_distance_: 1.500000, tracking_relative_pos_: 1, enable_visual_obstacle_avoidance_
+1714817382.0306659 [algorithm_manager-48] [INFO] [1714817382.002591929] [az1.AutoDock]: ExecutorAutoDock server is ready
+1714817382.5203271 [algorithm_manager-48] [INFO] [1714817382.518928987] [AlgorithmTaskManager]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+1714817382.7876430 [algorithm_manager-48] [INFO] [1714817382.786534688] [AlgorithmTaskManager]: MachineActuator start on call.
+1714817382.8104682 [algorithm_manager-48] [INFO] [1714817382.786863384] [AlgorithmTaskManager]: MachineActuator checkout state: SetUp.
+1714817382.8110907 [algorithm_manager-48] [INFO] [1714817382.787007979] [AlgorithmTaskManager]: Get fsm: Setup
+1714817382.8114285 [algorithm_manager-48] [INFO] [1714817382.787110858] [AlgorithmTaskManager]: MachineActuator service setup on call.
+1714817382.9588180 [algorithm_manager-48] [INFO] [1714817382.928946539] [AlgorithmTaskManager]: MachineActuator service callback on call.
+1714817382.9593134 [algorithm_manager-48] 	 ===> target_state: Active
+1714817382.9597819 [algorithm_manager-48] [INFO] [1714817382.929169893] [AlgorithmTaskManager]: MachineActuator checkout state: Active.
+1714817382.9608028 [algorithm_manager-48] [INFO] [1714817382.929292894] [AlgorithmTaskManager]: Get fsm: Active

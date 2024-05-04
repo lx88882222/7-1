@@ -1,0 +1,152 @@
+Unrecognized option: -kill:1
+use: X [:<display>] [option]
+-a #                   mouse acceleration (pixels)
+-ac                    disable access control restrictions
+-audit int             set audit trail level
+-auth file             select authorization file
+bc                     enable bug compatibility
+-bs                    disable any backing store support
+-c                     turns off key-click
+c #                    key-click volume (0-100)
+-cc int                default color visual class
+-co file               color database file
+-core                  generate core dump on fatal error
+-dpi int               screen resolution in dots per inch
+-deferglyphs [none|all|16] defer loading of [no|all|16-bit] glyphs
+-f #                   bell base (0-100)
+-fc string             cursor font
+-fn string             default font name
+-fp string             default font path
+-help                  prints message with these options
+-I                     ignore all remaining arguments
+-ld int                limit data space to N Kb
+-lf int                limit number of open files to N
+-ls int                limit stack space to N Kb
+-nolock                disable the locking mechanism
+-logo                  enable logo in screen saver
+nologo                 disable logo in screen saver
+-nolisten string       don't listen on protocol
+-p #                   screen-saver pattern duration (minutes)
+-pn                    accept failure to listen on all ports
+-nopn                  reject failure to listen on all ports
+-r                     turns off auto-repeat
+r                      turns on auto-repeat 
+-s #                   screen-saver timeout (minutes)
+-su                    disable any save under support
+-t #                   mouse threshold (pixels)
+-terminate             terminate at server reset
+-to #                  connection time out
+-tst                   disable testing extensions
+ttyxx                  server started from init on /dev/ttyxx
+v                      video blanking for screen-saver
+-v                     screen-saver without video blanking
+-wm                    WhenMapped default backing-store
+-x string              loads named extension at init time 
+-query host-name       contact named host for XDMCP
+-broadcast             broadcast for XDMCP
+-indirect host-name    contact named host for indirect XDMCP
+-port port-num         UDP port number to send messages to
+-once                  Terminate server after one session
+-class display-class   specify display class to send in manage
+-cookie xdm-auth-bits  specify the magic cookie for XDMCP
+-displayID display-id  manufacturer display ID for request
+-geometry WxH          set framebuffer width & height
+-depth D               set framebuffer depth
+-pixelformat format    set pixel format (BGRnnn or RGBnnn)
+-udpinputport port     UDP port for keyboard/pointer data
+-rfbport port          TCP port for RFB protocol
+-rfbwait time          max time in ms to wait for RFB client
+-nocursor              don't put up a cursor
+-rfbauth passwd-file   use authentication on RFB protocol
+-httpd dir             serve files via HTTP from here
+-httpport port         port for HTTP
+-deferupdate time      time in ms to defer updates (default 40)
+-economictranslate     less memory-hungry translation
+-lazytight             disable "gradient" filter in tight encoding
+-desktop name          VNC desktop name (default x11)
+-alwaysshared          always treat new clients as shared
+-nevershared           never treat new clients as shared
+-dontdisconnect        don't disconnect existing clients when a new non-shared
+                       connection comes in (refuse new connection instead)
+-viewonly              let clients only to view the desktop
+-localhost             only allow connections from localhost
+-interface ipaddr      only bind to specified interface address
+-inetd                 Xvnc is launched by inetd
+-compatiblekbd         set META key = ALT key as in the original VNC
+-version               report Xvnc version on stderr
+Unrecognized option: -kill:1
+use: X [:<display>] [option]
+-a #                   mouse acceleration (pixels)
+-ac                    disable access control restrictions
+-audit int             set audit trail level
+-auth file             select authorization file
+bc                     enable bug compatibility
+-bs                    disable any backing store support
+-c                     turns off key-click
+c #                    key-click volume (0-100)
+-cc int                default color visual class
+-co file               color database file
+-core                  generate core dump on fatal error
+-dpi int               screen resolution in dots per inch
+-deferglyphs [none|all|16] defer loading of [no|all|16-bit] glyphs
+-f #                   bell base (0-100)
+-fc string             cursor font
+-fn string             default font name
+-fp string             default font path
+-help                  prints message with these options
+-I                     ignore all remaining arguments
+-ld int                limit data space to N Kb
+-lf int                limit number of open files to N
+-ls int                limit stack space to N Kb
+-nolock                disable the locking mechanism
+-logo                  enable logo in screen saver
+nologo                 disable logo in screen saver
+-nolisten string       don't listen on protocol
+-p #                   screen-saver pattern duration (minutes)
+-pn                    accept failure to listen on all ports
+-nopn                  reject failure to listen on all ports
+-r                     turns off auto-repeat
+r                      turns on auto-repeat 
+-s #                   screen-saver timeout (minutes)
+-su                    disable any save under support
+-t #                   mouse threshold (pixels)
+-terminate             terminate at server reset
+-to #                  connection time out
+-tst                   disable testing extensions
+ttyxx                  server started from init on /dev/ttyxx
+v                      video blanking for screen-saver
+-v                     screen-saver without video blanking
+-wm                    WhenMapped default backing-store
+-x string              loads named extension at init time 
+-query host-name       contact named host for XDMCP
+-broadcast             broadcast for XDMCP
+-indirect host-name    contact named host for indirect XDMCP
+-port port-num         UDP port number to send messages to
+-once                  Terminate server after one session
+-class display-class   specify display class to send in manage
+-cookie xdm-auth-bits  specify the magic cookie for XDMCP
+-displayID display-id  manufacturer display ID for request
+-geometry WxH          set framebuffer width & height
+-depth D               set framebuffer depth
+-pixelformat format    set pixel format (BGRnnn or RGBnnn)
+-udpinputport port     UDP port for keyboard/pointer data
+-rfbport port          TCP port for RFB protocol
+-rfbwait time          max time in ms to wait for RFB client
+-nocursor              don't put up a cursor
+-rfbauth passwd-file   use authentication on RFB protocol
+-httpd dir             serve files via HTTP from here
+-httpport port         port for HTTP
+-deferupdate time      time in ms to defer updates (default 40)
+-economictranslate     less memory-hungry translation
+-lazytight             disable "gradient" filter in tight encoding
+-desktop name          VNC desktop name (default x11)
+-alwaysshared          always treat new clients as shared
+-nevershared           never treat new clients as shared
+-dontdisconnect        don't disconnect existing clients when a new non-shared
+                       connection comes in (refuse new connection instead)
+-viewonly              let clients only to view the desktop
+-localhost             only allow connections from localhost
+-interface ipaddr      only bind to specified interface address
+-inetd                 Xvnc is launched by inetd
+-compatiblekbd         set META key = ALT key as in the original VNC
+-version               report Xvnc version on stderr

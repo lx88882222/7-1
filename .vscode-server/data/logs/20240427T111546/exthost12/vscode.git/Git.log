@@ -1,7 +1,0 @@
-2024-04-27 11:52:14.919 [info] 日志级别: Info
-2024-04-27 11:52:14.919 [info] 正在验证在以下位置找到的 git: "git"
-2024-04-27 11:52:14.919 [info] 将使用位于 "2.17.1" 的 Git "git"
-2024-04-27 11:52:14.919 [info] > git rev-parse --show-toplevel [39ms]
-2024-04-27 11:52:14.919 [info] fatal: not a git repository (or any of the parent directories): .git
-2024-04-27 11:52:27.991 [info] > git rev-parse --show-toplevel [10ms]
-2024-04-27 11:52:27.991 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,6 +1,0 @@
-2024-05-02 17:43:39.077 [info] [auth] Invalid copilot token: missing token: 403 
-2024-05-02 17:43:39.561 [error] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as lx88882222."
-2024-05-02 17:51:43.965 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
-2024-05-02 17:51:43.965 [info] [code-referencing] Public code references are enabled.
-2024-05-02 17:51:44.029 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
-2024-05-02 17:51:44.029 [info] [code-referencing] Public code references are enabled.

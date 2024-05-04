@@ -1,0 +1,17 @@
+2024-05-03 21:35:01.110 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-05-03 21:35:04.307 [info] [Info  - 9:35:04 PM] (4580) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-05-03 21:35:04.314 [info] [Info  - 9:35:04 PM] (4580) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-03 21:35:04.315 [info] [Info  - 9:35:04 PM] (4580) Starting service instance "mi"
+2024-05-03 21:35:07.845 [info] [Info  - 9:35:07 PM] (4580) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-03 21:35:07.872 [info] [Info  - 9:35:07 PM] (4580) Background analysis(1) started
+2024-05-03 21:35:08.021 [info] [Info  - 9:35:08 PM] (4580) Setting pythonPath for service "mi": "/home/mi/.venv/bin/python"
+2024-05-03 21:35:08.023 [info] [Info  - 9:35:08 PM] (4580) Setting environmentName for service "mi": "3.6.9 (.venv venv)"
+2024-05-03 21:35:08.274 [info] [Info  - 9:35:08 PM] (4580) Assuming Python version 3.6.9.final.0
+2024-05-03 21:35:09.025 [info] [Info  - 9:35:09 PM] (4580) Found 43 source files
+2024-05-03 21:35:14.896 [info] [Info  - 9:35:14 PM] (4580) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-05-03 21:35:14.901 [info] [Info  - 9:35:14 PM] (4580) Indexing(2) started
+2024-05-03 21:35:16.393 [info] [Info  - 9:35:16 PM] (4580) [IDX(2)] Long operation: scan packages file:///home/mi (4220ms)
+2024-05-03 21:35:16.394 [info] [Info  - 9:35:16 PM] (4580) scanned(2) 143 files over 1 exec env
+2024-05-03 21:35:19.241 [info] [Info  - 9:35:19 PM] (4580) [BG(1)] Long operation: SemanticTokens range 0:0 - 32:10 at file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (6749ms)
+2024-05-03 21:35:20.035 [info] [Info  - 9:35:20 PM] (4580) indexed(2) 14 files over 1 exec env
+2024-05-03 21:35:20.263 [info] [Info  - 9:35:20 PM] (4580) Indexing finished(2).

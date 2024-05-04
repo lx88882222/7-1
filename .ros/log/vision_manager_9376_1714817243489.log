@@ -1,0 +1,211 @@
+[INFO] [1714817244.756639145] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.757069030] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.757193990] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.757292197] [vision_manager cyberdog_model]: module_name: auto_track
+[INFO] [1714817244.757389380] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/auto_track/
+[INFO] [1714817244.757487716] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/auto_track/temp/
+[INFO] [1714817244.758439230] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.758595709] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.758702172] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.758874491] [vision_manager cyberdog_model]: module_name: body_gesture
+[INFO] [1714817244.758979387] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/body_gesture/
+[INFO] [1714817244.759075994] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/body_gesture/temp/
+[INFO] [1714817244.760005460] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.760149332] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.760247251] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.760346610] [vision_manager cyberdog_model]: module_name: face_recognition/age
+[INFO] [1714817244.760442578] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/age/
+[INFO] [1714817244.760544529] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/age/temp/
+[INFO] [1714817244.761427884] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.761572971] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.761672650] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.802046099] [vision_manager cyberdog_model]: module_name: face_recognition/detect
+[INFO] [1714817244.802194322] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/detect/
+[INFO] [1714817244.802321074] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/detect/temp/
+[INFO] [1714817244.805191616] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.805389887] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.806478488] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.806694007] [vision_manager cyberdog_model]: module_name: face_recognition/emotion
+[INFO] [1714817244.806859766] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/emotion/
+[INFO] [1714817244.806974229] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/emotion/temp/
+[INFO] [1714817244.807945935] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.808081838] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.808181006] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.808276589] [vision_manager cyberdog_model]: module_name: face_recognition/feature
+[INFO] [1714817244.808372492] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/feature/
+[INFO] [1714817244.808473644] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/feature/temp/
+[INFO] [1714817244.809318215] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.809441126] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.809548357] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.809649125] [vision_manager cyberdog_model]: module_name: face_recognition/landmark
+[INFO] [1714817244.809750468] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/landmark/
+[INFO] [1714817244.809859043] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/landmark/temp/
+[INFO] [1714817244.810734334] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.811925367] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.812035958] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.812136373] [vision_manager cyberdog_model]: module_name: keypoints_detection
+[INFO] [1714817244.812232117] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/keypoints_detection/
+[INFO] [1714817244.812333012] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/keypoints_detection/temp/
+[INFO] [1714817244.813261903] [vision_manager cyberdog_model]: cyberdog_model Constructor
+[INFO] [1714817244.813403374] [vision_manager cyberdog_model]: is_specified_version: 0
+[INFO] [1714817244.813501773] [vision_manager cyberdog_model]: specified_version: 0.0
+[INFO] [1714817244.813593165] [vision_manager cyberdog_model]: module_name: person_reid
+[INFO] [1714817244.813688812] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/person_reid/
+[INFO] [1714817244.813784747] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/person_reid/temp/
+[INFO] [1714817244.944474476] [az1.vision_manager]: Vision manager constructor complated.
+[INFO] [1714817246.846690292] [az1.vision_manager]: Received signal to download model. 
+[INFO] [1714817246.847151057] [az1.vision_manager]: Internet is ready, begin to download model.
+[INFO] [1714817246.847380816] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817246.847511407] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817247.300753338] [vision_manager cyberdog_model]: auto_track has 2 versions in fsd
+[INFO] [1714817247.301002136] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817247.301143383] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817247.322941010] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817247.323203696] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817247.323732013] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/auto_track/temp/version.toml do not exist!
+[INFO] [1714817247.323874924] [vision_manager cyberdog_model]: obj: 1.0/
+[INFO] [1714817247.325044229] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817247.325186340] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817247.325290947] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817247.325392291] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817247.325493986] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817247.325590338] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817247.325683265] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817247.325814752] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817247.326036127] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817247.326142526] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817247.692425757] [vision_manager cyberdog_model]: body_gesture has 2 versions in fsd
+[INFO] [1714817247.692668891] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817247.692831290] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817247.697285311] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817247.697517918] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817247.697679581] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/body_gesture/temp/version.toml do not exist!
+[INFO] [1714817247.719180121] [vision_manager cyberdog_model]: obj: 1.0/
+[INFO] [1714817247.721082574] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817247.721212717] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817247.721325100] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817247.721452043] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817247.721559499] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817247.721659082] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817247.721842857] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817247.721964136] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817247.725707313] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817247.725826673] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817248.160689868] [vision_manager cyberdog_model]: face_recognition/age has 2 versions in fsd
+[INFO] [1714817248.160929994] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817248.161075721] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817248.164812210] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817248.166121482] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817248.166291209] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/age/temp/version.toml do not exist!
+[INFO] [1714817248.166439976] [vision_manager cyberdog_model]: obj: 1.0/
+[INFO] [1714817248.166552968] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817248.166665063] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817248.173883707] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817248.174129305] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817248.174250361] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817248.174352888] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817248.174455031] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817248.174561815] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817248.180940304] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817248.181084047] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817248.342781841] [vision_manager cyberdog_model]: face_recognition/detect has 2 versions in fsd
+[INFO] [1714817248.343033936] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817248.343213231] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817248.345612960] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817248.345804383] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817248.345992958] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/detect/temp/version.toml do not exist!
+[INFO] [1714817248.346132317] [vision_manager cyberdog_model]: obj: 1.0/
+[INFO] [1714817248.346239036] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817248.346344700] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817248.346452027] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817248.346552218] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817248.346657562] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817248.348290288] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817248.348449103] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817248.348573966] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817248.348877580] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817248.348989803] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817248.626275787] [vision_manager cyberdog_model]: face_recognition/emotion has 1 versions in fsd
+[INFO] [1714817248.640143542] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817248.640386932] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817248.643963326] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817248.644416316] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817248.644607930] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/emotion/temp/version.toml do not exist!
+[INFO] [1714817248.644751258] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817248.644865913] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817248.644970488] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817248.645071000] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817248.645176727] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817248.645274070] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817248.645368598] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817248.645473813] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817248.645706900] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817248.645814195] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817248.835657929] [vision_manager cyberdog_model]: face_recognition/feature has 2 versions in fsd
+[INFO] [1714817248.835904360] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817248.836060455] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817248.837977211] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817248.842160194] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817248.842356448] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/feature/temp/version.toml do not exist!
+[INFO] [1714817248.842518815] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817248.842623327] [vision_manager cyberdog_model]: obj: 1/
+[INFO] [1714817248.842722494] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817248.842880125] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817248.854426711] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817248.867107913] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817248.867349544] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817248.867467303] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817248.867595270] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817248.867828645] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817248.868042755] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817248.990336695] [vision_manager cyberdog_model]: face_recognition/landmark has 1 versions in fsd
+[INFO] [1714817248.990600661] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817248.990824500] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817248.998360838] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817248.998599332] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817249.000387129] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/landmark/temp/version.toml do not exist!
+[INFO] [1714817249.000608600] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817249.000730423] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817249.000857143] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817249.000990582] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817249.001099029] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817249.008108618] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817249.008352969] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817249.008603015] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817249.009263139] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817249.009392514] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817249.135818141] [vision_manager cyberdog_model]: keypoints_detection has 2 versions in fsd
+[INFO] [1714817249.136062523] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817249.136211610] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817249.137833136] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817249.138018319] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817249.138178894] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/keypoints_detection/temp/version.toml do not exist!
+[INFO] [1714817249.138304590] [vision_manager cyberdog_model]: obj: 1.0/
+[INFO] [1714817249.138406861] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817249.138504588] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817249.138616492] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817249.138713515] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817249.138905546] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817249.139005769] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817249.139101865] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817249.139205864] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817249.139417799] [vision_manager cyberdog_model]: update models fuc begin
+[INFO] [1714817249.139515238] [vision_manager cyberdog_model]: init fuc
+[INFO] [1714817249.262210999] [vision_manager cyberdog_model]: person_reid has 2 versions in fsd
+[INFO] [1714817249.263294481] [vision_manager cyberdog_model]: read model version in toml file
+[INFO] [1714817249.263516367] [vision_manager cyberdog_model]: Get_Model_Version func 
+[INFO] [1714817249.268399409] [vision_manager cyberdog_model]: read key value from toml successfully
+[INFO] [1714817249.268626096] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+[INFO] [1714817249.268791151] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/person_reid/temp/version.toml do not exist!
+[INFO] [1714817249.268918350] [vision_manager cyberdog_model]: obj: 1.0/
+[INFO] [1714817249.269019182] [vision_manager cyberdog_model]: obj: 1.1/
+[INFO] [1714817249.269115373] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+[INFO] [1714817249.269249228] [vision_manager cyberdog_model]: nx_version  is 1.1
+[INFO] [1714817249.269345228] [vision_manager cyberdog_model]: nx model version is the newest version
+[INFO] [1714817249.269451563] [vision_manager cyberdog_model]: DownloadModels fuc
+[INFO] [1714817249.269557610] [vision_manager cyberdog_model]: do not need download
+[ERROR] [1714817249.269649386] [vision_manager cyberdog_model]: download failed or do not need download
+[ERROR] [1714817249.269760073] [az1.vision_manager]: Download model from Fds fail. 
+[INFO] [1714817274.628576709] [az1.vision_manager]: Configuring vision_manager. 
+[INFO] [1714817274.631979824] [az1.vision_manager]: Create ROS object. 
+[INFO] [1714817274.683180413] [az1.vision_manager]: Configure complated. 

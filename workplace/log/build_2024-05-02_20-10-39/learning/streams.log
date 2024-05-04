@@ -1,0 +1,31 @@
+[5.190s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
+[7.000s] running egg_info
+[7.012s] writing ../../build/learning/learning.egg-info/PKG-INFO
+[7.012s] writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt
+[7.013s] writing entry points to ../../build/learning/learning.egg-info/entry_points.txt
+[7.013s] writing requirements to ../../build/learning/learning.egg-info/requires.txt
+[7.022s] writing top-level names to ../../build/learning/learning.egg-info/top_level.txt
+[7.029s] reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[7.039s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[7.040s] running build
+[7.041s] running build_py
+[7.042s] copying learning/ZED_Tracker_color_range.py -> /home/mi/workplace/build/learning/build/lib/learning
+[7.042s] copying learning/camera.py -> /home/mi/workplace/build/learning/build/lib/learning
+[7.061s] running install
+[7.062s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.067s]   setuptools.SetuptoolsDeprecationWarning,
+[7.071s] running install_lib
+[7.072s] copying /home/mi/workplace/build/learning/build/lib/learning/ZED_Tracker_color_range.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[7.072s] copying /home/mi/workplace/build/learning/build/lib/learning/camera.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[7.073s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/ZED_Tracker_color_range.py to ZED_Tracker_color_range.cpython-36.pyc
+[7.077s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/camera.py to camera.cpython-36.pyc
+[7.079s] running install_data
+[7.080s] running install_egg_info
+[7.082s] removing '/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[7.084s] Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[7.084s] running install_scripts
+[7.173s] Installing rgb_cam_suber script to /home/mi/workplace/install/learning/lib/learning
+[7.175s] Installing stand script to /home/mi/workplace/install/learning/lib/learning
+[7.175s] Installing walktest script to /home/mi/workplace/install/learning/lib/learning
+[7.177s] writing list of installed files to '/home/mi/workplace/build/learning/install.log'
+[7.322s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed

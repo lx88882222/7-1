@@ -1,0 +1,25 @@
+2024-05-02 22:30:04.311 [info] 试验“pythonRecommendTensorboardExt”处于活动状态
+2024-05-02 22:30:04.312 [info] 试验“pythonREPLSmartSend”处于活动状态
+2024-05-02 22:30:04.312 [info] 试验“pythonSurveyNotificationcf”处于活动状态
+2024-05-02 22:30:04.312 [info] 试验“pythonTerminalEnvVarActivation”处于活动状态
+2024-05-02 22:30:04.312 [info] 试验“pythonTestAdapter”处于活动状态
+2024-05-02 22:30:04.312 [info] Default formatter is set to null for workspace /home
+2024-05-02 22:30:04.312 [info] Test server listening.
+2024-05-02 22:30:04.312 [info] > hatch env show --json
+2024-05-02 22:30:04.312 [info] cwd: .
+2024-05-02 22:30:04.517 [info] > pyenv which python
+2024-05-02 22:30:04.517 [info] cwd: .
+2024-05-02 22:30:04.982 [info] Python 解释器路径: ./mi/.venv/bin/python
+2024-05-02 22:30:05.281 [info] > . ./mi/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariables.py
+2024-05-02 22:30:05.281 [info] shell: bash
+2024-05-02 22:30:05.435 [info] > /usr/bin/python ./mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariables.py
+2024-05-02 22:30:05.435 [info] shell: bash
+2024-05-02 22:30:05.503 [info] Setting environment variable VIRTUAL_ENV in collection to /home/mi/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-05-02 22:30:05.504 [info] Prepending environment variable PATH in collection with /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash:/home/mi/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-05-02 22:30:05.504 [info] Prepending environment variable PS1 in collection with (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-05-02 22:30:05.512 [info] Send text to terminal: /usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt
+2024-05-02 22:30:08.778 [info] 正在启动 Pylance 语言服务器。
+2024-05-02 22:30:35.519 [error] Failed to initialize deactivate script /bin/bash [Error: "/home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/out/client/extension.js:2:271175)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
