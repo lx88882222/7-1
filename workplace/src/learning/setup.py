@@ -24,7 +24,8 @@ setup(
             'stand = learning.stand:main',
             'rgb = learning.rgb_cam_suber:main',
             'camera = learning.camera:main',
-            'track = learning.track:main'
+            'track = learning.track:main',
+            'crash = learning.crash:main'
         ],
     },
 )

@@ -11,6 +11,7 @@ setup.py
 learning/ZED_Tracker_color_range.py
 learning/__init__.py
 learning/camera.py
+learning/crash.py
 learning/rgb_cam_suber.py
 learning/stand.py
 learning/track.py

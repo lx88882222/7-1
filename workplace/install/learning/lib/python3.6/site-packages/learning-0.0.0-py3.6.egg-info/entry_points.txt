@@ -1,5 +1,6 @@
 [console_scripts]
 camera = learning.camera:main
+crash = learning.crash:main
 rgb = learning.rgb_cam_suber:main
 stand = learning.stand:main
 track = learning.track:main
