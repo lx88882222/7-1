@@ -31,6 +31,8 @@ setup(
             'walk_t_sec = learning.walk_t_sec:main',
             'goal = learning.goal:main',
             'rotate = learning.rotate:main',
+            'get_data = learning.get_data:main',
+            'goal_keeper = learning.goal_keeper:main'
         ],
     },
 )

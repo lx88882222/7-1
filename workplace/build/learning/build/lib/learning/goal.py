@@ -1,7 +1,7 @@
 '''
 提供一个射门方法make_goal()
 '''
-from .walk_t_sec import move_t_se
+from .walk_t_sec import move_t_sec
 import rclpy
 from rclpy.node import Node
 from protocol.msg import MotionServoCmd
