@@ -27,7 +27,9 @@ setup(
             'track = learning.track:main',
             'crash = learning.crash:main',
             'data_receive = learning.data_receive:main',
-            'rotate_until_center1 = learning.rotate_until_center1'
+            'rotate_until_center1 = learning.rotate_until_center1',
+            'walk_t_sec = learning.walk_t_sec:main',
+            'test = learning.test:main',
         ],
     },
 )

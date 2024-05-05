@@ -5,6 +5,8 @@ data_receive = learning.data_receive:main
 rgb = learning.rgb_cam_suber:main
 rotate_until_center1 = learning.rotate_until_center1
 stand = learning.stand:main
+test = learning.test:main
 track = learning.track:main
+walk_t_sec = learning.walk_t_sec:main
 walktest = learning.walktest:main
 

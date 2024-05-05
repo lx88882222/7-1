@@ -17,8 +17,10 @@ learning/rgb_cam_suber.py
 learning/rotate_until_center1.py
 learning/see_and_crash.py
 learning/stand.py
+learning/test.py
 learning/track.py
 learning/walk.py
+learning/walk_t_sec.py
 learning/walktest.py
 resource/learning
 test/test_copyright.py
