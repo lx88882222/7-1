@@ -1,6 +1,0 @@
-[INFO] [1714817245.870848967] [MainCameraNode]: CameraServerNode: Creating node camera_server.
-[INFO] [1714817246.474798808] [uninitialized WebRTCManager]: WebRTCManager has been created
-[INFO] [1714817246.475181333] [CameraContext]: initialize: initialize
-[INFO] [1714817246.475552947] [MainCameraNode]: on_configure: camera_server Configuring
-[INFO] [1714817246.481747245] [CameraContext]: createSession: createSession
-[INFO] [1714817246.481998604] [MainCameraNode]: on_activate: camera_server Activating

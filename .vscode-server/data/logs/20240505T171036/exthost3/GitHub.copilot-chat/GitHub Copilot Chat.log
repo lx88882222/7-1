@@ -1,0 +1,6 @@
+2024-05-05 17:14:06.883 [info] [FetcherService] Using Helix fetcher
+2024-05-05 17:14:06.883 [info] [gitExtensionService] Initializing Git extension service.
+2024-05-05 17:14:06.883 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-05-05 17:14:06.883 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-05-05 17:14:06.883 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-05-05 17:14:13.304 [info] [auth] Logged in as HeFeiW

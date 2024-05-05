@@ -1,0 +1,7 @@
+/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+  File "/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/track.py", line 16
+    sleep 0.1s
+            ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,1737 @@
+[INFO] [1714898799.350949096] [STEREO_CAMERA]: on_configure: configure
+[INFO] [1714898825.092807389] [STEREO_CAMERA]: on_activate: activate
+[INFO] [1714898826.387927749] [StreamConsumer]: StreamConsumer: Stream size: 640x480
+[INFO] [1714898826.388765960] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+[INFO] [1714898826.595634873] [CameraDispatcher]: getSensorMode: Sendoe Mode 2 existed.
+[INFO] [1714898826.596484604] []: startStream: Starting repeat capture requests.
+
+[INFO] [1714898826.725385361] [StreamConsumer]: StreamConsumer: Stream size: 500x400
+[INFO] [1714898826.725948403] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+[INFO] [1714898826.751587696] [CameraDispatcher]: getBestSensorMode: Found best sensor mode 1 with same aspect ratio (1000/800).
+[INFO] [1714898826.751959058] []: startStream: Starting repeat capture requests.
+
+[INFO] [1714898826.909592847] [StreamConsumer]: StreamConsumer: Stream size: 500x400
+[INFO] [1714898826.910324722] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+[INFO] [1714898827.016250835] [STEREO_CAMERA]: PublishImage: rgb Publishing image #1
+[INFO] [1714898827.052728632] [CameraDispatcher]: getBestSensorMode: Found best sensor mode 1 with same aspect ratio (1000/800).
+[INFO] [1714898827.053077561] []: startStream: Starting repeat capture requests.
+
+[INFO] [1714898827.996900163] [RGBStream]: processBuffer: [camera1] 26.56 frames per second
+[INFO] [1714898828.040410561] [MONOStream]: processBuffer: [camera2] 27.45 frames per second
+[INFO] [1714898828.381130617] [MONOStream]: processBuffer: [camera3] 32.67 frames per second
+[INFO] [1714898829.002420493] [RGBStream]: processBuffer: [camera1] 29.84 frames per second
+[INFO] [1714898829.071444232] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714898829.382712565] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898830.017476250] [STEREO_CAMERA]: PublishImage: left Publishing image #83
+[INFO] [1714898830.031095820] [RGBStream]: processBuffer: [camera1] 30.14 frames per second
+[INFO] [1714898830.104430006] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714898830.382879947] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898831.064510331] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898831.107200247] [MONOStream]: processBuffer: [camera2] 29.92 frames per second
+[INFO] [1714898831.385589291] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714898832.065243796] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898832.138116381] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714898832.385599842] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898833.021686476] [STEREO_CAMERA]: PublishImage: left Publishing image #173
+[INFO] [1714898833.097822881] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714898833.138544053] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898833.387317566] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898834.131711154] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898834.140693171] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714898834.388698521] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898835.131743241] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898835.172112284] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714898835.390548374] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898836.026847137] [STEREO_CAMERA]: PublishImage: left Publishing image #263
+[INFO] [1714898836.132149152] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898836.176767651] [MONOStream]: processBuffer: [camera2] 29.86 frames per second
+[INFO] [1714898836.392752404] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898837.165174319] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898837.206278532] [MONOStream]: processBuffer: [camera2] 30.11 frames per second
+[INFO] [1714898837.393954831] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898838.166302473] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898838.208719875] [MONOStream]: processBuffer: [camera2] 29.92 frames per second
+[INFO] [1714898838.396280462] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898839.030149136] [STEREO_CAMERA]: PublishImage: left Publishing image #353
+[INFO] [1714898839.167165250] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898839.210848449] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714898839.396839654] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898840.168310205] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898840.240166818] [MONOStream]: processBuffer: [camera2] 30.12 frames per second
+[INFO] [1714898840.402651377] [MONOStream]: processBuffer: [camera3] 29.83 frames per second
+[INFO] [1714898841.199767173] [RGBStream]: processBuffer: [camera1] 30.06 frames per second
+[INFO] [1714898841.245067434] [MONOStream]: processBuffer: [camera2] 29.85 frames per second
+[INFO] [1714898841.435893728] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898842.037739214] [STEREO_CAMERA]: PublishImage: left Publishing image #443
+[INFO] [1714898842.200528926] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898842.274803212] [MONOStream]: processBuffer: [camera2] 30.10 frames per second
+[INFO] [1714898842.435935095] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898843.233316076] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714898843.275284068] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898843.436577135] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898844.234032388] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898844.308870645] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898844.436900519] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898845.039629879] [STEREO_CAMERA]: PublishImage: left Publishing image #533
+[INFO] [1714898845.234076059] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898845.309075180] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898845.437746208] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898846.234467506] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898846.341300247] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898846.439262331] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898847.235225803] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898847.345287772] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714898847.440445942] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898848.040731358] [STEREO_CAMERA]: PublishImage: rgb Publishing image #629
+[INFO] [1714898848.236335718] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898848.345650995] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898848.442537652] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898849.268458897] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714898849.375921848] [MONOStream]: processBuffer: [camera2] 30.09 frames per second
+[INFO] [1714898849.444391409] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898850.269667371] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898850.376608688] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898850.445057673] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898851.041607204] [STEREO_CAMERA]: PublishImage: rgb Publishing image #719
+[INFO] [1714898851.302837914] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898851.409662943] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714898851.446890694] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898852.303386034] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898852.410754585] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898852.447432926] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898853.304650541] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898853.445651662] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714898853.449766301] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898854.043317740] [STEREO_CAMERA]: PublishImage: rgb Publishing image #809
+[INFO] [1714898854.305557766] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898854.449719283] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714898854.451856091] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898855.337609105] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714898855.477081005] [MONOStream]: processBuffer: [camera2] 30.17 frames per second
+[INFO] [1714898855.485506827] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898856.370346431] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714898856.477972166] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898856.488003691] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898857.043378255] [STEREO_CAMERA]: PublishImage: rgb Publishing image #899
+[INFO] [1714898857.404638801] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898857.490376617] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898857.511869624] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898858.437218654] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714898858.523062807] [MONOStream]: processBuffer: [camera3] 30.02 frames per second
+[INFO] [1714898858.545456520] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898859.437686838] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898859.524838355] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898859.580356413] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714898860.043959668] [STEREO_CAMERA]: PublishImage: rgb Publishing image #989
+[INFO] [1714898860.471119974] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898860.526169742] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898860.614627760] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898861.504520278] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898861.527300136] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898861.645387830] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714898862.528399683] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898862.539257610] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898862.645518765] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898863.047063746] [STEREO_CAMERA]: PublishImage: right Publishing image #1079
+[INFO] [1714898863.529765406] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898863.540527717] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898863.645653155] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898864.532635646] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714898864.575272634] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898864.645734202] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898865.533192695] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898865.606947491] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714898865.646345714] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898866.047571078] [STEREO_CAMERA]: PublishImage: rgb Publishing image #1169
+[INFO] [1714898866.534091888] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898866.639018862] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714898866.682580012] [MONOStream]: processBuffer: [camera2] 29.92 frames per second
+[INFO] [1714898867.542180164] [MONOStream]: processBuffer: [camera3] 29.76 frames per second
+[INFO] [1714898867.640965515] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714898867.714523447] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714898868.543035581] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898868.642472359] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898868.716816725] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714898869.048831373] [STEREO_CAMERA]: PublishImage: right Publishing image #1259
+[INFO] [1714898869.544880986] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898869.673347917] [RGBStream]: processBuffer: [camera1] 30.07 frames per second
+[INFO] [1714898869.748515743] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714898870.575973537] [MONOStream]: processBuffer: [camera3] 30.07 frames per second
+[INFO] [1714898870.673994214] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898870.781349900] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714898871.576888667] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898871.707233333] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898871.783234441] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714898872.049878548] [STEREO_CAMERA]: PublishImage: right Publishing image #1349
+[INFO] [1714898872.576922417] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898872.708987345] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714898872.814845107] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714898873.577795242] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898873.710716846] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714898873.817315058] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714898874.581194957] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714898874.741027730] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714898874.849474845] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898875.050434584] [STEREO_CAMERA]: PublishImage: right Publishing image #1439
+[INFO] [1714898875.614121115] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714898875.742031820] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898875.851098713] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714898876.616383737] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898876.742310499] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898876.853530552] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714898877.618026005] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898877.777152312] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898877.884484671] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714898878.051035965] [STEREO_CAMERA]: PublishImage: right Publishing image #1529
+[INFO] [1714898878.618578062] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898878.809979174] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898878.916377033] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714898879.620304682] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898879.842329042] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714898879.916621344] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898880.621770950] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898880.842698345] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898880.916728151] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898881.052237668] [STEREO_CAMERA]: PublishImage: right Publishing image #1619
+[INFO] [1714898881.623536226] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898881.842866304] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898881.916775917] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898882.623781689] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898882.843077911] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898882.920283504] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714898883.625276565] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898883.843816016] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898883.921288906] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898884.053062409] [STEREO_CAMERA]: PublishImage: right Publishing image #1709
+[INFO] [1714898884.627233234] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898884.877319104] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898884.951367149] [MONOStream]: processBuffer: [camera2] 30.09 frames per second
+[INFO] [1714898885.628003915] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898885.910632079] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898885.952635016] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714898886.629347462] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898886.911051623] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898886.985038932] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898887.053319629] [STEREO_CAMERA]: PublishImage: right Publishing image #1799
+[INFO] [1714898887.631121795] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898887.944433399] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898887.985593165] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898888.632629951] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898888.944472749] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898889.019055100] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898889.634104570] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898889.944691300] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898890.024098309] [MONOStream]: processBuffer: [camera2] 29.85 frames per second
+[INFO] [1714898890.053798417] [STEREO_CAMERA]: PublishImage: right Publishing image #1889
+[INFO] [1714898890.636537145] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898890.945224060] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898891.052469314] [MONOStream]: processBuffer: [camera2] 30.15 frames per second
+[INFO] [1714898891.671341998] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898891.945981941] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898892.052756506] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898892.671611301] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898892.979739110] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898893.053378162] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898893.057175328] [STEREO_CAMERA]: PublishImage: right Publishing image #1979
+[INFO] [1714898893.674097924] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898894.012675924] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898894.086990019] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898894.675790433] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898895.012732171] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898895.087199897] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898895.680977450] [MONOStream]: processBuffer: [camera3] 29.85 frames per second
+[INFO] [1714898896.014416743] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714898896.078509136] [STEREO_CAMERA]: PublishImage: left Publishing image #2062
+[INFO] [1714898896.088370004] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898896.684209740] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714898897.018843661] [RGBStream]: processBuffer: [camera1] 29.87 frames per second
+[INFO] [1714898897.089419918] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898897.716741400] [MONOStream]: processBuffer: [camera3] 30.02 frames per second
+[INFO] [1714898898.050016949] [RGBStream]: processBuffer: [camera1] 30.06 frames per second
+[INFO] [1714898898.127991984] [MONOStream]: processBuffer: [camera2] 29.85 frames per second
+[INFO] [1714898898.716821135] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898899.080414105] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714898899.084791753] [STEREO_CAMERA]: PublishImage: left Publishing image #2152
+[INFO] [1714898899.156139821] [MONOStream]: processBuffer: [camera2] 30.15 frames per second
+[INFO] [1714898899.717759432] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898900.080882161] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898900.188047351] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714898900.751859547] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898901.080984840] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898901.191595994] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714898901.752155634] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898902.085226478] [STEREO_CAMERA]: PublishImage: rgb Publishing image #2250
+[INFO] [1714898902.114526744] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898902.222051679] [MONOStream]: processBuffer: [camera2] 30.08 frames per second
+[INFO] [1714898902.754364912] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898903.114741743] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898903.224475486] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714898903.788302050] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898904.115521896] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898904.257447852] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714898904.789509660] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898905.088040218] [STEREO_CAMERA]: PublishImage: rgb Publishing image #2340
+[INFO] [1714898905.116424866] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898905.289977625] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714898905.793004191] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714898906.149021966] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714898906.291106899] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898906.826432047] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898907.149040645] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898907.323311807] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898907.828785870] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898908.089517186] [STEREO_CAMERA]: PublishImage: rgb Publishing image #2430
+[INFO] [1714898908.149455004] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898908.323656694] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898908.862552063] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898909.182924876] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898909.324561264] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898909.863247383] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898910.182976067] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898910.357045596] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714898910.864674515] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898911.089648357] [STEREO_CAMERA]: PublishImage: rgb Publishing image #2520
+[INFO] [1714898911.185590082] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898911.359332698] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714898911.865936334] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898912.217658381] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898912.359773842] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898912.872116826] [MONOStream]: processBuffer: [camera3] 29.82 frames per second
+[INFO] [1714898913.250949372] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898913.363084980] [MONOStream]: processBuffer: [camera2] 29.90 frames per second
+[INFO] [1714898913.902798592] [MONOStream]: processBuffer: [camera3] 30.08 frames per second
+[INFO] [1714898914.090959533] [STEREO_CAMERA]: PublishImage: rgb Publishing image #2610
+[INFO] [1714898914.251009363] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898914.392392309] [MONOStream]: processBuffer: [camera2] 30.12 frames per second
+[INFO] [1714898914.904020123] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898915.286648043] [RGBStream]: processBuffer: [camera1] 29.93 frames per second
+[INFO] [1714898915.426373031] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898915.904684243] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898916.318431605] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714898916.458841971] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898916.906134095] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898917.093693529] [STEREO_CAMERA]: PublishImage: right Publishing image #2700
+[INFO] [1714898917.351468835] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898917.459098378] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898917.907444106] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898918.385007827] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898918.461377129] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714898918.909082566] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898919.385255050] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898919.492626769] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714898919.910530081] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898920.094836224] [STEREO_CAMERA]: PublishImage: right Publishing image #2790
+[INFO] [1714898920.385608706] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898920.493492714] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898920.911951453] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898921.385849913] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898921.529663204] [MONOStream]: processBuffer: [camera2] 29.92 frames per second
+[INFO] [1714898921.914136411] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898922.386334321] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898922.559948488] [MONOStream]: processBuffer: [camera2] 30.09 frames per second
+[INFO] [1714898922.915301845] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898923.096638729] [STEREO_CAMERA]: PublishImage: right Publishing image #2880
+[INFO] [1714898923.386781544] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898923.561220867] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714898923.916199663] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898924.388441509] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714898924.593689295] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898924.917564362] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898925.420173390] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714898925.594392168] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898925.924317144] [MONOStream]: processBuffer: [camera3] 29.80 frames per second
+[INFO] [1714898926.097419854] [STEREO_CAMERA]: PublishImage: right Publishing image #2970
+[INFO] [1714898926.420543878] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898926.595940036] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714898926.956681252] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714898927.420852221] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898927.599174566] [MONOStream]: processBuffer: [camera2] 29.90 frames per second
+[INFO] [1714898927.989523538] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714898928.420979892] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898928.633153048] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898928.990288907] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898929.125599991] [STEREO_CAMERA]: PublishImage: rgb Publishing image #3061
+[INFO] [1714898929.456971565] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714898929.661787766] [MONOStream]: processBuffer: [camera2] 30.14 frames per second
+[INFO] [1714898929.992106920] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898930.488259509] [RGBStream]: processBuffer: [camera1] 30.06 frames per second
+[INFO] [1714898930.664487766] [MONOStream]: processBuffer: [camera2] 29.92 frames per second
+[INFO] [1714898930.992819425] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898931.488394988] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898931.696470305] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714898931.996588196] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714898932.130108874] [STEREO_CAMERA]: PublishImage: rgb Publishing image #3151
+[INFO] [1714898932.489853991] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898932.698166141] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714898933.029027697] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714898933.522090643] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714898933.729516325] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714898934.033444855] [MONOStream]: processBuffer: [camera3] 29.87 frames per second
+[INFO] [1714898934.522621483] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898934.729924797] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898935.065452386] [MONOStream]: processBuffer: [camera3] 30.04 frames per second
+[INFO] [1714898935.132029908] [STEREO_CAMERA]: PublishImage: right Publishing image #3241
+[INFO] [1714898935.522896418] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898935.730756118] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898936.067307486] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898936.557187317] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898936.731125006] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898937.068742522] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898937.589936834] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714898937.764503645] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898938.069799220] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898938.136925288] [STEREO_CAMERA]: PublishImage: right Publishing image #3331
+[INFO] [1714898938.623500722] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898938.765551063] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898939.071498160] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898939.657169123] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898939.802703189] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714898940.072346602] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898940.657504154] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898940.831846645] [MONOStream]: processBuffer: [camera2] 30.12 frames per second
+[INFO] [1714898941.073671621] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898941.145197993] [STEREO_CAMERA]: PublishImage: left Publishing image #3412
+[INFO] [1714898941.692518288] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714898941.865745094] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898942.075280769] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898942.723985657] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714898942.867972901] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714898943.077360030] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898943.725201459] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898943.900165968] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898944.078169015] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898944.146665553] [STEREO_CAMERA]: PublishImage: left Publishing image #3502
+[INFO] [1714898944.758273250] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898944.932367323] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898945.079324050] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898945.758753082] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898945.932841075] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898946.080814477] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898946.758979441] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898946.966462948] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898947.082069448] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898947.150812866] [STEREO_CAMERA]: PublishImage: left Publishing image #3592
+[INFO] [1714898947.758978727] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898947.966552250] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898948.083801925] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898948.760487587] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714898948.966670385] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898949.085894594] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898949.761790077] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898949.966846984] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898950.086859484] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898950.155213173] [STEREO_CAMERA]: PublishImage: left Publishing image #3682
+[INFO] [1714898950.762888440] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898950.967317567] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898951.090676640] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714898951.793589598] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714898951.967735287] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898952.122836683] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714898952.794938841] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898953.001355496] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898953.124556680] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898953.159925033] [STEREO_CAMERA]: PublishImage: left Publishing image #3772
+[INFO] [1714898953.797092631] [RGBStream]: processBuffer: [camera1] 29.93 frames per second
+[INFO] [1714898954.002126593] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898954.130121234] [MONOStream]: processBuffer: [camera3] 29.83 frames per second
+[INFO] [1714898954.827255227] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714898955.034687789] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714898955.163874723] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898955.831989730] [RGBStream]: processBuffer: [camera1] 29.86 frames per second
+[INFO] [1714898956.035240901] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898956.165229566] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898956.171855318] [STEREO_CAMERA]: PublishImage: left Publishing image #3862
+[INFO] [1714898956.861032770] [RGBStream]: processBuffer: [camera1] 30.13 frames per second
+[INFO] [1714898957.035332764] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898957.165749334] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898957.861803451] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898958.036881848] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714898958.198886501] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714898958.895866701] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898959.069056995] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898959.172065210] [STEREO_CAMERA]: PublishImage: right Publishing image #3962
+[INFO] [1714898959.200773186] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898959.897327336] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898960.073833227] [MONOStream]: processBuffer: [camera2] 29.86 frames per second
+[INFO] [1714898960.203649155] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714898960.928919250] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714898961.074166754] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898961.236127343] [MONOStream]: processBuffer: [camera3] 30.02 frames per second
+[INFO] [1714898961.929034888] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898962.103378178] [MONOStream]: processBuffer: [camera2] 30.12 frames per second
+[INFO] [1714898962.174861446] [STEREO_CAMERA]: PublishImage: left Publishing image #4042
+[INFO] [1714898962.238951536] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714898962.929456736] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898963.103648026] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898963.239315911] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898963.929694839] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898964.103782512] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898964.240058272] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898964.930444880] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898965.105655725] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714898965.176928913] [STEREO_CAMERA]: PublishImage: left Publishing image #4132
+[INFO] [1714898965.241799005] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898965.964713827] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898966.139406974] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898966.243258072] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898966.997696401] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898967.140280216] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898967.245218421] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898968.030606847] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898968.140819312] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898968.181402339] [STEREO_CAMERA]: PublishImage: left Publishing image #4222
+[INFO] [1714898968.245643725] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898969.031540984] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898969.172012343] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714898969.247409994] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898970.064277734] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714898970.174786968] [MONOStream]: processBuffer: [camera2] 29.92 frames per second
+[INFO] [1714898970.248623748] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898971.065054975] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898971.185327668] [STEREO_CAMERA]: PublishImage: left Publishing image #4312
+[INFO] [1714898971.212215702] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714898971.249846975] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898972.065184917] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898972.239535216] [MONOStream]: processBuffer: [camera2] 30.18 frames per second
+[INFO] [1714898972.253625251] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714898973.066123855] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898973.243393588] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714898973.288764953] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898974.099805024] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898974.189659046] [STEREO_CAMERA]: PublishImage: left Publishing image #4402
+[INFO] [1714898974.273148310] [MONOStream]: processBuffer: [camera2] 30.10 frames per second
+[INFO] [1714898974.321116037] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714898975.132668173] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898975.306914343] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898975.322915873] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898976.135130828] [RGBStream]: processBuffer: [camera1] 29.93 frames per second
+[INFO] [1714898976.307309247] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898976.323909819] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898977.166073427] [RGBStream]: processBuffer: [camera1] 30.07 frames per second
+[INFO] [1714898977.194134201] [STEREO_CAMERA]: PublishImage: left Publishing image #4492
+[INFO] [1714898977.330531306] [MONOStream]: processBuffer: [camera3] 29.80 frames per second
+[INFO] [1714898977.341581170] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898978.169301365] [RGBStream]: processBuffer: [camera1] 29.90 frames per second
+[INFO] [1714898978.343769936] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714898978.363802073] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898979.199847162] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714898979.375003288] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714898979.394926080] [MONOStream]: processBuffer: [camera3] 30.06 frames per second
+[INFO] [1714898980.197880009] [STEREO_CAMERA]: PublishImage: left Publishing image #4582
+[INFO] [1714898980.200804884] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898980.397369823] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898980.407757189] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714898981.201956175] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714898981.399757054] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898981.408177341] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898982.235449311] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898982.403645666] [MONOStream]: processBuffer: [camera3] 29.88 frames per second
+[INFO] [1714898982.442930353] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714898983.205638088] [STEREO_CAMERA]: PublishImage: left Publishing image #4672
+[INFO] [1714898983.267734666] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714898983.409625038] [MONOStream]: processBuffer: [camera3] 29.82 frames per second
+[INFO] [1714898983.476103616] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898984.267938945] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898984.436531206] [MONOStream]: processBuffer: [camera3] 30.19 frames per second
+[INFO] [1714898984.476536216] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898985.302033843] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898985.437301535] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898985.476530510] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714898986.207270449] [STEREO_CAMERA]: PublishImage: left Publishing image #4762
+[INFO] [1714898986.302042058] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898986.438154937] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898986.509500892] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714898987.302691362] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898987.439918325] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898987.543347214] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898988.338460186] [RGBStream]: processBuffer: [camera1] 29.93 frames per second
+[INFO] [1714898988.442706742] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714898988.543762469] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714898989.210776096] [STEREO_CAMERA]: PublishImage: left Publishing image #4852
+[INFO] [1714898989.370048131] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714898989.442855308] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898989.546008068] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714898990.403044754] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714898990.447007506] [MONOStream]: processBuffer: [camera3] 29.88 frames per second
+[INFO] [1714898990.576662985] [MONOStream]: processBuffer: [camera2] 30.08 frames per second
+[INFO] [1714898991.403249673] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898991.480386529] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714898991.578168805] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714898992.212212584] [STEREO_CAMERA]: PublishImage: right Publishing image #4953
+[INFO] [1714898992.436586008] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898992.480745945] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714898992.579240607] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898993.436604942] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898993.482235956] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898993.611582731] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714898994.436986822] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898994.483093166] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714898994.644224248] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714898995.213767440] [STEREO_CAMERA]: PublishImage: right Publishing image #5043
+[INFO] [1714898995.437327709] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714898995.484688298] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714898995.644800272] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714898996.438663576] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714898996.486012549] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714898996.645925738] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714898997.472744011] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714898997.488351203] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714898997.647104645] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714898998.215995035] [STEREO_CAMERA]: PublishImage: right Publishing image #5133
+[INFO] [1714898998.489241533] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714898998.506140410] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714898998.680104659] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714898999.491192506] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714898999.516289237] [RGBStream]: processBuffer: [camera1] 29.70 frames per second
+[INFO] [1714898999.691875284] [MONOStream]: processBuffer: [camera2] 29.65 frames per second
+[INFO] [1714899000.493857306] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899000.546654394] [RGBStream]: processBuffer: [camera1] 29.12 frames per second
+[INFO] [1714899000.714138971] [MONOStream]: processBuffer: [camera2] 30.32 frames per second
+[INFO] [1714899001.222061971] [STEREO_CAMERA]: PublishImage: right Publishing image #5223
+[INFO] [1714899001.495528470] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899001.573413170] [RGBStream]: processBuffer: [camera1] 30.19 frames per second
+[INFO] [1714899001.749636947] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899002.527716417] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899002.605533917] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899002.753602199] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714899003.529241789] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899003.606463158] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899003.781871892] [MONOStream]: processBuffer: [camera2] 30.15 frames per second
+[INFO] [1714899004.232009210] [STEREO_CAMERA]: PublishImage: left Publishing image #5302
+[INFO] [1714899004.530762585] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899004.639435460] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899004.817493580] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714899005.532324821] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899005.640223837] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899005.852445761] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899006.533733936] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899006.645131813] [RGBStream]: processBuffer: [camera1] 29.85 frames per second
+[INFO] [1714899006.881125280] [MONOStream]: processBuffer: [camera2] 30.14 frames per second
+[INFO] [1714899007.243019365] [STEREO_CAMERA]: PublishImage: left Publishing image #5392
+[INFO] [1714899007.537253011] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714899007.673895748] [RGBStream]: processBuffer: [camera1] 30.13 frames per second
+[INFO] [1714899007.918754303] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714899008.538266957] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899008.674889854] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899008.960107180] [MONOStream]: processBuffer: [camera2] 29.77 frames per second
+[INFO] [1714899009.541898064] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714899009.677921887] [RGBStream]: processBuffer: [camera1] 29.91 frames per second
+[INFO] [1714899009.981564368] [MONOStream]: processBuffer: [camera2] 30.35 frames per second
+[INFO] [1714899010.245810769] [STEREO_CAMERA]: PublishImage: left Publishing image #5482
+[INFO] [1714899010.544107887] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899010.707833954] [RGBStream]: processBuffer: [camera1] 30.10 frames per second
+[INFO] [1714899010.983980143] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714899011.545201513] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899011.742062933] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899012.016814461] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899012.545204031] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899012.742687981] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899013.050451053] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899013.247009240] [STEREO_CAMERA]: PublishImage: left Publishing image #5572
+[INFO] [1714899013.545254293] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899013.743212773] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899014.051295110] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899014.547284915] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899014.776441909] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899015.082874703] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714899015.548048716] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899015.786172206] [RGBStream]: processBuffer: [camera1] 29.71 frames per second
+[INFO] [1714899016.088927484] [MONOStream]: processBuffer: [camera2] 29.82 frames per second
+[INFO] [1714899016.257238336] [STEREO_CAMERA]: PublishImage: left Publishing image #5662
+[INFO] [1714899016.549340583] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899016.812892934] [RGBStream]: processBuffer: [camera1] 30.19 frames per second
+[INFO] [1714899017.125398102] [MONOStream]: processBuffer: [camera2] 29.91 frames per second
+[INFO] [1714899017.550612769] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899017.844247694] [RGBStream]: processBuffer: [camera1] 30.06 frames per second
+[INFO] [1714899018.154631063] [MONOStream]: processBuffer: [camera2] 30.12 frames per second
+[INFO] [1714899018.552788576] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899018.846636845] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899019.187247620] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899019.259831052] [STEREO_CAMERA]: PublishImage: rgb Publishing image #5763
+[INFO] [1714899019.554678877] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899019.847512422] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899020.217661449] [MONOStream]: processBuffer: [camera2] 30.09 frames per second
+[INFO] [1714899020.557621470] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899020.876820455] [RGBStream]: processBuffer: [camera1] 30.12 frames per second
+[INFO] [1714899021.221230028] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714899021.589960297] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899021.878303618] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899022.254770780] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899022.292155876] [STEREO_CAMERA]: PublishImage: right Publishing image #5855
+[INFO] [1714899022.590395425] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899022.880776706] [RGBStream]: processBuffer: [camera1] 29.93 frames per second
+[INFO] [1714899023.288288588] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899023.592299454] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899023.913673935] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899024.320279351] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899024.593111799] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899024.944654198] [RGBStream]: processBuffer: [camera1] 30.07 frames per second
+[INFO] [1714899025.295587315] [STEREO_CAMERA]: PublishImage: left Publishing image #5933
+[INFO] [1714899025.353682246] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899025.594473619] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899025.952478025] [RGBStream]: processBuffer: [camera1] 29.77 frames per second
+[INFO] [1714899026.355149954] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899026.596173135] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899026.981291112] [RGBStream]: processBuffer: [camera1] 30.13 frames per second
+[INFO] [1714899027.386772555] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714899027.599097712] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899028.012408463] [RGBStream]: processBuffer: [camera1] 30.06 frames per second
+[INFO] [1714899028.303263218] [STEREO_CAMERA]: PublishImage: left Publishing image #6023
+[INFO] [1714899028.420556316] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899028.600344394] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899029.045917503] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899029.421278293] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899029.600908099] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899030.046820409] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899030.466488016] [MONOStream]: processBuffer: [camera2] 29.66 frames per second
+[INFO] [1714899030.601587931] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899031.080301833] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899031.305235643] [STEREO_CAMERA]: PublishImage: left Publishing image #6113
+[INFO] [1714899031.488001940] [MONOStream]: processBuffer: [camera2] 30.35 frames per second
+[INFO] [1714899031.603611417] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899032.086375285] [RGBStream]: processBuffer: [camera1] 29.82 frames per second
+[INFO] [1714899032.527082457] [MONOStream]: processBuffer: [camera2] 29.83 frames per second
+[INFO] [1714899032.604973748] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899033.118353856] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899033.554895732] [MONOStream]: processBuffer: [camera2] 30.16 frames per second
+[INFO] [1714899033.605344587] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899034.148213923] [RGBStream]: processBuffer: [camera1] 30.10 frames per second
+[INFO] [1714899034.308272425] [STEREO_CAMERA]: PublishImage: left Publishing image #6203
+[INFO] [1714899034.556074638] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899034.607756906] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899035.150790914] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899035.556420646] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899035.609480583] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899036.185895512] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899036.588121743] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714899036.612287015] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899037.215430810] [RGBStream]: processBuffer: [camera1] 30.11 frames per second
+[INFO] [1714899037.312942460] [STEREO_CAMERA]: PublishImage: left Publishing image #6293
+[INFO] [1714899037.588979657] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899037.644795508] [MONOStream]: processBuffer: [camera3] 30.02 frames per second
+[INFO] [1714899038.217469303] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714899038.621820854] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899038.650410174] [MONOStream]: processBuffer: [camera3] 29.83 frames per second
+[INFO] [1714899039.248030909] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714899039.622051597] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899039.650751222] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899040.281883726] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899040.321392894] [STEREO_CAMERA]: PublishImage: left Publishing image #6383
+[INFO] [1714899040.625170447] [MONOStream]: processBuffer: [camera2] 29.91 frames per second
+[INFO] [1714899040.651140013] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899041.315350206] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899041.651488485] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899041.655968565] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714899042.348738510] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899042.653215969] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899042.657872978] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899043.322385700] [STEREO_CAMERA]: PublishImage: left Publishing image #6473
+[INFO] [1714899043.350557962] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899043.686825394] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899043.689962333] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899044.383701753] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899044.687951852] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899044.690076500] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899045.387935199] [RGBStream]: processBuffer: [camera1] 29.87 frames per second
+[INFO] [1714899045.690172554] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899045.693331414] [MONOStream]: processBuffer: [camera2] 29.90 frames per second
+[INFO] [1714899046.325849907] [STEREO_CAMERA]: PublishImage: left Publishing image #6563
+[INFO] [1714899046.416261564] [RGBStream]: processBuffer: [camera1] 30.15 frames per second
+[INFO] [1714899046.693233036] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899046.724451293] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714899047.416951029] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899047.693300002] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899047.726312474] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899048.417430221] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899048.695716385] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899048.758367397] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899049.329696068] [STEREO_CAMERA]: PublishImage: left Publishing image #6653
+[INFO] [1714899049.417681412] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899049.729247665] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899049.759414815] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899050.417687290] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899050.729876394] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899050.792454253] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899051.451082026] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899051.731677126] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899051.824937722] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899052.334292343] [STEREO_CAMERA]: PublishImage: left Publishing image #6743
+[INFO] [1714899052.484605434] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899052.732860417] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899052.825652722] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899053.517767304] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899053.734180924] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899053.825764905] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899054.518020352] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899054.735731320] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899054.826716035] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899055.338177959] [STEREO_CAMERA]: PublishImage: left Publishing image #6833
+[INFO] [1714899055.519146266] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899055.736754418] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899055.859381392] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899056.520094963] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899056.738797167] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899056.861379245] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899057.552688576] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899057.739915433] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899057.893754073] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899058.342315865] [STEREO_CAMERA]: PublishImage: left Publishing image #6923
+[INFO] [1714899058.553068376] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899058.741543430] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899058.927148745] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899059.553373839] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899059.742981921] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899059.930762764] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714899060.586444990] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899060.745220415] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899060.960445806] [MONOStream]: processBuffer: [camera2] 30.11 frames per second
+[INFO] [1714899061.346739340] [STEREO_CAMERA]: PublishImage: left Publishing image #7013
+[INFO] [1714899061.587263319] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899061.745929496] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899061.961271175] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899062.620068228] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899062.748146294] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899062.962768291] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899063.620321595] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899063.749707410] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899063.995485520] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899064.351782177] [STEREO_CAMERA]: PublishImage: left Publishing image #7103
+[INFO] [1714899064.620874772] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899064.750693644] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899065.028153565] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899065.622681200] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899065.751310404] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899066.028425781] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899066.624728238] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899066.757635666] [MONOStream]: processBuffer: [camera3] 29.81 frames per second
+[INFO] [1714899067.031964280] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714899067.359252542] [STEREO_CAMERA]: PublishImage: left Publishing image #7193
+[INFO] [1714899067.655210227] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714899067.790490399] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899068.062768478] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714899068.688507490] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899068.791968635] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899069.062867028] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899069.690983458] [RGBStream]: processBuffer: [camera1] 29.93 frames per second
+[INFO] [1714899069.825534091] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899070.063840878] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899070.360605766] [STEREO_CAMERA]: PublishImage: left Publishing image #7283
+[INFO] [1714899070.722640619] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714899070.826598213] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899071.064641383] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899071.722968738] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899071.828234433] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899072.096879987] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899072.756137905] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899072.864372891] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899073.097352043] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899073.361597260] [STEREO_CAMERA]: PublishImage: rgb Publishing image #7386
+[INFO] [1714899073.756443976] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899073.896481030] [MONOStream]: processBuffer: [camera3] 30.04 frames per second
+[INFO] [1714899074.098681446] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899074.757236770] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899074.897527680] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899075.130717136] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899075.757321592] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899075.901761541] [MONOStream]: processBuffer: [camera3] 29.87 frames per second
+[INFO] [1714899076.132608141] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899076.364011639] [STEREO_CAMERA]: PublishImage: rgb Publishing image #7476
+[INFO] [1714899076.757717648] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899076.902695839] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899077.164562520] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899077.758675817] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899077.904088698] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899078.165226992] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899078.759224833] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899078.937016584] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899079.198259839] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899079.367069829] [STEREO_CAMERA]: PublishImage: right Publishing image #7567
+[INFO] [1714899079.791458829] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899079.941359182] [MONOStream]: processBuffer: [camera3] 29.87 frames per second
+[INFO] [1714899080.199090616] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899080.794800751] [RGBStream]: processBuffer: [camera1] 29.90 frames per second
+[INFO] [1714899080.942693481] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899081.199689648] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899081.825171092] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714899081.974140562] [MONOStream]: processBuffer: [camera3] 30.05 frames per second
+[INFO] [1714899082.232947327] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899082.368513389] [STEREO_CAMERA]: PublishImage: right Publishing image #7657
+[INFO] [1714899082.825774668] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899082.976520593] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899083.233265239] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899083.825848195] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899083.977183337] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899084.266645670] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899084.826354011] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899084.978773605] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899085.302328446] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714899085.369075889] [STEREO_CAMERA]: PublishImage: right Publishing image #7747
+[INFO] [1714899085.861273840] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899085.980085408] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899086.333502310] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899086.893765308] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899086.981602556] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899087.333737213] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899087.893902995] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899087.983246232] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899088.333984052] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899088.385327855] [STEREO_CAMERA]: PublishImage: left Publishing image #7823
+[INFO] [1714899088.894401419] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899088.984077009] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899089.335238959] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899089.927185657] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899089.986531280] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899090.368062557] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899090.960938666] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899090.987202153] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899091.368937558] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899091.394691060] [STEREO_CAMERA]: PublishImage: left Publishing image #7913
+[INFO] [1714899091.961325441] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899091.988679045] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899092.401768228] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899092.992030183] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714899092.995724916] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899093.401945914] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899093.996128748] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899094.025193238] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899094.396729950] [STEREO_CAMERA]: PublishImage: left Publishing image #8003
+[INFO] [1714899094.403426486] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899095.029761693] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899095.034811183] [MONOStream]: processBuffer: [camera3] 29.71 frames per second
+[INFO] [1714899095.436222435] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899096.061722311] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899096.064767666] [MONOStream]: processBuffer: [camera3] 30.10 frames per second
+[INFO] [1714899096.469683315] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899097.062265823] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899097.067702803] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899097.403580057] [STEREO_CAMERA]: PublishImage: left Publishing image #8093
+[INFO] [1714899097.470502156] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899098.062317014] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899098.097853463] [MONOStream]: processBuffer: [camera3] 30.09 frames per second
+[INFO] [1714899098.503056505] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899099.064020978] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899099.099729460] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899099.503927346] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899100.096242653] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899100.100530701] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899100.404417599] [STEREO_CAMERA]: PublishImage: rgb Publishing image #8197
+[INFO] [1714899100.504368266] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899101.096448596] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899101.102464010] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899101.504989635] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899102.104341479] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899102.130170277] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899102.506058813] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899103.106458661] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899103.130820510] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899103.407421580] [STEREO_CAMERA]: PublishImage: right Publishing image #8288
+[INFO] [1714899103.537956935] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899104.107648640] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899104.165123633] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899104.571235734] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899105.140764942] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899105.198309120] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899105.571597390] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899106.145863223] [MONOStream]: processBuffer: [camera3] 29.85 frames per second
+[INFO] [1714899106.231112205] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899106.411123868] [STEREO_CAMERA]: PublishImage: left Publishing image #8363
+[INFO] [1714899106.572084742] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899107.176786942] [MONOStream]: processBuffer: [camera3] 30.07 frames per second
+[INFO] [1714899107.232285128] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899107.573987139] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899108.179205949] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899108.264280978] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899108.607035569] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899109.179635668] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899109.265009803] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899109.415425326] [STEREO_CAMERA]: PublishImage: left Publishing image #8453
+[INFO] [1714899109.639529214] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899110.181010320] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899110.265267010] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899110.640084598] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899111.182432299] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899111.265986235] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899111.672926595] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899112.183820166] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899112.267243222] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899112.419233023] [STEREO_CAMERA]: PublishImage: left Publishing image #8543
+[INFO] [1714899112.672964058] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899113.185858180] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899113.299514273] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899113.678554116] [MONOStream]: processBuffer: [camera2] 29.83 frames per second
+[INFO] [1714899114.186929950] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899114.300118330] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899114.707238691] [MONOStream]: processBuffer: [camera2] 30.14 frames per second
+[INFO] [1714899115.188065528] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899115.332846567] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899115.423346192] [STEREO_CAMERA]: PublishImage: left Publishing image #8633
+[INFO] [1714899115.708176124] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899116.189594036] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899116.333073950] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899116.744538391] [MONOStream]: processBuffer: [camera2] 29.91 frames per second
+[INFO] [1714899117.190932623] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899117.333738711] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899117.774584730] [MONOStream]: processBuffer: [camera2] 30.10 frames per second
+[INFO] [1714899118.193948048] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899118.334553552] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899118.428355557] [STEREO_CAMERA]: PublishImage: left Publishing image #8723
+[INFO] [1714899118.775493204] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899119.193958566] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899119.367272797] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899119.775501258] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899120.196513350] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899120.367609332] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899120.776973286] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899121.199529031] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899121.368196013] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899121.432210454] [STEREO_CAMERA]: PublishImage: left Publishing image #8813
+[INFO] [1714899121.780747242] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714899122.231701778] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899122.369537416] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899122.808707173] [MONOStream]: processBuffer: [camera2] 30.16 frames per second
+[INFO] [1714899123.233730800] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899123.402122612] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899123.810326978] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899124.239579099] [MONOStream]: processBuffer: [camera3] 29.82 frames per second
+[INFO] [1714899124.435448836] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899124.441983900] [STEREO_CAMERA]: PublishImage: left Publishing image #8903
+[INFO] [1714899124.810992986] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899125.272930923] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899125.438153604] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899125.814259836] [MONOStream]: processBuffer: [camera2] 29.90 frames per second
+[INFO] [1714899126.305186710] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899126.468930410] [RGBStream]: processBuffer: [camera1] 30.07 frames per second
+[INFO] [1714899126.844915074] [MONOStream]: processBuffer: [camera2] 30.08 frames per second
+[INFO] [1714899127.306437361] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899127.445671788] [STEREO_CAMERA]: PublishImage: rgb Publishing image #9008
+[INFO] [1714899127.470053636] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899127.845404730] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899128.307461035] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899128.502678801] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899128.879549580] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899129.308190884] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899129.503883948] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899129.912438330] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899130.309770752] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899130.447460277] [STEREO_CAMERA]: PublishImage: right Publishing image #9099
+[INFO] [1714899130.507123022] [RGBStream]: processBuffer: [camera1] 29.90 frames per second
+[INFO] [1714899130.914021270] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899131.315127145] [MONOStream]: processBuffer: [camera3] 29.84 frames per second
+[INFO] [1714899131.537418002] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714899131.944566331] [MONOStream]: processBuffer: [camera2] 30.08 frames per second
+[INFO] [1714899132.347259188] [MONOStream]: processBuffer: [camera3] 30.04 frames per second
+[INFO] [1714899132.538111819] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899132.978325580] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899133.350437686] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899133.449980032] [STEREO_CAMERA]: PublishImage: left Publishing image #9173
+[INFO] [1714899133.572331837] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899133.979743624] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899134.383449092] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899134.604509449] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899135.012194420] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899135.385503394] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899135.608118380] [RGBStream]: processBuffer: [camera1] 29.89 frames per second
+[INFO] [1714899136.012227882] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899136.422920352] [MONOStream]: processBuffer: [camera3] 29.88 frames per second
+[INFO] [1714899136.450028579] [STEREO_CAMERA]: PublishImage: right Publishing image #9279
+[INFO] [1714899136.638308240] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714899137.013329796] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899137.453179173] [MONOStream]: processBuffer: [camera3] 30.09 frames per second
+[INFO] [1714899137.638529703] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899138.045985265] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899138.456070725] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899138.642385483] [RGBStream]: processBuffer: [camera1] 29.88 frames per second
+[INFO] [1714899139.055641131] [MONOStream]: processBuffer: [camera2] 29.71 frames per second
+[INFO] [1714899139.456305212] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899139.458441508] [STEREO_CAMERA]: PublishImage: left Publishing image #9353
+[INFO] [1714899139.672327182] [RGBStream]: processBuffer: [camera1] 30.10 frames per second
+[INFO] [1714899140.082062945] [MONOStream]: processBuffer: [camera2] 30.20 frames per second
+[INFO] [1714899140.458059033] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899140.672481189] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899141.114375853] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899141.459230579] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899141.672628988] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899142.123960806] [MONOStream]: processBuffer: [camera2] 29.72 frames per second
+[INFO] [1714899142.460367406] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899142.462586614] [STEREO_CAMERA]: PublishImage: left Publishing image #9443
+[INFO] [1714899142.674527289] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714899143.147484402] [MONOStream]: processBuffer: [camera2] 30.29 frames per second
+[INFO] [1714899143.461627784] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899143.678526078] [RGBStream]: processBuffer: [camera1] 29.88 frames per second
+[INFO] [1714899144.148536076] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899144.463492965] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899144.707105724] [RGBStream]: processBuffer: [camera1] 30.14 frames per second
+[INFO] [1714899145.181032056] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899145.464666048] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899145.467791947] [STEREO_CAMERA]: PublishImage: left Publishing image #9533
+[INFO] [1714899145.707164370] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899146.181204367] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899146.465925083] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899146.707168904] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899147.181293957] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899147.467591063] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899147.707327199] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899148.187818195] [MONOStream]: processBuffer: [camera2] 29.81 frames per second
+[INFO] [1714899148.471022330] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714899148.483290246] [STEREO_CAMERA]: PublishImage: left Publishing image #9623
+[INFO] [1714899148.708541402] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899149.216182001] [MONOStream]: processBuffer: [camera2] 30.14 frames per second
+[INFO] [1714899149.471011472] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899149.709043634] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899150.249064926] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899150.471986825] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899150.710985263] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714899151.254097479] [MONOStream]: processBuffer: [camera2] 29.85 frames per second
+[INFO] [1714899151.478683352] [MONOStream]: processBuffer: [camera3] 29.80 frames per second
+[INFO] [1714899151.484924303] [STEREO_CAMERA]: PublishImage: right Publishing image #9730
+[INFO] [1714899151.742433368] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714899152.284560844] [MONOStream]: processBuffer: [camera2] 30.09 frames per second
+[INFO] [1714899152.511726342] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899152.747225503] [RGBStream]: processBuffer: [camera1] 29.86 frames per second
+[INFO] [1714899153.285578438] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899153.544882837] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899153.775992094] [RGBStream]: processBuffer: [camera1] 30.13 frames per second
+[INFO] [1714899154.317234991] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714899154.485161330] [STEREO_CAMERA]: PublishImage: right Publishing image #9820
+[INFO] [1714899154.578826215] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899154.777021464] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899155.318009640] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899155.579306495] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899155.779191158] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714899156.329820809] [MONOStream]: processBuffer: [camera2] 29.65 frames per second
+[INFO] [1714899156.581411165] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899156.790608470] [RGBStream]: processBuffer: [camera1] 29.66 frames per second
+[INFO] [1714899157.353770583] [MONOStream]: processBuffer: [camera2] 30.27 frames per second
+[INFO] [1714899157.486870427] [STEREO_CAMERA]: PublishImage: right Publishing image #9910
+[INFO] [1714899157.583550523] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899157.812431035] [RGBStream]: processBuffer: [camera1] 30.34 frames per second
+[INFO] [1714899158.356669239] [MONOStream]: processBuffer: [camera2] 29.91 frames per second
+[INFO] [1714899158.601133393] [MONOStream]: processBuffer: [camera3] 29.48 frames per second
+[INFO] [1714899158.826992102] [RGBStream]: processBuffer: [camera1] 29.57 frames per second
+[INFO] [1714899159.357004175] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899159.622336052] [MONOStream]: processBuffer: [camera3] 30.36 frames per second
+[INFO] [1714899159.870381467] [RGBStream]: processBuffer: [camera1] 29.71 frames per second
+[INFO] [1714899160.401126117] [MONOStream]: processBuffer: [camera2] 29.69 frames per second
+[INFO] [1714899160.494039255] [STEREO_CAMERA]: PublishImage: right Publishing image #10000
+[INFO] [1714899160.668690803] [MONOStream]: processBuffer: [camera3] 29.63 frames per second
+[INFO] [1714899160.880488213] [RGBStream]: processBuffer: [camera1] 30.69 frames per second
+[INFO] [1714899161.424604017] [MONOStream]: processBuffer: [camera2] 30.29 frames per second
+[INFO] [1714899161.692823329] [MONOStream]: processBuffer: [camera3] 30.27 frames per second
+[INFO] [1714899161.884521818] [RGBStream]: processBuffer: [camera1] 29.88 frames per second
+[INFO] [1714899162.458787588] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899162.725990320] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899162.885982614] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899163.461854789] [MONOStream]: processBuffer: [camera2] 29.91 frames per second
+[INFO] [1714899163.495373823] [STEREO_CAMERA]: PublishImage: right Publishing image #10090
+[INFO] [1714899163.761563655] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899163.888693430] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899164.485763698] [MONOStream]: processBuffer: [camera2] 30.28 frames per second
+[INFO] [1714899164.796721597] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899164.912253346] [RGBStream]: processBuffer: [camera1] 30.29 frames per second
+[INFO] [1714899165.489397558] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714899165.829704268] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899165.946413204] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899166.490630800] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899166.499905298] [STEREO_CAMERA]: PublishImage: left Publishing image #10163
+[INFO] [1714899166.832554924] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899166.948408050] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714899167.493701554] [MONOStream]: processBuffer: [camera2] 29.91 frames per second
+[INFO] [1714899167.864647255] [MONOStream]: processBuffer: [camera3] 30.04 frames per second
+[INFO] [1714899167.979041463] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714899168.523518388] [MONOStream]: processBuffer: [camera2] 30.10 frames per second
+[INFO] [1714899168.864693325] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899168.979312110] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899169.500540503] [STEREO_CAMERA]: PublishImage: left Publishing image #10253
+[INFO] [1714899169.553984377] [MONOStream]: processBuffer: [camera2] 30.08 frames per second
+[INFO] [1714899169.865975208] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899169.980462025] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899170.587681258] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899170.867714053] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899171.013603800] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899171.587735808] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899171.868950559] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899172.013965391] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899172.505381355] [STEREO_CAMERA]: PublishImage: left Publishing image #10343
+[INFO] [1714899172.589398077] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899172.870436283] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899173.014607464] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899173.621360071] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899173.872021015] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899174.049513245] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899174.621759935] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899174.873057585] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899175.082147338] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899175.509936062] [STEREO_CAMERA]: PublishImage: left Publishing image #10433
+[INFO] [1714899175.623763964] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899175.875363184] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899176.114401717] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899176.655447398] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714899176.879170644] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714899177.114531372] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899177.655778621] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899177.912190146] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899178.116359593] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899178.513355821] [STEREO_CAMERA]: PublishImage: left Publishing image #10523
+[INFO] [1714899178.659447009] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714899178.914566241] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899179.116911393] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899179.689910694] [MONOStream]: processBuffer: [camera2] 30.08 frames per second
+[INFO] [1714899179.918451493] [MONOStream]: processBuffer: [camera3] 29.88 frames per second
+[INFO] [1714899180.149440461] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899180.689998428] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899180.919732672] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899181.156651454] [RGBStream]: processBuffer: [camera1] 29.79 frames per second
+[INFO] [1714899181.519897927] [STEREO_CAMERA]: PublishImage: left Publishing image #10613
+[INFO] [1714899181.691447927] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899181.919915223] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899182.182677331] [RGBStream]: processBuffer: [camera1] 30.21 frames per second
+[INFO] [1714899182.691659854] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899182.952052098] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899183.183819757] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899183.691809637] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899183.952784379] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899184.183891843] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899184.520941038] [STEREO_CAMERA]: PublishImage: rgb Publishing image #10720
+[INFO] [1714899184.692045404] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899184.954768440] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899185.217910581] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899185.725774125] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899185.955820818] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899186.218427053] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899186.759927392] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899186.957668271] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899187.250159543] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714899187.522573110] [STEREO_CAMERA]: PublishImage: rgb Publishing image #10810
+[INFO] [1714899187.760420952] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899187.960282607] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899188.251069201] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899188.792151841] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899188.960450821] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899189.252040170] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899189.792494969] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899189.961513983] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899190.253119172] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899190.524902465] [STEREO_CAMERA]: PublishImage: rgb Publishing image #10900
+[INFO] [1714899190.825713000] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899190.963724446] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899191.285160975] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899191.826465697] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899191.964006037] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899192.286650603] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899192.826777688] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899192.965806962] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899193.319003991] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899193.526050536] [STEREO_CAMERA]: PublishImage: rgb Publishing image #10990
+[INFO] [1714899193.828341204] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899193.970062199] [MONOStream]: processBuffer: [camera3] 29.87 frames per second
+[INFO] [1714899194.319975856] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899194.832382873] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714899195.002266179] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899195.329709482] [RGBStream]: processBuffer: [camera1] 29.71 frames per second
+[INFO] [1714899195.848184168] [MONOStream]: processBuffer: [camera2] 29.53 frames per second
+[INFO] [1714899196.007623980] [MONOStream]: processBuffer: [camera3] 29.84 frames per second
+[INFO] [1714899196.355243389] [RGBStream]: processBuffer: [camera1] 30.23 frames per second
+[INFO] [1714899196.538983930] [STEREO_CAMERA]: PublishImage: right Publishing image #11081
+[INFO] [1714899196.862162641] [MONOStream]: processBuffer: [camera2] 30.57 frames per second
+[INFO] [1714899197.039891256] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899197.364004243] [RGBStream]: processBuffer: [camera1] 29.74 frames per second
+[INFO] [1714899197.862702793] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899198.048733166] [MONOStream]: processBuffer: [camera3] 29.74 frames per second
+[INFO] [1714899198.391597454] [RGBStream]: processBuffer: [camera1] 30.17 frames per second
+[INFO] [1714899198.868678709] [MONOStream]: processBuffer: [camera2] 29.86 frames per second
+[INFO] [1714899199.084796008] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899199.403021293] [RGBStream]: processBuffer: [camera1] 29.67 frames per second
+[INFO] [1714899199.540143680] [STEREO_CAMERA]: PublishImage: right Publishing image #11171
+[INFO] [1714899199.897038387] [MONOStream]: processBuffer: [camera2] 30.11 frames per second
+[INFO] [1714899200.106371756] [MONOStream]: processBuffer: [camera3] 29.37 frames per second
+[INFO] [1714899200.424915635] [RGBStream]: processBuffer: [camera1] 30.33 frames per second
+[INFO] [1714899200.901020375] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714899201.110995539] [MONOStream]: processBuffer: [camera3] 30.86 frames per second
+[INFO] [1714899201.428647767] [RGBStream]: processBuffer: [camera1] 29.89 frames per second
+[INFO] [1714899201.929488821] [MONOStream]: processBuffer: [camera2] 30.14 frames per second
+[INFO] [1714899202.112194030] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899202.456835860] [RGBStream]: processBuffer: [camera1] 30.15 frames per second
+[INFO] [1714899202.549590789] [STEREO_CAMERA]: PublishImage: left Publishing image #11243
+[INFO] [1714899202.931271538] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899203.113532265] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899203.457497932] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899203.966081767] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899204.115439558] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899204.489108886] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714899204.995486152] [MONOStream]: processBuffer: [camera2] 30.11 frames per second
+[INFO] [1714899205.116590080] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899205.522788966] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899205.561766644] [STEREO_CAMERA]: PublishImage: left Publishing image #11333
+[INFO] [1714899205.996695266] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899206.117924571] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899206.547614647] [RGBStream]: processBuffer: [camera1] 29.27 frames per second
+[INFO] [1714899206.999795332] [MONOStream]: processBuffer: [camera2] 29.91 frames per second
+[INFO] [1714899207.119581048] [MONOStream]: processBuffer: [camera3] 28.95 frames per second
+[INFO] [1714899207.555537098] [RGBStream]: processBuffer: [camera1] 29.76 frames per second
+[INFO] [1714899208.033339412] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899208.126807240] [MONOStream]: processBuffer: [camera3] 29.78 frames per second
+[INFO] [1714899208.559670063] [RGBStream]: processBuffer: [camera1] 29.88 frames per second
+[INFO] [1714899208.568216142] [STEREO_CAMERA]: PublishImage: rgb Publishing image #11440
+[INFO] [1714899209.063432312] [MONOStream]: processBuffer: [camera2] 30.10 frames per second
+[INFO] [1714899209.159123348] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899209.589917715] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714899210.065388693] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899210.168123563] [MONOStream]: processBuffer: [camera3] 29.73 frames per second
+[INFO] [1714899210.593406262] [RGBStream]: processBuffer: [camera1] 29.90 frames per second
+[INFO] [1714899211.103018068] [MONOStream]: processBuffer: [camera2] 29.88 frames per second
+[INFO] [1714899211.196849545] [MONOStream]: processBuffer: [camera3] 30.14 frames per second
+[INFO] [1714899211.575707692] [STEREO_CAMERA]: PublishImage: right Publishing image #11532
+[INFO] [1714899211.593816206] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899212.134359164] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899212.227476815] [MONOStream]: processBuffer: [camera3] 29.11 frames per second
+[INFO] [1714899212.631878734] [RGBStream]: processBuffer: [camera1] 29.86 frames per second
+[INFO] [1714899213.135778456] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899213.228700106] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899213.657258145] [RGBStream]: processBuffer: [camera1] 30.23 frames per second
+[INFO] [1714899214.164618455] [MONOStream]: processBuffer: [camera2] 30.13 frames per second
+[INFO] [1714899214.231263977] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899214.599163460] [STEREO_CAMERA]: PublishImage: left Publishing image #11602
+[INFO] [1714899214.658821853] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899215.169190334] [MONOStream]: processBuffer: [camera2] 29.86 frames per second
+[INFO] [1714899215.264222935] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899215.692235469] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899216.206338139] [MONOStream]: processBuffer: [camera2] 29.89 frames per second
+[INFO] [1714899216.275114485] [MONOStream]: processBuffer: [camera3] 29.68 frames per second
+[INFO] [1714899216.724844089] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899217.232250895] [MONOStream]: processBuffer: [camera2] 30.22 frames per second
+[INFO] [1714899217.303722579] [MONOStream]: processBuffer: [camera3] 30.14 frames per second
+[INFO] [1714899217.600248938] [STEREO_CAMERA]: PublishImage: right Publishing image #11713
+[INFO] [1714899217.724926832] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899218.265348030] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899218.304069323] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899218.725886889] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899219.266733465] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899219.337772092] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899219.726256161] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899220.299902984] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899220.340753725] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899220.602555061] [STEREO_CAMERA]: PublishImage: right Publishing image #11803
+[INFO] [1714899220.726689401] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899221.311409384] [MONOStream]: processBuffer: [camera2] 29.66 frames per second
+[INFO] [1714899221.342116312] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899221.764264216] [RGBStream]: processBuffer: [camera1] 29.88 frames per second
+[INFO] [1714899222.334559506] [MONOStream]: processBuffer: [camera2] 30.30 frames per second
+[INFO] [1714899222.387984437] [MONOStream]: processBuffer: [camera3] 29.65 frames per second
+[INFO] [1714899222.792920566] [RGBStream]: processBuffer: [camera1] 30.14 frames per second
+[INFO] [1714899223.367848162] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899223.408907639] [MONOStream]: processBuffer: [camera3] 30.35 frames per second
+[INFO] [1714899223.611413816] [STEREO_CAMERA]: PublishImage: left Publishing image #11872
+[INFO] [1714899223.793038125] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899224.401350642] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899224.410306994] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899224.795397515] [RGBStream]: processBuffer: [camera1] 29.93 frames per second
+[INFO] [1714899225.412420656] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899225.433694078] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899225.826829524] [RGBStream]: processBuffer: [camera1] 30.06 frames per second
+[INFO] [1714899226.413507914] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899226.434534967] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899226.615175464] [STEREO_CAMERA]: PublishImage: left Publishing image #11962
+[INFO] [1714899226.827015947] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899227.414991590] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899227.467557733] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899227.827102881] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899228.417084996] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899228.468258622] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899228.827526617] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899229.417396827] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899229.468721462] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899229.619559995] [STEREO_CAMERA]: PublishImage: left Publishing image #12052
+[INFO] [1714899229.830819867] [RGBStream]: processBuffer: [camera1] 29.90 frames per second
+[INFO] [1714899230.419094743] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899230.502787720] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899230.861709378] [RGBStream]: processBuffer: [camera1] 30.07 frames per second
+[INFO] [1714899231.420618355] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899231.536033975] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899231.862611195] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899232.421756046] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899232.569111782] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899232.624020269] [STEREO_CAMERA]: PublishImage: left Publishing image #12142
+[INFO] [1714899232.863512757] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899233.423230857] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899233.603257144] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899233.896212706] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899234.424812837] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899234.636214246] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899234.898822434] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899235.426173920] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899235.634907480] [STEREO_CAMERA]: PublishImage: left Publishing image #12232
+[INFO] [1714899235.636570942] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899235.929238726] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714899236.433021391] [MONOStream]: processBuffer: [camera3] 29.79 frames per second
+[INFO] [1714899236.637504343] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899236.932070279] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899237.465672924] [MONOStream]: processBuffer: [camera3] 30.02 frames per second
+[INFO] [1714899237.672769550] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899237.963595792] [RGBStream]: processBuffer: [camera1] 30.05 frames per second
+[INFO] [1714899238.466668086] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899238.635725725] [STEREO_CAMERA]: PublishImage: left Publishing image #12322
+[INFO] [1714899238.705514043] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899238.996500798] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899239.500850889] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899239.737932039] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899239.996694101] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899240.536900962] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899240.738850721] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899240.997265197] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899241.537006040] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899241.637571142] [STEREO_CAMERA]: PublishImage: left Publishing image #12412
+[INFO] [1714899241.739502329] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899242.003247929] [RGBStream]: processBuffer: [camera1] 29.82 frames per second
+[INFO] [1714899242.569530117] [MONOStream]: processBuffer: [camera3] 30.02 frames per second
+[INFO] [1714899242.740139730] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899243.031854199] [RGBStream]: processBuffer: [camera1] 30.13 frames per second
+[INFO] [1714899243.571626691] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899243.741536941] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899244.032205934] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899244.575313510] [MONOStream]: processBuffer: [camera3] 29.89 frames per second
+[INFO] [1714899244.638522412] [STEREO_CAMERA]: PublishImage: rgb Publishing image #12522
+[INFO] [1714899244.774333722] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899245.064427994] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899245.577535653] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899245.777137339] [MONOStream]: processBuffer: [camera2] 29.92 frames per second
+[INFO] [1714899246.064661809] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899246.609017293] [MONOStream]: processBuffer: [camera3] 30.05 frames per second
+[INFO] [1714899246.805867290] [MONOStream]: processBuffer: [camera2] 30.13 frames per second
+[INFO] [1714899247.065097065] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899247.610104103] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899247.640998680] [STEREO_CAMERA]: PublishImage: right Publishing image #12614
+[INFO] [1714899247.807761207] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899248.066290435] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899248.611934724] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899248.841554088] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899249.099346354] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899249.613501376] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899249.873848755] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899250.099464584] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899250.614364666] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899250.643542084] [STEREO_CAMERA]: PublishImage: right Publishing image #12704
+[INFO] [1714899250.874077226] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899251.099689855] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899251.615731189] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899251.908915935] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899252.132887534] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899252.616951471] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899252.940732617] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899253.132925541] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899253.618578187] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899253.645729166] [STEREO_CAMERA]: PublishImage: right Publishing image #12794
+[INFO] [1714899253.948791613] [MONOStream]: processBuffer: [camera2] 29.76 frames per second
+[INFO] [1714899254.134017183] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899254.619709510] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899254.978072093] [MONOStream]: processBuffer: [camera2] 30.12 frames per second
+[INFO] [1714899255.168023697] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899255.621385378] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899256.010068392] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899256.171071986] [RGBStream]: processBuffer: [camera1] 29.91 frames per second
+[INFO] [1714899256.622978014] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899256.658264894] [STEREO_CAMERA]: PublishImage: left Publishing image #12862
+[INFO] [1714899257.045496799] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899257.201304150] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714899257.625331709] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899258.075757955] [MONOStream]: processBuffer: [camera2] 30.09 frames per second
+[INFO] [1714899258.201961327] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899258.625469427] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899259.076621789] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899259.202322726] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899259.628581941] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899259.663102994] [STEREO_CAMERA]: PublishImage: left Publishing image #12952
+[INFO] [1714899260.109121033] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899260.202708126] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899260.628827468] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899261.109806786] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899261.235939789] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899261.630520072] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899262.142912016] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899262.268855675] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899262.631552290] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899262.668475017] [STEREO_CAMERA]: PublishImage: left Publishing image #13042
+[INFO] [1714899263.143548105] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899263.275721898] [RGBStream]: processBuffer: [camera1] 29.80 frames per second
+[INFO] [1714899263.636206057] [MONOStream]: processBuffer: [camera3] 29.86 frames per second
+[INFO] [1714899264.177638235] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899264.302680546] [RGBStream]: processBuffer: [camera1] 30.19 frames per second
+[INFO] [1714899264.639653804] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714899265.211458540] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899265.303890781] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899265.672217721] [MONOStream]: processBuffer: [camera3] 30.02 frames per second
+[INFO] [1714899265.675506341] [STEREO_CAMERA]: PublishImage: left Publishing image #13132
+[INFO] [1714899266.212021765] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899266.336764586] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899266.672490320] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899267.244564689] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899267.336968737] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899267.708822986] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899268.245369770] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899268.370838035] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899268.675853416] [STEREO_CAMERA]: PublishImage: rgb Publishing image #13243
+[INFO] [1714899268.740356275] [MONOStream]: processBuffer: [camera3] 30.05 frames per second
+[INFO] [1714899269.280671009] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899269.404313795] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899269.745171131] [MONOStream]: processBuffer: [camera3] 29.86 frames per second
+[INFO] [1714899270.313081453] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899270.437993427] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899270.776732964] [MONOStream]: processBuffer: [camera3] 30.05 frames per second
+[INFO] [1714899271.314163015] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899271.471480867] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899271.678576053] [STEREO_CAMERA]: PublishImage: rgb Publishing image #13333
+[INFO] [1714899271.777961246] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899272.314482750] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899272.473297984] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899272.781372481] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714899273.345397637] [MONOStream]: processBuffer: [camera2] 30.07 frames per second
+[INFO] [1714899273.505205515] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899273.816064981] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899274.346145790] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899274.505492514] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899274.681247585] [STEREO_CAMERA]: PublishImage: right Publishing image #13425
+[INFO] [1714899274.816237580] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899275.346909431] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899275.506309211] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899275.817250086] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899276.380684680] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899276.540560494] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899276.819198691] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899277.381018623] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899277.572377848] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899277.682003750] [STEREO_CAMERA]: PublishImage: right Publishing image #13515
+[INFO] [1714899277.819849884] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899278.413419851] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899278.573077968] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899278.820981814] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899279.413530274] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899279.574305195] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899279.822330481] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899280.414625244] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899280.606915256] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899280.683081549] [STEREO_CAMERA]: PublishImage: right Publishing image #13605
+[INFO] [1714899280.824361391] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899281.415320757] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899281.608688404] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899281.825443465] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899282.415325867] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899282.640668607] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899282.827104933] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899283.448377050] [MONOStream]: processBuffer: [camera2] 30.01 frames per second
+[INFO] [1714899283.673865262] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899283.684064659] [STEREO_CAMERA]: PublishImage: right Publishing image #13695
+[INFO] [1714899283.828409024] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899284.449634196] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899284.674853064] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899284.830406238] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899285.481641055] [MONOStream]: processBuffer: [camera2] 30.04 frames per second
+[INFO] [1714899285.708000119] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899285.831762649] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899286.481976406] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899286.700818931] [STEREO_CAMERA]: PublishImage: left Publishing image #13762
+[INFO] [1714899286.710518678] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899286.832519218] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899287.483164881] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899287.742439584] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899287.833829517] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899288.515966558] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899288.776857972] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899288.836457164] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899289.516164053] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899289.704816452] [STEREO_CAMERA]: PublishImage: left Publishing image #13852
+[INFO] [1714899289.777594380] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899289.837523046] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899290.516743918] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899290.809669175] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899290.838660193] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899291.518812171] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899291.811587892] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714899291.840344445] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899292.550484757] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714899292.715557613] [STEREO_CAMERA]: PublishImage: left Publishing image #13942
+[INFO] [1714899292.847986671] [RGBStream]: processBuffer: [camera1] 29.91 frames per second
+[INFO] [1714899292.851574620] [MONOStream]: processBuffer: [camera3] 29.77 frames per second
+[INFO] [1714899293.552835379] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714899293.876767054] [RGBStream]: processBuffer: [camera1] 30.13 frames per second
+[INFO] [1714899293.883160837] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899294.584051227] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899294.876872165] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899294.912654567] [MONOStream]: processBuffer: [camera3] 30.10 frames per second
+[INFO] [1714899295.585794232] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899295.716441363] [STEREO_CAMERA]: PublishImage: left Publishing image #14032
+[INFO] [1714899295.878587361] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899295.925662316] [MONOStream]: processBuffer: [camera3] 29.61 frames per second
+[INFO] [1714899296.619532393] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899296.910386891] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899296.948087636] [MONOStream]: processBuffer: [camera3] 30.32 frames per second
+[INFO] [1714899297.652783288] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899297.911562341] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899297.949483215] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899298.685028131] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899298.718178268] [STEREO_CAMERA]: PublishImage: left Publishing image #14122
+[INFO] [1714899298.916820271] [RGBStream]: processBuffer: [camera1] 29.85 frames per second
+[INFO] [1714899298.949738246] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899299.686624319] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899299.945241100] [RGBStream]: processBuffer: [camera1] 30.14 frames per second
+[INFO] [1714899299.954116428] [MONOStream]: processBuffer: [camera3] 29.87 frames per second
+[INFO] [1714899300.722542200] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714899300.955007142] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899300.981675175] [RGBStream]: processBuffer: [camera1] 29.91 frames per second
+[INFO] [1714899301.720062501] [STEREO_CAMERA]: PublishImage: rgb Publishing image #14234
+[INFO] [1714899301.753810592] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899301.958286792] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899301.982907490] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899302.754020087] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899302.992084633] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899303.012123042] [RGBStream]: processBuffer: [camera1] 30.12 frames per second
+[INFO] [1714899303.755282546] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899304.025689514] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899304.049321536] [RGBStream]: processBuffer: [camera1] 29.89 frames per second
+[INFO] [1714899304.725463195] [STEREO_CAMERA]: PublishImage: rgb Publishing image #14324
+[INFO] [1714899304.756740493] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899305.029029804] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714899305.079455779] [RGBStream]: processBuffer: [camera1] 30.09 frames per second
+[INFO] [1714899305.787398483] [MONOStream]: processBuffer: [camera2] 30.08 frames per second
+[INFO] [1714899306.060308692] [MONOStream]: processBuffer: [camera3] 30.06 frames per second
+[INFO] [1714899306.113115188] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899306.820188032] [MONOStream]: processBuffer: [camera2] 30.02 frames per second
+[INFO] [1714899307.062029456] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899307.146339011] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899307.727699366] [STEREO_CAMERA]: PublishImage: right Publishing image #14416
+[INFO] [1714899307.822489119] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714899308.062743529] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899308.146440218] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899308.829785136] [MONOStream]: processBuffer: [camera2] 29.78 frames per second
+[INFO] [1714899309.064487270] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899309.146893233] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899309.855697764] [MONOStream]: processBuffer: [camera2] 30.22 frames per second
+[INFO] [1714899310.066733924] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899310.147216425] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899310.736465481] [STEREO_CAMERA]: PublishImage: left Publishing image #14482
+[INFO] [1714899310.858132035] [MONOStream]: processBuffer: [camera2] 29.93 frames per second
+[INFO] [1714899311.067020187] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899311.149006245] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899311.889360011] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899312.068720632] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899312.181662994] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899312.921767514] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899313.070719841] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899313.182720713] [RGBStream]: processBuffer: [camera1] 29.97 frames per second
+[INFO] [1714899313.740458963] [STEREO_CAMERA]: PublishImage: left Publishing image #14572
+[INFO] [1714899313.922091603] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899314.071549896] [MONOStream]: processBuffer: [camera3] 29.98 frames per second
+[INFO] [1714899314.214692457] [RGBStream]: processBuffer: [camera1] 30.04 frames per second
+[INFO] [1714899314.922124383] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899315.072813570] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899315.214821394] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899315.922661696] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899316.074115946] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899316.216438235] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899316.745580141] [STEREO_CAMERA]: PublishImage: left Publishing image #14662
+[INFO] [1714899316.923928760] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899317.075933606] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899317.248589155] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899317.956320150] [MONOStream]: processBuffer: [camera2] 30.03 frames per second
+[INFO] [1714899318.080065134] [MONOStream]: processBuffer: [camera3] 29.88 frames per second
+[INFO] [1714899318.250610573] [RGBStream]: processBuffer: [camera1] 29.94 frames per second
+[INFO] [1714899318.956815649] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899319.112100309] [MONOStream]: processBuffer: [camera3] 30.04 frames per second
+[INFO] [1714899319.283504827] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899319.749782490] [STEREO_CAMERA]: PublishImage: left Publishing image #14752
+[INFO] [1714899319.957028150] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899320.114253440] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899320.284857881] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899320.958945135] [MONOStream]: processBuffer: [camera2] 29.94 frames per second
+[INFO] [1714899321.119425601] [MONOStream]: processBuffer: [camera3] 29.84 frames per second
+[INFO] [1714899321.317192345] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899321.993353853] [MONOStream]: processBuffer: [camera2] 29.97 frames per second
+[INFO] [1714899322.121548390] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899322.317601253] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899322.756662502] [STEREO_CAMERA]: PublishImage: left Publishing image #14842
+[INFO] [1714899323.024703440] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899323.153064408] [MONOStream]: processBuffer: [camera3] 30.05 frames per second
+[INFO] [1714899323.350894602] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899324.024800151] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899324.153294847] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899324.351648244] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899325.031539747] [MONOStream]: processBuffer: [camera2] 29.80 frames per second
+[INFO] [1714899325.154327806] [MONOStream]: processBuffer: [camera3] 29.97 frames per second
+[INFO] [1714899325.384041287] [RGBStream]: processBuffer: [camera1] 30.03 frames per second
+[INFO] [1714899325.757096182] [STEREO_CAMERA]: PublishImage: rgb Publishing image #14955
+[INFO] [1714899326.059266475] [MONOStream]: processBuffer: [camera2] 30.16 frames per second
+[INFO] [1714899326.156895422] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899326.386747141] [RGBStream]: processBuffer: [camera1] 29.92 frames per second
+[INFO] [1714899327.059651070] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899327.157164558] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899327.388259232] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899328.060897866] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899328.158624762] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899328.388432247] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899328.763205832] [STEREO_CAMERA]: PublishImage: left Publishing image #15022
+[INFO] [1714899329.062391494] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899329.161446182] [MONOStream]: processBuffer: [camera3] 29.92 frames per second
+[INFO] [1714899329.419143368] [RGBStream]: processBuffer: [camera1] 30.08 frames per second
+[INFO] [1714899330.093499281] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899330.164775721] [MONOStream]: processBuffer: [camera3] 29.90 frames per second
+[INFO] [1714899330.419548257] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899331.128722205] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899331.167916471] [MONOStream]: processBuffer: [camera3] 29.91 frames per second
+[INFO] [1714899331.452826606] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899331.765383881] [STEREO_CAMERA]: PublishImage: left Publishing image #15112
+[INFO] [1714899332.128776529] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899332.197238146] [MONOStream]: processBuffer: [camera3] 30.12 frames per second
+[INFO] [1714899332.486150056] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899333.160201606] [MONOStream]: processBuffer: [camera2] 30.06 frames per second
+[INFO] [1714899333.198672756] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899333.519789074] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899334.160694970] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899334.202851318] [MONOStream]: processBuffer: [camera3] 29.88 frames per second
+[INFO] [1714899334.553121220] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899334.772521987] [STEREO_CAMERA]: PublishImage: left Publishing image #15202
+[INFO] [1714899335.161433374] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899335.203241910] [MONOStream]: processBuffer: [camera3] 29.99 frames per second
+[INFO] [1714899335.553198011] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899336.163178881] [MONOStream]: processBuffer: [camera2] 29.95 frames per second
+[INFO] [1714899336.205706401] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899336.553753350] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899337.194720301] [MONOStream]: processBuffer: [camera2] 30.05 frames per second
+[INFO] [1714899337.237914165] [MONOStream]: processBuffer: [camera3] 30.03 frames per second
+[INFO] [1714899337.554271903] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899337.773737203] [STEREO_CAMERA]: PublishImage: left Publishing image #15292
+[INFO] [1714899338.195071479] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899338.239425005] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899338.554558306] [RGBStream]: processBuffer: [camera1] 29.99 frames per second
+[INFO] [1714899339.195765556] [MONOStream]: processBuffer: [camera2] 29.98 frames per second
+[INFO] [1714899339.240892051] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899339.560377755] [RGBStream]: processBuffer: [camera1] 29.83 frames per second
+[INFO] [1714899340.195972668] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899340.243369527] [MONOStream]: processBuffer: [camera3] 29.93 frames per second
+[INFO] [1714899340.588053881] [RGBStream]: processBuffer: [camera1] 30.16 frames per second
+[INFO] [1714899340.778059307] [STEREO_CAMERA]: PublishImage: left Publishing image #15382
+[INFO] [1714899341.196149073] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899341.245369794] [MONOStream]: processBuffer: [camera3] 29.94 frames per second
+[INFO] [1714899341.588180199] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899342.196339444] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899342.278365893] [MONOStream]: processBuffer: [camera3] 30.01 frames per second
+[INFO] [1714899342.588971435] [RGBStream]: processBuffer: [camera1] 29.98 frames per second
+[INFO] [1714899343.231057404] [MONOStream]: processBuffer: [camera2] 29.96 frames per second
+[INFO] [1714899343.280049064] [MONOStream]: processBuffer: [camera3] 29.95 frames per second
+[INFO] [1714899343.589105461] [RGBStream]: processBuffer: [camera1] 30.00 frames per second
+[INFO] [1714899343.782365222] [STEREO_CAMERA]: PublishImage: left Publishing image #15472
+[INFO] [1714899344.264700451] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899344.281551704] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899344.590702688] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899345.282867251] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899345.298161621] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899345.623568133] [RGBStream]: processBuffer: [camera1] 30.01 frames per second
+[INFO] [1714899346.284359775] [MONOStream]: processBuffer: [camera3] 29.96 frames per second
+[INFO] [1714899346.331533427] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899346.656347446] [RGBStream]: processBuffer: [camera1] 30.02 frames per second
+[INFO] [1714899346.787691056] [STEREO_CAMERA]: PublishImage: left Publishing image #15562
+[INFO] [1714899347.288722430] [MONOStream]: processBuffer: [camera3] 29.87 frames per second
+[INFO] [1714899347.364950655] [MONOStream]: processBuffer: [camera2] 30.00 frames per second
+[INFO] [1714899347.657965676] [RGBStream]: processBuffer: [camera1] 29.95 frames per second
+[INFO] [1714899348.322298529] [MONOStream]: processBuffer: [camera3] 30.00 frames per second
+[INFO] [1714899348.398602649] [MONOStream]: processBuffer: [camera2] 29.99 frames per second
+[INFO] [1714899348.659282198] [RGBStream]: processBuffer: [camera1] 29.96 frames per second
+[INFO] [1714899349.327627437] [MONOStream]: processBuffer: [camera3] 29.84 frames per second
+[INFO] [1714899349.400087864] [rclcpp]: signal_handler(signal_value=2)

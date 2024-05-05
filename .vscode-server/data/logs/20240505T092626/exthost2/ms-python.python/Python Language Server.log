@@ -1,0 +1,17 @@
+2024-05-05 09:27:45.678 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-05-05 09:27:48.408 [info] [Info  - 9:27:48 AM] (539) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-05-05 09:27:48.412 [info] [Info  - 9:27:48 AM] (539) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-05 09:27:48.412 [info] [Info  - 9:27:48 AM] (539) Starting service instance "mi"
+2024-05-05 09:27:48.749 [info] [Info  - 9:27:48 AM] (539) Setting pythonPath for service "mi": "/home/mi/.venv/bin/python"
+2024-05-05 09:27:48.751 [info] [Info  - 9:27:48 AM] (539) Setting environmentName for service "mi": "3.6.9 (.venv venv)"
+2024-05-05 09:27:48.920 [info] [Info  - 9:27:48 AM] (539) Assuming Python version 3.6.9.final.0
+2024-05-05 09:27:49.976 [info] [Info  - 9:27:49 AM] (539) Found 52 source files
+2024-05-05 09:27:52.385 [info] [Info  - 9:27:52 AM] (539) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-05 09:27:52.392 [info] [Info  - 9:27:52 AM] (539) Background analysis(1) started
+2024-05-05 09:27:53.506 [info] [Info  - 9:27:53 AM] (539) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-05-05 09:27:53.516 [info] [Info  - 9:27:53 AM] (539) Indexing(2) started
+2024-05-05 09:27:57.611 [info] [Info  - 9:27:57 AM] (539) [IDX(2)] Long operation: scan packages file:///home/mi (4051ms)
+2024-05-05 09:27:57.611 [info] [Info  - 9:27:57 AM] (539) scanned(2) 143 files over 1 exec env
+2024-05-05 09:28:00.986 [info] [Info  - 9:28:00 AM] (539) indexed(2) 14 files over 1 exec env
+2024-05-05 09:28:01.210 [info] [Info  - 9:28:01 AM] (539) Indexing finished(2).
+2024-05-05 09:29:44.361 [info] [Info  - 9:29:44 AM] (539) [BG(1)] Long operation: SemanticTokens full at file:///home/mi/workplace/src/learning/learning/track.py (3554ms)

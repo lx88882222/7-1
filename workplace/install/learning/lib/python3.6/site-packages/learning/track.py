@@ -4,6 +4,16 @@ from cv_bridge import CvBridge
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 import rclpy
+import socket
+import sys
+import time
+# def get_dog_address(client_socket):
+#     msg = 'start'
+#     client_socket.send(msg.encode())
+#     for i in range(10):
+#         data = client_socket.recv(1024)
+#         print(f"The position of the ball is: {data}")
+#         time.sleep(0.1)
 
 class rgb_cam_suber(Node):
     '''subscribe the message of stereo camera'''
@@ -13,6 +23,9 @@ class rgb_cam_suber(Node):
         self.declare_parameter("dog_name", "az1")
         self.sub = self.create_subscription(Image, '/image_rgb', self.sub_callback, 10)
         self.frame_count = 0
+        self.size=0
+        self.x=0
+        self.y=0
 
     def sub_callback(self, msg: Image):
         '''the callback function of subscriber'''
@@ -39,9 +52,10 @@ class rgb_cam_suber(Node):
             ((x, y), radius) = cv2.minEnclosingCircle(largest_contour)
 
             # Calculate the size of the ball
-            size = cv2.contourArea(largest_contour)
-            print(f"The size of the ball is: {size}")
+            self.size = cv2.contourArea(largest_contour)
 
+            print(f"The size of the ball is: {self.size}")
+            print(f"The position of the ball is: {x} , {y}")
             # Draw the circle and centroid on the frame,
             cv2.circle(cv_image, (int(x), int(y)), int(radius), (0, 255, 255), 2)
 
@@ -49,10 +63,14 @@ class rgb_cam_suber(Node):
         cv2.waitKey(1)
 
 def main(args=None):
+    # client_socket= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # ip = '10.0.0.143' # 查看上位机ip，进行修改
+    # client_socket.connect((ip, 40000))
+    # get_dog_address(client_socket)
     rclpy.init(args=args)
-    node = rgb_cam_suber("rgb_cam_suber")
-    rclpy.spin(node)
-    node.destroy_node()
+    rgbnode = rgb_cam_suber("rgb_cam_suber")
+    rclpy.spin(rgbnode)
+    rgbnode.destroy_node()
     rclpy.shutdown()
     cv2.destroyAllWindows()
 

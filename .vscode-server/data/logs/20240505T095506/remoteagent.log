@@ -1,0 +1,157 @@
+2024-05-05 09:55:06.462 [info] 
+
+
+
+
+2024-05-05 09:55:06.553 [info] Extension host agent started.
+2024-05-05 09:55:06.896 [info] [<unknown>][f9e5b81f][ExtensionHostConnection] New connection established.
+2024-05-05 09:55:06.903 [info] [<unknown>][59c2a6f3][ManagementConnection] New connection established.
+2024-05-05 09:55:07.492 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:07.626 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:08.213 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:08.217 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:08.300 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:08.302 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:08.512 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:08.514 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:09.093 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:09.095 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:09.136 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:09.140 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:09.584 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:09.587 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:09.946 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:09.948 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:10.303 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:10.305 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:10.456 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:10.458 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:10.924 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:10.926 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:11.331 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:11.333 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:12.339 [info] [<unknown>][f9e5b81f][ExtensionHostConnection] <10917> Launched Extension Host Process.
+2024-05-05 09:55:14.331 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:14.339 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:15.537 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27683)
+    at j.<computed> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-05 09:55:15.614 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-05 09:55:23.495 [info] [<unknown>][bbba0050][ManagementConnection] New connection established.
+2024-05-05 09:55:23.509 [info] [<unknown>][0c02a518][ExtensionHostConnection] New connection established.
+2024-05-05 09:55:23.533 [info] [<unknown>][0c02a518][ExtensionHostConnection] <11168> Launched Extension Host Process.
+2024-05-05 09:55:24.302 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:24.304 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:24.763 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:24.765 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:25.220 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:25.221 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:25.803 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-05 09:55:26.334 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:26.338 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:26.560 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:26.562 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:26.889 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:26.891 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:27.618 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:27.620 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:28.019 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:28.020 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:28.546 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:28.548 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:29.472 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:29.473 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 09:55:30.201 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 09:55:30.203 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:00:06.562 [info] New EH opened, aborting shutdown
+2024-05-05 10:00:06.570 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-05-05 10:00:25.796 [info] [<unknown>][f9e5b81f][ExtensionHostConnection] <10917> Extension Host Process exited with code: 0, signal: null.
+2024-05-05 10:00:26.235 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:00:26.242 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:05:26.543 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:05:26.562 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:10:26.826 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:10:26.833 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:15:27.031 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:15:27.036 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:20:27.202 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:20:27.212 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:25:27.381 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:25:27.387 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:30:27.660 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:30:27.691 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:35:27.925 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:35:27.931 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:40:28.328 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:40:28.333 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:45:28.635 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:45:28.644 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:50:28.914 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 10:50:28.926 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:55:29.192 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 10:55:29.207 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:00:29.363 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:00:29.367 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:05:29.617 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:05:29.625 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:10:30.723 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:10:30.727 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:15:30.948 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:15:30.954 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:20:31.174 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:20:31.178 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:25:31.369 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:25:31.385 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:30:31.712 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:30:31.720 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:35:31.947 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:35:31.955 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:40:32.249 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:40:32.257 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:45:32.461 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:45:32.464 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:50:32.741 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 11:50:32.749 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:55:32.940 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 11:55:32.947 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 12:00:33.274 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 12:00:33.290 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.

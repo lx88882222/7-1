@@ -370,3 +370,231 @@ ros2 lifecycle set /az1/camera/camera activate
 ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
 ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
 ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1//camera/camera configure
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 topic list
+ros2 topic echo /image_rgb
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic echo /image_rgb
+export DISPLAY=10.0.0.195:0.0
+xhost +
+ros2 run learning track
+cd workplace
+colcon build
+ros2 run learning track
+cd ..
+git add workplace
+git push origin main
+fit add workplace
+git add workplace
+git push origin main
+git add .
+git commit -m "2"
+git push -u origin main
+cd workplace
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+pip install --upgrade opencv-python
+cd ..
+cd workplace
+colcon build
+ros2 run learning track
+pip3 install opencv-python
+cd ..
+pip3 install opencv-python
+sudo apt install libopencv-dev python-opencv==3.4.0
+sudo apt install libopencv-dev python-opencv
+sudo apt update
+cd workplace
+colcon build
+ros2 run learning track
+cd ..
+sudo apt list --upgradable
+sudo apt install opencv-contrib-python
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
+sudo apt install python3-pip
+pip3 install opencv-contrib-python
+sudo apt update
+pip install opencv-python==3.4.0
+pip3 install opencv-python==3.4.0
+sudo apt install libopencv-devpython3-opencv==3.4.0
+sudo apt install libopencv-devpython3-opencv
+sudo apt install libopencv-dev python3-opencv
+sudo apt upgrade
+cd workplace
+colcon build
+ros2 run learning track
+cd ..
+sudo apt install opencv-contrib-python
+sudo apt install libopencv-dev python3-opencv
+ros2 run learning track
+cd workplace
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning stand
+ros2 run learning crash
+colcon build
+ros2 run learning crash
+colcon build
+ros2 run learning crash
+colcon build
+ros2 run learning crash
+colcon build
+ros2 run learning crash
+cd ..
+git add workplace
+git commit -m '3'
+git push -u origin main
+cd workplace
+colcon build
+crash
+ros2 run learning crash
+ros2 run learning stand
+ros2 launch camera_test stereo_camera.p
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure 
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" 
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}" 
+ros2 run learning track
+export DISPLAY=10.0.0.195:0.0
+xhost +
+ros2 run learning track
+cd workplace
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning crash
+ros2 run learning stand
+ros2 run learning stand
+ros2 run learning track
+ros2 run learning walktest
+ros2 launch camera_test stereo_camera.py
+ros2 run learning crash
+cd workplace
+colcon build
+ros2 run learning track
+python3 -c "import socket"
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning track
+ros2 launch camera_test stereo_camera.py
+/usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic list
+ros2 topic echo
+ros2 topic echo /image_rgb
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic list
+ros2 topic echo /image_rgb
+ros2 launch camera_test stereo_camera.py
+$DISPLAY = 0
+export DISPLAY=local ip:10.0.0.182:0.0
+export DISPLAY=10.0.0.182:0.0
+echo $DISPLAY
+ros2 launch camera_test stereo_camera.py
+xhost +
+ros2 launch camera_test stereo_camera.py
+echo $DISPLAY
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic echo /image_rgb
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic list
+ros2 topic echo /image_rgb
+cd workplace
+colcon build
+ros2 run learning track
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 run learning track
+colcon build
+ros2 run learning data_receive
+colcon build
+ros2 run learning data_receive
+colcon build
+ros2 run learning data_receive
+colcon build
+ros2 run learning data_receive
+ros2 run learning track
+ros2 run learning stand
+ros2 run learning walktest
+colcon build
+ros2 run learning walktest
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning rotate_until_center
+colcon build
+ros2 run learning rotate_until_center1
+ros2 run learning track
+xhost +
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 run learning track
+ros2 launch camera_test stereo_camera.py
+export DISPLAY=10.0.0.200:0.0
+xhost +
+cd workplace
+colcon build
+ros2 run learning track
+ros2 lifecycle set /az1/camera/camera configure 
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+export DISPLAY=10.0.0.200:0.0
+xhost +
+ros2 run learning track
+export DISPLAY=10.0.0.246:0.0
+xhost +
+ros2 run learning track
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure 
+ros2 lifecycle set /az1/camera/camera activate 
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" 
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 run learning track
+cd workplace
+colcon build
+ros2 run learning track
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic echo /image_rgb
+/usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt

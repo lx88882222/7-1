@@ -1,0 +1,5 @@
+1714899753.6514204 [INFO] [launch]: All log files can be found below /home/mi/.ros/log/2024-05-05-17-02-33-634749-mi-desktop-7156
+1714899753.6530108 [INFO] [launch]: Default logging verbosity is set to INFO
+1714899754.2163458 [INFO] [stereo_camera-1]: process started with pid [7195]
+1714900010.7860546 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1714900011.6020110 [INFO] [stereo_camera-1]: process has finished cleanly [pid 7195]

@@ -1,0 +1,18 @@
+2024-05-05 16:35:55.314 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-05-05 16:35:58.024 [info] [Info  - 4:35:57 PM] (19935) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-05-05 16:35:58.025 [info] [Info  - 4:35:58 PM] (19935) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-05 16:35:58.026 [info] [Info  - 4:35:58 PM] (19935) Starting service instance "mi"
+2024-05-05 16:35:58.336 [info] [Info  - 4:35:58 PM] (19935) Setting pythonPath for service "mi": "/home/mi/.venv/bin/python"
+2024-05-05 16:35:58.336 [info] [Info  - 4:35:58 PM] (19935) Setting environmentName for service "mi": "3.6.9 (.venv venv)"
+2024-05-05 16:35:58.507 [info] [Info  - 4:35:58 PM] (19935) Assuming Python version 3.6.9.final.0
+2024-05-05 16:35:59.281 [info] [Info  - 4:35:59 PM] (19935) Found 60 source files
+2024-05-05 16:36:01.651 [info] [Info  - 4:36:01 PM] (19935) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-05-05 16:36:01.651 [info] [Info  - 4:36:01 PM] (19935) Background analysis(1) started
+2024-05-05 16:36:02.847 [info] [Info  - 4:36:02 PM] (19935) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-05-05 16:36:02.848 [info] [Info  - 4:36:02 PM] (19935) Indexing(2) started
+2024-05-05 16:36:07.027 [info] [Info  - 4:36:07 PM] (19935) [IDX(2)] Long operation: scan packages file:///home/mi (4138ms)
+2024-05-05 16:36:07.029 [info] [Info  - 4:36:07 PM] (19935) scanned(2) 143 files over 1 exec env
+2024-05-05 16:36:10.254 [info] [Info  - 4:36:10 PM] (19935) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rotate_until_center1.py (5621ms)
+2024-05-05 16:36:10.255 [info] [Info  - 4:36:10 PM] (19935) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rotate_until_center1.py (7337ms)
+2024-05-05 16:36:11.095 [info] [Info  - 4:36:11 PM] (19935) indexed(2) 14 files over 1 exec env
+2024-05-05 16:36:11.309 [info] [Info  - 4:36:11 PM] (19935) Indexing finished(2).

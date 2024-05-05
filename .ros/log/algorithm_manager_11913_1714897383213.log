@@ -1,0 +1,12 @@
+[INFO] [1714897384.544816008] [AlgorithmTaskManager]: diff_x threashold: 0.700000, diff_y threashold: 0.700000
+[INFO] [1714897384.545459912] [AlgorithmTaskManager]: detect_duration: 5
+[INFO] [1714897384.546662823] [AlgorithmTaskManager]: pose_topic_name: tracking_pose_transformed
+[INFO] [1714897384.546841895] [AlgorithmTaskManager]: filter_size: 5
+[INFO] [1714897385.389743588] [az1.LaserMapping]: DeclareParameters.
+[INFO] [1714897390.075724912] [az1.VisionTracking]: tracking_keep_distance_: 1.500000, tracking_relative_pos_: 1, enable_visual_obstacle_avoidance_
+[INFO] [1714897391.447904430] [az1.AutoDock]: ExecutorAutoDock server is ready
+[INFO] [1714897392.342048566] [AlgorithmTaskManager]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+[INFO] [1714897392.508080560] [AlgorithmTaskManager]: MachineActuator start on call.
+[INFO] [1714897392.508334320] [AlgorithmTaskManager]: MachineActuator checkout state: SetUp.
+[INFO] [1714897392.508454768] [AlgorithmTaskManager]: Get fsm: Setup
+[INFO] [1714897392.508554672] [AlgorithmTaskManager]: MachineActuator service setup on call.
