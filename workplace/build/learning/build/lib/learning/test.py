@@ -7,5 +7,5 @@ import time
 
 def main(args=None):
     rclpy.init(args=args)
-    move_t_sec(5,2)
+    move_t_sec(5,0,0.7)
     rclpy.shutdown()

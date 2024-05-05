@@ -29,7 +29,8 @@ setup(
             'data_receive = learning.data_receive:main',
             'rotate_until_center1 = learning.rotate_until_center1',
             'walk_t_sec = learning.walk_t_sec:main',
-            'test = learning.test:main',
+            'goal = learning.goal:main',
+            'rotate = learning.rotate:main',
         ],
     },
 )
