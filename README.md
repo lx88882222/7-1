@@ -62,10 +62,10 @@
 #### 05.04 李想
 + 
 ### 常用命令行
-1. 打开相机： 
+<!-- 1. 打开相机： 
     + ros2 launch realsense2_camera on_dog.py
     + ros2 lifecycle set /camera/camera configure
-    + ros2 lifecycle set /camera/camera activate
+    + ros2 lifecycle set /camera/camera activate -->
 2. 运行
     + cd workplace
     + colcon build
@@ -100,3 +100,6 @@ x==410,y==378,area==31450
 + export DISPLAY={远程IP}:0.0
 + xhost +
 \* 切换rgb相机传回图像类别：/opt/ros2/cyberdog/share/camera_test/config（注意**不在**/home/mi目录下，要在open folder那边直接复制上面路径）下yaml文件，修改format_rgb参数（改为rgb对应选项）
+
+### issue
+球和球门垂直

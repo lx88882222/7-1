@@ -20,3 +20,65 @@
     at Timeout.<anonymous> (/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/out/client/extension.js:2:272632)
     at listOnTimeout (node:internal/timers:569:17)
     at processTimers (node:internal/timers:512:7)
+2024-05-05 17:16:13.517 [info] > conda info --json
+2024-05-05 17:16:13.543 [info] > hatch env show --json
+2024-05-05 17:16:13.543 [info] cwd: .
+2024-05-05 17:16:13.665 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-05-05 17:16:13.673 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-05-05 17:16:13.674 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-05-05 17:16:13.680 [info] Found: /usr/bin/python3 --> /usr/bin/python3.6
+2024-05-05 17:16:13.681 [info] Found: /usr/bin/python3.6 --> /usr/bin/python3.6
+2024-05-05 17:16:13.719 [info] > ./.venv/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-05 17:16:13.731 [info] Found: /usr/include/python3.6 --> /usr/include/python3.6m
+2024-05-05 17:16:13.837 [info] > /usr/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-05 17:16:13.875 [warning] Error: Command failed: /usr/bin/python -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py'
+}
+2024-05-05 17:16:13.875 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-05-05 17:16:13.898 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-05 17:16:13.958 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-05 17:16:14.065 [info] > /usr/include/python3.6 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-05 17:16:14.079 [error] Error: Command failed: /usr/include/python3.6 -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.6 -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py'
+}
+2024-05-05 17:16:16.110 [info] > /usr/include/python3.6 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-05 17:16:16.119 [error] Error: Command failed: /usr/include/python3.6 -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.6 -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py'
+}
+2024-05-05 17:16:20.336 [info] Discover tests for workspace name: mi - uri: /home/mi
+2024-05-05 17:16:20.340 [info] Python 解释器路径: /usr/bin/python3

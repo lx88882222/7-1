@@ -14,7 +14,7 @@ class rgb_cam_suber(Node):
 
           dog_name = self.get_parameter("dog_name").get_parameter_value().string_value
 
-          self.sub = self.create_subscription(Image, '/image_rgb', self.sub_callback, 10)
+          self.sub = self.create_subscription(Image, '/image_left', self.sub_callback, 10)
           pass
 
       def sub_callback(self, msg: Image):

@@ -1,2 +1,0 @@
-2024-05-05 09:31:47.369 [info] [auth] Invalid copilot token: missing token: 403 
-2024-05-05 09:31:47.845 [error] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as zr-zhou0o0."

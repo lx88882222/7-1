@@ -1,5 +1,0 @@
-[INFO] [1714897371.840129132] [az1.tracking_base]: 
-	tracking_base lifecycle node launched. 
-	Waiting on external lifecycle transitions to activate
-	See https://design.ros2.org/articles/node_lifecycle.html for more information.
-[INFO] [1714897371.885133049] [az1.tracking_base]: Creating tracking base...

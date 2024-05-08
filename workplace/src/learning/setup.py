@@ -32,7 +32,8 @@ setup(
             'goal = learning.goal:main',
             'rotate = learning.rotate:main',
             'get_data = learning.get_data:main',
-            'goal_keeper = learning.goal_keeper:main'
+            'move_x = learning.move_x:main',
+            'keeper = learning.keeper:main'
         ],
     },
 )

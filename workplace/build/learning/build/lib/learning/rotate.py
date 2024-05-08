@@ -67,16 +67,17 @@ class rotate(Node):
         rclpy.spin_once(self.rgb_node)
         ball_x, ball_y = self.rgb_node.ball_position
         size = self.rgb_node.size
-        if ball_x != 0:
+        if ball_x != 0:  # 持续更新x坐标
             self.x_rec.pop(0)
             self.x_rec.append(ball_x)
+        # 调整狗子距离球的位置
         if size < 100:
-            av=sum(self.x_rec)/len(self.x_rec)
+            av=sum(self.x_rec)/len(self.x_rec)  # 取一段时间的x坐标平均值
             if  av < 320:
-                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.3
+                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.3  
             else:
                 self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, -0.3
-        elif ball_x > 260 and ball_x < 400:
+        elif ball_x > 260 and ball_x < 400: # 确定目标成功
             self.speed_z = 0.0
             self.aim = True
         elif ball_x <= 260:

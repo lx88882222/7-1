@@ -258,3 +258,7 @@
 2024-05-05 17:09:05.111 [warning] RequestStore#acceptReply was called without receiving a matching request 240
 2024-05-05 17:13:12.847 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
 2024-05-05 17:13:12.851 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 17:18:13.008 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 17:18:13.015 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-05 17:23:13.197 [error] [/home/mi/.vscode-server/extensions/ms-python.python-2024.6.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240415.
+2024-05-05 17:23:13.204 [error] [/home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.

@@ -19,6 +19,8 @@ def parse_data(data):
     c = float(c) if c != 'None' else None
     d = float(d) if d != 'None' else None
     # 返回两个坐标
+    print(f'data={data}')
+    print(f'a={a}, b={b}, c={c}, d={d}')
     return (a, b), (c, d)
 
 def main():

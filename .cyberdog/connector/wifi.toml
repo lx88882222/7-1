@@ -15,8 +15,8 @@ password = ""
 provider = ""
 
 [wifi.Cyberdog]
-provider = "10.0.0.107"
 password = ""
+provider = ""
 
 [wifi.mi]
 password = ""

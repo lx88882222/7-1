@@ -93,3 +93,5 @@
 2024-05-05 17:14:07.508 [warning] RequestStore#acceptReply was called without receiving a matching request 174
 2024-05-05 17:14:07.508 [warning] RequestStore#acceptReply was called without receiving a matching request 175
 2024-05-05 17:14:07.509 [warning] RequestStore#acceptReply was called without receiving a matching request 176
+2024-05-05 17:15:36.543 [info] New EH opened, aborting shutdown
+2024-05-05 17:18:53.215 [info] [<unknown>][534f93d4][ExtensionHostConnection] <16721> Extension Host Process exited with code: 0, signal: null.

@@ -1,6 +1,6 @@
-Listening on 127.0.0.1:36033
-[2024-05-05 16:53:14] info Disposed of connection to running server.
-looking for token c666a89c-7729-479f-974a-790c56f0eaf3, got Some("c666a89c-7729-479f-974a-790c56f0eaf3")
-[2024-05-05 16:53:14] info Checking /home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/log.txt and /home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/pid.txt for a running server...
-[2024-05-05 16:53:14] info Found running server (pid=16941)
-[2024-05-05 17:10:24] info Disposed of connection to running server.
+Listening on 127.0.0.1:40203
+[2024-05-05 21:11:50] info Disposed of connection to running server.
+looking for token 92833ca1-d289-4889-a582-1a69599c6c47, got Some("92833ca1-d289-4889-a582-1a69599c6c47")
+[2024-05-05 21:11:51] info Checking /home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/log.txt and /home/mi/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/pid.txt for a running server...
+[2024-05-05 21:11:51] info Found running server (pid=32124)
+[2024-05-05 23:29:14] info Disposed of connection to running server.

@@ -1,2 +1,0 @@
-[WARN] [1714900104.533746982] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
-[ERROR] [1714900104.534281000] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at /home/mi/ros_src/src/ros2/rcl/rcl_lifecycle/src/rcl_lifecycle.c:356

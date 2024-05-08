@@ -21,3 +21,5 @@
 2024-05-05 17:14:11.917 [error] Error: connect ECONNRESET 20.189.173.23:443
     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
 2024-05-05 17:14:14.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 880
+2024-05-05 17:17:01.141 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-05-05 17:19:16.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 965

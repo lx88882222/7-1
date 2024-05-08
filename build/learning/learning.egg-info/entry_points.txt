@@ -1,7 +1,16 @@
 [console_scripts]
 camera = learning.camera:main
-rgb_cam_suber = learning.rgb_cam_suber:main
+crash = learning.crash:main
+data_receive = learning.data_receive:main
+get_data = learning.get_data:main
+goal = learning.goal:main
+keeper = learning.keeper:main
+move_x = learning.move_x:main
+rgb = learning.rgb_cam_suber:main
+rotate = learning.rotate:main
+rotate_until_center1 = learning.rotate_until_center1
 stand = learning.stand:main
 track = learning.track:main
+walk_t_sec = learning.walk_t_sec:main
 walktest = learning.walktest:main
 

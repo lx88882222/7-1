@@ -598,3 +598,194 @@ ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{t
 ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
 ros2 topic echo /image_rgb
 /usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" 
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+cd workplace
+colcon build
+ros2 run learning track
+cd workplace
+colcon build
+ros2 run learning track
+ros2 launch realsense2_camera on_dog.py
+ros2 launch camera_test stereo_camera.py
+git add .
+git commit -m "0505morning"
+git push origin main
+/usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt
+/usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/bash/envVars.txt
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+echo $DISPLAY
+export DISPLAY=10.0.0.200:0.0
+echo $DISPLAY
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+xhost +
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+/usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt
+cd workplace
+ros2 run learning stand
+colcon build
+cd workplace
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+ros2 run learning walktest
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+ros2 run learning walktest
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning test
+ros2 run learning stand
+ros2 run learning test
+cd ..
+git add workplace
+git commit -m "0505 afternoon"
+git push -u origin main
+cd workplace
+colcon build
+ros2 run learning stand
+colcon build
+ros2 run learning test
+colcon build
+ros2 run learning test
+colcon build
+ros2 run learning test
+colcon build
+ros2 run learning test
+colcon build
+ros2 run learning test
+colcon build
+ros2 run learning test
+colcon build
+ros2 run learning goal
+colcon build
+ros2 run learning goal
+colcon build
+ros2 run learning goal
+colcon build
+ros2 run learning goal
+colcon build
+ros2 run learning rotate
+colcon build
+ros2 run learning rotate
+ros2 run learning walk_t_sec
+cd workplace
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+colcon build
+ros2 run learning walk_t_sec
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+export DISPLAY=10.0.0.195:0.0
+xhost +
+ros2 topic list
+ros2 topic echo /image_rgb
+ros2 run learning track
+ros2 run learning rotate
+ros2 run learning track
+ros2 run learning rotate
+cd workplace
+colcon build
+ros2 run learning rotate
+colcon build
+ros2 run learning data_receive
+cd ..
+git add workplace
+git commit -m "0505night"
+git push origin main
+git push -u origin main
+git push origin main
+git add workplace
+git commit -m "0505night"
+git push origin main
+ros2 lifecycle set /az1/camera/camera activate 
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az/camera/camera configure
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az/camera/camera configure
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+export DISPLAY=local 10.0.0.132:0.0
+export DISPLAY=local 10.0.0.132
+export DISPLAY=local ip:10.0.0.132
+export DISPLAY=10.0.0.132:0.0
+xhost +
+ros2 run workplace camera
+ros2 run learning camera
+ros2 launch camera_test stereo_camera.py
+/usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt
+ros2 launch camera_test stereo_camera.py
+cd workplace
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning stand
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+git add .
+git commit -m '0505final'
+git push origin main
+                                                                                                                                                                                                                           calcon build
+cd workplace
+calcon build
+colcon build
+ros2 run learning keeper
+colcon build
+cd ..
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" 
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+cd workplace
+colcon build
+ros2 run learning data_reciv
+ros2 run learning data_receive
+cd workplace
+git add routine.py
+git add routine
+git add /home/mi/workplace/src/learning/learning/routine.py
+git commit -m "correct theta"
+git push origin main
