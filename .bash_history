@@ -789,3 +789,62 @@ git add routine
 git add /home/mi/workplace/src/learning/learning/routine.py
 git commit -m "correct theta"
 git push origin main
+ros2 run learning keeper
+cd workplace
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+ros2 run learning rotate
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+git help
+git remote add origin https://github.com/lx88882222/7-1.git
+git add -u
+git commit -m "0509"
+git checkout main
+git push
+git config --global
+git config --global --get http.proxy
+git --global
+git -global
+git git --help
+git --help
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic list
+ros2 topic echo /image_rgb
+ros2 run learning keeper
+colcon build
+ros2 run learning move_x
+colcon build
+ros2 run learning move_x
+colcon build
+ros2 run learning move_x
+ros2 run learning track
+
+export DISPLAY=10.0.0.182:0.0
+xhost +
+export DISPLAY = 10.0.0.182:0.0
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 run learning track
+cd workplace
+cd ..
+git --global
+git config --global
+git config --global --get http.proxy
+git add -u
+git add workplace
+git commit -m "1"
+git push
+ros2 launch camera_test stereo_camera.py

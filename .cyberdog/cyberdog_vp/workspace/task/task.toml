@@ -2,37 +2,37 @@
 [task]
 
 [task.visual_default]
-file = "file"
-dependent = []
-mode = "cycle"
-operate = []
-style = "style"
-condition = "now"
-be_depended = []
-state = "run_wait"
 describe = "Visual default abilityset task."
-
-[task.terminal_default]
-file = "file"
+state = "run_wait"
+be_depended = []
 dependent = []
+file = "file"
 mode = "cycle"
 operate = []
 style = "style"
 condition = "now"
-be_depended = []
-state = "run_wait"
-describe = "Terminal default abilityset task."
 
 [task.mi_1692082992950_saveTaskOrModule]
-describe = '手势识别'
-state = "wait_run"
-be_depended = []
-dependent = []
-file = "/home/mi/.cyberdog/cyberdog_vp/workspace/task/src/mi_1692082992950_saveTaskOrModule"
-mode = "single"
+condition = "now"
+style = '{"blocks":{"languageVersion":0,"blocks":[{"type":"program_start","id":"RBpqO=zS:Min@~s1YZVV","x":0,"y":0,"next":{"block":{"type":"set_play","id":"weRt~_]Pq4$:(8r/z~W|","fields":{"SETPLAY":"任务开始","VOLUME":50},"next":{"block":{"type":"custom_control_while_do","id":"wBuJFjbixTZDStbv,PIi","inputs":{"CUSTOM_CONTROL_WHILE":{"block":{"type":"event_true","id":"#5(a}{6%%DGmL2~;NA)7"}},"CUSTOM_CONTROL_DO":{"block":{"type":"custom_control_if","id":"M2S3v;kdaZ`r~Ox55ZF9","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"pT[K5%r{d%TNQ;VbG#W9","fields":{"DROPMORE":"手掌推开","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"go_straight","id":"f5gqTX5Dv3FyFZ7fnukR","fields":{"GO":"backoff","NUM":3,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"V%z(3VN}LUjlW!{51~l.","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"0dBFChFmZHior)F88Lm5","fields":{"DROPMORE":"手向上抬","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"go_straight","id":"kLxd`W2DMMgcixG%pdv^","fields":{"GO":"forward","NUM":3,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"%{.,?)}/C2(BI`46YQ)-","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":",/70qQtDHsMGS7sFYV)}","fields":{"DROPMORE":"手向右推","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"lateral_movement","id":"64!qdB06Fw~K5;46`rk/","fields":{"MOVE":"left","SPEED":0.3,"METRE":2,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"aRp]h5it5_%mwP-51S]]","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"N|!NT~e{Y?ta2XJoZG**","fields":{"DROPMORE":"手向左推","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"lateral_movement","id":"GDF5G_f;%KPU0[DmJ@qy","fields":{"MOVE":"right","SPEED":0.3,"METRE":2,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"_)?}y(^UC+tyuy?um;.y","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"jK3l,ojTF/oY75;5K3h%","fields":{"DROPMORE":"大拇指朝上","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"bow_actions","id":"CIYR1A-r#/{;uvQ}h_+=","fields":{"JUMP":"bow"},"next":{"block":{"type":"stand_down","id":"UBsLr?%w3mp.fi`d#bI`","fields":{"STANDDOWN":"stand"}}}}}}}}}}}}}}}}}}}}}}]}}'
 operate = [
 "2024.04.07-20:22:15 >> save operation.",
 ]
-style = '{"blocks":{"languageVersion":0,"blocks":[{"type":"program_start","id":"RBpqO=zS:Min@~s1YZVV","x":0,"y":0,"next":{"block":{"type":"set_play","id":"weRt~_]Pq4$:(8r/z~W|","fields":{"SETPLAY":"任务开始","VOLUME":50},"next":{"block":{"type":"custom_control_while_do","id":"wBuJFjbixTZDStbv,PIi","inputs":{"CUSTOM_CONTROL_WHILE":{"block":{"type":"event_true","id":"#5(a}{6%%DGmL2~;NA)7"}},"CUSTOM_CONTROL_DO":{"block":{"type":"custom_control_if","id":"M2S3v;kdaZ`r~Ox55ZF9","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"pT[K5%r{d%TNQ;VbG#W9","fields":{"DROPMORE":"手掌推开","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"go_straight","id":"f5gqTX5Dv3FyFZ7fnukR","fields":{"GO":"backoff","NUM":3,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"V%z(3VN}LUjlW!{51~l.","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"0dBFChFmZHior)F88Lm5","fields":{"DROPMORE":"手向上抬","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"go_straight","id":"kLxd`W2DMMgcixG%pdv^","fields":{"GO":"forward","NUM":3,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"%{.,?)}/C2(BI`46YQ)-","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":",/70qQtDHsMGS7sFYV)}","fields":{"DROPMORE":"手向右推","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"lateral_movement","id":"64!qdB06Fw~K5;46`rk/","fields":{"MOVE":"left","SPEED":0.3,"METRE":2,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"aRp]h5it5_%mwP-51S]]","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"N|!NT~e{Y?ta2XJoZG**","fields":{"DROPMORE":"手向左推","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"lateral_movement","id":"GDF5G_f;%KPU0[DmJ@qy","fields":{"MOVE":"right","SPEED":0.3,"METRE":2,"MS":"second"}}}},"next":{"block":{"type":"custom_control_if","id":"_)?}y(^UC+tyuy?um;.y","inputs":{"CUSTOM_CONTROL_IF":{"block":{"type":"event_continuous_action","id":"jK3l,ojTF/oY75;5K3h%","fields":{"DROPMORE":"大拇指朝上","EXPTIME":60,"SENSIT":1}}},"CUSTOM_CONTROL_DO0":{"block":{"type":"bow_actions","id":"CIYR1A-r#/{;uvQ}h_+=","fields":{"JUMP":"bow"},"next":{"block":{"type":"stand_down","id":"UBsLr?%w3mp.fi`d#bI`","fields":{"STANDDOWN":"stand"}}}}}}}}}}}}}}}}}}}}}}]}}'
+state = "wait_run"
+be_depended = []
+describe = '手势识别'
+mode = "single"
+dependent = []
+file = "/home/mi/.cyberdog/cyberdog_vp/workspace/task/src/mi_1692082992950_saveTaskOrModule"
+
+[task.terminal_default]
+describe = "Terminal default abilityset task."
+state = "run_wait"
+be_depended = []
+dependent = []
+file = "file"
+mode = "cycle"
+operate = []
+style = "style"
 condition = "now"
 

@@ -103,3 +103,9 @@ x==410,y==378,area==31450
 
 ### issue
 球和球门垂直
+
+
+### debug记录&提醒
++ 如果转速过大，狗子转的角度会大于预设角度
++ 打开src中的learning而非install中的learning
++ build或者git的时候记得cd
