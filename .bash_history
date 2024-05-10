@@ -848,3 +848,88 @@ git add workplace
 git commit -m "1"
 git push
 ros2 launch camera_test stereo_camera.py
+git config --global
+git config user.name
+git config --global user.name "zr-zhou0o0"
+git config --global user.email "2033616887@qq.com"
+git config user.name
+git config user.email
+git add -u
+git commit -m "update readme"
+git push
+git add -u
+git commit -m "update readme"
+cd workplace
+git add -u
+git commit -m "update readme"
+git push
+git config --global --unset http.proxy
+git config --global
+git status
+git add -u
+git commit
+ls
+ros2 launch realsense2_camera on_dog.py
+ros2 launch camera_test stereo_camera.py
+git status
+git push
+ros2 lifecycle set /az1/camera/camera configure
+ros2 topic list
+ros2 launch realsense2_camera on_dog.py
+ros2 lifecycle set /camera/camera configure
+ros2 lifecycle set /camera/camera activate
+ros2 lifecycle set /camera/camera configure
+ros2 topic list
+ros2 topic echo /camera/infra1/image_rect_raw
+ros2 launch realsense2_camera realsense_align_node.launch.py
+ros2 lifecycle set /az1/camera/camera configureros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+topic list
+ros2 node list
+ros2 topic list
+ros2 topic echo /image_rgb
+ros2 topic list
+ros2 run learning track
+ros2 run learning traack
+ros2 run learning track
+export DISPLAY=local ip:0.0
+export DISPLAY=local 10.0.0.182:0.0
+export DISPLAY=local10.0.0.182:0.0
+ros2 run learning track
+export DISPLAY=local 10.0.0.182:0.0
+export DISPLAY = local 10.0.0.182:0.0
+export DISPLAY=local 10.0.0.182:0.0
+export DISPLAY=local10.0.0.182:0.0
+export DISPLAY=local 10.0.0.182:0.0
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 lifecycle set /camera/camera_align configure
+ros2 lifecycle set /camera/camera_align activate
+ros2 run learning track
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 run learning track
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /camera/camera activate
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 launch realsense2_camera realsense_align_node.launch.py
+ros2 launch realsense2_camera on_dog.py
+ros2 lifecycle set /az1/camera/camera_align configure
+ros2 lifecycle set /camera/camera_align configure
+ros2 lifecycle set /camera/camera_align activate
+ros2 lifecycle set /az1/camera/camera_align activate
+ros2 lifecycle set /camera/camera_align activate
+os2 lifecycle set /az1/camera/camera_align configure
+ros2 launch realsense2_camera on_dog.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /camera/camera activate
+ros2 lifecycle set /az1/camera/camera activate
+/usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/bash/envVars.txt

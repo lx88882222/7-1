@@ -28,28 +28,57 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
+"a	CHAR	0
+	!
+|3,0,10,0,1,0,1715342882,"!"
 
 # File marks:
-'0  7  2  ~/.git/MERGE_MSG
-|4,48,7,2,1714647921,"~/.git/MERGE_MSG"
-'1  264  0  /etc/nvpmodel.conf
-|4,49,264,0,1640340315,"/etc/nvpmodel.conf"
-'2  20  0  /etc/nvpmodel
-|4,50,20,0,1640340192,"/etc/nvpmodel"
+'0  465  0  ~/.git/COMMIT_EDITMSG
+|4,48,465,0,1715342980,"~/.git/COMMIT_EDITMSG"
+'1  7  2  ~/.git/MERGE_MSG
+|4,49,7,2,1714647921,"~/.git/MERGE_MSG"
+'2  264  0  /etc/nvpmodel.conf
+|4,50,264,0,1640340315,"/etc/nvpmodel.conf"
+'3  20  0  /etc/nvpmodel
+|4,51,20,0,1640340192,"/etc/nvpmodel"
 
 # Jumplist (newest first):
+-'  465  0  ~/.git/COMMIT_EDITMSG
+|4,39,465,0,1715342980,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1715342748,"~/.git/COMMIT_EDITMSG"
 -'  7  2  ~/.git/MERGE_MSG
 |4,39,7,2,1714647921,"~/.git/MERGE_MSG"
+-'  7  2  ~/.git/MERGE_MSG
+|4,39,7,2,1714647921,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1714647797,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
 |4,39,1,0,1714647797,"~/.git/MERGE_MSG"
 -'  264  0  /etc/nvpmodel.conf
 |4,39,264,0,1640340315,"/etc/nvpmodel.conf"
 -'  264  0  /etc/nvpmodel.conf
 |4,39,264,0,1640340315,"/etc/nvpmodel.conf"
+-'  264  0  /etc/nvpmodel.conf
+|4,39,264,0,1640340315,"/etc/nvpmodel.conf"
+-'  264  0  /etc/nvpmodel.conf
+|4,39,264,0,1640340315,"/etc/nvpmodel.conf"
 -'  1  0  /etc/nvpmodel.conf
 |4,39,1,0,1640340197,"/etc/nvpmodel.conf"
 -'  1  0  /etc/nvpmodel.conf
 |4,39,1,0,1640340197,"/etc/nvpmodel.conf"
+-'  1  0  /etc/nvpmodel.conf
+|4,39,1,0,1640340197,"/etc/nvpmodel.conf"
+-'  1  0  /etc/nvpmodel.conf
+|4,39,1,0,1640340197,"/etc/nvpmodel.conf"
+-'  20  0  /etc/nvpmodel
+|4,39,20,0,1640340192,"/etc/nvpmodel"
+-'  20  0  /etc/nvpmodel
+|4,39,20,0,1640340192,"/etc/nvpmodel"
+-'  20  0  /etc/nvpmodel
+|4,39,20,0,1640340192,"/etc/nvpmodel"
+-'  20  0  /etc/nvpmodel
+|4,39,20,0,1640340192,"/etc/nvpmodel"
 -'  20  0  /etc/nvpmodel
 |4,39,20,0,1640340192,"/etc/nvpmodel"
 -'  20  0  /etc/nvpmodel
@@ -60,6 +89,16 @@ $
 |4,39,20,0,1640340192,"/etc/nvpmodel"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1715342882	0
+	"	465	0
+	^	461	0
+	.	464	1
+	+	458	3
+	+	460	1
+	+	461	1
+	+	464	1
 
 > ~/.git/MERGE_MSG
 	*	1714647899	0

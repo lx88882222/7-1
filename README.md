@@ -66,6 +66,19 @@
     + ros2 launch realsense2_camera on_dog.py
     + ros2 lifecycle set /camera/camera configure
     + ros2 lifecycle set /camera/camera activate -->
+1.打开realsense(研究中......)
+    + ros2 launch realsense2_camera on_dog.py
+    + ros2 launch realsense2_camera realsense_align_node.launch.py
+    + ros2 lifecycle set /az1/camera/camera configure
+    + ros2 lifecycle set /az1/camera/camera activate
+    + ros2 lifecycle set /az1/camera/camera_align configure
+    + ros2 lifecycle set /az1/camera/camera_align activate
+    + ros2 service call /on_dog/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+    + ros2 service call /realsense2_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+
+    + ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+    + ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+
 2. 运行
     + cd workplace
     + colcon build
@@ -80,6 +93,9 @@
 4. 连接Xming
     + export DISPLAY=local ip:0.0
         + xhost +
+5. 检查是否连接成功
+    + ros2 topic list
+    + ros2 topic echo /<名称>
 ### 运动参数
 飞扑距离
 x==410,y==378,area==31450
@@ -109,3 +125,4 @@ x==410,y==378,area==31450
 + 如果转速过大，狗子转的角度会大于预设角度
 + 打开src中的learning而非install中的learning
 + build或者git的时候记得cd
+

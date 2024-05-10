@@ -5,6 +5,7 @@
 函数move_x_aim_ball(mode=0)，
 mode=0：球处于中心，停止，返回True
 mode=1:持续动态跟随，直到KeyBoardInterrupt，返回True
+speed.y > 0 时往左走
 '''
 import cv2
 import numpy as np
@@ -61,36 +62,65 @@ class move_x(Node):
         self.dog_name = "az1"
         self.pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 10)
         self.timer = self.create_timer(0.1, self.timer_callback)
-        self.x_rec=[.0,.0,.0,.0,.0]
+        self.x_rec=[320.0,320.0,320.0]
+        self.size_rec=[.0,.0,.0,.0,.0]
+        self.xx=[320.0,320.0,320.0]
+
         self.aim = False
 
     def timer_callback(self):
         rclpy.spin_once(self.rgb_node)
         ball_x, ball_y = self.rgb_node.ball_position
         size = self.rgb_node.size
+
         if ball_x != 0:  # 持续更新x坐标
             self.x_rec.pop(0)
             self.x_rec.append(ball_x)
-        # 调整狗子距离球的位置
-        # '''
-        # # 溜走算法
-        # if size < 100: # 如果球很远或者球走掉了
-        #     av=sum(self.x_rec)/len(self.x_rec)  # 取一段时间的ballx坐标平均值
-        #     if  av < 320: #球从左侧溜走
-        #         self.speed_x, self.speed_y, self.speed_z = 0.2, 0.0, 0.0
-        #     else: # 球从右侧溜走
-        #         self.speed_x, self.speed_y, self.speed_z = -0.2, 0.0, 0.0
-        # '''
-        if size > 100:
-            if ball_x > 260 and ball_x < 400:  #球在视野中心：不再平移
+        self.size_rec.pop(0)
+        self.size_rec.append(size)
+
+        avx=sum(self.x_rec)/len(self.x_rec)  
+        avs=sum(self.size_rec)/len(self.size_rec)
+
+        # self.xx.pop(0) # self.xx记录球的连续三个x值
+        # self.xx.append(avx)
+
+
+        if avs <= 100: # 如果球不见了
+            self.speed_x = 0.0
+            self.aim = False
+
+        if (avs > 100) & (avs < 1500): # 如果球很远或者走掉了
+            if  avx < 280: #球从左侧溜走:向左走  320是像素中心位置
+                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.2, 0.0
+            elif avx > 360: # 球从右侧溜走：向右走
+                self.speed_x, self.speed_y, self.speed_z = 0.0, -0.2, 0.0
+            else:
+                self.speed_x = 0.0
+        # 可以加一个校准系统：如果多次都在“中心”循环中，但是avoriginx偏差较大，就加一次速度
+        
+        if avs >= 1500: # 如果球很近了
+            # if yy[0]<yy[1] & yy[1]<yy[2]: # 如果球离球门越来越近
+            if avx > 280 and avx < 360:  #球在视野中心：不再平移
                 self.speed_x = 0.0
                 self.aim = True
-            elif ball_x <= 260: #球在视野左侧
-                self.speed_x, self.speed_y, self.speed_z = 0.2, 0.0, 0.0
-            else: # 球在视野右侧
-                self.speed_x, self.speed_y, self.speed_z = -0.2, 0.0, 0.0
-        else
-            self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.0
+            else:
+                if (self.x_rec[0]+2.0 < self.x_rec[1]) & (self.x_rec[1]+2.0 < self.x_rec[2]): # 如果x越来越大，狗往右走
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, -0.27, 0.0
+                elif (self.x_rec[2]+2.0 < self.x_rec[1]) & (self.x_rec[1]+2.0 < self.x_rec[0]):# 如果x越来越小，狗往左走
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.27, 0.0
+                else: # 如果球几乎不动，狗不动
+                    self.speed_x = 0.0
+                    self.aim = True
+
+
+            
+        #     elif ball_x <= 260: #球在视野左侧
+        #         self.speed_x, self.speed_y, self.speed_z = 0.2, 0.0, 0.0
+        #     else: # 球在视野右侧
+        #         self.speed_x, self.speed_y, self.speed_z = -0.2, 0.0, 0.0
+        # else
+        #     self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.0
 
         msg = MotionServoCmd()
         msg.motion_id = 308
@@ -99,7 +129,7 @@ class move_x(Node):
         msg.vel_des = [self.speed_x, self.speed_y, self.speed_z]
         msg.step_height = [0.05, 0.05]
         self.pub.publish(msg)
-        self.get_logger().info(f"x={ball_x},arr={self.x_rec}move_x={self.speed_x}")
+        self.get_logger().info(f"size={size},origin_x={self.x_rec}")
 
    
 

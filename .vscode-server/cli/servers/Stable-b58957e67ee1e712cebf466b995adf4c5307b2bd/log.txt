@@ -5,21 +5,23 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-55a762b4-7c2e-4ede-9ec8-1950084c2480
-Extension host agent listening on /tmp/code-55a762b4-7c2e-4ede-9ec8-1950084c2480
+Server bound to /tmp/code-5ddd0e0f-0385-441d-b907-67f908dc80fc
+Extension host agent listening on /tmp/code-5ddd0e0f-0385-441d-b907-67f908dc80fc
 
-[19:44:02] 
-
-
+[21:47:00] 
 
 
-[19:44:02] Extension host agent started.
-[19:44:02] [<unknown>][a0e8a0f6][ExtensionHostConnection] New connection established.
-[19:44:02] [<unknown>][9b12839a][ManagementConnection] New connection established.
-[19:44:08] [<unknown>][a0e8a0f6][ExtensionHostConnection] <17081> Launched Extension Host Process.
-[19:44:14] [<unknown>][8795068f][ExtensionHostConnection] New connection established.
-[19:44:14] [<unknown>][8795068f][ExtensionHostConnection] <17248> Launched Extension Host Process.
-[19:44:14] [<unknown>][36f59d0f][ManagementConnection] New connection established.
+
+
+[21:47:00] Extension host agent started.
+[21:47:01] [<unknown>][8fd00218][ExtensionHostConnection] New connection established.
+[21:47:01] [<unknown>][6a596f4b][ManagementConnection] New connection established.
+[21:47:02] Deleted uninstalled extension from disk github.copilot /home/mi/.vscode-server/extensions/github.copilot-1.187.0
+[21:47:02] Deleted uninstalled extension from disk github.copilot-chat /home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0
+[21:47:06] [<unknown>][8fd00218][ExtensionHostConnection] <10944> Launched Extension Host Process.
+[21:47:17] [<unknown>][d11c8bec][ManagementConnection] New connection established.
+[21:47:17] [<unknown>][cf7ee904][ExtensionHostConnection] New connection established.
+[21:47:17] [<unknown>][cf7ee904][ExtensionHostConnection] <11206> Launched Extension Host Process.
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
@@ -35,7 +37,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[19:44:16] Error [CodeExpectedError]: Could not find pty on pty host
+[21:47:19] Error [CodeExpectedError]: Could not find pty on pty host
     at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
     at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
     at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
@@ -49,19 +51,115 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[19:44:21] Getting Manifest... github.copilot
-[19:44:21] Getting Manifest... github.copilot-chat
-[19:44:21] Installing extension: github.copilot-chat
-[19:44:22] Installing extension: github.copilot
-[19:44:31] Extension signature verification result for github.copilot-chat: Success. Duration: 5162ms.
-[19:44:32] Extension signature verification result for github.copilot: Success. Duration: 5770ms.
-[19:44:33] Extracted extension to file:///home/mi/.vscode-server/extensions/github.copilot-chat-0.15.1: github.copilot-chat
-[19:44:33] Renamed to /home/mi/.vscode-server/extensions/github.copilot-chat-0.15.1
-[19:44:33] Extracting extension completed. github.copilot-chat
-[19:44:33] Extension installed successfully: github.copilot-chat
-[19:44:33] Marked extension as uninstalled github.copilot-chat-0.15.0
-[19:44:34] Extracted extension to file:///home/mi/.vscode-server/extensions/github.copilot-1.188.0: github.copilot
-[19:44:34] Renamed to /home/mi/.vscode-server/extensions/github.copilot-1.188.0
-[19:44:34] Extracting extension completed. github.copilot
-[19:44:34] Extension installed successfully: github.copilot
-[19:44:34] Marked extension as uninstalled github.copilot-1.187.0
+[21:48:58] [<unknown>][29f6d568][ManagementConnection] New connection established.
+[21:48:58] [<unknown>][6655e689][ExtensionHostConnection] New connection established.
+[21:48:58] [<unknown>][6655e689][ExtensionHostConnection] <13023> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[21:49:00] Error [CodeExpectedError]: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[21:49:16] [<unknown>][41940c3a][ManagementConnection] New connection established.
+[21:49:16] [<unknown>][83a76100][ExtensionHostConnection] New connection established.
+[21:49:16] [<unknown>][83a76100][ExtensionHostConnection] <13317> Launched Extension Host Process.
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 105
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 106
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 107
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 108
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 109
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 110
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 111
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 112
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 113
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 114
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 115
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 116
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 117
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 118
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 119
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 120
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 121
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 122
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 123
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 124
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 125
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 126
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 127
+[21:49:17] RequestStore#acceptReply was called without receiving a matching request 128
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[21:49:18] Error [CodeExpectedError]: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 129
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 130
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 131
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 132
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 133
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 134
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 135
+[21:49:19] RequestStore#acceptReply was called without receiving a matching request 136
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 137
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 138
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 139
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 140
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 141
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 142
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 143
+[21:49:23] RequestStore#acceptReply was called without receiving a matching request 144
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 145
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 146
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 147
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 148
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 149
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 150
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 151
+[21:49:31] RequestStore#acceptReply was called without receiving a matching request 152
