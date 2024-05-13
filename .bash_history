@@ -933,3 +933,99 @@ ros2 lifecycle set /az1/camera/camera configure
 ros2 lifecycle set /camera/camera activate
 ros2 lifecycle set /az1/camera/camera activate
 /usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/bash/envVars.txt
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+export DISPLAY=10.0.0.182:0.0
+ros2 topic list
+ros2 topic echo /image_rgb
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+cd workplaces
+cd workplace
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+git add -u
+git commit -m "zzr 0512"
+git push
+git push --set-upstream origin dev
+git checkout main
+git add -u
+git commit -m "zzr0512"
+git status
+git checkout dev
+git add -u
+git commit -m "zzr0512"
+git push
+git push --set-upstream origin dev
+git checkout main
+git add -u
+git commit -m "zzr0512"
+git push
+git add -u\
+git push
+git add -u
+git commit -m "zzr0512"
+git push
+git add -u
+git commit -m "zzr0512"
+git push
+ros2 launch camera_test stereo_camera.py
+cd workplace
+colcon build
+ros2 run learning main_node
+colcon build get_loc
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+ros2 learning data_receive
+ros2 run learning data_receive
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+colcon build
+ros2 run learning main_node
+git status
+git push origin main
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" 
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 run learning keeper
+ros2 launch camera_test stereo_camera.py

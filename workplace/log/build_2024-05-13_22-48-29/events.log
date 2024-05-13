@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.005340] (-) JobUnselected: {'identifier': 'learning'}
+[0.006902] (ai) JobQueued: {'identifier': 'ai', 'dependencies': OrderedDict()}
+[0.007160] (ai) JobStarted: {'identifier': 'ai'}
+[0.105679] (-) TimerEvent: {}
+[0.210109] (-) TimerEvent: {}
+[0.313185] (-) TimerEvent: {}
+[0.414786] (-) TimerEvent: {}
+[0.515730] (-) TimerEvent: {}
+[0.616814] (-) TimerEvent: {}
+[0.717706] (-) TimerEvent: {}
+[0.818806] (-) TimerEvent: {}
+[0.923222] (-) TimerEvent: {}
+[1.024599] (-) TimerEvent: {}
+[1.126303] (-) TimerEvent: {}
+[1.228551] (-) TimerEvent: {}
+[1.329555] (-) TimerEvent: {}
+[1.433463] (-) TimerEvent: {}
+[1.537448] (-) TimerEvent: {}
+[1.638436] (-) TimerEvent: {}
+[1.739344] (-) TimerEvent: {}
+[1.841509] (-) TimerEvent: {}
+[1.944147] (-) TimerEvent: {}
+[2.046606] (-) TimerEvent: {}
+[2.147540] (-) TimerEvent: {}
+[2.248626] (-) TimerEvent: {}
+[2.349612] (-) TimerEvent: {}
+[2.450630] (-) TimerEvent: {}
+[2.552016] (-) TimerEvent: {}
+[2.652903] (-) TimerEvent: {}
+[2.753926] (-) TimerEvent: {}
+[2.856651] (-) TimerEvent: {}
+[2.958425] (-) TimerEvent: {}
+[3.064129] (-) TimerEvent: {}
+[3.166613] (-) TimerEvent: {}
+[3.268975] (-) TimerEvent: {}
+[3.370923] (-) TimerEvent: {}
+[3.471794] (-) TimerEvent: {}
+[3.572738] (-) TimerEvent: {}
+[3.673691] (-) TimerEvent: {}
+[3.774684] (-) TimerEvent: {}
+[3.875670] (-) TimerEvent: {}
+[3.976601] (-) TimerEvent: {}
+[3.999809] (ai) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ai', 'build', '--build-base', '/home/mi/workplace/build/ai/build', 'install', '--prefix', '/home/mi/workplace/install/ai', '--record', '/home/mi/workplace/build/ai/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/workplace/src/ai', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.184 51965 22', 'GIT_ASKPASS': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'BROWSER': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'SHLVL': '4', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'OLDPWD': '/home/mi', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-119ece31-3823-4ea0-a12b-15f735b82211.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/mi/workplace/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '3', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros2/cyberdog/bin:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23beac59df.sock', 'AMENT_PREFIX_PATH': '/home/mi/workplace/install/learning:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mi/workplace/build/ai', 'SSH_CONNECTION': '10.0.0.184 51965 10.0.0.168 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/workplace/install/ai/lib/python3.6/site-packages:/home/mi/workplace/install/learning/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[4.078215] (-) TimerEvent: {}
+[4.180819] (-) TimerEvent: {}
+[4.281820] (-) TimerEvent: {}
+[4.382752] (-) TimerEvent: {}
+[4.484718] (-) TimerEvent: {}
+[4.586159] (-) TimerEvent: {}
+[4.687356] (-) TimerEvent: {}
+[4.788227] (-) TimerEvent: {}
+[4.889169] (-) TimerEvent: {}
+[4.991345] (-) TimerEvent: {}
+[5.094062] (-) TimerEvent: {}
+[5.195098] (-) TimerEvent: {}
+[5.296029] (-) TimerEvent: {}
+[5.397302] (-) TimerEvent: {}
+[5.498323] (-) TimerEvent: {}
+[5.601305] (-) TimerEvent: {}
+[5.704002] (-) TimerEvent: {}
+[5.782256] (ai) StdoutLine: {'line': b'running egg_info\n'}
+[5.785669] (ai) StdoutLine: {'line': b'writing ../../build/ai/ai.egg-info/PKG-INFO\n'}
+[5.787867] (ai) StdoutLine: {'line': b'writing dependency_links to ../../build/ai/ai.egg-info/dependency_links.txt\n'}
+[5.797645] (ai) StdoutLine: {'line': b'writing entry points to ../../build/ai/ai.egg-info/entry_points.txt\n'}
+[5.802466] (ai) StdoutLine: {'line': b'writing requirements to ../../build/ai/ai.egg-info/requires.txt\n'}
+[5.803175] (ai) StdoutLine: {'line': b'writing top-level names to ../../build/ai/ai.egg-info/top_level.txt\n'}
+[5.805914] (-) TimerEvent: {}
+[5.808128] (ai) StdoutLine: {'line': b"reading manifest file '../../build/ai/ai.egg-info/SOURCES.txt'\n"}
+[5.812267] (ai) StdoutLine: {'line': b"writing manifest file '../../build/ai/ai.egg-info/SOURCES.txt'\n"}
+[5.813296] (ai) StdoutLine: {'line': b'running build\n'}
+[5.813812] (ai) StdoutLine: {'line': b'running build_py\n'}
+[5.814507] (ai) StdoutLine: {'line': b'running install\n'}
+[5.815496] (ai) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.816254] (ai) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[5.817266] (ai) StdoutLine: {'line': b'running install_lib\n'}
+[5.822582] (ai) StdoutLine: {'line': b'running install_data\n'}
+[5.824296] (ai) StdoutLine: {'line': b'copying package.xml -> /home/mi/workplace/install/ai/share/ai\n'}
+[5.825177] (ai) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.834052] (ai) StdoutLine: {'line': b"removing '/home/mi/workplace/install/ai/lib/python3.6/site-packages/ai-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[5.835873] (ai) StdoutLine: {'line': b'Copying ../../build/ai/ai.egg-info to /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai-0.0.0-py3.6.egg-info\n'}
+[5.840910] (ai) StdoutLine: {'line': b'running install_scripts\n'}
+[5.906204] (-) TimerEvent: {}
+[5.934249] (ai) StdoutLine: {'line': b'Installing photo script to /home/mi/workplace/install/ai/lib/ai\n'}
+[5.936444] (ai) StdoutLine: {'line': b"writing list of installed files to '/home/mi/workplace/build/ai/install.log'\n"}
+[6.006484] (-) TimerEvent: {}
+[6.063570] (ai) CommandEnded: {'returncode': 0}
+[6.107121] (-) TimerEvent: {}
+[6.150134] (ai) JobEnded: {'identifier': 'ai', 'rc': 0}
+[6.162059] (-) EventReactorShutdown: {}

@@ -1,0 +1,39 @@
+[6.720s] Invoking command in '/home/mi/workplace/src/ai': PYTHONPATH=/home/mi/workplace/install/ai/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ai build --build-base /home/mi/workplace/build/ai/build install --prefix /home/mi/workplace/install/ai --record /home/mi/workplace/build/ai/install.log --single-version-externally-managed
+[8.466s] running egg_info
+[8.472s] creating ../../build/ai/ai.egg-info
+[8.474s] writing ../../build/ai/ai.egg-info/PKG-INFO
+[8.474s] writing dependency_links to ../../build/ai/ai.egg-info/dependency_links.txt
+[8.475s] writing entry points to ../../build/ai/ai.egg-info/entry_points.txt
+[8.475s] writing requirements to ../../build/ai/ai.egg-info/requires.txt
+[8.476s] writing top-level names to ../../build/ai/ai.egg-info/top_level.txt
+[8.486s] writing manifest file '../../build/ai/ai.egg-info/SOURCES.txt'
+[8.499s] reading manifest file '../../build/ai/ai.egg-info/SOURCES.txt'
+[8.502s] writing manifest file '../../build/ai/ai.egg-info/SOURCES.txt'
+[8.504s] running build
+[8.507s] running build_py
+[8.512s] creating /home/mi/workplace/build/ai/build
+[8.512s] creating /home/mi/workplace/build/ai/build/lib
+[8.513s] creating /home/mi/workplace/build/ai/build/lib/ai
+[8.518s] copying ai/photo.py -> /home/mi/workplace/build/ai/build/lib/ai
+[8.519s] copying ai/__init__.py -> /home/mi/workplace/build/ai/build/lib/ai
+[8.519s] running install
+[8.520s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.520s]   setuptools.SetuptoolsDeprecationWarning,
+[8.521s] running install_lib
+[8.528s] creating /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai
+[8.528s] copying /home/mi/workplace/build/ai/build/lib/ai/photo.py -> /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai
+[8.529s] copying /home/mi/workplace/build/ai/build/lib/ai/__init__.py -> /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai
+[8.530s] byte-compiling /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai/photo.py to photo.cpython-36.pyc
+[8.536s] byte-compiling /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai/__init__.py to __init__.cpython-36.pyc
+[8.536s] running install_data
+[8.539s] creating /home/mi/workplace/install/ai/share/ament_index
+[8.551s] creating /home/mi/workplace/install/ai/share/ament_index/resource_index
+[8.552s] creating /home/mi/workplace/install/ai/share/ament_index/resource_index/packages
+[8.552s] copying resource/ai -> /home/mi/workplace/install/ai/share/ament_index/resource_index/packages
+[8.553s] copying package.xml -> /home/mi/workplace/install/ai/share/ai
+[8.553s] running install_egg_info
+[8.554s] Copying ../../build/ai/ai.egg-info to /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai-0.0.0-py3.6.egg-info
+[8.564s] running install_scripts
+[8.711s] Installing photo script to /home/mi/workplace/install/ai/lib/ai
+[8.724s] writing list of installed files to '/home/mi/workplace/build/ai/install.log'
+[9.004s] Invoked command in '/home/mi/workplace/src/ai' returned '0': PYTHONPATH=/home/mi/workplace/install/ai/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ai build --build-base /home/mi/workplace/build/ai/build install --prefix /home/mi/workplace/install/ai --record /home/mi/workplace/build/ai/install.log --single-version-externally-managed

@@ -1,0 +1,23 @@
+[6.591s] Invoking command in '/home/mi/workplace/src/ai': PYTHONPATH=/home/mi/workplace/install/ai/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ai build --build-base /home/mi/workplace/build/ai/build install --prefix /home/mi/workplace/install/ai --record /home/mi/workplace/build/ai/install.log --single-version-externally-managed
+[8.555s] running egg_info
+[8.559s] writing ../../build/ai/ai.egg-info/PKG-INFO
+[8.564s] writing dependency_links to ../../build/ai/ai.egg-info/dependency_links.txt
+[8.572s] writing entry points to ../../build/ai/ai.egg-info/entry_points.txt
+[8.580s] writing requirements to ../../build/ai/ai.egg-info/requires.txt
+[8.581s] writing top-level names to ../../build/ai/ai.egg-info/top_level.txt
+[8.595s] reading manifest file '../../build/ai/ai.egg-info/SOURCES.txt'
+[8.600s] writing manifest file '../../build/ai/ai.egg-info/SOURCES.txt'
+[8.601s] running build
+[8.602s] running build_py
+[8.609s] running install
+[8.610s] running install_lib
+[8.612s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.614s]   setuptools.SetuptoolsDeprecationWarning,
+[8.614s] running install_data
+[8.615s] running install_egg_info
+[8.632s] removing '/home/mi/workplace/install/ai/lib/python3.6/site-packages/ai-0.0.0-py3.6.egg-info' (and everything under it)
+[8.642s] Copying ../../build/ai/ai.egg-info to /home/mi/workplace/install/ai/lib/python3.6/site-packages/ai-0.0.0-py3.6.egg-info
+[8.642s] running install_scripts
+[8.759s] Installing photo script to /home/mi/workplace/install/ai/lib/ai
+[8.762s] writing list of installed files to '/home/mi/workplace/build/ai/install.log'
+[8.942s] Invoked command in '/home/mi/workplace/src/ai' returned '0': PYTHONPATH=/home/mi/workplace/install/ai/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ai build --build-base /home/mi/workplace/build/ai/build install --prefix /home/mi/workplace/install/ai --record /home/mi/workplace/build/ai/install.log --single-version-externally-managed
