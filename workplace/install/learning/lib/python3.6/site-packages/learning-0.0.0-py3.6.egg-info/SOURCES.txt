@@ -28,6 +28,7 @@ learning/routine.py
 learning/safe.py
 learning/see_and_crash.py
 learning/sensor_node.py
+learning/sit.py
 learning/stand.py
 learning/stop_node.py
 learning/striker.py

@@ -9,6 +9,7 @@ move_x = learning.move_x:main
 rgb = learning.rgb_cam_suber:main
 rotate = learning.rotate:main
 rotate_until_center1 = learning.rotate_until_center1
+sit = learning.sit:main
 stand = learning.stand:main
 track = learning.track:main
 walk_t_sec = learning.walk_t_sec:main

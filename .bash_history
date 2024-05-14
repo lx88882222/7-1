@@ -1029,3 +1029,86 @@ ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{t
 ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
 ros2 run learning keeper
 ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+cd workplace
+colcon build ai
+colcon build
+ros2 run ai photo
+git add ai
+git add -u
+git status
+git add -u
+git status
+git add workplace/src/ai
+git add workplace/src/ai/ai/photo.py
+git status
+git add src/ai/
+git status
+colcon build
+ros2 run ai photo
+colcon build --packages-select ai
+colcon build --packages-select learning
+ros2 run learning stand
+
+ros2 run learning sit
+ros2 run ai photo
+colcon build --packages-select ai
+ros2 run ai photo
+source ~/workplace/install/setup.bash
+cd ..
+source ~/workplace/install/setup.bash
+cd ..
+source ~/workplace/install/setup.bash
+cd home/mi/
+source ~/workplace/install/setup.bash
+nvidia-smi
+cd worrkplace/src
+cd workplace/src
+ros2 pkg create --build-type ament_cmake data_collect
+catkin_create_pkg identify roscpp rospy std_msgs
+ros2 pkg create --build-type ament_python ai
+cd ..
+cd ...
+cd ..
+cd Pictures
+ls
+list
+ls
+ros2 launch camera_test stereo_camera.py
+source install/setup.bash
+ros2 run ai photo
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 run ai photo
+cd workplace
+colcon build --packages-select ai
+ros2 run ai photo
+colcon build --packages-select ai
+ros2 run ai photo
+colcon build --packages-select ai
+ros2 run ai photo
+colcon build --packages-select ai
+ros2 run ai photo
+colcon build --packages-select ai
+ros2 run learning stand
+ros2 run learning walktest
+colcon build --packages-select ai
+ros2 run learning walktest
+ros2 run ai photo
+ros2 launch camera_test stereo_camera.py
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+git add .
+git commit -m '0513whfphoto'
+cd ..
+git add README.md
+git commit -m '0513whfphoto'
+git push origin whf_play

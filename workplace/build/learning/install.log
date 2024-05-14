@@ -12,6 +12,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/safe.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/walktest.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/walk_t_sec.py
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/sit.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/ZED_Tracker_color_range.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/geometry.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__init__.py
@@ -39,6 +40,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/safe.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/walktest.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/walk_t_sec.cpython-36.pyc
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/sit.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/ZED_Tracker_color_range.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/geometry.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/__init__.cpython-36.pyc
@@ -71,6 +73,7 @@
 /home/mi/workplace/install/learning/lib/learning/rgb
 /home/mi/workplace/install/learning/lib/learning/rotate
 /home/mi/workplace/install/learning/lib/learning/rotate_until_center1
+/home/mi/workplace/install/learning/lib/learning/sit
 /home/mi/workplace/install/learning/lib/learning/stand
 /home/mi/workplace/install/learning/lib/learning/track
 /home/mi/workplace/install/learning/lib/learning/walk_t_sec

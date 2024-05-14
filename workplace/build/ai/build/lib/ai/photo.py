@@ -22,14 +22,15 @@ class rgb_cam_suber(Node):
         self.count += 1
         cv_image = self.bridge.imgmsg_to_cv2(msg,desired_encoding='bgr8')
         image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
-        cv2.imwrite(f'{self.path}{self.count}.jpg', cv_image)
-        self.get_logger().info(f'{self.count}.jpg saved successfully.')
+        cv2.imwrite(f'{self.path}{self.count}.jpg', image)
+        self.get_logger().info(f'{self.count}.jpg saved successfully')
+        self.get_logger().info(f'the width of the image is {msg.width},height is {msg.height}')
         time.sleep(1)
 
 def main(args=None):
     rclpy.init(args=args)
     node = rgb_cam_suber("rgb_cam_suber")
-    rclpy.spin(node)
+    rclpy.spin_once(node)
     node.destroy_node()
     rclpy.shutdown()
 

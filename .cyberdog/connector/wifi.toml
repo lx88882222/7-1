@@ -7,8 +7,8 @@ provider = ""
 password = ""
 
 [wifi.Cyberdog]
-provider = ""
 password = ""
+provider = ""
 
 [wifi.Cyberdog2]
 provider = ""

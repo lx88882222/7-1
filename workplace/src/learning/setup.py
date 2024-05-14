@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'walktest = learning.walktest:main',
             'stand = learning.stand:main',
+            'sit = learning.sit:main',
             'rgb = learning.rgb_cam_suber:main',
             'camera = learning.camera:main',
             'track = learning.track:main',

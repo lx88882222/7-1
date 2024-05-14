@@ -23,6 +23,8 @@
 ### 提醒
 + 同时写代码时注意保存
 + build之前要先在终端输入`cd workplace`,否则无法更新所做的修改!
++ 单独编译某一个包 colcon build --packages-select learning
++
 ### 参考资料
 #### 二代机器狗的开源信息：
 1. [文档博客](https://miroboticslab.github.io/blogs/#/)
@@ -45,6 +47,8 @@
 + socket  
     - 
 + bash
++ 检查 7-1 7-2 白狗的rgb_cam返回图像大小，是640*480还是500*400？
++ 用7-1中ai photo拍摄比赛场地内狗和球的图像，并进行数据标注[数据标注参考视频](https://www.bilibili.com/video/BV1234y137Mt/?share_source=copy_web&vd_source=255f48a582c856914da3baa72f8c394a),百度智能云，roboflow，云服务器？
 ### 进度记录
 #### 04.23 李想 何冠奇 王鹤霏
 + 主要是尝试理解了一下ros2的工作机制: subscribe & publish / server & client
