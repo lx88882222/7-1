@@ -5,11 +5,11 @@
 ### 配置
 #### 狗
 + 7-1  
-    IP:10.0.0.168  
+    IP:10.0.0.169  
     password：123
     namespace：az1
 + 7-2
-    IP：10.0.0.123  
+    IP：10.0.0.126  
     password：123   
     namespace：az  
     tightVNC：  
@@ -130,3 +130,19 @@ x==410,y==378,area==31450
 + 打开src中的learning而非install中的learning
 + build或者git的时候记得cd
 
+#### 规则及分析
+1. 总体：  
+两方红黑狗对攻  
+2. 避障：  
+避障线程+striker线程，避障线程在发出避障指令前判断：目前是否在射门中，若在射门中，则不发出指令。
+加一个topic，记录当前状态（strike or avoid）。
+3. 守门：  
+
+4. striker：  
+射门
+    转到直线
+    优先靠近球，再yz旋转至正确射门方向
+防守
+
+2. 如何防止踢球时卡球：  
+更改rotate函数使球不处于正中间

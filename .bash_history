@@ -1112,3 +1112,41 @@ cd ..
 git add README.md
 git commit -m '0513whfphoto'
 git push origin whf_play
+ros2 launch camera_test stereo_camera.py
+git global --username HefeiW
+git --help
+git config --global -l
+git config --global user.name 'HefeiWang'
+git config --global user.name 'HefeiW'
+git config --global user.email 'hefei1504@163.com'
+git config --global -l
+git add /home/mi/Pictures/
+git commit -m 'add Pictures'
+git push origin whf_play
+git pull origin whf_play
+cd workplace
+colcon build -packages-select ai
+ros2 run ai phote
+ros2 run ai photo
+colcon build -packages-select ai
+colcon build --packages-select ai
+ros2 run ai photo
+ros2 run learning rgb_cam_suber
+ros2 run learning rgb
+git add -u
+git commit -m '0514whf pictures and TODO'
+git push
+git push origin whf_play
+ros2 run learning walktest
+cd workplace
+colcon build --packages-select learning
+ros2 run learning sit
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 run ai photo
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
