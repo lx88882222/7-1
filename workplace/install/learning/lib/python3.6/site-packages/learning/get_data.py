@@ -1,53 +1,58 @@
-'''
-    receive data from the upper computer
-    receive() function constantly receive data and update the instance's attributes
-    get_data() function receive data once and return the data
-    attibutes:
-        ball_coords: tuple, the coordinates of the ball
-        dog_coords: tuple, the coordinates of the dog
-'''
-# -*- coding:utf-8 -*-
 import socket
-import time
 import threading
-
+import time
 class SocketReciv():
     def __init__(self) -> None:
         self.dog_name="az1"
-        self.ip = '10.0.0.143' # 查看上位机ip，进行修改
-        self.dalay = 0.1
+        self.upper_ip = '10.0.0.144' # 查看上位机ip，进行修改
+        self.delay = 1
         self.client_socket = socket.socket()
-        self.client_socket.connect((self.ip, 40000))
+        self.client_socket.connect((self.upper_ip, 40000))
         self.ball_coords=(.0,.0)
-        self.dog_coords=(.0,.0)
+        self.red_dog_coords=(.0,.0)
+        self.black_dog_coords=(.0,.0)
         self.client_socket.send('start'.encode())
 
     def get_data(self):
+        print('getting data')
         self.client_socket.send('start'.encode())
         data = self.client_socket.recv(1024).decode()
-        # split方法用于按空格分隔字符串
-        a, b, c, d = data.split(' ')
+        parts = data.split(' ')
+        if len(parts) != 6:  # 确保我们有6个坐标值
+            return False
+        
         # 将字符串转换为浮点数，如果字符串为'None'，则返回None
-        a = float(a) if a != 'None' else None
-        b = float(b) if b != 'None' else None
-        c = float(c) if c != 'None' else None
-        d = float(d) if d != 'None' else None
-        self.ball_coords=(a,b)
-        self.dog_coords=(c,d)
-        return self.ball_coords, self.dog_coords
-
+        ball_coord = (float(parts[0]) if parts[0] != 'None' else None, float(parts[1]) if parts[1] != 'None' else None)
+        red_dog_coord = (float(parts[2]) if parts[2] != 'None' else None, float(parts[3]) if parts[3] != 'None' else None)
+        black_dog_coord = (float(parts[4]) if parts[4] != 'None' else None, float(parts[5]) if parts[5] != 'None' else None)
+        if not None in ball_coord:
+            self.ball_coords = ball_coord
+        if not None in red_dog_coord:
+            self.red_dog_coords = red_dog_coord
+        if not None in black_dog_coord:
+            self.black_dog_coords = black_dog_coord
+        print(f"---{ball_coord}")
+        return self.ball_coords, self.red_dog_coords, self.black_dog_coords
+    
     def receive(self):
-        self.client_socket.send('start'.encode())
         while(1):
             self.get_data()
-            time.sleep(self.dalay)
-def main():
-    s = SocketReciv()
-    threading.Thread(target=s.receive).start()
+            time.sleep(self.delay)
+def p(s:SocketReciv):
+    print('---s---')
     try:
         while(1):
             print(s.ball_coords)
-            print(s.dog_coords)
-            time.sleep(0.1)
+            print(s.red_dog_coords)
+            print(s.black_dog_coords)
+            time.sleep(1)
     except KeyboardInterrupt:
         s.client_socket.close()
+def main():
+    print('编译成功')
+    s = SocketReciv()
+    t1 = threading.Thread(target=s.receive)
+    t1.start()
+    t2 = threading.Thread(target=p,args=(s))
+    t2.start()
+    

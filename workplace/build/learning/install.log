@@ -13,6 +13,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/walktest.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/walk_t_sec.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/sit.py
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/make_goal.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/ZED_Tracker_color_range.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/geometry.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__init__.py
@@ -21,6 +22,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/camera.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/move_x.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/get_data.py
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/obstacle.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/stand.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/track.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/rotate.py
@@ -41,6 +43,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/walktest.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/walk_t_sec.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/sit.cpython-36.pyc
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/make_goal.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/ZED_Tracker_color_range.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/geometry.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/__init__.cpython-36.pyc
@@ -49,6 +52,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/camera.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/move_x.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/get_data.cpython-36.pyc
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/obstacle.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/stand.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/track.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/rotate.cpython-36.pyc

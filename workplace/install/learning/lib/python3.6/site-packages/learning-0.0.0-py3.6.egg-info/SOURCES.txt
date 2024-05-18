@@ -20,7 +20,9 @@ learning/get_loc.py
 learning/goal.py
 learning/keeper.py
 learning/main_node.py
+learning/make_goal.py
 learning/move_x.py
+learning/obstacle.py
 learning/rgb_cam_suber.py
 learning/rotate.py
 learning/rotate_to_line.py

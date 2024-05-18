@@ -1,5 +1,7 @@
-#---get rgb image from stereo camera---#
-
+'''
+> rgb_cam_suber.py
+> date: 2024-05-18
+'''
 import rclpy
 import logging
 from rclpy.node import Node
@@ -13,7 +15,7 @@ class rgb_cam_suber(Node):
     def __init__(self, name) -> None:
         super().__init__(name)
         self.bridge = CvBridge()
-        self.declare_parameter("dog_name", "az")
+        self.declare_parameter("dog_name", "az1")
         self.sub = self.create_subscription(Image, '/image_rgb', self.sub_callback, 10)
         pass
 
@@ -22,7 +24,7 @@ class rgb_cam_suber(Node):
         rgb_msg = msg
         self.get_logger().info(f"the width is {rgb_msg.width}, the height is {rgb_msg.height}")
         cv_image = self.bridge.imgmsg_to_cv2(rgb_msg, "bgr8")
-        cv2.imwrite('rgb_image.jpg', cv_image)
+        # cv2.imwrite('rgb_image.jpg', cv_image)
         self.get_logger().info(f"the image has been saved")
         cv2.imshow("rgb_image", cv_image)
         cv2.waitKey(1)

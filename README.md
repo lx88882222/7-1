@@ -5,16 +5,17 @@
 ### 配置
 #### 狗
 + 7-1  
-    IP:10.0.0.169  
+    IP:10.0.0.168  
     password：123
     namespace：az1
 + 7-2
-    IP：10.0.0.126  
+    IP：10.0.0.124  
     password：123   
     namespace：az  
     tightVNC：  
         Remote Host：10.0.0.123:5901  
         password：az888888 
+上位机 10.0.0.144
 [VScode配ssh--bilibili教程前三分钟](https://www.bilibili.com/video/BV1Ld4y1M7EV/?share_source=copy_web&vd_source=b987eb909065c989d772c8c7a783e243)
 
 #### 狗
