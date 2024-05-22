@@ -1,0 +1,19 @@
+2024-05-20 23:31:32.352 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-20 23:31:34.423 [info] [Info  - 11:31:34 PM] (30745) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-20 23:31:34.425 [info] [Info  - 11:31:34 PM] (30745) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-20 23:31:34.425 [info] [Info  - 11:31:34 PM] (30745) Starting service instance "dist-packages"
+2024-05-20 23:31:34.435 [info] [Info  - 11:31:34 PM] (30745) Auto-Indent enabled
+2024-05-20 23:31:34.720 [info] [Info  - 11:31:34 PM] (30745) Setting environmentName for service "dist-packages": "D:\ProgramData\anaconda3\python.exe"
+2024-05-20 23:31:39.248 [info] [Info  - 11:31:39 PM] (30745) Found 3791 source files
+2024-05-20 23:31:40.785 [info] [Info  - 11:31:40 PM] (30745) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-20 23:31:40.786 [info] [Info  - 11:31:40 PM] (30745) Background analysis(1) started
+2024-05-20 23:31:42.055 [info] [Info  - 11:31:42 PM] (30745) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-20 23:31:42.056 [info] [Info  - 11:31:42 PM] (30745) Indexing(2) started
+2024-05-20 23:31:42.892 [info] [Info  - 11:31:42 PM] (30745) [BG(1)] Long operation: analyzing: file:///usr/local/lib/python3.6/dist-packages/lcm/__init__.py (2136ms)
+2024-05-20 23:31:47.230 [info] [Info  - 11:31:47 PM] (30745) [IDX(2)] Long operation: scan packages file:///usr/local/lib/python3.6/dist-packages (4254ms)
+2024-05-20 23:31:47.231 [info] [Info  - 11:31:47 PM] (30745) scanned(2) 301 files over 1 exec env
+2024-05-20 23:31:58.361 [info] [Info  - 11:31:58 PM] (30745) [IDX(2)] Long operation: index execution environment file:///usr/local/lib/python3.6/dist-packages (9444ms)
+2024-05-20 23:31:58.420 [info] [Info  - 11:31:58 PM] (30745) [IDX(2)] Long operation: index packages file:///usr/local/lib/python3.6/dist-packages (9697ms)
+2024-05-20 23:31:58.420 [info] [Info  - 11:31:58 PM] (30745) indexed(2) 81 files over 1 exec env
+2024-05-20 23:31:58.896 [info] [Info  - 11:31:58 PM] (30745) Indexing finished(2).
+2024-05-20 23:32:22.649 [info] [Warn  - 11:32:22 PM] (30745) Workspace indexing has hit its upper limit: 2000 files

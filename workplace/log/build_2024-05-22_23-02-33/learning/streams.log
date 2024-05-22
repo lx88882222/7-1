@@ -1,0 +1,41 @@
+[4.598s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
+[6.464s] running egg_info
+[6.468s] writing ../../build/learning/learning.egg-info/PKG-INFO
+[6.469s] writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt
+[6.471s] writing entry points to ../../build/learning/learning.egg-info/entry_points.txt
+[6.472s] writing requirements to ../../build/learning/learning.egg-info/requires.txt
+[6.472s] writing top-level names to ../../build/learning/learning.egg-info/top_level.txt
+[6.493s] reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[6.502s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[6.503s] running build
+[6.504s] running build_py
+[6.511s] copying learning/move_node.py -> /home/mi/workplace/build/learning/build/lib/learning
+[6.515s] running install
+[6.519s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.520s]   setuptools.SetuptoolsDeprecationWarning,
+[6.521s] running install_lib
+[6.524s] copying /home/mi/workplace/build/learning/build/lib/learning/move_node.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[6.533s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/move_node.py to move_node.cpython-36.pyc
+[6.539s] running install_data
+[6.543s] running install_egg_info
+[6.552s] removing '/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[6.554s] Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[6.560s] running install_scripts
+[6.664s] Installing camera script to /home/mi/workplace/install/learning/lib/learning
+[6.670s] Installing crash script to /home/mi/workplace/install/learning/lib/learning
+[6.674s] Installing data_receive script to /home/mi/workplace/install/learning/lib/learning
+[6.676s] Installing get_data script to /home/mi/workplace/install/learning/lib/learning
+[6.676s] Installing goal script to /home/mi/workplace/install/learning/lib/learning
+[6.677s] Installing keeper script to /home/mi/workplace/install/learning/lib/learning
+[6.677s] Installing main script to /home/mi/workplace/install/learning/lib/learning
+[6.678s] Installing move_x script to /home/mi/workplace/install/learning/lib/learning
+[6.678s] Installing rgb script to /home/mi/workplace/install/learning/lib/learning
+[6.687s] Installing rotate script to /home/mi/workplace/install/learning/lib/learning
+[6.688s] Installing rotate_until_center1 script to /home/mi/workplace/install/learning/lib/learning
+[6.688s] Installing sit script to /home/mi/workplace/install/learning/lib/learning
+[6.689s] Installing stand script to /home/mi/workplace/install/learning/lib/learning
+[6.689s] Installing track script to /home/mi/workplace/install/learning/lib/learning
+[6.690s] Installing walk_t_sec script to /home/mi/workplace/install/learning/lib/learning
+[6.691s] Installing walktest script to /home/mi/workplace/install/learning/lib/learning
+[6.691s] writing list of installed files to '/home/mi/workplace/build/learning/install.log'
+[6.825s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed

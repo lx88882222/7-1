@@ -1,0 +1,20 @@
+2024-05-15 21:58:08.265 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-15 21:58:10.567 [info] [Info  - 9:58:10 PM] (5271) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-15 21:58:10.568 [info] [Info  - 9:58:10 PM] (5271) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-15 21:58:10.587 [info] [Info  - 9:58:10 PM] (5271) Starting service instance "mi"
+2024-05-15 21:58:10.633 [info] [Info  - 9:58:10 PM] (5271) Auto-Indent enabled
+2024-05-15 21:58:10.945 [info] [Info  - 9:58:10 PM] (5271) Setting pythonPath for service "mi": "/home/mi/.venv/bin/python"
+2024-05-15 21:58:10.946 [info] [Info  - 9:58:10 PM] (5271) Setting environmentName for service "mi": "3.6.9 (.venv venv)"
+2024-05-15 21:58:11.304 [info] [Info  - 9:58:11 PM] (5271) Assuming Python version 3.6.9.final.0
+2024-05-15 21:58:12.568 [info] [Info  - 9:58:12 PM] (5271) Found 165 source files
+2024-05-15 21:58:14.356 [info] [Info  - 9:58:14 PM] (5271) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-15 21:58:14.357 [info] [Info  - 9:58:14 PM] (5271) Background analysis(1) started
+2024-05-15 21:58:15.419 [info] [Info  - 9:58:15 PM] (5271) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-15 21:58:15.419 [info] [Info  - 9:58:15 PM] (5271) Indexing(2) started
+2024-05-15 21:58:18.660 [info] [Info  - 9:58:18 PM] (5271) [IDX(2)] Long operation: scan packages file:///home/mi (2848ms)
+2024-05-15 21:58:18.661 [info] [Info  - 9:58:18 PM] (5271) scanned(2) 144 files over 1 exec env
+2024-05-15 21:58:20.049 [info] [Info  - 9:58:20 PM] (5271) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/striker.py (4015ms)
+2024-05-15 21:58:20.053 [info] [Info  - 9:58:20 PM] (5271) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/striker.py (5595ms)
+2024-05-15 21:58:20.112 [info] [Info  - 9:58:20 PM] (5271) indexed(2) 14 files over 1 exec env
+2024-05-15 21:58:20.234 [info] [Info  - 9:58:20 PM] (5271) Indexing finished(2).
+2024-05-15 22:00:46.710 [info] [Info  - 10:00:46 PM] (5271) [BG(1)] Long operation: SemanticTokens full at file:///home/mi/workplace/src/learning/learning/move_x.py (2157ms)

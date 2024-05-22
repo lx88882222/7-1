@@ -1,0 +1,62 @@
+2024-05-13 21:33:35.791 [info] 
+
+
+
+
+2024-05-13 21:33:35.882 [info] Extension host agent started.
+2024-05-13 21:33:36.389 [info] [<unknown>][c1351962][ManagementConnection] New connection established.
+2024-05-13 21:33:36.399 [info] [<unknown>][99a5afa5][ExtensionHostConnection] New connection established.
+2024-05-13 21:33:36.873 [info] github.copilot 1.190.0 Running post uninstall script
+2024-05-13 21:33:38.297 [info] Finished running post uninstall script github.copilot 1.190.0
+2024-05-13 21:33:38.745 [info] Deleted uninstalled extension from disk github.copilot /home/mi/.vscode-server/extensions/github.copilot-1.190.0
+2024-05-13 21:33:42.267 [info] [<unknown>][99a5afa5][ExtensionHostConnection] <14637> Launched Extension Host Process.
+2024-05-13 21:33:53.848 [info] [<unknown>][f10c6553][ManagementConnection] New connection established.
+2024-05-13 21:33:53.864 [info] [<unknown>][6e11d4e2][ExtensionHostConnection] New connection established.
+2024-05-13 21:33:53.881 [info] [<unknown>][6e11d4e2][ExtensionHostConnection] <14893> Launched Extension Host Process.
+2024-05-13 21:38:35.898 [info] New EH opened, aborting shutdown
+2024-05-13 21:38:35.902 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-05-13 21:38:54.233 [info] [<unknown>][99a5afa5][ExtensionHostConnection] <14637> Extension Host Process exited with code: 0, signal: null.
+2024-05-13 22:52:00.467 [info] [<unknown>][aeb6ef70][ExtensionHostConnection] New connection established.
+2024-05-13 22:52:00.496 [info] [<unknown>][aeb6ef70][ExtensionHostConnection] <4713> Launched Extension Host Process.
+2024-05-13 22:52:00.506 [info] [<unknown>][cb9ecc1f][ManagementConnection] New connection established.
+2024-05-13 22:53:06.519 [info] [<unknown>][a24cd2df][ManagementConnection] New connection established.
+2024-05-13 22:53:06.537 [info] [<unknown>][d18546f2][ExtensionHostConnection] New connection established.
+2024-05-13 22:53:06.566 [info] [<unknown>][d18546f2][ExtensionHostConnection] <5576> Launched Extension Host Process.
+2024-05-13 22:53:16.673 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+2024-05-13 22:57:01.718 [info] [<unknown>][6e11d4e2][ExtensionHostConnection] <14893> Extension Host Process exited with code: 0, signal: null.
+2024-05-13 22:58:06.981 [info] [<unknown>][aeb6ef70][ExtensionHostConnection] <4713> Extension Host Process exited with code: 0, signal: null.
+2024-05-13 23:03:05.463 [error] [File Watcher (node.js)] Failed to watch /home/mi/workplace/1.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/workplace/1.jpg')
+2024-05-13 23:05:37.552 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/1.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/1.jpg')
+2024-05-13 23:05:38.470 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/2.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/2.jpg')
+2024-05-13 23:05:39.107 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/3.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/3.jpg')
+2024-05-13 23:05:39.806 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/4.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/4.jpg')
+2024-05-13 23:05:47.382 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/1.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/1.jpg')
+2024-05-13 23:12:11.820 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/9.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/9.jpg')
+2024-05-13 23:12:13.717 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/13.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/13.jpg')
+2024-05-13 23:12:14.470 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/10.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/10.jpg')
+2024-05-13 23:12:15.179 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/7.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/7.jpg')
+2024-05-13 23:12:17.374 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/6.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/6.jpg')
+2024-05-13 23:12:19.110 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/3.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/3.jpg')
+2024-05-13 23:12:21.243 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/8.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/8.jpg')
+2024-05-13 23:12:32.394 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/13.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/13.jpg')
+2024-05-13 23:12:35.646 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/29.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/29.jpg')
+2024-05-13 23:12:37.051 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/24.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/24.jpg')
+2024-05-13 23:12:37.798 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/23.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/23.jpg')
+2024-05-13 23:12:38.632 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/26.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/26.jpg')
+2024-05-13 23:12:40.077 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/19.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/19.jpg')
+2024-05-13 23:12:41.050 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/10.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/10.jpg')
+2024-05-13 23:12:41.788 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/13.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/13.jpg')
+2024-05-13 23:13:37.697 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/10.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/10.jpg')
+2024-05-13 23:13:38.391 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/11.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/11.jpg')
+2024-05-13 23:14:04.798 [info] [<unknown>][dc95beb7][ManagementConnection] New connection established.
+2024-05-13 23:14:04.809 [info] [<unknown>][eb92a07f][ExtensionHostConnection] New connection established.
+2024-05-13 23:14:04.847 [info] [<unknown>][eb92a07f][ExtensionHostConnection] <25019> Launched Extension Host Process.
+2024-05-13 23:14:54.287 [info] [<unknown>][5bcc6715][ManagementConnection] New connection established.
+2024-05-13 23:14:54.300 [info] [<unknown>][61daa64e][ExtensionHostConnection] New connection established.
+2024-05-13 23:14:54.321 [info] [<unknown>][61daa64e][ExtensionHostConnection] <25627> Launched Extension Host Process.
+2024-05-13 23:14:56.509 [error] [File Watcher (node.js)] Failed to watch /home/mi/Pictures/dog/11.jpg for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/mi/Pictures/dog/11.jpg')
+2024-05-13 23:15:05.266 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+2024-05-13 23:19:05.545 [info] [<unknown>][d18546f2][ExtensionHostConnection] <5576> Extension Host Process exited with code: 0, signal: null.
+2024-05-13 23:19:54.577 [info] [<unknown>][eb92a07f][ExtensionHostConnection] <25019> Extension Host Process exited with code: 0, signal: null.

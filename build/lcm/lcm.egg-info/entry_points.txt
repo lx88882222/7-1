@@ -1,0 +1,3 @@
+[console_scripts]
+lcm_test = lcm.lcm_test:main
+

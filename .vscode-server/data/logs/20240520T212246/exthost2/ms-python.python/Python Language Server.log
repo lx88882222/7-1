@@ -1,0 +1,71 @@
+2024-05-20 21:25:20.322 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-20 21:25:22.725 [info] [Info  - 9:25:22 PM] (13733) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-20 21:25:22.742 [info] [Info  - 9:25:22 PM] (13733) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-20 21:25:22.746 [info] [Info  - 9:25:22 PM] (13733) Starting service instance "mi"
+2024-05-20 21:25:22.747 [info] [Info  - 9:25:22 PM] (13733) Auto-Indent enabled
+2024-05-20 21:25:23.060 [info] [Info  - 9:25:23 PM] (13733) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-20 21:25:23.060 [info] [Info  - 9:25:23 PM] (13733) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-20 21:25:23.253 [info] [Info  - 9:25:23 PM] (13733) Assuming Python version 3.6.9.final.0
+2024-05-20 21:25:26.183 [info] [Info  - 9:25:26 PM] (13733) Found 168 source files
+2024-05-20 21:25:34.455 [info] [Info  - 9:25:34 PM] (13733) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-20 21:25:34.458 [info] [Info  - 9:25:34 PM] (13733) Background analysis(1) started
+2024-05-20 21:25:34.487 [info] [Info  - 9:25:34 PM] (13733) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-20 21:25:34.488 [info] [Info  - 9:25:34 PM] (13733) Indexing(2) started
+2024-05-20 21:25:37.222 [info] [Info  - 9:25:37 PM] (13733) [IDX(2)] Long operation: scan packages file:///home/mi (5435ms)
+2024-05-20 21:25:37.223 [info] [Info  - 9:25:37 PM] (13733) scanned(2) 332 files over 1 exec env
+2024-05-20 21:25:39.109 [info] [Info  - 9:25:39 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/safe.py (7353ms)
+2024-05-20 21:25:39.109 [info] [Info  - 9:25:39 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/safe.py (10259ms)
+2024-05-20 21:25:39.808 [info] [Info  - 9:25:39 PM] (13733) indexed(2) 100 files over 1 exec env
+2024-05-20 21:25:40.327 [info] [Info  - 9:25:40 PM] (13733) Indexing finished(2).
+2024-05-20 21:30:00.543 [info] [Info  - 9:30:00 PM] (13733) Found 167 source files
+2024-05-20 21:50:05.483 [info] [Info  - 9:50:05 PM] (13733) Found 172 source files
+2024-05-20 21:50:09.138 [info] [Info  - 9:50:09 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (2897ms)
+2024-05-20 21:50:09.139 [info] [Info  - 9:50:09 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (3557ms)
+2024-05-20 21:50:28.557 [info] [Info  - 9:50:28 PM] (13733) Found 173 source files
+2024-05-20 21:50:31.246 [info] [Info  - 9:50:31 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (2331ms)
+2024-05-20 21:50:31.246 [info] [Info  - 9:50:31 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (2649ms)
+2024-05-20 21:50:59.898 [info] [Info  - 9:50:59 PM] (13733) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2252ms)
+2024-05-20 21:51:00.518 [info] [Info  - 9:51:00 PM] (13733) [BG(1)] Long operation: checking: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (3024ms)
+2024-05-20 21:51:00.518 [info] [Info  - 9:51:00 PM] (13733) [BG(1)] Long operation: analyzing: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (3030ms)
+2024-05-20 21:58:17.142 [info] [Info  - 9:58:17 PM] (13733) Found 174 source files
+2024-05-20 21:58:19.842 [info] [Info  - 9:58:19 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (2076ms)
+2024-05-20 21:58:21.943 [info] [Info  - 9:58:21 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (2117ms)
+2024-05-20 21:58:21.943 [info] [Info  - 9:58:21 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (2118ms)
+2024-05-20 21:58:26.766 [info] [Info  - 9:58:26 PM] (13733) [BG(1)] Long operation: checking: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2208ms)
+2024-05-20 21:58:26.766 [info] [Info  - 9:58:26 PM] (13733) [BG(1)] Long operation: analyzing: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2208ms)
+2024-05-20 22:34:26.329 [info] [Info  - 10:34:26 PM] (13733) Found 181 source files
+2024-05-20 22:37:11.604 [info] [Info  - 10:37:11 PM] (13733) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-20 22:37:11.606 [info] [Info  - 10:37:11 PM] (13733) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-20 22:37:11.803 [info] [Info  - 10:37:11 PM] (13733) Assuming Python version 3.6.9.final.0
+2024-05-20 22:37:14.835 [info] [Info  - 10:37:14 PM] (13733) Found 181 source files
+2024-05-20 22:37:15.508 [info] [Info  - 10:37:15 PM] (13733) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-20 22:37:15.509 [info] [Info  - 10:37:15 PM] (13733) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-20 22:37:15.942 [info] [Info  - 10:37:15 PM] (13733) Assuming Python version 3.6.9.final.0
+2024-05-20 22:37:20.236 [info] [Info  - 10:37:20 PM] (13733) Found 181 source files
+2024-05-20 22:37:20.277 [info] [Info  - 10:37:20 PM] (13733) Indexer background runner(3) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-20 22:37:20.278 [info] [Info  - 10:37:20 PM] (13733) Indexing(3) started
+2024-05-20 22:37:20.295 [info] [Info  - 10:37:20 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (3595ms)
+2024-05-20 22:37:20.296 [info] [Info  - 10:37:20 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (4944ms)
+2024-05-20 22:37:24.795 [info] [Info  - 10:37:24 PM] (13733) [IDX(3)] Long operation: scan packages file:///home/mi (3328ms)
+2024-05-20 22:37:24.796 [info] [Info  - 10:37:24 PM] (13733) scanned(3) 332 files over 1 exec env
+2024-05-20 22:37:26.982 [info] [Info  - 10:37:26 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (3180ms)
+2024-05-20 22:37:26.983 [info] [Info  - 10:37:26 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (3800ms)
+2024-05-20 22:37:27.074 [info] [Info  - 10:37:27 PM] (13733) indexed(3) 100 files over 1 exec env
+2024-05-20 22:37:27.389 [info] [Info  - 10:37:27 PM] (13733) Indexing finished(3).
+2024-05-20 22:37:31.456 [info] [Info  - 10:37:31 PM] (13733) [BG(1)] Long operation: checking: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2123ms)
+2024-05-20 22:37:31.456 [info] [Info  - 10:37:31 PM] (13733) [BG(1)] Long operation: analyzing: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2123ms)
+2024-05-20 22:38:27.990 [info] [Info  - 10:38:27 PM] (13733) Found 190 source files
+2024-05-20 22:54:01.550 [info] [Info  - 10:54:01 PM] (13733) Found 212 source files
+2024-05-20 22:54:04.824 [info] [Info  - 10:54:04 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (2615ms)
+2024-05-20 22:54:04.826 [info] [Info  - 10:54:04 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (3082ms)
+2024-05-20 22:54:09.634 [info] [Info  - 10:54:09 PM] (13733) [BG(1)] Long operation: checking: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2365ms)
+2024-05-20 22:54:09.635 [info] [Info  - 10:54:09 PM] (13733) [BG(1)] Long operation: analyzing: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2365ms)
+2024-05-20 22:57:05.968 [info] [Info  - 10:57:05 PM] (13733) Found 227 source files
+2024-05-20 22:57:09.614 [info] [Info  - 10:57:09 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (2751ms)
+2024-05-20 22:57:09.615 [info] [Info  - 10:57:09 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (3081ms)
+2024-05-20 22:57:13.967 [info] [Info  - 10:57:13 PM] (13733) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2036ms)
+2024-05-20 22:57:14.157 [info] [Info  - 10:57:14 PM] (13733) [BG(1)] Long operation: checking: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2279ms)
+2024-05-20 22:57:14.158 [info] [Info  - 10:57:14 PM] (13733) [BG(1)] Long operation: analyzing: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (2279ms)
+2024-05-20 23:09:48.210 [info] [Info  - 11:09:48 PM] (13733) Found 228 source files
+2024-05-20 23:09:50.956 [info] [Info  - 11:09:50 PM] (13733) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (2279ms)
+2024-05-20 23:09:50.956 [info] [Info  - 11:09:50 PM] (13733) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (2406ms)

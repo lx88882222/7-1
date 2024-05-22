@@ -1,0 +1,10 @@
+2024-05-10 19:44:22.946 [info] [FetcherService] Using Helix fetcher
+2024-05-10 19:44:22.946 [info] [gitExtensionService] Initializing Git extension service.
+2024-05-10 19:44:22.947 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-05-10 19:44:22.947 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-05-10 19:44:22.947 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-05-10 19:44:39.104 [info] [auth] Logged in as zr-zhou0o0
+2024-05-10 19:44:56.040 [info] [auth] Invalid copilot token: missing token: 403 
+2024-05-10 19:44:56.067 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as zr-zhou0o0."
+2024-05-10 19:44:56.115 [info] [auth] Logged in as zr-zhou0o0
+2024-05-10 19:45:00.281 [info] [auth] Invalid copilot token: missing token: 403 

@@ -1,0 +1,26 @@
+[3.929s] Invoking command in '/home/mi/workplace/src/lcm': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed
+[5.467s] running egg_info
+[5.470s] writing ../../build/lcm/lcm.egg-info/PKG-INFO
+[5.471s] writing dependency_links to ../../build/lcm/lcm.egg-info/dependency_links.txt
+[5.472s] writing entry points to ../../build/lcm/lcm.egg-info/entry_points.txt
+[5.473s] writing requirements to ../../build/lcm/lcm.egg-info/requires.txt
+[5.473s] writing top-level names to ../../build/lcm/lcm.egg-info/top_level.txt
+[5.489s] reading manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[5.494s] writing manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[5.497s] running build
+[5.498s] running build_py
+[5.499s] copying lcm/localization_lcmt.py -> /home/mi/workplace/build/lcm/build/lib/lcm
+[5.499s] running install
+[5.500s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.500s]   setuptools.SetuptoolsDeprecationWarning,
+[5.501s] running install_lib
+[5.505s] copying /home/mi/workplace/build/lcm/build/lib/lcm/localization_lcmt.py -> /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm
+[5.506s] byte-compiling /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm/localization_lcmt.py to localization_lcmt.cpython-36.pyc
+[5.510s] running install_data
+[5.513s] running install_egg_info
+[5.521s] removing '/home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info' (and everything under it)
+[5.523s] Copying ../../build/lcm/lcm.egg-info to /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info
+[5.528s] running install_scripts
+[5.613s] Installing lcm_test script to /home/mi/workplace/install/lcm/lib/lcm
+[5.616s] writing list of installed files to '/home/mi/workplace/build/lcm/install.log'
+[5.723s] Invoked command in '/home/mi/workplace/src/lcm' returned '0': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed

@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.013203] (-) JobUnselected: {'identifier': 'ai'}
+[0.013521] (-) JobUnselected: {'identifier': 'lcm'}
+[0.013741] (learning) JobQueued: {'identifier': 'learning', 'dependencies': OrderedDict()}
+[0.013891] (learning) JobStarted: {'identifier': 'learning'}
+[0.096477] (-) TimerEvent: {}
+[0.198608] (-) TimerEvent: {}
+[0.301885] (-) TimerEvent: {}
+[0.403015] (-) TimerEvent: {}
+[0.504849] (-) TimerEvent: {}
+[0.606390] (-) TimerEvent: {}
+[0.707299] (-) TimerEvent: {}
+[0.809720] (-) TimerEvent: {}
+[0.910804] (-) TimerEvent: {}
+[1.011732] (-) TimerEvent: {}
+[1.113263] (-) TimerEvent: {}
+[1.214296] (-) TimerEvent: {}
+[1.315799] (-) TimerEvent: {}
+[1.416786] (-) TimerEvent: {}
+[1.517873] (-) TimerEvent: {}
+[1.618853] (-) TimerEvent: {}
+[1.719743] (-) TimerEvent: {}
+[1.820692] (-) TimerEvent: {}
+[1.922936] (-) TimerEvent: {}
+[2.024020] (-) TimerEvent: {}
+[2.026868] (learning) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 58, in getter\n    desc.path / \'setup.py\', env=env)\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 242, in get_setup_information\n    setup_py, env=env)\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 283, in _get_setup_information\n    cwd=os.path.abspath(str(setup_py.parent)), check=True, env=env)\n  File "/usr/lib/python3.6/subprocess.py", line 438, in run\n    output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))"]\' returned non-zero exit status 1.\n'}
+[2.031125] (learning) JobEnded: {'identifier': 'learning', 'rc': 1}
+[2.045108] (-) EventReactorShutdown: {}

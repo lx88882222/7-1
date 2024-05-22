@@ -1,0 +1,42 @@
+[4.289s] Invoking command in '/home/mi/workplace/src/lcm': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed
+[6.019s] running egg_info
+[6.022s] creating ../../build/lcm/lcm.egg-info
+[6.027s] writing ../../build/lcm/lcm.egg-info/PKG-INFO
+[6.027s] writing dependency_links to ../../build/lcm/lcm.egg-info/dependency_links.txt
+[6.028s] writing entry points to ../../build/lcm/lcm.egg-info/entry_points.txt
+[6.028s] writing requirements to ../../build/lcm/lcm.egg-info/requires.txt
+[6.029s] writing top-level names to ../../build/lcm/lcm.egg-info/top_level.txt
+[6.039s] writing manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[6.047s] reading manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[6.053s] writing manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[6.055s] running build
+[6.056s] running build_py
+[6.056s] creating /home/mi/workplace/build/lcm/build
+[6.057s] creating /home/mi/workplace/build/lcm/build/lib
+[6.057s] creating /home/mi/workplace/build/lcm/build/lib/lcm
+[6.059s] copying lcm/localization_lcmt.py -> /home/mi/workplace/build/lcm/build/lib/lcm
+[6.059s] copying lcm/lcm_test.py -> /home/mi/workplace/build/lcm/build/lib/lcm
+[6.060s] copying lcm/__init__.py -> /home/mi/workplace/build/lcm/build/lib/lcm
+[6.060s] running install
+[6.064s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.066s]   setuptools.SetuptoolsDeprecationWarning,
+[6.067s] running install_lib
+[6.069s] creating /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm
+[6.069s] copying /home/mi/workplace/build/lcm/build/lib/lcm/localization_lcmt.py -> /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm
+[6.070s] copying /home/mi/workplace/build/lcm/build/lib/lcm/lcm_test.py -> /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm
+[6.070s] copying /home/mi/workplace/build/lcm/build/lib/lcm/__init__.py -> /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm
+[6.071s] byte-compiling /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm/localization_lcmt.py to localization_lcmt.cpython-36.pyc
+[6.073s] byte-compiling /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm/lcm_test.py to lcm_test.cpython-36.pyc
+[6.076s] byte-compiling /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm/__init__.py to __init__.cpython-36.pyc
+[6.078s] running install_data
+[6.079s] creating /home/mi/workplace/install/lcm/share/ament_index
+[6.079s] creating /home/mi/workplace/install/lcm/share/ament_index/resource_index
+[6.080s] creating /home/mi/workplace/install/lcm/share/ament_index/resource_index/packages
+[6.080s] copying resource/lcm -> /home/mi/workplace/install/lcm/share/ament_index/resource_index/packages
+[6.081s] copying package.xml -> /home/mi/workplace/install/lcm/share/lcm
+[6.082s] running install_egg_info
+[6.089s] Copying ../../build/lcm/lcm.egg-info to /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info
+[6.093s] running install_scripts
+[6.182s] Installing lcm_test script to /home/mi/workplace/install/lcm/lib/lcm
+[6.184s] writing list of installed files to '/home/mi/workplace/build/lcm/install.log'
+[6.309s] Invoked command in '/home/mi/workplace/src/lcm' returned '0': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed

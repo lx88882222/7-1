@@ -1,0 +1,23 @@
+[3.972s] Invoking command in '/home/mi/workplace/src/lcm': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed
+[5.600s] running egg_info
+[5.605s] writing ../../build/lcm/lcm.egg-info/PKG-INFO
+[5.611s] writing dependency_links to ../../build/lcm/lcm.egg-info/dependency_links.txt
+[5.613s] writing entry points to ../../build/lcm/lcm.egg-info/entry_points.txt
+[5.615s] writing requirements to ../../build/lcm/lcm.egg-info/requires.txt
+[5.616s] writing top-level names to ../../build/lcm/lcm.egg-info/top_level.txt
+[5.618s] reading manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[5.620s] writing manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[5.621s] running build
+[5.622s] running build_py
+[5.622s] running install
+[5.624s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.624s]   setuptools.SetuptoolsDeprecationWarning,
+[5.626s] running install_lib
+[5.630s] running install_data
+[5.632s] running install_egg_info
+[5.640s] removing '/home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info' (and everything under it)
+[5.648s] Copying ../../build/lcm/lcm.egg-info to /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info
+[5.648s] running install_scripts
+[5.734s] Installing lcm_test script to /home/mi/workplace/install/lcm/lib/lcm
+[5.736s] writing list of installed files to '/home/mi/workplace/build/lcm/install.log'
+[5.863s] Invoked command in '/home/mi/workplace/src/lcm' returned '0': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed

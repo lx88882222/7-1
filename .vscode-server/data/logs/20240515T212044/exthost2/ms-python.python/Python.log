@@ -1,0 +1,13 @@
+2024-05-15 21:22:18.717 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-15 21:22:18.717 [info] Experiment 'pythonREPLSmartSend' is active
+2024-05-15 21:22:18.717 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-15 21:22:18.717 [info] Experiment 'pythonTestAdapter' is active
+2024-05-15 21:22:18.717 [info] Default formatter is set to null for workspace /home/mi
+2024-05-15 21:22:19.942 [info] > pyenv which python
+2024-05-15 21:22:19.942 [info] cwd: .
+2024-05-15 21:22:27.298 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-15 21:22:27.499 [info] Python interpreter path: /usr/bin/python3
+2024-05-15 21:22:36.872 [info] Starting Pylance language server.
+2024-05-15 21:39:14.552 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/rgb_cam_suber.py
+2024-05-15 21:52:54.662 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/obstacle.py
+2024-05-15 22:36:13.533 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/obstacle.py

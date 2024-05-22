@@ -1,0 +1,242 @@
+2024-05-10 21:47:00.903 [info] 
+
+
+
+
+2024-05-10 21:47:00.989 [info] Extension host agent started.
+2024-05-10 21:47:01.339 [info] [<unknown>][8fd00218][ExtensionHostConnection] New connection established.
+2024-05-10 21:47:01.348 [info] [<unknown>][6a596f4b][ManagementConnection] New connection established.
+2024-05-10 21:47:02.288 [info] Deleted uninstalled extension from disk github.copilot /home/mi/.vscode-server/extensions/github.copilot-1.187.0
+2024-05-10 21:47:02.295 [info] Deleted uninstalled extension from disk github.copilot-chat /home/mi/.vscode-server/extensions/github.copilot-chat-0.15.0
+2024-05-10 21:47:06.755 [info] [<unknown>][8fd00218][ExtensionHostConnection] <10944> Launched Extension Host Process.
+2024-05-10 21:47:17.534 [info] [<unknown>][d11c8bec][ManagementConnection] New connection established.
+2024-05-10 21:47:17.544 [info] [<unknown>][cf7ee904][ExtensionHostConnection] New connection established.
+2024-05-10 21:47:17.565 [info] [<unknown>][cf7ee904][ExtensionHostConnection] <11206> Launched Extension Host Process.
+2024-05-10 21:47:19.743 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-10 21:48:58.221 [info] [<unknown>][29f6d568][ManagementConnection] New connection established.
+2024-05-10 21:48:58.231 [info] [<unknown>][6655e689][ExtensionHostConnection] New connection established.
+2024-05-10 21:48:58.262 [info] [<unknown>][6655e689][ExtensionHostConnection] <13023> Launched Extension Host Process.
+2024-05-10 21:49:00.746 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-10 21:49:16.265 [info] [<unknown>][41940c3a][ManagementConnection] New connection established.
+2024-05-10 21:49:16.277 [info] [<unknown>][83a76100][ExtensionHostConnection] New connection established.
+2024-05-10 21:49:16.297 [info] [<unknown>][83a76100][ExtensionHostConnection] <13317> Launched Extension Host Process.
+2024-05-10 21:49:17.017 [warning] RequestStore#acceptReply was called without receiving a matching request 105
+2024-05-10 21:49:17.019 [warning] RequestStore#acceptReply was called without receiving a matching request 106
+2024-05-10 21:49:17.022 [warning] RequestStore#acceptReply was called without receiving a matching request 107
+2024-05-10 21:49:17.023 [warning] RequestStore#acceptReply was called without receiving a matching request 108
+2024-05-10 21:49:17.023 [warning] RequestStore#acceptReply was called without receiving a matching request 109
+2024-05-10 21:49:17.023 [warning] RequestStore#acceptReply was called without receiving a matching request 110
+2024-05-10 21:49:17.024 [warning] RequestStore#acceptReply was called without receiving a matching request 111
+2024-05-10 21:49:17.024 [warning] RequestStore#acceptReply was called without receiving a matching request 112
+2024-05-10 21:49:17.024 [warning] RequestStore#acceptReply was called without receiving a matching request 113
+2024-05-10 21:49:17.025 [warning] RequestStore#acceptReply was called without receiving a matching request 114
+2024-05-10 21:49:17.026 [warning] RequestStore#acceptReply was called without receiving a matching request 115
+2024-05-10 21:49:17.027 [warning] RequestStore#acceptReply was called without receiving a matching request 116
+2024-05-10 21:49:17.027 [warning] RequestStore#acceptReply was called without receiving a matching request 117
+2024-05-10 21:49:17.027 [warning] RequestStore#acceptReply was called without receiving a matching request 118
+2024-05-10 21:49:17.028 [warning] RequestStore#acceptReply was called without receiving a matching request 119
+2024-05-10 21:49:17.028 [warning] RequestStore#acceptReply was called without receiving a matching request 120
+2024-05-10 21:49:17.028 [warning] RequestStore#acceptReply was called without receiving a matching request 121
+2024-05-10 21:49:17.029 [warning] RequestStore#acceptReply was called without receiving a matching request 122
+2024-05-10 21:49:17.029 [warning] RequestStore#acceptReply was called without receiving a matching request 123
+2024-05-10 21:49:17.029 [warning] RequestStore#acceptReply was called without receiving a matching request 124
+2024-05-10 21:49:17.030 [warning] RequestStore#acceptReply was called without receiving a matching request 125
+2024-05-10 21:49:17.030 [warning] RequestStore#acceptReply was called without receiving a matching request 126
+2024-05-10 21:49:17.030 [warning] RequestStore#acceptReply was called without receiving a matching request 127
+2024-05-10 21:49:17.030 [warning] RequestStore#acceptReply was called without receiving a matching request 128
+2024-05-10 21:49:18.557 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-10 21:49:19.148 [warning] RequestStore#acceptReply was called without receiving a matching request 129
+2024-05-10 21:49:19.149 [warning] RequestStore#acceptReply was called without receiving a matching request 130
+2024-05-10 21:49:19.149 [warning] RequestStore#acceptReply was called without receiving a matching request 131
+2024-05-10 21:49:19.150 [warning] RequestStore#acceptReply was called without receiving a matching request 132
+2024-05-10 21:49:19.150 [warning] RequestStore#acceptReply was called without receiving a matching request 133
+2024-05-10 21:49:19.150 [warning] RequestStore#acceptReply was called without receiving a matching request 134
+2024-05-10 21:49:19.151 [warning] RequestStore#acceptReply was called without receiving a matching request 135
+2024-05-10 21:49:19.151 [warning] RequestStore#acceptReply was called without receiving a matching request 136
+2024-05-10 21:49:23.498 [warning] RequestStore#acceptReply was called without receiving a matching request 137
+2024-05-10 21:49:23.498 [warning] RequestStore#acceptReply was called without receiving a matching request 138
+2024-05-10 21:49:23.498 [warning] RequestStore#acceptReply was called without receiving a matching request 139
+2024-05-10 21:49:23.499 [warning] RequestStore#acceptReply was called without receiving a matching request 140
+2024-05-10 21:49:23.499 [warning] RequestStore#acceptReply was called without receiving a matching request 141
+2024-05-10 21:49:23.499 [warning] RequestStore#acceptReply was called without receiving a matching request 142
+2024-05-10 21:49:23.499 [warning] RequestStore#acceptReply was called without receiving a matching request 143
+2024-05-10 21:49:23.500 [warning] RequestStore#acceptReply was called without receiving a matching request 144
+2024-05-10 21:49:31.144 [warning] RequestStore#acceptReply was called without receiving a matching request 145
+2024-05-10 21:49:31.144 [warning] RequestStore#acceptReply was called without receiving a matching request 146
+2024-05-10 21:49:31.145 [warning] RequestStore#acceptReply was called without receiving a matching request 147
+2024-05-10 21:49:31.145 [warning] RequestStore#acceptReply was called without receiving a matching request 148
+2024-05-10 21:49:31.146 [warning] RequestStore#acceptReply was called without receiving a matching request 149
+2024-05-10 21:49:31.146 [warning] RequestStore#acceptReply was called without receiving a matching request 150
+2024-05-10 21:49:31.146 [warning] RequestStore#acceptReply was called without receiving a matching request 151
+2024-05-10 21:49:31.147 [warning] RequestStore#acceptReply was called without receiving a matching request 152
+2024-05-10 21:51:28.238 [warning] RequestStore#acceptReply was called without receiving a matching request 153
+2024-05-10 21:51:28.244 [warning] RequestStore#acceptReply was called without receiving a matching request 154
+2024-05-10 21:51:28.244 [warning] RequestStore#acceptReply was called without receiving a matching request 155
+2024-05-10 21:51:28.245 [warning] RequestStore#acceptReply was called without receiving a matching request 156
+2024-05-10 21:51:28.245 [warning] RequestStore#acceptReply was called without receiving a matching request 157
+2024-05-10 21:51:28.246 [warning] RequestStore#acceptReply was called without receiving a matching request 158
+2024-05-10 21:51:28.246 [warning] RequestStore#acceptReply was called without receiving a matching request 159
+2024-05-10 21:51:28.246 [warning] RequestStore#acceptReply was called without receiving a matching request 160
+2024-05-10 21:51:28.256 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-05-10 21:52:00.992 [info] New EH opened, aborting shutdown
+2024-05-10 21:52:18.009 [info] [<unknown>][8fd00218][ExtensionHostConnection] <10944> Extension Host Process exited with code: 0, signal: null.
+2024-05-10 21:54:20.750 [info] [<unknown>][6655e689][ExtensionHostConnection] <13023> Extension Host Process exited with code: 0, signal: null.
+2024-05-10 22:00:29.717 [warning] RequestStore#acceptReply was called without receiving a matching request 161
+2024-05-10 22:00:29.720 [warning] RequestStore#acceptReply was called without receiving a matching request 162
+2024-05-10 22:00:29.722 [warning] RequestStore#acceptReply was called without receiving a matching request 163
+2024-05-10 22:00:29.722 [warning] RequestStore#acceptReply was called without receiving a matching request 164
+2024-05-10 22:00:29.723 [warning] RequestStore#acceptReply was called without receiving a matching request 165
+2024-05-10 22:00:29.724 [warning] RequestStore#acceptReply was called without receiving a matching request 166
+2024-05-10 22:00:29.725 [warning] RequestStore#acceptReply was called without receiving a matching request 167
+2024-05-10 22:00:29.726 [warning] RequestStore#acceptReply was called without receiving a matching request 168
+2024-05-10 22:03:36.948 [warning] RequestStore#acceptReply was called without receiving a matching request 169
+2024-05-10 22:03:36.950 [warning] RequestStore#acceptReply was called without receiving a matching request 170
+2024-05-10 22:03:36.950 [warning] RequestStore#acceptReply was called without receiving a matching request 171
+2024-05-10 22:03:36.950 [warning] RequestStore#acceptReply was called without receiving a matching request 172
+2024-05-10 22:03:36.950 [warning] RequestStore#acceptReply was called without receiving a matching request 173
+2024-05-10 22:03:36.951 [warning] RequestStore#acceptReply was called without receiving a matching request 174
+2024-05-10 22:03:36.951 [warning] RequestStore#acceptReply was called without receiving a matching request 175
+2024-05-10 22:03:36.951 [warning] RequestStore#acceptReply was called without receiving a matching request 176
+2024-05-10 22:05:52.816 [warning] RequestStore#acceptReply was called without receiving a matching request 177
+2024-05-10 22:05:52.819 [warning] RequestStore#acceptReply was called without receiving a matching request 178
+2024-05-10 22:05:52.820 [warning] RequestStore#acceptReply was called without receiving a matching request 179
+2024-05-10 22:05:52.820 [warning] RequestStore#acceptReply was called without receiving a matching request 180
+2024-05-10 22:05:52.820 [warning] RequestStore#acceptReply was called without receiving a matching request 181
+2024-05-10 22:05:52.821 [warning] RequestStore#acceptReply was called without receiving a matching request 182
+2024-05-10 22:05:52.821 [warning] RequestStore#acceptReply was called without receiving a matching request 183
+2024-05-10 22:05:52.821 [warning] RequestStore#acceptReply was called without receiving a matching request 184
+2024-05-10 22:07:32.284 [warning] RequestStore#acceptReply was called without receiving a matching request 185
+2024-05-10 22:07:32.285 [warning] RequestStore#acceptReply was called without receiving a matching request 186
+2024-05-10 22:07:32.286 [warning] RequestStore#acceptReply was called without receiving a matching request 187
+2024-05-10 22:07:32.286 [warning] RequestStore#acceptReply was called without receiving a matching request 188
+2024-05-10 22:07:32.286 [warning] RequestStore#acceptReply was called without receiving a matching request 189
+2024-05-10 22:07:32.288 [warning] RequestStore#acceptReply was called without receiving a matching request 190
+2024-05-10 22:07:32.289 [warning] RequestStore#acceptReply was called without receiving a matching request 191
+2024-05-10 22:07:32.289 [warning] RequestStore#acceptReply was called without receiving a matching request 192
+2024-05-10 22:07:58.912 [warning] RequestStore#acceptReply was called without receiving a matching request 193
+2024-05-10 22:07:58.914 [warning] RequestStore#acceptReply was called without receiving a matching request 194
+2024-05-10 22:07:58.914 [warning] RequestStore#acceptReply was called without receiving a matching request 195
+2024-05-10 22:07:58.914 [warning] RequestStore#acceptReply was called without receiving a matching request 196
+2024-05-10 22:07:58.915 [warning] RequestStore#acceptReply was called without receiving a matching request 197
+2024-05-10 22:07:58.915 [warning] RequestStore#acceptReply was called without receiving a matching request 198
+2024-05-10 22:07:58.915 [warning] RequestStore#acceptReply was called without receiving a matching request 199
+2024-05-10 22:07:58.915 [warning] RequestStore#acceptReply was called without receiving a matching request 200
+2024-05-10 22:08:18.439 [warning] RequestStore#acceptReply was called without receiving a matching request 201
+2024-05-10 22:08:18.442 [warning] RequestStore#acceptReply was called without receiving a matching request 202
+2024-05-10 22:08:18.442 [warning] RequestStore#acceptReply was called without receiving a matching request 203
+2024-05-10 22:08:18.442 [warning] RequestStore#acceptReply was called without receiving a matching request 204
+2024-05-10 22:08:18.443 [warning] RequestStore#acceptReply was called without receiving a matching request 205
+2024-05-10 22:08:18.443 [warning] RequestStore#acceptReply was called without receiving a matching request 206
+2024-05-10 22:08:18.443 [warning] RequestStore#acceptReply was called without receiving a matching request 207
+2024-05-10 22:08:18.443 [warning] RequestStore#acceptReply was called without receiving a matching request 208
+2024-05-10 22:11:15.932 [warning] RequestStore#acceptReply was called without receiving a matching request 209
+2024-05-10 22:11:15.934 [warning] RequestStore#acceptReply was called without receiving a matching request 210
+2024-05-10 22:11:15.934 [warning] RequestStore#acceptReply was called without receiving a matching request 211
+2024-05-10 22:11:15.934 [warning] RequestStore#acceptReply was called without receiving a matching request 212
+2024-05-10 22:11:15.934 [warning] RequestStore#acceptReply was called without receiving a matching request 213
+2024-05-10 22:11:15.935 [warning] RequestStore#acceptReply was called without receiving a matching request 214
+2024-05-10 22:11:15.935 [warning] RequestStore#acceptReply was called without receiving a matching request 215
+2024-05-10 22:11:15.935 [warning] RequestStore#acceptReply was called without receiving a matching request 216
+2024-05-10 22:29:23.475 [warning] RequestStore#acceptReply was called without receiving a matching request 217
+2024-05-10 22:29:23.477 [warning] RequestStore#acceptReply was called without receiving a matching request 218
+2024-05-10 22:29:23.478 [warning] RequestStore#acceptReply was called without receiving a matching request 219
+2024-05-10 22:29:23.478 [warning] RequestStore#acceptReply was called without receiving a matching request 220
+2024-05-10 22:29:23.478 [warning] RequestStore#acceptReply was called without receiving a matching request 221
+2024-05-10 22:29:23.479 [warning] RequestStore#acceptReply was called without receiving a matching request 222
+2024-05-10 22:29:23.479 [warning] RequestStore#acceptReply was called without receiving a matching request 223
+2024-05-10 22:29:23.479 [warning] RequestStore#acceptReply was called without receiving a matching request 224
+2024-05-10 22:29:42.998 [warning] RequestStore#acceptReply was called without receiving a matching request 225
+2024-05-10 22:29:43.000 [warning] RequestStore#acceptReply was called without receiving a matching request 226
+2024-05-10 22:29:43.000 [warning] RequestStore#acceptReply was called without receiving a matching request 227
+2024-05-10 22:29:43.001 [warning] RequestStore#acceptReply was called without receiving a matching request 228
+2024-05-10 22:29:43.001 [warning] RequestStore#acceptReply was called without receiving a matching request 229
+2024-05-10 22:29:43.001 [warning] RequestStore#acceptReply was called without receiving a matching request 230
+2024-05-10 22:29:43.001 [warning] RequestStore#acceptReply was called without receiving a matching request 231
+2024-05-10 22:29:43.002 [warning] RequestStore#acceptReply was called without receiving a matching request 232
+2024-05-11 00:13:01.603 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-11 00:13:01.621 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-11 00:13:02.879 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-11 01:59:58.293 [info] [<unknown>][83a76100][ExtensionHostConnection] <13317> Extension Host Process exited with code: 0, signal: null.
+2024-05-11 03:30:31.757 [info] [<unknown>][cf7ee904][ExtensionHostConnection] <11206> Extension Host Process exited with code: 0, signal: null.
+2024-05-11 03:30:31.760 [info] Last EH closed, waiting before shutting down
+2024-05-11 03:35:31.762 [info] Last EH closed, shutting down

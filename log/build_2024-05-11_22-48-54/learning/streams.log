@@ -1,0 +1,49 @@
+[4.380s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning build --build-base /home/mi/build/learning/build install --prefix /home/mi/install/learning --record /home/mi/build/learning/install.log --single-version-externally-managed
+[6.163s] running egg_info
+[6.165s] writing ../../../build/learning/learning.egg-info/PKG-INFO
+[6.166s] writing dependency_links to ../../../build/learning/learning.egg-info/dependency_links.txt
+[6.168s] writing entry points to ../../../build/learning/learning.egg-info/entry_points.txt
+[6.169s] writing requirements to ../../../build/learning/learning.egg-info/requires.txt
+[6.170s] writing top-level names to ../../../build/learning/learning.egg-info/top_level.txt
+[6.190s] reading manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[6.196s] writing manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[6.196s] running build
+[6.197s] running build_py
+[6.201s] copying learning/get_loc.py -> /home/mi/build/learning/build/lib/learning
+[6.202s] copying learning/data_receive.py -> /home/mi/build/learning/build/lib/learning
+[6.205s] copying learning/move_x.py -> /home/mi/build/learning/build/lib/learning
+[6.207s] copying learning/rgb_cam_suber.py -> /home/mi/build/learning/build/lib/learning
+[6.212s] running install
+[6.214s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.214s]   setuptools.SetuptoolsDeprecationWarning,
+[6.215s] running install_lib
+[6.216s] copying /home/mi/build/learning/build/lib/learning/get_loc.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.217s] copying /home/mi/build/learning/build/lib/learning/data_receive.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.220s] copying /home/mi/build/learning/build/lib/learning/move_x.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.222s] copying /home/mi/build/learning/build/lib/learning/rgb_cam_suber.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[6.225s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/get_loc.py to get_loc.cpython-36.pyc
+[6.230s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/data_receive.py to data_receive.cpython-36.pyc
+[6.233s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/move_x.py to move_x.cpython-36.pyc
+[6.240s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/rgb_cam_suber.py to rgb_cam_suber.cpython-36.pyc
+[6.242s] running install_data
+[6.246s] running install_egg_info
+[6.257s] removing '/home/mi/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[6.259s] Copying ../../../build/learning/learning.egg-info to /home/mi/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[6.264s] running install_scripts
+[6.379s] Installing camera script to /home/mi/install/learning/lib/learning
+[6.382s] Installing crash script to /home/mi/install/learning/lib/learning
+[6.383s] Installing data_receive script to /home/mi/install/learning/lib/learning
+[6.384s] Installing get_data script to /home/mi/install/learning/lib/learning
+[6.386s] Installing goal script to /home/mi/install/learning/lib/learning
+[6.392s] Installing keeper script to /home/mi/install/learning/lib/learning
+[6.393s] Installing main_node script to /home/mi/install/learning/lib/learning
+[6.393s] Installing move_x script to /home/mi/install/learning/lib/learning
+[6.394s] Installing rgb script to /home/mi/install/learning/lib/learning
+[6.394s] Installing rotate script to /home/mi/install/learning/lib/learning
+[6.397s] Installing rotate_until_center1 script to /home/mi/install/learning/lib/learning
+[6.398s] Installing stand script to /home/mi/install/learning/lib/learning
+[6.398s] Installing track script to /home/mi/install/learning/lib/learning
+[6.400s] Installing walk_t_sec script to /home/mi/install/learning/lib/learning
+[6.400s] Installing walktest script to /home/mi/install/learning/lib/learning
+[6.401s] writing list of installed files to '/home/mi/build/learning/install.log'
+[6.528s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning build --build-base /home/mi/build/learning/build install --prefix /home/mi/install/learning --record /home/mi/build/learning/install.log --single-version-externally-managed

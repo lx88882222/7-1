@@ -1,0 +1,55 @@
+2024-05-20 23:31:28.329 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-20 23:31:28.329 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-20 23:31:28.329 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-20 23:31:28.329 [info] Experiment 'pythonTestAdapter' is active
+2024-05-20 23:31:28.329 [info] Default formatter is set to null for workspace /usr/local/lib/python3.6/dist-packages
+2024-05-20 23:31:28.329 [info] > hatch env show --json
+2024-05-20 23:31:28.329 [info] cwd: .
+2024-05-20 23:31:28.628 [info] > D:\ProgramData\anaconda3\python.exe -c "import sys;print(sys.executable)"
+2024-05-20 23:31:28.681 [error] [Error: Command failed: D:\ProgramData\anaconda3\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: D:ProgramDataanaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'D:\\ProgramData\\anaconda3\\python.exe -c "import sys;print(sys.executable)"'
+}
+2024-05-20 23:31:29.349 [info] > D:\ProgramData\anaconda3\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-20 23:31:29.400 [error] [Error: Command failed: D:\ProgramData\anaconda3\python.exe -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+/bin/sh: 1: D:ProgramDataanaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'D:\\ProgramData\\anaconda3\\python.exe -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py'
+}
+2024-05-20 23:31:31.420 [info] > D:\ProgramData\anaconda3\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-20 23:31:31.426 [error] [Error: Command failed: D:\ProgramData\anaconda3\python.exe -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+/bin/sh: 1: D:ProgramDataanaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'D:\\ProgramData\\anaconda3\\python.exe -I /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py'
+}
+2024-05-20 23:31:31.469 [info] > pyenv which python
+2024-05-20 23:31:31.469 [info] cwd: .
+2024-05-20 23:31:34.544 [info] Starting Pylance language server.

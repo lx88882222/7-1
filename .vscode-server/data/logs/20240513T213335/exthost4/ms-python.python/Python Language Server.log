@@ -1,0 +1,24 @@
+2024-05-13 22:56:38.032 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-13 22:56:40.529 [info] [Info  - 10:56:40 PM] (8711) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-13 22:56:40.530 [info] [Info  - 10:56:40 PM] (8711) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-13 22:56:40.531 [info] [Info  - 10:56:40 PM] (8711) Starting service instance "mi"
+2024-05-13 22:56:40.555 [info] [Info  - 10:56:40 PM] (8711) Auto-Indent enabled
+2024-05-13 22:56:40.960 [info] [Info  - 10:56:40 PM] (8711) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-13 22:56:40.962 [info] [Info  - 10:56:40 PM] (8711) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-13 22:56:41.214 [info] [Info  - 10:56:41 PM] (8711) Assuming Python version 3.6.9.final.0
+2024-05-13 22:56:44.331 [info] [Info  - 10:56:44 PM] (8711) Found 161 source files
+2024-05-13 22:56:47.273 [info] [Info  - 10:56:47 PM] (8711) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-13 22:56:47.285 [info] [Info  - 10:56:47 PM] (8711) Background analysis(1) started
+2024-05-13 22:56:49.537 [info] [Info  - 10:56:49 PM] (8711) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-13 22:56:49.537 [info] [Info  - 10:56:49 PM] (8711) Indexing(2) started
+2024-05-13 22:56:51.176 [info] [Info  - 10:56:51 PM] (8711) [BG(1)] Long operation: parsing: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist/typeshed-fallback/stdlib/builtins.pyi (2490ms)
+2024-05-13 22:56:57.663 [info] [Info  - 10:56:57 PM] (8711) [IDX(2)] Long operation: scan packages file:///home/mi (6839ms)
+2024-05-13 22:56:57.669 [info] [Info  - 10:56:57 PM] (8711) scanned(2) 331 files over 1 exec env
+2024-05-13 22:57:00.174 [info] [Info  - 10:57:00 PM] (8711) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/core/__init__.py (2378ms)
+2024-05-13 22:57:01.355 [info] [Info  - 10:57:01 PM] (8711) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/lib/__init__.py (2256ms)
+2024-05-13 22:57:01.406 [info] [Info  - 10:57:01 PM] (8711) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (4757ms)
+2024-05-13 22:57:01.568 [info] [Info  - 10:57:01 PM] (8711) indexed(2) 100 files over 1 exec env
+2024-05-13 22:57:02.084 [info] [Info  - 10:57:02 PM] (8711) Indexing finished(2).
+2024-05-13 22:57:03.719 [info] [Info  - 10:57:03 PM] (8711) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/ai/ai/photo.py (11629ms)
+2024-05-13 22:57:03.725 [info] [Info  - 10:57:03 PM] (8711) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/ai/ai/photo.py (16489ms)
+2024-05-13 23:00:16.304 [info] [Info  - 11:00:16 PM] (8711) [FG] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (3666ms)

@@ -1,0 +1,55 @@
+2024-05-20 21:25:04.959 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-20 21:25:04.959 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-20 21:25:04.959 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-20 21:25:04.959 [info] Experiment 'pythonTestAdapter' is active
+2024-05-20 21:25:04.959 [info] Default formatter is set to null for workspace /home/mi
+2024-05-20 21:25:05.656 [info] > pyenv which python
+2024-05-20 21:25:05.656 [info] cwd: .
+2024-05-20 21:25:07.458 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-20 21:25:13.208 [info] Python interpreter path: /usr/bin/python3
+2024-05-20 21:25:22.874 [info] Starting Pylance language server.
+2024-05-20 21:31:39.504 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/walk_t_sec.py
+2024-05-20 21:49:59.273 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/setup.cfg
+2024-05-20 22:00:56.326 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:01:34.134 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:02:07.825 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/setup.py
+2024-05-20 22:02:24.783 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:22:43.833 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:23:19.031 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:28:43.759 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:31:29.751 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/localization_lcmt.py
+2024-05-20 22:31:46.355 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:32:33.388 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/localization_lcmt.py
+2024-05-20 22:34:54.676 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/test.py
+2024-05-20 22:35:21.780 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:35:25.851 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:35:31.515 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:36:25.006 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:36:30.324 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:36:36.123 [info] Send text to terminal: /usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:36:36.308 [info] CreateEnv Trigger - Skipping for /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:37:06.335 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:37:11.272 [info] Discover tests for workspace name: mi - uri: /home/mi
+2024-05-20 22:37:11.331 [info] > hatch env show --json
+2024-05-20 22:37:11.331 [info] cwd: .
+2024-05-20 22:37:11.589 [info] > ./.venv/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-20 22:38:29.595 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/teest.py
+2024-05-20 22:38:38.767 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/teest.py
+2024-05-20 22:38:54.320 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:39:32.280 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:40:32.827 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:40:55.945 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:41:03.698 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:42:26.420 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:47:05.914 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:47:21.997 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 22:47:30.610 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 23:04:37.350 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 23:04:46.061 [info] Send text to terminal: /usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 23:05:14.565 [info] Send text to terminal: /usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 23:06:07.414 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 23:07:45.097 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/lcm_test.py
+2024-05-20 23:09:59.453 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/setup.py
+2024-05-20 23:10:05.291 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/get_msg_from_lcm.py
+2024-05-20 23:10:39.073 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/get_msg_from_lcm.py
+2024-05-20 23:10:42.353 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/lcm/lcm/get_msg_from_lcm.py

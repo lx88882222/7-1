@@ -1,0 +1,8 @@
+{
+    "git.path": "D:\\app2\\git\\Git\\cmd\\git.exe",
+    "workbench.colorTheme": "Visual Studio Light",
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.remotePlatform": {
+        "10.0.0.168": "linux"
+    }
+}

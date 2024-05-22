@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../build/lcm/lcm.egg-info
+writing ../../../build/lcm/lcm.egg-info/PKG-INFO
+writing dependency_links to ../../../build/lcm/lcm.egg-info/dependency_links.txt
+writing entry points to ../../../build/lcm/lcm.egg-info/entry_points.txt
+writing requirements to ../../../build/lcm/lcm.egg-info/requires.txt
+writing top-level names to ../../../build/lcm/lcm.egg-info/top_level.txt
+writing manifest file '../../../build/lcm/lcm.egg-info/SOURCES.txt'
+reading manifest file '../../../build/lcm/lcm.egg-info/SOURCES.txt'
+writing manifest file '../../../build/lcm/lcm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mi/build/lcm/build
+creating /home/mi/build/lcm/build/lib
+creating /home/mi/build/lcm/build/lib/lcm
+copying lcm/localization_lcmt.py -> /home/mi/build/lcm/build/lib/lcm
+copying lcm/test.py -> /home/mi/build/lcm/build/lib/lcm
+copying lcm/lcm_test.py -> /home/mi/build/lcm/build/lib/lcm
+copying lcm/__init__.py -> /home/mi/build/lcm/build/lib/lcm
+running install
+/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+running install_lib
+creating /home/mi/install/lcm/lib/python3.6/site-packages/lcm
+copying /home/mi/build/lcm/build/lib/lcm/localization_lcmt.py -> /home/mi/install/lcm/lib/python3.6/site-packages/lcm
+copying /home/mi/build/lcm/build/lib/lcm/test.py -> /home/mi/install/lcm/lib/python3.6/site-packages/lcm
+copying /home/mi/build/lcm/build/lib/lcm/lcm_test.py -> /home/mi/install/lcm/lib/python3.6/site-packages/lcm
+copying /home/mi/build/lcm/build/lib/lcm/__init__.py -> /home/mi/install/lcm/lib/python3.6/site-packages/lcm
+byte-compiling /home/mi/install/lcm/lib/python3.6/site-packages/lcm/localization_lcmt.py to localization_lcmt.cpython-36.pyc
+byte-compiling /home/mi/install/lcm/lib/python3.6/site-packages/lcm/test.py to test.cpython-36.pyc
+byte-compiling /home/mi/install/lcm/lib/python3.6/site-packages/lcm/lcm_test.py to lcm_test.cpython-36.pyc
+byte-compiling /home/mi/install/lcm/lib/python3.6/site-packages/lcm/__init__.py to __init__.cpython-36.pyc
+running install_data
+creating /home/mi/install/lcm/share/ament_index
+creating /home/mi/install/lcm/share/ament_index/resource_index
+creating /home/mi/install/lcm/share/ament_index/resource_index/packages
+copying resource/lcm -> /home/mi/install/lcm/share/ament_index/resource_index/packages
+copying package.xml -> /home/mi/install/lcm/share/lcm
+running install_egg_info
+Copying ../../../build/lcm/lcm.egg-info to /home/mi/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info
+running install_scripts
+Installing lcm_test script to /home/mi/install/lcm/lib/lcm
+writing list of installed files to '/home/mi/build/lcm/install.log'

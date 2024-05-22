@@ -1,0 +1,24 @@
+[3.998s] Invoking command in '/home/mi/workplace/src/lcm': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed
+[5.718s] running egg_info
+[5.722s] writing ../../build/lcm/lcm.egg-info/PKG-INFO
+[5.725s] writing dependency_links to ../../build/lcm/lcm.egg-info/dependency_links.txt
+[5.726s] writing entry points to ../../build/lcm/lcm.egg-info/entry_points.txt
+[5.726s] writing requirements to ../../build/lcm/lcm.egg-info/requires.txt
+[5.727s] writing top-level names to ../../build/lcm/lcm.egg-info/top_level.txt
+[5.739s] reading manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[5.745s] writing manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+[5.745s] running build
+[5.746s] running build_py
+[5.748s] running install
+[5.749s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.749s]   setuptools.SetuptoolsDeprecationWarning,
+[5.753s] running install_lib
+[5.754s] running install_data
+[5.757s] copying package.xml -> /home/mi/workplace/install/lcm/share/lcm
+[5.758s] running install_egg_info
+[5.766s] removing '/home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info' (and everything under it)
+[5.767s] Copying ../../build/lcm/lcm.egg-info to /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info
+[5.772s] running install_scripts
+[5.866s] Installing lcm_test script to /home/mi/workplace/install/lcm/lib/lcm
+[5.868s] writing list of installed files to '/home/mi/workplace/build/lcm/install.log'
+[5.991s] Invoked command in '/home/mi/workplace/src/lcm' returned '0': PYTHONPATH=/home/mi/workplace/install/lcm/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lcm build --build-base /home/mi/workplace/build/lcm/build install --prefix /home/mi/workplace/install/lcm --record /home/mi/workplace/build/lcm/install.log --single-version-externally-managed

@@ -1,0 +1,38 @@
+2024-05-14 22:24:00.253 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-14 22:24:02.842 [info] [Info  - 10:24:02 PM] (20199) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-14 22:24:02.847 [info] [Info  - 10:24:02 PM] (20199) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-14 22:24:02.849 [info] [Info  - 10:24:02 PM] (20199) Starting service instance "mi"
+2024-05-14 22:24:02.850 [info] [Info  - 10:24:02 PM] (20199) Auto-Indent enabled
+2024-05-14 22:24:03.272 [info] [Info  - 10:24:03 PM] (20199) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-14 22:24:03.273 [info] [Info  - 10:24:03 PM] (20199) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-14 22:24:03.494 [info] [Info  - 10:24:03 PM] (20199) Assuming Python version 3.6.9.final.0
+2024-05-14 22:24:07.431 [info] [Info  - 10:24:07 PM] (20199) Found 162 source files
+2024-05-14 22:24:22.694 [info] [Info  - 10:24:22 PM] (20199) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-14 22:24:22.700 [info] [Info  - 10:24:22 PM] (20199) Background analysis(1) started
+2024-05-14 22:24:22.757 [info] [Info  - 10:24:22 PM] (20199) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-14 22:24:22.762 [info] [Info  - 10:24:22 PM] (20199) Indexing(2) started
+2024-05-14 22:24:27.212 [info] [Info  - 10:24:27 PM] (20199) [IDX(2)] Long operation: scan packages file:///home/mi (10772ms)
+2024-05-14 22:24:27.214 [info] [Info  - 10:24:27 PM] (20199) scanned(2) 332 files over 1 exec env
+2024-05-14 22:24:28.025 [info] [Info  - 10:24:28 PM] (20199) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/sit.py (13210ms)
+2024-05-14 22:24:28.039 [info] [Info  - 10:24:28 PM] (20199) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/sit.py (16935ms)
+2024-05-14 22:24:32.665 [info] [Info  - 10:24:32 PM] (20199) indexed(2) 100 files over 1 exec env
+2024-05-14 22:24:33.585 [info] [Info  - 10:24:33 PM] (20199) Indexing finished(2).
+2024-05-14 22:24:40.590 [info] [Info  - 10:24:40 PM] (20199) Found 164 source files
+2024-05-14 22:24:43.939 [info] [Info  - 10:24:43 PM] (20199) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/sit.py (2843ms)
+2024-05-14 22:24:43.940 [info] [Info  - 10:24:43 PM] (20199) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/sit.py (3286ms)
+2024-05-14 23:00:48.299 [info] [Info  - 11:00:48 PM] (20199) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-14 23:00:48.300 [info] [Info  - 11:00:48 PM] (20199) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-14 23:00:48.481 [info] [Info  - 11:00:48 PM] (20199) Assuming Python version 3.6.9.final.0
+2024-05-14 23:00:51.834 [info] [Info  - 11:00:51 PM] (20199) Found 164 source files
+2024-05-14 23:00:54.556 [info] [Info  - 11:00:54 PM] (20199) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/setup.py (2100ms)
+2024-05-14 23:00:54.826 [info] [Info  - 11:00:54 PM] (20199) Indexer background runner(3) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-14 23:00:54.827 [info] [Info  - 11:00:54 PM] (20199) Indexing(3) started
+2024-05-14 23:00:57.514 [info] [Info  - 11:00:57 PM] (20199) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/sit.py (2923ms)
+2024-05-14 23:00:57.515 [info] [Info  - 11:00:57 PM] (20199) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/sit.py (2953ms)
+2024-05-14 23:00:59.255 [info] [Info  - 11:00:59 PM] (20199) [IDX(3)] Long operation: scan packages file:///home/mi (3352ms)
+2024-05-14 23:00:59.256 [info] [Info  - 11:00:59 PM] (20199) scanned(3) 332 files over 1 exec env
+2024-05-14 23:01:06.176 [info] [Info  - 11:01:06 PM] (20199) indexed(3) 100 files over 1 exec env
+2024-05-14 23:01:06.185 [info] [Info  - 11:01:06 PM] (20199) Indexing finished(3).
+2024-05-14 23:28:49.772 [info] [Info  - 11:28:49 PM] (20199) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (3305ms)
+2024-05-14 23:28:50.152 [info] [Info  - 11:28:50 PM] (20199) [BG(1)] Long operation: SemanticTokens full at file:///home/mi/workplace/src/ai/ai/photo.py (4444ms)
+2024-05-14 23:29:01.921 [info] [Info  - 11:29:01 PM] (20199) [FG] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2788ms)

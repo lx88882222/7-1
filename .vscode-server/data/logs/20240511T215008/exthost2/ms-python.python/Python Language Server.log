@@ -1,0 +1,45 @@
+2024-05-11 21:52:09.549 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-11 21:52:11.696 [info] [Info  - 9:52:11 PM] (12788) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-11 21:52:11.699 [info] [Info  - 9:52:11 PM] (12788) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-11 21:52:11.700 [info] [Info  - 9:52:11 PM] (12788) Starting service instance "mi"
+2024-05-11 21:52:11.700 [info] [Info  - 9:52:11 PM] (12788) Auto-Indent enabled
+2024-05-11 21:52:11.974 [info] [Info  - 9:52:11 PM] (12788) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-11 21:52:11.975 [info] [Info  - 9:52:11 PM] (12788) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-11 21:52:12.150 [info] [Info  - 9:52:12 PM] (12788) Assuming Python version 3.6.9.final.0
+2024-05-11 21:52:19.963 [info] [Info  - 9:52:19 PM] (12788) Found 131 source files
+2024-05-11 21:52:20.257 [info] [Info  - 9:52:20 PM] (12788) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-11 21:52:20.354 [info] [Info  - 9:52:20 PM] (12788) Background analysis(1) started
+2024-05-11 21:52:20.458 [info] [Info  - 9:52:20 PM] (12788) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-11 21:52:20.460 [info] [Info  - 9:52:20 PM] (12788) Indexing(2) started
+2024-05-11 21:52:26.278 [info] [Info  - 9:52:26 PM] (12788) [IDX(2)] Long operation: scan packages file:///home/mi (6440ms)
+2024-05-11 21:52:26.279 [info] [Info  - 9:52:26 PM] (12788) scanned(2) 331 files over 1 exec env
+2024-05-11 21:52:27.062 [info] [Info  - 9:52:27 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/sensor_node.py (7272ms)
+2024-05-11 21:52:27.066 [info] [Info  - 9:52:27 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/sensor_node.py (9628ms)
+2024-05-11 21:52:32.656 [info] [Info  - 9:52:32 PM] (12788) indexed(2) 100 files over 1 exec env
+2024-05-11 21:52:32.658 [info] [Info  - 9:52:32 PM] (12788) Indexing finished(2).
+2024-05-11 21:53:51.895 [info] [Info  - 9:53:51 PM] (12788) Found 132 source files
+2024-05-11 21:54:32.553 [info] [Info  - 9:54:32 PM] (12788) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2796ms)
+2024-05-11 21:54:32.627 [info] [Info  - 9:54:32 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3006ms)
+2024-05-11 21:54:32.627 [info] [Info  - 9:54:32 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3016ms)
+2024-05-11 21:55:29.996 [info] [Info  - 9:55:29 PM] (12788) Found 133 source files
+2024-05-11 21:55:32.712 [info] [Info  - 9:55:32 PM] (12788) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2062ms)
+2024-05-11 21:55:33.601 [info] [Info  - 9:55:33 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3219ms)
+2024-05-11 21:55:33.601 [info] [Info  - 9:55:33 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3240ms)
+2024-05-11 21:57:42.785 [info] [Info  - 9:57:42 PM] (12788) Found 134 source files
+2024-05-11 21:57:45.848 [info] [Info  - 9:57:45 PM] (12788) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2383ms)
+2024-05-11 21:57:46.835 [info] [Info  - 9:57:46 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3759ms)
+2024-05-11 21:57:46.835 [info] [Info  - 9:57:46 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3781ms)
+2024-05-11 21:57:49.308 [info] [Info  - 9:57:49 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rotate.py (2062ms)
+2024-05-11 21:57:49.312 [info] [Info  - 9:57:49 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rotate.py (2083ms)
+2024-05-11 21:58:29.846 [info] [Info  - 9:58:29 PM] (12788) Found 135 source files
+2024-05-11 22:09:31.086 [info] [Info  - 10:09:31 PM] (12788) Found 143 source files
+2024-05-11 22:09:34.717 [info] [Info  - 10:09:34 PM] (12788) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2214ms)
+2024-05-11 22:09:35.609 [info] [Info  - 10:09:35 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3146ms)
+2024-05-11 22:09:35.610 [info] [Info  - 10:09:35 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3182ms)
+2024-05-11 22:12:53.361 [info] [Info  - 10:12:53 PM] (12788) [FG] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2340ms)
+2024-05-11 22:37:51.509 [info] [Info  - 10:37:51 PM] (12788) Found 151 source files
+2024-05-11 22:37:56.091 [info] [Info  - 10:37:56 PM] (12788) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2578ms)
+2024-05-11 22:37:57.246 [info] [Info  - 10:37:57 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (3806ms)
+2024-05-11 22:37:57.250 [info] [Info  - 10:37:57 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rgb_cam_suber.py (4003ms)
+2024-05-11 22:38:00.700 [info] [Info  - 10:38:00 PM] (12788) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/rotate.py (3385ms)
+2024-05-11 22:38:00.701 [info] [Info  - 10:38:00 PM] (12788) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/rotate.py (3416ms)

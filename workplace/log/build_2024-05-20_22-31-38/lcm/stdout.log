@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/lcm/lcm.egg-info/PKG-INFO
+writing dependency_links to ../../build/lcm/lcm.egg-info/dependency_links.txt
+writing entry points to ../../build/lcm/lcm.egg-info/entry_points.txt
+writing requirements to ../../build/lcm/lcm.egg-info/requires.txt
+writing top-level names to ../../build/lcm/lcm.egg-info/top_level.txt
+reading manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+writing manifest file '../../build/lcm/lcm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lcm/localization_lcmt.py -> /home/mi/workplace/build/lcm/build/lib/lcm
+running install
+running install_lib
+copying /home/mi/workplace/build/lcm/build/lib/lcm/localization_lcmt.py -> /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm
+byte-compiling /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm/localization_lcmt.py to localization_lcmt.cpython-36.pyc
+running install_data
+running install_egg_info
+removing '/home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/lcm/lcm.egg-info to /home/mi/workplace/install/lcm/lib/python3.6/site-packages/lcm-0.0.0-py3.6.egg-info
+running install_scripts
+Installing lcm_test script to /home/mi/workplace/install/lcm/lib/lcm
+writing list of installed files to '/home/mi/workplace/build/lcm/install.log'

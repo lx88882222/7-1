@@ -1,0 +1,3 @@
+[console_scripts]
+lcm_test = lcm.get_msg_from_lcm:main
+
