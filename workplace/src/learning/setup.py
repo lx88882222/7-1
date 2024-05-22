@@ -34,7 +34,9 @@ setup(
             'rotate = learning.rotate:main',
             'get_data = learning.get_data:main',
             'move_x = learning.move_x:main',
-            'keeper = learning.keeper:main'
+            'keeper = learning.keeper:main',
+            'main = learning.main_node:main',
+            'test = learning.test:main'
         ],
     },
 )

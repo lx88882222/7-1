@@ -35,9 +35,10 @@
 1. [发布订阅节点](https://blog.csdn.net/qq_38649880/article/details/104423203)
 2. 
 #### 其它资料
-1. [第二次培训的PPT和录屏](https://cloud.tsinghua.edu.cn/d/9aefef66ac9542a6944d/)
-2. [代码托管](https://git.tsinghua.edu.cn/cyberdog_competition/2024)
-3. [whf的github仓库](https://github.com/HeFeiW/cyberdog_az)
+1. [第一次培训的PPT和录屏](https://cloud.tsinghua.edu.cn/d/1d9eadb6263f4e75aaff/)
+2. [第二次培训的PPT和录屏](https://cloud.tsinghua.edu.cn/d/9aefef66ac9542a6944d/)
+3. [代码托管](https://git.tsinghua.edu.cn/cyberdog_competition/2024)
+4. [whf的github仓库](https://github.com/HeFeiW/cyberdog_az)
 ## 进度
 #### todo：
 + 四段式  
@@ -147,3 +148,22 @@ x==410,y==378,area==31450
 
 2. 如何防止踢球时卡球：  
 更改rotate函数使球不处于正中间
+
+#### 在ros2中新建功能包
+`cd workpalce/src    //先cd到工作空间的src里`
+`ros2 pkg create --build-type ament_python <pkg_name>    //如果是c语言，ament_python 改为 ament_cmake`
+生成的功能包结构：
+```bash
+  -src
+    -pkg_name
+        -_init.py
+    -resource
+    -test
+    -package.xml
+    -setup.cfg
+    -setup.py
+```
++ build功能包：  
+`colcon build --packages-select <pkg_name>   //注意要在workplace里build`
++ 初次build前记得source一下，不然会报错package not found
+`source ~/workplace/install/setup.bash`

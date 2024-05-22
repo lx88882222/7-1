@@ -1158,3 +1158,113 @@ git commit -m '0515whf update README'
 git push origin whf_play
 /usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/bash/envVars.txt
 /usr/bin/python /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /home/mi/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/bash/envVars.txt
+ros2 topic list -v
+cd workplace
+colcon build --packages-select learning
+ros2 run learning data_receive
+ros2 run learning get_data
+colcon build --packages-select learning
+ros2 run learning get_data
+colcon build --packages-select learning
+ros2 run learning get_data
+colcon build --packages-select learning
+ros2 run learning get_data
+colcon build --packages-select learning
+ros2 run learning get_data
+colcon build --packages-select learning
+ros2 run learning get_data
+colcon build --packages-select learning
+ros2 run learning get_data
+git add learning -u
+git add workplace 
+git add workplace/
+git add -u
+git status
+git add -u
+git commit -m '0518whf'
+git push origin whf_play
+cd Downloads
+sudo apt-get install build-essential autoconf automake autopoint libglib2.0-dev libtool openjdk-8-jdk python-dev
+cd ..
+cd workplace/src
+ros2 pkg create --build-type ament_python lcm
+cd ..
+lcm-gen -p example_t.lcm
+lcm-gen -p global_to_robot.lcm
+cd /home/mi/workplace/src/lcm/lcm
+lcm-gen -p global_to_robot.lcm
+cd workplace
+cd ..
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+ros2 run learning get_data
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+source install/local_setup.bash
+source ~/workplace/install/setup.bash
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+pip list
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+cd ..
+pip list
+conda list
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+cd workplace
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+cd ~/Downloads
+git clone https://github.com/lcm-proj/lcm.git
+cd lcm
+mkdir build
+cd build
+cmake ..
+make
+cd lcm-python
+python3 setup.py install
+make
+cd .
+make
+cd lcm-python
+cd..
+cd ..
+cd lcm-python
+python3 setup.py install
+cd ~/workplace
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+colcon build --packages-select lcm
+ros2 run lcm lcm_test
+pip install lcm
+python3 install  lcm
+python3
+cd ~/home/mi/workplace/install/lcm/lib/python3.6/site-packages
+cd /home/mi/workplace/install/lcm/lib/python3.6/site-packages
+sudo touch estimator.pth
+sudo chmod 777 estimator.pth
+/home/mi/Downloads/lcm/lcm-python/lcm
+sudo touch estimator.pth
+sudo chmod 777 estimator.pth
+cd /home/mi/workplace
+python3
+/usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
+git add -u/usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
+/usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py

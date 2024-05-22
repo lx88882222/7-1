@@ -20,7 +20,7 @@ class safe_node(Node):
         super().__init__(name)
         self.sensor_node = sensor_suber('sensor')
         self.speed_x, self.speed_y, self.speed_z = 0.1, 0.0, 0.0
-        self.dog_name = "az1"
+
         self.cmd_pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 10)
         self.phase_pub = self.create_publisher(String,f'{self.dog_name}/phase',1)
         self.phase_pub = self.create_subscription(String,f'{self.dog_name}/phase',self.silent(),1)
@@ -36,7 +36,7 @@ class safe_node(Node):
         # self.get_logger().info(f"the distance is {self.count}")
     
     def silent(self,status:String):
-        if (status.data == "make goal"):
+        if (status.data == "make"):
             self.do_avoid.clear()
         else:
             self.do_avoid.set()

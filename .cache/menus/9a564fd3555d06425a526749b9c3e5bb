@@ -1656,6 +1656,20 @@ Display notifications
 
 
 
+-openjdk-8-java.desktop
+OpenJDK Java 8 Runtime
+OpenJDK Java 8 Runtime
+openjdk-8
+
+8
+
+cautious-launcher %f /usr/bin/java -jar
+4
+0
+
+
+
+java,runtime
 -unity-lens-photos.desktop
 Photos lens for Unity
 
@@ -2425,6 +2439,20 @@ obconf %f
 
 Settings;DesktopSettings;GTK
 openbox,settings,configurations,themes
+-openjdk-8-policytool.desktop
+OpenJDK Java 8 Policy Tool
+OpenJDK Java 8 Policy Tool
+openjdk-8
+
+8
+
+/usr/bin/policytool
+0
+0
+
+
+Settings
+java,security,policytool
 -system-config-printer.desktop
 Printers
 Configure printers

@@ -14,7 +14,7 @@ import rclpy
 import threading
 import time
 
-from .rgb_cam_suber import rgb_cam_suber
+from .rgb_cam_suber import RGBCamSuber
 from get_loc import LocReciv
 from .stop_node import stop
 from .rotate import rotate_aim_ball
