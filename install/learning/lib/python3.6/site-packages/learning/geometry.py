@@ -1,7 +1,7 @@
 '''
 >   geometry.py
 >   author: whf wmy
->   date: 2024-5-11
+>   date: 2024-5-11 night
 >   define a class Line
     - three ways to initialize a line:
         1. point_slope: given a point and a slope
@@ -17,6 +17,7 @@
         routine from aiming at aim_i to aiming at aim_f
 '''
 import math
+import threading
 class Line:
     
     def __init__(self,slope,interception):
@@ -42,7 +43,20 @@ class Line:
         s.point1 = point1
         s.point2 = point2
         return s
-    
+    def update_by_point(self,point2,point1=None):
+        self.point2 = point2
+        if point1 is not None:
+            self.point1 = point1
+        if (point2[0]-point1[0]) < 0.05:
+            self.slope = None
+            self.interception =point2[0]
+        else:
+            self.slope = (point2[1]-point1[1])/(point2[0]-point1[0])
+            self.interception = point1[1]-self.slope*point1[0]
+    def update_in_thread(self):
+        thread = threading.Thread(target=self.update)
+        thread.update_by_point()
+
     #   given x or y return intersection
     def get_y(self,x):
         if self.slope == None:

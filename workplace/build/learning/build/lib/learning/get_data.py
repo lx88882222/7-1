@@ -25,6 +25,7 @@ class Location():
         self.upper_ip = '10.0.0.144' # 查看上位机ip，进行修改
         self.delay = 1
         self.client_socket = socket.socket()
+        self.client_socket.settimeout(1)
         self.client_socket.connect((self.upper_ip, 40000))
         self.ball=[.0,.0]
         self.red_dog=[.0,.0]
@@ -33,8 +34,16 @@ class Location():
         self.red_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
         self.black_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
     def get_data(self):
-        self.client_socket.send('start'.encode())
-        data = self.client_socket.recv(1024).decode()
+        DATA_GOT = False
+        while not DATA_GOT:
+            self.client_socket.send('start'.encode())
+            try:
+                print('trying...')
+                data = self.client_socket.recv(1024).decode()
+                DATA_GOT = True
+            except socket.timeout:
+                print('socket timeout, retry...')
+                continue
         timestamp = time.time()
         parts = data.split(' ')
         if len(parts) != 6:  # 确保我们有6个坐标值

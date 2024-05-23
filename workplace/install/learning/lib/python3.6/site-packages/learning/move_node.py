@@ -6,7 +6,7 @@
 >   All moving-related functions packed together.
 >   funtions:
     - goto(self,target,frequency = 0.3)
-
+>   all calculation are based on upper-computer coordinate system, velocity will be converted to dog coordinate system in func go().
 from:move_to_target.py
     05/18 李想
     提供一个move到目标坐标的方法move_to(goal_address,socket).传入一个目标坐标和SocketReciv类示例
@@ -31,8 +31,8 @@ class Move(Node):
         self.dog_name = "az1"
         self.pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 1)
         self.arrived=False
-        self.max_speed_x = 0.65
-        self.max_speed_y = 0.3
+        self.max_speed_x = 0.3
+        self.max_speed_y = 0.65
         self.max_speed_z = 1.25
         self.GATE = GATE
         self.DIST = DIST
@@ -45,7 +45,7 @@ class Move(Node):
         '''
         print(f'going to{target}')
         while not self.location.in_place(target):
-            my_loc = self.location.black_dog   #   TODO red dog should chang tihs line
+            my_loc = self.location.get_black_loc()   #   TODO red dog should chang tihs line
             v =self.max_vel(target,my_loc)
             vel = [v[0],v[1],.0]
             self.go(vel)
@@ -58,9 +58,12 @@ class Move(Node):
         vel:[speed+x,speed_y,speed_z]
         '''
         if duration != 0:
-            self.go(vel)
-            time.sleep(duration)
-            self.go([.0,.0,.0])
+            print(f'going for {duration} seconds')
+            current_time =time.time()
+            while(time.time()-current_time<duration):
+                 self.go(vel)
+                 time.sleep(0.1)
+            self.stop()
         if duration == 0:
             pass
         #   一直走。用while循环加订阅话题跳出
@@ -75,7 +78,8 @@ class Move(Node):
         msg.motion_id =motion_id
         msg.cmd_type = 1
         msg.value = 2
-        msg.vel_des = vel
+        msg.vel_des = [vel[1],-vel[0],vel[2]]
+        print(f'vel:{msg.vel_des}')
         msg.step_height = [0.05,0.05]
         self.pub.publish(msg)
     
@@ -93,13 +97,15 @@ class Move(Node):
         return the max velocity pointing from me to target.
         '''
         vector = [.0,.0]
+        dir = [1,1]
         vector[0]=target[0]-me[0]
         vector[1]=target[1]-me[1]
-        vel_y = self.max_speed_x * vector[1] / vector[0]
-        if vel_y <= self.max_speed_y:
-            vel = [self.max_speed_x,self.max_speed_x * vector[1] / vector[0]]
+        dir = [vector[0]/abs(vector[0]),-vector[1]/abs(vector[1])]
+        vel_x = abs(self.max_speed_y * vector[0] / vector[1])
+        if vel_x <= self.max_speed_x:
+            vel = [dir[0] * vel_x,dir[1] * self.max_speed_y]
         else:
-            vel = [self.max_speed_y * vector[0] / vector[1],self.max_speed_y]
+            vel = [dir[0] * self.max_speed_x , dir[1] * self.max_speed_x * vector[1] / vector[0]]
         return vel 
     
 def dist(point1, point2):

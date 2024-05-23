@@ -1,5 +1,0 @@
-[INFO] [1716383829.812305212] [az1.mcr_uwb]: 
-	mcr_uwb lifecycle node launched. 
-	Waiting on external lifecycle transitions to activate
-	See https://design.ros2.org/articles/node_lifecycle.html for more information.
-[INFO] [1716383829.813027177] [az1.mcr_uwb]: Creating

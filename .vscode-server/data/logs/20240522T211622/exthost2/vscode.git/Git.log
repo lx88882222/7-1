@@ -875,3 +875,8 @@
 2024-05-23 00:47:11.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/whf_play refs/remotes/whf_play [151ms]
 2024-05-23 00:47:11.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/whf_play refs/remotes/whf_play [222ms]
 2024-05-23 00:47:16.221 [info] > git status -z -uall [4874ms] (cancelled)
+2024-05-23 00:52:37.178 [info] > git check-ignore -v -z --stdin [5ms]
+2024-05-23 00:52:37.200 [info] > git check-ignore -v -z --stdin [64ms]
+2024-05-23 00:52:38.849 [info] > git check-ignore -v -z --stdin [7ms]
+2024-05-23 00:52:41.414 [info] > git check-ignore -v -z --stdin [39ms]
+2024-05-23 00:52:41.451 [info] > git check-ignore -v -z --stdin [40ms]

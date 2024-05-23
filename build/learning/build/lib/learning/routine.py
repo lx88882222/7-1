@@ -13,7 +13,7 @@ def get_goal_coords(ball_coords,dog_coords,gate_coords,dist):
         p=1
     dist_y=dist*(p*slope/math.sqrt(1+slope*slope))
     dist_x=dist*(p/math.sqrt(1+slope*slope))
-    goal_coords=(ball_coords[0]+dist_x,ball_coords[1]+dist_y)
+    goal_coords=[ball_coords[0]+dist_x , ball_coords[1]+dist_y]
     intersection_x=(dog_coords[1]-intercept)/slope
     if intersection_x>ball_coords[0]:
         right = 1

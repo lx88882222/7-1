@@ -1268,3 +1268,105 @@ python3
 /usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
 git add -u/usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
 /usr/bin/python3 /home/mi/workplace/src/lcm/lcm/lcm_test.py
+cd workplace
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning test
+colcon build --packages-select learning
+ros2 run learning test
+git add -u
+git status
+git commit -m '0523whf move and main'
+git push origin whf_play
+cd ..
+git push
+git push origin whf_play
+git commit -m '0523whf move and main'
+git add -u
+git commit -m '0523whf move and main'
+git push origin whf_play
+git add .
+git rm --cached Downloads/lcm
+-f
+git rm --cached Downloads/lcm -f
+git commit -m '0523whf move & main'
+git push origin whf_play
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+cp sources.list  sources.list .bak
+cp sources.list  sources.list.bak
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo gedit /etc/apt/sources.list
+cd ..
+sudo gedit /etc/apt/sources.list
+sudo su
+cd workplace
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+pip install func_timeout -i https://pypi.tuna.tsinghua.edu.cn/simple
+cd ..
+pip install func_timeout -i https://pypi.tuna.tsinghua.edu.cn/simple
+sudo apt-get install func_timeout -i https://pypi.tuna.tsinghua.edu.cn/simple
+sudo apt-get install func_timeout
+lsb_release -a
+sudo apt-get install func_timeout
+sudo apt clean
+sudo apt update
+sudo apt-get install func_timeout
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo gedit /etc/apt/sources.list
+sudo -s
