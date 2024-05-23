@@ -20,7 +20,7 @@ from cv_bridge import CvBridge
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 
-class RGBCamSuber(Node):
+class rgb_cam_suber(Node):
     '''subscribe the message of stereo camera'''
     def __init__(self, name) -> None:
         super().__init__(name)

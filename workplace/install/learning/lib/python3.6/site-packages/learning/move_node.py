@@ -100,12 +100,12 @@ class Move(Node):
         dir = [1,1]
         vector[0]=target[0]-me[0]
         vector[1]=target[1]-me[1]
-        dir = [vector[0]/abs(vector[0]),-vector[1]/abs(vector[1])]
+        dir = [vector[0]/abs(vector[0]),vector[1]/abs(vector[1])]
         vel_x = abs(self.max_speed_y * vector[0] / vector[1])
         if vel_x <= self.max_speed_x:
             vel = [dir[0] * vel_x,dir[1] * self.max_speed_y]
         else:
-            vel = [dir[0] * self.max_speed_x , dir[1] * self.max_speed_x * vector[1] / vector[0]]
+            vel = [dir[0] * self.max_speed_x , dir[1] * abs(self.max_speed_x * vector[1] / vector[0])]
         return vel 
     
 def dist(point1, point2):

@@ -14,18 +14,18 @@ import time
 
 
 def main(args=None):
+    #   整个函数包在try里，这样 catch 异常并退出之前可以主动断开与上位机连接防止多次失败测试之后上位机过载。
+    #   初始化
+    GATE = [-0.2,8.8]
+    DIST = 2.5
+    NAME = 'az1'
+    rclpy.init(args=args)
+    rgb_cam_suber = RGBCamSuber('rgb_s')
+    rclpy.spin_once(rgb_cam_suber)
+    location = Location()
+    print(f'where are we?')
+    move = Move(NAME,location,GATE,DIST)
     try:
-        #   整个函数包在try里，这样 catch 异常并退出之前可以主动断开与上位机连接防止多次失败测试之后上位机过载。
-        #   初始化
-        GATE = [8.8,-0.2]
-        DIST = 2.5
-        NAME = 'az1'
-        rclpy.init(args=args)
-        rgb_cam_suber = RGBCamSuber('rgb_s')
-        rclpy.spin_once(rgb_cam_suber)
-        location = Location()
-        print(f'where are we?')
-        move = Move(NAME,location,GATE,DIST)
         # TODO 主循环，实际使用时可以改成 while True循环
         for i in range(5):
             print(f'-----in loop {i}-----')

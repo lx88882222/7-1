@@ -18,7 +18,6 @@
 import socket
 import math
 import time
-from func_timeout import func_set_timeout
 class Location():
     def __init__(self) -> None:
         self.dog_name="az1"
@@ -26,8 +25,8 @@ class Location():
         self.upper_ip = '10.0.0.144' # 查看上位机ip，进行修改
         self.delay = 1
         self.client_socket = socket.socket()
-        self.client_socket.connect((self.upper_ip, 40000))
         self.client_socket.settimeout(1)
+        self.client_socket.connect((self.upper_ip, 40000))
         self.ball=[.0,.0]
         self.red_dog=[.0,.0]
         self.black_dog=[.0,.0]

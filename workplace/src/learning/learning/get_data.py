@@ -2,31 +2,37 @@
 '''
 >   get_data.py
 >   author: whf
->   date: 2024-05-18
+>   date: 2024-05-23
 >   receive data from the upper computer
-# >   start() function constantly receive data and update the instance's attributes
-#     start_in_thread() function run start() in thread
-    get_data() function - receive data once and return the data (invalid date are directly returned as None)
+>   get_data() function - receive data once and return the data
                         - and keep record of 5 latest location info with timestamp
-    in_place(self,target,error = 0.3):if in place, return True, otherwise False.
+                        - if data is None, will not update nor report.
+                        - keep requesting if received no data from upper-computer # TODO set [mode] to allow for quiting
+    in_place(self,target,error = 0.3):
+                        - if in place, return True, otherwise False.
+                        - update data for once
     attibutes:
-        ball_coords: tuple, the coordinates of the ball, (x,y) (float)
-        dog_coords: tuple, the coordinates of the dog
+        ball: list, the coordinates of the ball, [x,y] (float)
+        red_dog: list, the coordinates of the dog
+        black_dog: list, the coordinates of the dog
         ball_loc_rec: list, record of 5 latest ball location info with timestamp, [[timestamp(seconds, of e-3 precision),x,y],[[],[],[]],...]
-        dog_loc_rec: the same as ball_loc_rec.
+        red_dog_loc_rec: the same as ball_loc_rec
+        red_dog_loc_rec: the same as ball_loc_rec
 '''
 import socket
 import math
 import time
+from .constants import C
 class Location():
     def __init__(self) -> None:
-        self.dog_name="az1"
-        self.color = 'black'
-        self.upper_ip = '10.0.0.144' # 查看上位机ip，进行修改
+        self.dog_name=C.NAME
+        self.color = C.COLOR
+        self.upper_ip = C.UPPER_IP # 查看上位机ip，进行修改
+        self.upper_port = C.UPPER_PORT
         self.delay = 1
         self.client_socket = socket.socket()
         self.client_socket.settimeout(1)
-        self.client_socket.connect((self.upper_ip, 40000))
+        self.client_socket.connect((self.upper_ip, self.upper_port))
         self.ball=[.0,.0]
         self.red_dog=[.0,.0]
         self.black_dog=[.0,.0]
@@ -70,7 +76,7 @@ class Location():
             self.black_dog_loc_rec.pop(0)
             self.black_dog_loc_rec.append([timestamp] + list(self.black_dog))
         return self.ball, self.red_dog, self.black_dog
-    def in_place(self,target,error = 0.3):
+    def in_place(self,target,error = C.ERROR):
         self.get_data()
         if self.color == 'red':
             loc = [self.red_dog_loc_rec[4][1],self.red_dog_loc_rec[4][2]]
