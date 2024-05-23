@@ -1,0 +1,42 @@
+[4.560s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
+[6.248s] running egg_info
+[6.254s] writing ../../build/learning/learning.egg-info/PKG-INFO
+[6.256s] writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt
+[6.259s] writing entry points to ../../build/learning/learning.egg-info/entry_points.txt
+[6.260s] writing requirements to ../../build/learning/learning.egg-info/requires.txt
+[6.261s] writing top-level names to ../../build/learning/learning.egg-info/top_level.txt
+[6.276s] reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[6.285s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[6.286s] running build
+[6.286s] running build_py
+[6.289s] copying learning/move_node.py -> /home/mi/workplace/build/learning/build/lib/learning
+[6.295s] running install
+[6.298s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.298s]   setuptools.SetuptoolsDeprecationWarning,
+[6.300s] running install_lib
+[6.304s] copying /home/mi/workplace/build/learning/build/lib/learning/move_node.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[6.310s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/move_node.py to move_node.cpython-36.pyc
+[6.318s] running install_data
+[6.320s] running install_egg_info
+[6.328s] removing '/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[6.330s] Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[6.337s] running install_scripts
+[6.436s] Installing camera script to /home/mi/workplace/install/learning/lib/learning
+[6.438s] Installing crash script to /home/mi/workplace/install/learning/lib/learning
+[6.440s] Installing data_receive script to /home/mi/workplace/install/learning/lib/learning
+[6.442s] Installing get_data script to /home/mi/workplace/install/learning/lib/learning
+[6.443s] Installing goal script to /home/mi/workplace/install/learning/lib/learning
+[6.446s] Installing keeper script to /home/mi/workplace/install/learning/lib/learning
+[6.447s] Installing main script to /home/mi/workplace/install/learning/lib/learning
+[6.448s] Installing move_x script to /home/mi/workplace/install/learning/lib/learning
+[6.450s] Installing rgb script to /home/mi/workplace/install/learning/lib/learning
+[6.451s] Installing rotate script to /home/mi/workplace/install/learning/lib/learning
+[6.452s] Installing rotate_until_center1 script to /home/mi/workplace/install/learning/lib/learning
+[6.452s] Installing sit script to /home/mi/workplace/install/learning/lib/learning
+[6.453s] Installing stand script to /home/mi/workplace/install/learning/lib/learning
+[6.454s] Installing test script to /home/mi/workplace/install/learning/lib/learning
+[6.457s] Installing track script to /home/mi/workplace/install/learning/lib/learning
+[6.458s] Installing walk_t_sec script to /home/mi/workplace/install/learning/lib/learning
+[6.459s] Installing walktest script to /home/mi/workplace/install/learning/lib/learning
+[6.460s] writing list of installed files to '/home/mi/workplace/build/learning/install.log'
+[6.580s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
