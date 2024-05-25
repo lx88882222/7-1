@@ -1,0 +1,23 @@
+2024-05-25 21:56:26.956 [info] [FetcherService] Using Helix fetcher
+2024-05-25 21:56:26.956 [info] [gitExtensionService] Initializing Git extension service.
+2024-05-25 21:56:26.956 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-05-25 21:56:26.956 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-05-25 21:56:26.956 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-05-25 21:56:28.857 [info] [auth] Logged in as HeFeiW
+2024-05-25 21:56:33.252 [info] [chat] copilot token chat_enabled: true
+2024-05-25 21:56:33.253 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-05-25 21:56:33.253 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-05-25 21:56:33.253 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-05-25 21:56:33.390 [info] [auth] Got Copilot token for HeFeiW
+2024-05-25 22:02:48.456 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-05-25 22:02:48.456 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-05-25 22:02:48.456 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-05-25 22:02:48.456 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-05-25 22:21:33.466 [info] [auth] Logged in as HeFeiW
+2024-05-25 22:21:34.515 [info] [chat] copilot token chat_enabled: true
+2024-05-25 22:21:34.516 [info] [auth] Got Copilot token for HeFeiW
+2024-05-25 22:46:34.587 [info] [auth] Logged in as HeFeiW
+2024-05-25 22:46:35.277 [info] [chat] copilot token chat_enabled: true
+2024-05-25 22:46:35.278 [info] [auth] Got Copilot token for HeFeiW

@@ -1,0 +1,23 @@
+2024-05-25 21:56:34.008 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-25 21:56:36.501 [info] [Info  - 9:56:36 PM] (11978) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-25 21:56:36.514 [info] [Info  - 9:56:36 PM] (11978) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-25 21:56:36.515 [info] [Info  - 9:56:36 PM] (11978) Starting service instance "mi"
+2024-05-25 21:56:36.515 [info] [Info  - 9:56:36 PM] (11978) Auto-Indent enabled
+2024-05-25 21:56:37.229 [info] [Info  - 9:56:37 PM] (11978) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-25 21:56:37.230 [info] [Info  - 9:56:37 PM] (11978) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-25 21:56:37.474 [info] [Info  - 9:56:37 PM] (11978) Assuming Python version 3.6.9.final.0
+2024-05-25 21:56:41.179 [info] [Info  - 9:56:41 PM] (11978) Found 250 source files
+2024-05-25 21:56:45.270 [info] [Info  - 9:56:45 PM] (11978) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-25 21:56:45.289 [info] [Info  - 9:56:45 PM] (11978) Background analysis(1) started
+2024-05-25 21:56:45.656 [info] [Info  - 9:56:45 PM] (11978) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-25 21:56:45.656 [info] [Info  - 9:56:45 PM] (11978) Indexing(2) started
+2024-05-25 21:56:54.139 [info] [Info  - 9:56:54 PM] (11978) [IDX(2)] Long operation: scan packages file:///home/mi (7236ms)
+2024-05-25 21:56:54.140 [info] [Info  - 9:56:54 PM] (11978) scanned(2) 332 files over 1 exec env
+2024-05-25 21:56:54.383 [info] [Info  - 9:56:54 PM] (11978) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/core/__init__.py (2645ms)
+2024-05-25 21:56:56.945 [info] [Info  - 9:56:56 PM] (11978) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (4546ms)
+2024-05-25 21:56:58.126 [info] [Info  - 9:56:58 PM] (11978) indexed(2) 100 files over 1 exec env
+2024-05-25 21:56:58.834 [info] [Info  - 9:56:58 PM] (11978) Indexing finished(2).
+2024-05-25 21:56:59.771 [info] [Info  - 9:56:59 PM] (11978) [BG(1)] Long operation: SemanticTokens range 125:0 - 169:23 at file:///home/mi/workplace/src/learning/learning/move_node.py (15044ms)
+2024-05-25 21:57:02.250 [info] [Info  - 9:57:02 PM] (11978) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/move_node.py (2800ms)
+2024-05-25 21:57:02.478 [info] [Info  - 9:57:02 PM] (11978) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/move_node.py (2809ms)
+2024-05-25 23:00:39.713 [info] [Info  - 11:00:39 PM] (11978) [FG] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2692ms)

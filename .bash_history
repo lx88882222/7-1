@@ -1370,3 +1370,83 @@ sudo apt-get install func_timeout
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 sudo gedit /etc/apt/sources.list
 sudo -s
+ros2 launch camera_test stereo_camera.py
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo gedit /etc/apt/sources.list
+sudo apt update
+sudo gedit /etc/apt/sources.list
+sudo apt-get install func_timeout
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+cd workplace
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+git add -u
+git commit -m 'get_data set timeout'
+git push origin whf_play
+git global
+git -global
+git config --global
+git config --global user.name 'HeFeiW'
+git config --global user.email 'hefei1504@163.com'
+git config --global
+git push origin whf_play
+git status
+git commit -m 'get_data set timeout'
+cd ..
+git add -u
+git commit -m 'get_data set timeout'
+git push origin whf_play
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+cd workplace
+colcon build --packages-select learning
+ros2 run learning main
+ros2 run learning stand
+ros2 run learning main
+cd ..
+git add -u
+git commit -m '0524whf&lx many great changes!'
+git push origin whf_play
+git config --global user.name 'HeFeiW'
+git config --global user.email 'hefei1504@163.com'
+git push origin whf_play
+git config --global user.name
+git config --global user.name 'hefei wang'
+git push origin whf_play
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate 
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+git add workplace
+gir commit -m "0523"
+git commit -m "0523"
+git push origin whf_play
+git config --global --unset http.proxy
+git push origin whf_play
+git push origin mast
+git push origin whf_play

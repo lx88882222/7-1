@@ -1,0 +1,16 @@
+2024-05-24 00:47:50.797 [info] Extension host with pid 25368 started
+2024-05-24 00:47:50.960 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-05-24 00:47:50.968 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-24 00:47:52.533 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-24 00:47:52.570 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock': Lock acquired.
+2024-05-24 00:47:53.497 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-24 00:47:53.502 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-24 00:47:54.583 [info] Eager extensions activated
+2024-05-24 00:47:54.586 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-24 00:47:54.589 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-24 00:47:54.591 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-24 00:47:56.059 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-05-24 00:47:56.063 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-05-24 00:48:01.350 [warning] [Decorations] CAPPING events from decorations provider vscode.git 675
+2024-05-24 00:48:03.771 [warning] [Decorations] CAPPING events from decorations provider vscode.git 675
+2024-05-24 00:48:14.150 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

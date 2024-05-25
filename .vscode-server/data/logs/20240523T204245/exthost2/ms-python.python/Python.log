@@ -1,0 +1,35 @@
+2024-05-23 20:43:12.534 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-23 20:43:12.534 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-23 20:43:12.534 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-23 20:43:12.534 [info] Experiment 'pythonTestAdapter' is active
+2024-05-23 20:43:12.534 [info] Default formatter is set to null for workspace /home/mi
+2024-05-23 20:43:12.932 [info] > pyenv which python
+2024-05-23 20:43:12.934 [info] cwd: .
+2024-05-23 20:43:14.343 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-23 20:43:15.326 [info] Python interpreter path: /usr/bin/python3
+2024-05-23 20:43:20.805 [info] Starting Pylance language server.
+2024-05-23 20:53:20.819 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 20:53:31.213 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 20:53:34.603 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 20:58:20.235 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 20:58:50.196 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 20:59:33.434 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 21:43:18.894 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 21:45:42.933 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 21:45:53.918 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 21:46:55.622 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 21:48:08.707 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 21:48:18.985 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 21:56:25.459 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 21:56:27.014 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 21:56:28.679 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 22:01:07.203 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:01:15.559 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:05:18.899 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 22:12:29.291 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:12:32.087 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:20:17.311 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:20:22.978 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:21:46.454 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:21:48.237 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 22:28:30.883 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py

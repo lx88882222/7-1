@@ -1,0 +1,6 @@
+[INFO] [1716645290.876469896] [az1.cyberdog_ai_sports]: Creating [sport] object(node)
+[INFO] [1716645290.877496370] [az1.cyberdog_ai_sports]: Load configuration file.
+[INFO] [1716645290.878285403] [az1.cyberdog_ai_sports]: Params config file dir:</opt/ros2/cyberdog/share/params/toml_config/interaction/sports.toml>
+[INFO] [1716645290.945442941] [az1.cyberdog_ai_sports]: cyberdog_ai_sports node spin
+[INFO] [1716645296.517237718] [az1.cyberdog_ai_sports]: vision_manager already start.
+[INFO] [1716645329.494909572] [az1.cyberdog_ai_sports]: sport node init

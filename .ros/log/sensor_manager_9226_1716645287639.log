@@ -1,0 +1,150 @@
+[INFO] [1716645287.640717812] [sensor_manager]: sensor manager begin
+[INFO] [1716645288.352350506] [sensor_manager]: Parse Self Check config file started, toml file is valid
+[INFO] [1716645288.354743235] [sensor_manager]: Self Check init started, parse sensors config succeed
+[INFO] [1716645288.354945477] [sensor_manager]: Self Check init started, parse jump array succeed
+[INFO] [1716645288.355055846] [sensor_manager]: Self Check init started, parse critical array succeed
+[INFO] [1716645288.355170472] [sensor_manager]: critical sensors is empty
+[INFO] [1716645288.355317257] [sensor_manager]: sensor manager Configuring begin
+[INFO] [1716645288.355409514] [sensor_manager]: gps Configuring beginning
+[INFO] [1716645288.621396405] [sensor_manager]: sensor manager Configuring begin
+[INFO] [1716645288.621627288] [sensor_manager]: lidar Configuring beginning
+[INFO] [1716645288.838516575] [sensor_manager]: ultrasonic Configuring beginning
+[INFO] [1716645289.031934672] [sensor_manager]: tof Configuring beginning
+[INFO] [1716645289.353309025] [sensor_manager]: sensor_manager Configuring,success
+[INFO] [1716645289.354006344] [sensor_manager]: sensor manager Config succeed
+[INFO] [1716645289.354176074] [sensor_manager]: SensorManager Initing begin
+[INFO] [1716645289.354422573] [sensor_manager]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+[INFO] [1716645290.027388109] [sensor_manager]: >>>init:heart run and state actuator start
+[INFO] [1716645290.027621583] [sensor_manager]: MachineActuator start on call.
+[INFO] [1716645290.028971485] [sensor_manager]: MachineActuator checkout state: SetUp.
+[INFO] [1716645290.029118079] [sensor_manager]: sensor on setup
+[INFO] [1716645290.122945753] [sensor_manager]: gps is_simulator 0
+[INFO] [1716645290.123197916] [sensor_manager]: ultrasonic_ is_simulator 0
+[INFO] [1716645290.123303933] [sensor_manager]: tof_ is_simulator 0
+[INFO] [1716645290.123393054] [sensor_manager]: lidar_ is_simulator 0
+[INFO] [1716645290.976535811] [sensor_manager]: [PROTOCOL][INFO] Creat embed protocol[ultrasonic], protocol:"can", path:"/opt/ros2/cyberdog/share/params/toml_config/sensors/ultrasonic.toml"
+[INFO] [1716645290.987404213] [sensor_manager]: [CAN_PROTOCOL][INFO] Creat can protocol[ultrasonic]: 0 error, 0 warning
+[INFO] [1716645290.992553036] [sensor_manager]: [CAN_RX][INFO][can1] Start recv thread: ultrasonic
+[INFO] [1716645291.361489009] [sensor_manager cyberdog_ultrasonic]: [ultrasonic] opened successfully
+[INFO] [1716645292.042033216] [sensor_manager]: [PROTOCOL][INFO] Creat embed protocol[left_head_tof], protocol:"can", path:"/opt/ros2/cyberdog/share/params/toml_config/sensors/tof_left_head.toml"
+[INFO] [1716645292.168388176] [sensor_manager]: [CAN_PROTOCOL][INFO] Creat can protocol[left_head_tof]: 0 error, 0 warning
+[INFO] [1716645292.239873024] [sensor_manager]: [CAN_RX][INFO][can1] Start recv thread: left_head_tof
+[INFO] [1716645293.387299386] [sensor_manager]: [PROTOCOL][INFO] Creat embed protocol[right_head_tof], protocol:"can", path:"/opt/ros2/cyberdog/share/params/toml_config/sensors/tof_right_head.toml"
+[INFO] [1716645293.389569010] [sensor_manager]: [CAN_PROTOCOL][INFO] Creat can protocol[right_head_tof]: 0 error, 0 warning
+[INFO] [1716645293.513409863] [sensor_manager]: [CAN_RX][INFO][can1] Start recv thread: right_head_tof
+[INFO] [1716645294.011744348] [sensor_manager]: [PROTOCOL][INFO] Creat embed protocol[left_rear_tof], protocol:"can", path:"/opt/ros2/cyberdog/share/params/toml_config/sensors/tof_left_rear.toml"
+[INFO] [1716645294.049018020] [sensor_manager]: [CAN_PROTOCOL][INFO] Creat can protocol[left_rear_tof]: 0 error, 0 warning
+[INFO] [1716645294.096949467] [sensor_manager]: [CAN_RX][INFO][can0] Start recv thread: left_rear_tof
+[INFO] [1716645294.608726429] [sensor_manager]: [PROTOCOL][INFO] Creat embed protocol[right_rear_tof], protocol:"can", path:"/opt/ros2/cyberdog/share/params/toml_config/sensors/tof_right_rear.toml"
+[INFO] [1716645294.612133569] [sensor_manager]: [CAN_PROTOCOL][INFO] Creat can protocol[right_rear_tof]: 0 error, 0 warning
+[INFO] [1716645294.738649811] [sensor_manager cyberdog_tof]: [left_head_tof] opened successfully
+[INFO] [1716645294.809479771] [sensor_manager]: [CAN_RX][INFO][can0] Start recv thread: right_rear_tof
+[INFO] [1716645294.814135852] [sensor_manager cyberdog_tof]: [left_rear_tof] opened successfully
+[INFO] [1716645294.888810813] [sensor_manager cyberdog_tof]: [right_head_tof] opened successfully
+[INFO] [1716645294.961109333] [sensor_manager cyberdog_tof]: [right_rear_tof] opened successfully
+[INFO] [1716645294.964841980] [sensor_manager Ydlidar]: Open ydlidar ...
+[INFO] [1716645294.969501421] [sensor_manager Ydlidar]: Params config file dir:/opt/ros2/cyberdog/share/params/toml_config/sensors/lidar.toml
+[INFO] [1716645295.540825345] [sensor_manager Ydlidar]: this->raw_scan_.header.frame_id = laser_frame
+[INFO] [1716645295.541559625] [sensor_manager Ydlidar]: [Open] dylidar->port = /dev/ttyTHS0
+[INFO] [1716645295.541875372] [sensor_manager Ydlidar]: [Open] dylidar->ignore_array = 
+[INFO] [1716645295.542033037] [sensor_manager Ydlidar]: [Open] dylidar->baudrate = 512000
+[INFO] [1716645295.542158767] [sensor_manager Ydlidar]: [Open] dylidar->lidar_type = 0
+[INFO] [1716645295.542276944] [sensor_manager Ydlidar]: [Open] dylidar->device_type = 0
+[INFO] [1716645295.542394545] [sensor_manager Ydlidar]: [Open] dylidar->sample_rate = 10
+[INFO] [1716645295.607121850] [sensor_manager Ydlidar]: [Open] dylidar->sample_rate = 4
+[INFO] [1716645295.607317468] [sensor_manager Ydlidar]: [Open] dylidar->resolution_fixed = False
+[INFO] [1716645295.607452445] [sensor_manager Ydlidar]: [Open] dylidar->reversion = True
+[INFO] [1716645295.607576446] [sensor_manager Ydlidar]: [Open] dylidar->inverted = False
+[INFO] [1716645295.607699936] [sensor_manager Ydlidar]: [Open] dylidar->auto_reconnect = True
+[INFO] [1716645295.607830497] [sensor_manager Ydlidar]: [Open] dylidar->isSingleChannel = False
+[INFO] [1716645295.607938818] [sensor_manager Ydlidar]: [Open] dylidar->intensity = True
+[INFO] [1716645295.608060867] [sensor_manager Ydlidar]: [Open] dylidar->support_motor_dtr = False
+[INFO] [1716645295.608206693] [sensor_manager Ydlidar]: [Open] dylidar->angle_max = 90.000000
+[INFO] [1716645295.608330982] [sensor_manager Ydlidar]: [Open] dylidar->angle_min = -90.000000
+[INFO] [1716645295.608443751] [sensor_manager Ydlidar]: [Open] dylidar->range_max = 30.000000
+[INFO] [1716645295.608558345] [sensor_manager Ydlidar]: [Open] dylidar->range_min = 0.010000
+[INFO] [1716645295.608679498] [sensor_manager Ydlidar]: [Open] dylidar->frequency = 10.000000
+[INFO] [1716645295.608870700] [sensor_manager Ydlidar]: Ydlidar Open ok
+[INFO] [1716645295.645952946] [sensor_manager]: [cyberdog_gps]: BCM_GPS Init
+[INFO] [1716645295.971938963] [sensor_manager]: [cyberdog_gps]: Start load patch: /lib/firmware/brcm/bream.patch
+[INFO] [1716645295.972346680] [sensor_manager]: [cyberdog_gps]: tty: /dev/spidev2.0
+[INFO] [1716645295.987367669] [sensor_manager]: [cyberdog_gps]: down load patch: /lib/firmware/brcm/bream.patch
+[INFO] [1716645297.379347066] [sensor_manager]: [cyberdog_gps]: Success load patch: /lib/firmware/brcm/bream.patch
+[INFO] [1716645297.400346294] [sensor_manager]: [cyberdog_gps]: MainThread Start
+[INFO] [1716645299.104632748] [sensor_manager]: [cyberdog_gps]: ConfigGNSS
+[INFO] [1716645313.364285017] [sensor_manager]: [cyberdog_gps]: Finish Config
+[INFO] [1716645313.366479824] [sensor_manager]: [cyberdog_gps]: GPS0 Opened
+[INFO] [1716645313.368389572] [sensor_manager]: [cyberdog_gps]: GPS0 Success SetCallback PAYLOAD
+[INFO] [1716645313.369304078] [sensor_manager cyberdog_gps]: [cyberdog_gps] gps open successfully
+[INFO] [1716645313.369583441] [sensor_manager]: SensorManager Running begin
+[INFO] [1716645313.371207810] [sensor_manager Ydlidar]: Start ydlidar ...
+[ERROR] [1716645313.375156139] [sensor_manager Ydlidar]: Start ydlidar failed (Unknown error).
+[ERROR] [1716645313.577037045] [sensor_manager]: Lidar start fail.
+[INFO] [1716645313.578133344] [sensor_manager]: MachineActuator service setup on call.
+[INFO] [1716645313.678241276] [sensor_manager]: MachineActuator service callback on call.
+	 ===> target_state: SelfCheck
+[INFO] [1716645313.678519295] [sensor_manager]: MachineActuator checkout state: SelfCheck.
+[INFO] [1716645313.678668417] [sensor_manager]: SensorManager SelfCheck begin
+[INFO] [1716645313.678782402] [sensor_manager Ydlidar]: SelfCheck ydlidar ...
+[INFO] [1716645313.678906915] [sensor_manager Ydlidar]: Start ydlidar ...
+[ERROR] [1716645313.679162534] [sensor_manager Ydlidar]: Start ydlidar failed (Unknown error).
+[INFO] [1716645313.879684705] [sensor_manager Ydlidar]: Stop ydlidar ...
+[INFO] [1716645313.880921326] [sensor_manager Ydlidar]: Ydlidar Stop ok
+[INFO] [1716645313.881316531] [sensor_manager Ydlidar]: Close ydlidar ...
+[INFO] [1716645313.881693591] [sensor_manager Ydlidar]: Stop ydlidar ...
+[INFO] [1716645313.881844312] [sensor_manager Ydlidar]: Stop ydlidar ok (consistent with the current state)
+[INFO] [1716645313.882327805] [sensor_manager Ydlidar]: Ydlidar Close ok
+[INFO] [1716645313.882713313] [sensor_manager Ydlidar]: Open ydlidar ...
+[INFO] [1716645313.883000740] [sensor_manager Ydlidar]: Params config file dir:/opt/ros2/cyberdog/share/params/toml_config/sensors/lidar.toml
+[INFO] [1716645313.915938878] [sensor_manager Ydlidar]: this->raw_scan_.header.frame_id = laser_frame
+[INFO] [1716645313.916317954] [sensor_manager Ydlidar]: [Open] dylidar->port = /dev/ttyTHS0
+[INFO] [1716645313.916508900] [sensor_manager Ydlidar]: [Open] dylidar->ignore_array = 
+[INFO] [1716645313.916704742] [sensor_manager Ydlidar]: [Open] dylidar->baudrate = 512000
+[INFO] [1716645313.916820328] [sensor_manager Ydlidar]: [Open] dylidar->lidar_type = 0
+[INFO] [1716645313.916945257] [sensor_manager Ydlidar]: [Open] dylidar->device_type = 0
+[INFO] [1716645313.917053866] [sensor_manager Ydlidar]: [Open] dylidar->sample_rate = 10
+[INFO] [1716645313.917159883] [sensor_manager Ydlidar]: [Open] dylidar->sample_rate = 4
+[INFO] [1716645313.917263116] [sensor_manager Ydlidar]: [Open] dylidar->resolution_fixed = False
+[INFO] [1716645313.917416398] [sensor_manager Ydlidar]: [Open] dylidar->reversion = True
+[INFO] [1716645313.917525135] [sensor_manager Ydlidar]: [Open] dylidar->inverted = False
+[INFO] [1716645313.917628496] [sensor_manager Ydlidar]: [Open] dylidar->auto_reconnect = True
+[INFO] [1716645313.917759666] [sensor_manager Ydlidar]: [Open] dylidar->isSingleChannel = False
+[INFO] [1716645313.917912531] [sensor_manager Ydlidar]: [Open] dylidar->intensity = True
+[INFO] [1716645313.918018036] [sensor_manager Ydlidar]: [Open] dylidar->support_motor_dtr = False
+[INFO] [1716645313.918122133] [sensor_manager Ydlidar]: [Open] dylidar->angle_max = 90.000000
+[INFO] [1716645313.918240407] [sensor_manager Ydlidar]: [Open] dylidar->angle_min = -90.000000
+[INFO] [1716645313.918349080] [sensor_manager Ydlidar]: [Open] dylidar->range_max = 30.000000
+[INFO] [1716645313.918458361] [sensor_manager Ydlidar]: [Open] dylidar->range_min = 0.010000
+[INFO] [1716645313.918570874] [sensor_manager Ydlidar]: [Open] dylidar->frequency = 10.000000
+[INFO] [1716645313.918677755] [sensor_manager Ydlidar]: Ydlidar Open ok
+[ERROR] [1716645313.918849949] [sensor_manager Ydlidar]: SelfCheck ydlidar failed.
+[ERROR] [1716645313.918994527] [sensor_manager]: Lidar selfcheck fail.
+[INFO] [1716645313.919138336] [sensor_manager cyberdog_tof]: [left_head_tof] started successfully
+[INFO] [1716645313.919249441] [sensor_manager cyberdog_tof]: [left_rear_tof] started successfully
+[INFO] [1716645313.919349986] [sensor_manager cyberdog_tof]: [right_head_tof] started successfully
+[INFO] [1716645313.919451971] [sensor_manager cyberdog_tof]: [right_rear_tof] started successfully
+[INFO] [1716645313.919550820] [sensor_manager]: Tof selfcheck success.
+[INFO] [1716645314.038328165] [sensor_manager]: MachineActuator service callback on call.
+	 ===> target_state: Active
+[INFO] [1716645314.038568359] [sensor_manager]: MachineActuator checkout state: Active.
+[INFO] [1716645314.038936651] [sensor_manager]: SensorManager Running begin
+[INFO] [1716645314.039405040] [sensor_manager cyberdog_ultrasonic]: [ultrasonic] opened successfully
+[INFO] [1716645314.039595506] [sensor_manager cyberdog_tof]: [left_head_tof] opened successfully
+[INFO] [1716645314.039677331] [sensor_manager Ydlidar]: Start ydlidar ...
+[INFO] [1716645314.040024214] [sensor_manager cyberdog_tof]: [left_rear_tof] opened successfully
+[ERROR] [1716645314.040338874] [sensor_manager Ydlidar]: Start ydlidar failed (Unknown error).
+[INFO] [1716645314.040390490] [sensor_manager cyberdog_tof]: [right_head_tof] opened successfully
+[INFO] [1716645314.040739422] [sensor_manager cyberdog_tof]: [right_rear_tof] opened successfully
+[ERROR] [1716645314.240975446] [sensor_manager]: Lidar start fail.
+[INFO] [1716645435.777460356] [sensor_manager]: MachineActuator service callback on call.
+	 ===> target_state: Active
+[INFO] [1716645435.777694762] [sensor_manager]: MachineActuator checkout state: Active.
+[INFO] [1716645435.777814797] [sensor_manager]: SensorManager Running begin
+[INFO] [1716645435.780182723] [sensor_manager cyberdog_tof]: [left_head_tof] opened successfully
+[INFO] [1716645435.780411208] [sensor_manager cyberdog_tof]: [left_rear_tof] opened successfully
+[INFO] [1716645435.780517963] [sensor_manager cyberdog_tof]: [right_head_tof] opened successfully
+[INFO] [1716645435.780729200] [sensor_manager cyberdog_tof]: [right_rear_tof] opened successfully
+[INFO] [1716645435.781033015] [sensor_manager cyberdog_ultrasonic]: [ultrasonic] opened successfully
+[INFO] [1716645435.781292253] [sensor_manager Ydlidar]: Start ydlidar ...
+[ERROR] [1716645435.781544035] [sensor_manager Ydlidar]: Start ydlidar failed (Unknown error).
+[ERROR] [1716645435.981943725] [sensor_manager]: Lidar start fail.

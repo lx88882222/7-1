@@ -1,5 +1,0 @@
-2024-05-10 21:47:12.939 [info] Log level: Info
-2024-05-10 21:47:12.939 [info] Validating found git in: "D:\app2\git\Git\cmd\git.exe"
-2024-05-10 21:47:12.939 [info] Unable to find git on the PATH: "D:\app2\git\Git\cmd\git.exe". Error: spawn D:\app2\git\Git\cmd\git.exe ENOENT
-2024-05-10 21:47:12.939 [info] Validating found git in: "git"
-2024-05-10 21:47:12.939 [info] Using git "2.17.1" from "git"

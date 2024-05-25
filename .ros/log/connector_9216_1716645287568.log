@@ -1,0 +1,1913 @@
+[INFO] [1716645288.214712484] [az1.connector]: Creating [Connector] object(node)
+[INFO] [1716645289.072423257] [az1.connector_ctrl_audio]: Creating [CtrlAudio] object(node)
+[INFO] [1716645289.072902654] [az1.connector_ctrl_audio]: Initializing data ...
+[INFO] [1716645289.073615302] [az1.connector_ctrl_audio]: Params config file dir:</opt/ros2/cyberdog/share/connector/config/connector.toml>
+[INFO] [1716645291.415368327] [az1.connector_ctrl_camera]: Creating [CtrlCamera] object(node)
+[INFO] [1716645291.415800875] [az1.connector_ctrl_camera]: Initializing data ...
+[INFO] [1716645291.416200592] [az1.connector_ctrl_camera]: Params config file dir:</opt/ros2/cyberdog/share/connector/config/connector.toml>
+[INFO] [1716645293.325826836] [az1.connector_ctrl_led]: Creating [CtrlLed] object(node)
+[INFO] [1716645293.326244568] [az1.connector_ctrl_led]: Initializing data ...
+[INFO] [1716645293.326779678] [az1.connector_ctrl_led]: Params config file dir:</opt/ros2/cyberdog/share/connector/config/connector.toml>
+[INFO] [1716645294.584435390] [az1.connector_ctrl_wifi]: Creating [CtrlWifi] object(node)
+[INFO] [1716645294.584900643] [az1.connector_ctrl_wifi]: Initializing data ...
+[INFO] [1716645294.585452233] [az1.connector_ctrl_wifi]: Params config file dir:</opt/ros2/cyberdog/share/connector/config/connector.toml>
+[INFO] [1716645295.666091365] [az1.connector_ctrl_bluetooth]: Creating [CtrlBluetooth] object(node)
+[INFO] [1716645295.716526423] [az1.connector_ctrl_bluetooth]: Initializing CtrlBluetooth ...
+[INFO] [1716645296.707760840] [az1.connector_uploader_log]: Creating [UploaderLog] object(node)
+[INFO] [1716645296.708800787] [az1.connector]: Initializing ...
+[INFO] [1716645296.709280376] [az1.connector]: Params config file dir:</opt/ros2/cyberdog/share/connector/config/connector.toml>
+[INFO] [1716645297.510924672] [az1.connector_uploader_log]: Initializing data ...
+[INFO] [1716645297.511577447] [az1.connector_uploader_log]: Params config file dir:</opt/ros2/cyberdog/share/connector/config/connector.toml>
+[INFO] [1716645297.610414518] [main@connector]: UploaderLog node is running ...
+[INFO] [1716645297.610768634] [main@connector]: Connector node is running ...
+[INFO] [1716645297.653410490] [az1.connector]: Running system(<ping -c 3 mi.com; echo $?>) ...
+[INFO] [1716645298.074268640] [az1.connector]: Judge user boots first time...
+[INFO] [1716645298.153313503] [az1.connector]: (wifi_record)Judge user boots first time : /home/mi/.cyberdog/connector/wifirecord.toml
+[ERROR] [1716645298.192927711] [az1.connector]: (wifi_record)Toml WiFi config file is not in toml format, config file dir:
+/home/mi/.cyberdog/connector/wifirecord.toml
+[INFO] [1716645298.762177406] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645298.762627522] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645299.811173805] [az1.connector]: Run system(<ping -c 3 mi.com; echo $?>) results of the: 1
+[INFO] [1716645299.811634002] [az1.connector]: Get WiFi(Cyberdog) provider.
+[INFO] [1716645302.803327298] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645302.803727686] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645306.418269334] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645308.767521062] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645310.759116200] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645314.761086576] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645314.761502260] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645318.758494536] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645320.758632931] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645322.769557040] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645324.761905049] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645326.758213388] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645330.761258784] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645330.761671076] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645334.762345151] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645334.762694658] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645338.761470633] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645340.758545553] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645342.760275756] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645344.759517384] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645346.759159934] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645350.758851694] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645350.759324371] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645354.758976259] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645354.759362599] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645358.829309466] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645358.829735071] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645362.761951306] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645364.758872388] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645366.764631354] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645368.763230117] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645370.915039226] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645372.764072322] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645374.822464929] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645376.765541701] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645378.758864249] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645380.767188746] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645382.763055320] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645384.811042507] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645386.769649521] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645388.872409251] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645390.759539003] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645394.814001739] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645394.828958696] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645398.759974727] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645400.760405637] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645402.773791692] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645404.866934237] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645406.798062329] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645410.782422131] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645410.803186449] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645414.771816414] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645416.767173346] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645418.772919191] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645420.781937494] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645422.758999701] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645426.760228369] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645426.760699772] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645430.762181949] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645430.770192406] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645434.763953157] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645434.765096864] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645438.760866942] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645440.768839717] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645442.758481094] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645446.763582363] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645446.767878686] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645450.758576551] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645452.759567341] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645454.760024104] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645456.762050982] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645458.760970909] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645460.767750985] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645462.766878404] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645466.759892739] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645466.760280332] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645470.762682690] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645470.767705494] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645474.758204826] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645476.758592531] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645478.761468101] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645482.761807724] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645482.769769700] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645486.760303177] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645488.758895480] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645490.758265945] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645492.759222047] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645494.758545439] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645498.761088121] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645498.761493890] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645502.764334691] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645502.764846031] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645506.758712833] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645508.761921275] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645510.759233324] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645512.762281666] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645514.761981483] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645516.780739787] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645518.758832322] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645522.760620650] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645522.761042228] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645526.760693771] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645526.761529695] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645530.758888865] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645532.758537225] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645534.758339924] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645536.758836175] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645538.758259281] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645542.758204624] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645542.761185780] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645546.758939584] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645546.760016441] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645550.759550829] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645550.760772713] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645554.757715682] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645556.758417314] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645558.758966847] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645560.759143314] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645562.759425800] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645566.758413873] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645566.758795545] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645570.758682518] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645570.759455144] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645574.762504846] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645574.763357537] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645578.758271627] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645580.760176391] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645582.758517488] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645586.760282840] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645586.762029025] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645590.758180455] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645592.758534079] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645594.759208862] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645596.767262792] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645598.761675607] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645602.759270366] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645602.759674312] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645606.759432738] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645606.759864396] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645607.932637249] [az1.connector]: Touch signal callback:{touch_state=1, timestamp=0}
+[INFO] [1716645610.284405181] [az1.connector]: Touch signal callback:{touch_state=3, timestamp=0}
+[INFO] [1716645610.758012544] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645612.758684223] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645614.758224772] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645618.758347367] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645618.758769488] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645622.759084727] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645622.759483392] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645626.758404423] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645628.759228169] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645630.758486984] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645634.758907441] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645634.759314266] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645638.757791479] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645640.758342547] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645642.758517063] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645644.758736475] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645646.758888879] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645650.757819253] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645650.758253759] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645654.758928654] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645654.759412601] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645658.758674408] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645660.762359756] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645662.758295806] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645666.759448888] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645666.760229514] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645670.757816658] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645672.758496561] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645674.758355710] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645678.758572290] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645678.762990760] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645682.758464255] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645684.758419118] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645686.761183581] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645688.758945561] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645690.758766629] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645694.758821765] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645694.759523958] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645698.766201327] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645698.769947205] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645702.758565022] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645704.758819476] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645706.758649120] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645708.766913614] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645710.762381301] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645714.758222260] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645714.761045365] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645718.758217524] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645720.758219363] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645722.758028015] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645724.758773327] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645726.758019438] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645730.758736670] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645730.759145063] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645734.759163111] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645734.760071228] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645738.758407029] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645740.764208234] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645742.758400436] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645746.757941769] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645746.758378739] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645750.762234379] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645750.763378693] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645754.766446476] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645754.771131063] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645758.757927015] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645760.759183251] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645762.758354448] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645764.762239033] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645766.758243085] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645770.759275780] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645770.760077334] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645774.761557240] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645774.761960481] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645778.758400686] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645780.763703576] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645782.758373741] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645786.763185051] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645786.763612997] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645790.761542400] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645792.758994629] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645794.758074215] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645796.763479728] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645798.758926404] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645802.758211809] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645802.759216950] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645806.758131434] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645808.758113696] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645810.758058964] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645812.764943357] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645814.758103041] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645818.758270064] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645818.758675800] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645822.758489088] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645822.758913769] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645826.758151172] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645828.758591715] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645830.758391700] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645834.759069390] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645834.759453399] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645838.758332266] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645840.758725128] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645842.760484804] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645846.758023674] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645846.760922200] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645850.758014854] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645852.758295265] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645854.757872046] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645856.760149365] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645858.760481361] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645860.761981671] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645862.758396976] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645866.758558591] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645866.759370192] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645870.758353958] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645872.759082795] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645874.759021312] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645876.767249862] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645878.759543637] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645882.758169920] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645882.761555689] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645886.758489839] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645886.760762720] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645890.758214738] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645892.758522893] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645894.758811879] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645898.758190850] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645898.761467432] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645902.758140169] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645904.758035803] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645906.757944654] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645908.759329791] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645910.761589924] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645914.759422910] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645914.760399283] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645918.759969266] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645918.760450876] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645922.759836055] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645924.761803446] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645926.758002457] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645928.763112346] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645930.758195941] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645934.758605686] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645934.759055360] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645938.757922448] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645940.758360045] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645942.758909837] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645946.758269768] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645946.762592613] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645950.757929321] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645952.758346118] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645954.758361595] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645958.762965286] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645958.763408687] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645962.768155645] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645962.837969622] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645966.759613519] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645968.784379830] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645970.784250727] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645974.769038377] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645974.769486515] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645978.758209418] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645980.758290527] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645982.763910028] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645984.763855743] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645986.765138095] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645990.758630892] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645990.760738905] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645994.759980977] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645994.760815107] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716645998.764365559] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716645998.770219381] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646002.761909707] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646004.760401919] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646006.759284699] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646010.757968231] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646010.758729047] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646014.757911310] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646016.758256970] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646018.765103217] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646020.758985794] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646022.759454976] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646024.763483243] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646026.758520980] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646028.772874012] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646030.758099988] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646034.757910712] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646034.759443705] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646038.758009635] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646038.758412651] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646042.758043852] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646042.758527382] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646046.759047817] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646046.759493683] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646050.758650121] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646052.758239253] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646054.757971331] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646056.759734557] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646058.757749063] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646060.760248304] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646062.758851975] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646064.760591744] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646066.758733549] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646070.758193993] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646070.758584914] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646074.760874219] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646074.762946680] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646078.758160281] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646080.765475754] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646082.758156066] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646086.760042290] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646086.764286765] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646090.760143229] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646090.764725695] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646094.760184934] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646094.760648560] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646098.758198340] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646100.758545984] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646102.758685783] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646106.757846861] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646106.758556540] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646110.757960696] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646110.758728872] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646114.758196133] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646114.759251740] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646118.758317008] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646118.759024287] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646122.757819214] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646124.764632628] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646126.757750549] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646130.758229703] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646130.761340682] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646134.763872777] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646134.765848115] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646138.757693069] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646140.762070783] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646142.758435909] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646146.758417005] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646146.758884855] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646150.760084985] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646150.760978284] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646154.758371485] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646156.763727396] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646158.757973436] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646162.760584125] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646162.760997062] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646166.757675815] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646168.758041187] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646170.758745190] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646172.758096332] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646174.757835739] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646178.759539656] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646178.759925328] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646182.762790230] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646182.764492826] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646186.757948726] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646188.759347016] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646190.757425843] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646194.757921030] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646194.759213378] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646198.758244886] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646198.761039570] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646202.758034298] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646204.758060110] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646206.763942145] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646210.762861714] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646210.763311387] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646214.757796142] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646216.758566930] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646218.757846391] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646220.760172381] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646222.757996290] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646226.757738917] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646226.758944095] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646230.759209837] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646230.759770649] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646234.761718091] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646234.762151221] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646238.757865857] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646240.757820404] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646242.758675835] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646244.762920490] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646246.758021077] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646248.765694318] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646250.760773464] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646254.759535878] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646254.759966352] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646258.758194450] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646260.758178438] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646262.764448096] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646266.758428776] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646266.758820592] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646270.757770370] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646272.757984539] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646274.759437774] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646276.760184818] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646278.757685649] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646282.759230554] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646282.762167065] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646286.757863205] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646288.757993084] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646290.758866307] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646292.759541478] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646294.758429378] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646296.759560623] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646298.761042306] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646300.765208048] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646302.757878786] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646306.760597766] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646306.761078352] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646310.762370548] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646310.762862366] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646314.757976578] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646316.760038881] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646318.758792828] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646322.757809649] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646322.758294427] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646326.760339439] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646326.762399833] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646330.757786147] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646332.763931894] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646334.764031629] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646338.759010031] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646338.759859456] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646342.757636027] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646344.759340915] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646346.758448405] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646348.764805101] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646350.757701007] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646354.757784378] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646354.758245411] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646358.758802264] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646358.762438659] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646362.758527388] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646364.758544241] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646366.757895160] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646370.759827209] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646370.760255442] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646374.758165872] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646376.758020897] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646378.758026262] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646380.764742389] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646382.784565731] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646386.758285646] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646386.762086044] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646390.758469851] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646390.758902723] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646394.769314084] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646394.769714796] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646398.758541198] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646400.758760295] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646402.760131032] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646404.759213978] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646406.757900979] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646410.759573503] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646410.762935717] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646414.757545022] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646416.759529628] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646418.757891439] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646420.763629306] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646422.757770101] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646426.757925890] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646426.758406636] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646430.758147439] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646430.758582200] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646434.759343345] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646434.759730649] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646438.758154146] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646440.759108170] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646442.757889382] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646446.758508860] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646446.758912388] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646450.758569606] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646450.759346774] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646454.764491401] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646454.764930771] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646458.758131535] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646460.758177445] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646462.759452436] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646464.759458632] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646466.757918845] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646470.757748707] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646470.758196204] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646474.757797645] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646474.758624606] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646478.758233631] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646478.761714631] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646482.758017956] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646484.759168816] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646486.758056878] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646490.757791634] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646490.758651427] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646494.761288707] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646494.763425711] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646498.758827481] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646500.764305759] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646502.757952656] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646504.764696688] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646506.758452516] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646510.758071685] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646510.758544943] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646514.757954892] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646516.759007606] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646518.758070967] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646522.757811643] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646522.758312038] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646526.757646113] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646528.757644630] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646530.759005894] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646532.758003654] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646534.758374626] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646536.758317430] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646538.771601053] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646540.760825267] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646542.760052151] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646546.760749263] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646546.761281210] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646550.758035360] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646552.759104779] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646554.759481063] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646556.765492600] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646558.758596734] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646562.761012601] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646562.765164367] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646566.758340555] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646568.759944449] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646570.758465623] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646572.760717178] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646574.758104984] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646576.760746180] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646578.761490888] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646582.758114827] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646582.758646870] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646586.764041647] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646586.764509528] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646590.758063196] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646592.761743645] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646594.757830049] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646596.766322181] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646598.757996973] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646602.758051735] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646602.760758895] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646606.759877574] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646606.760301071] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646610.758021673] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646612.763751508] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646614.762557072] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646618.764371679] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646618.764902570] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646622.758612945] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646624.758144476] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646626.759564046] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646628.760957695] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646630.758752486] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646634.760847227] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646634.761302308] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646638.774512254] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646638.775533619] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646642.757527720] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646644.758535890] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646646.762037775] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646650.762640036] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646650.763047629] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646654.759556814] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646656.758205222] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646658.768276907] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646660.760468798] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646662.758111042] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646664.762093705] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646666.759587274] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646670.760889742] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646670.761339767] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646674.761375425] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646674.761833067] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646678.759935532] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646680.757964152] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646682.758742237] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646684.765844548] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646686.761040086] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646690.763687285] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646690.764265569] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646694.761984859] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646696.761148799] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646698.766225820] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646702.757687509] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646702.758138814] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646706.758883607] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646706.759575941] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646710.758163985] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646712.758300329] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646714.760494987] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646716.758459253] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646718.757980096] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646720.759268335] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646722.759919249] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646726.757814735] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646726.758255192] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646730.758017468] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646730.758681706] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646734.758891383] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646734.760083792] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646738.759806835] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646738.761714363] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646742.779300143] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646742.779715832] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646746.758120995] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646748.757931763] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646750.761499634] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646752.758100640] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646754.757413734] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646756.761334092] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646758.759026929] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646762.758578801] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646762.763276114] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646766.761792540] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646766.762205477] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646770.761391965] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646772.767274667] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646774.757887262] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646778.760727106] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646778.764109288] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646782.760675594] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646784.758220972] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646786.757451281] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646788.761904929] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646790.758148424] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646794.762142020] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646794.762633870] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646798.760811217] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646800.757485345] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646802.759868807] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646804.758920040] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646806.762100862] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646808.763369709] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646810.759543283] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646814.765246674] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646814.773256215] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646818.760768222] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646820.762982337] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646822.762056450] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646824.763187470] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646826.757950743] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646828.767241547] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646830.758377416] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646834.758693944] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646834.759066784] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646838.758440412] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646840.761820566] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646842.758214401] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646846.764789426] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646846.765223130] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646850.765709966] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646850.766132758] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646854.758896906] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646856.760309532] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646858.760410227] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646862.757860455] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646862.758912445] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646866.758167191] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646866.758938663] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646870.758129791] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646872.758194325] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646874.762676550] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646876.765072236] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646878.758440984] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646882.758898890] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646882.759692827] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646886.758860243] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646888.758921641] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646890.758411923] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646894.758935879] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646894.767628858] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646898.758124383] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646900.764900096] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646902.758531697] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646906.757822987] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646906.758261716] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646910.758110298] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646910.760602062] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646914.758353384] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646914.759941961] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646918.758368850] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646920.758922770] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646922.758101526] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646924.764079686] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646926.762614044] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646930.757909252] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646930.760699165] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646934.758171538] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646934.759092293] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646938.764188632] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646938.768055496] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646942.758123652] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646944.758239611] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646946.771108409] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646948.766438893] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646950.762493264] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646954.758964465] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646954.759400826] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646958.760403448] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646958.761265001] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646962.762836595] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646962.763291548] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646966.759640282] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646968.760612291] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646970.758637199] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646972.763590473] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646974.760084758] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646978.759309711] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646978.762219211] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646982.758728268] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646984.759915385] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646986.764345065] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646990.758665117] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646990.759048709] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646994.757724147] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716646996.760245211] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716646998.766700981] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647002.760115958] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647002.760605152] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647006.768157126] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647006.773923613] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647010.759852067] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647012.758077555] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647014.759012123] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647018.758745407] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647018.760323167] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647022.759019278] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647022.759521144] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647026.757919104] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647028.762668599] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647030.766328567] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647034.759998813] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647034.763320898] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647038.765081167] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647038.765565785] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647042.758145449] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647044.764694821] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647046.759408205] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647050.762859485] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647050.763959476] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647054.758556877] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647056.763025790] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647058.758375283] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647062.759971069] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647062.763677097] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647066.758282147] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647068.758025618] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647070.759242816] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647072.758417668] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647074.758685566] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647076.761268168] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647078.762137006] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647082.759234683] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647082.760068909] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647086.758632312] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647088.758542635] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647090.757838449] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647092.759563209] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647094.761430500] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647098.757943589] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647098.758371854] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647102.762576910] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647102.762988695] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647106.758349024] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647108.760957931] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647110.758633935] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647114.758704730] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647114.759098434] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647118.759747480] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647118.760177793] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647122.758448775] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647124.757883344] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647126.760723743] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647128.762353109] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647130.757632008] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647134.757603793] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647134.758383681] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647138.759312221] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647138.760823004] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647142.758196463] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647144.763076041] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647146.760378630] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647150.758425286] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647150.758826031] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647154.758292717] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647156.760094663] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647158.757716234] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647160.761331049] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647162.758879659] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647166.758079428] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647166.760759387] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647170.759353479] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647170.762726605] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647174.762953851] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647174.764925956] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647178.764994990] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647178.767996748] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647182.760680158] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647184.758176895] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647186.758843266] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647190.758651463] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647190.764166585] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647194.758722705] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647194.760337043] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647198.757824264] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647200.758076866] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647202.760966834] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647204.765362241] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647206.758394086] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647210.765049337] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647210.765773032] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647214.757713738] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647216.757725151] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647218.760146118] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647220.759583727] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647222.759079417] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647226.759396681] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647226.765438373] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647230.759013706] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647232.761784664] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647234.760673685] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647238.757812675] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647238.758205163] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647242.759479951] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647242.760274367] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647246.757990617] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647248.758920993] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647250.765056404] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647254.757859657] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647254.758267377] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647258.757784529] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647260.768490402] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647262.759376923] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647266.767038914] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647266.767951925] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647270.757778988] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647272.758512048] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647274.758013402] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647278.757683228] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647278.760717787] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647282.759093379] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647282.759839954] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647286.757696271] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647288.758511764] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647290.759233432] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647292.758682049] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647294.758656437] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647296.765133263] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647298.761563962] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647300.770980753] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647302.758059963] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647306.760888671] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647306.761254950] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647310.758974688] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647312.761487625] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647314.759998591] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647318.758769134] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647318.765084241] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647322.759322979] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647322.759763276] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647326.757803757] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647328.763295667] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647330.762303571] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647334.757862368] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647334.758709618] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647338.759305767] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647338.759701903] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647342.758302396] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647344.758071980] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647346.758987891] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647350.759439974] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647350.759818797] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647354.758876739] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647356.766379379] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647358.757926439] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647362.758465278] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647362.759323874] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647366.759867776] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647366.760727044] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647370.758194298] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647372.763968237] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647374.758512124] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647378.760137003] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647378.760625244] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647382.758304594] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647384.759853186] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647386.758663349] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647390.760051279] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647390.760501474] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647394.763703229] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647394.764144038] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647398.761010230] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647400.758501595] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647402.761812566] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647404.766928247] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647406.757625137] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647410.758189484] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647410.758577076] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647414.758357215] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647414.758775240] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647418.758122603] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647420.762157077] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647422.760372616] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647426.758257773] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647426.758713654] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647430.758486850] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647430.760785681] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647434.763042735] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647434.766140782] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647438.758837225] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647440.759287018] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647442.759366051] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647446.760001760] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647446.760425129] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647450.757436028] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647452.774122665] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647454.759294386] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647458.757845455] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647458.764581689] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647462.757821675] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647464.760912904] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647466.758422419] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647470.758135018] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647470.758569299] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647474.757991939] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647476.762489981] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647478.757799195] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647482.762072463] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647482.762526584] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647486.761392509] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647488.759968510] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647490.758780452] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647494.757772492] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647494.758193845] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647498.759140580] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647498.759678479] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647502.757968168] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647504.768483134] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647506.759133981] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647508.769553968] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647510.759161209] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647514.757846907] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647514.758689516] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647518.758266144] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647518.760167943] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647522.759382323] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647522.759779995] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647526.758195895] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647528.767365680] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647530.759018948] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647534.757878825] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647534.758325810] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647538.759489670] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647538.760514939] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647542.758145959] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647544.761710350] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647546.758629997] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647550.757956507] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647550.758424389] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647554.758105179] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647554.758515203] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647558.758089815] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647560.757976659] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647562.758066643] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647564.758940707] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647566.757608389] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647570.758029162] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647570.758467187] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647574.758018150] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647576.758305834] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647578.758332009] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647580.759614721] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647582.767992107] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647586.758732778] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647586.759182867] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647590.757883573] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647592.758453822] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647594.758137750] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647598.758167795] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647598.758593084] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647602.758923263] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647602.761125676] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647606.757784932] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647608.757505532] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647610.758203657] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647612.758385514] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647614.757623865] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647616.758488425] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647618.758512263] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647622.758376769] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647622.759109744] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647626.768434507] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647626.771466409] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647630.758573661] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647632.765890609] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647634.758955650] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647636.768272446] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647638.758451091] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647642.758407887] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647642.758793783] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647646.758122981] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647648.758100035] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647650.758195331] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647654.757734198] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647654.758131486] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647658.758253885] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647658.758641477] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647662.758188792] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647664.762233353] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647666.758160915] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647670.758143055] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647670.759987925] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647674.759525576] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647674.762292096] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647678.758939928] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647680.759243357] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647682.758001921] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647686.758007070] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647686.758457415] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647690.758650855] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647690.759099856] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647694.758533025] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647696.758223257] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647698.758139701] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647700.764916894] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647702.757952302] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647706.758267504] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647706.759130786] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647710.759479557] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647710.759936495] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647714.758050244] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647716.762138262] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647718.758545547] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647722.758102430] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647722.758471622] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647726.761507392] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647726.766114366] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647730.758037429] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647732.763856042] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647734.758177044] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647738.758132944] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647738.758524248] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647742.757864838] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647744.758863129] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647746.759780554] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647750.757967777] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647750.758699120] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647754.757700504] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647756.759575420] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647758.758587206] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647762.757832051] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647762.760164899] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647766.758519357] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647766.759914170] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647770.757935790] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647772.758239506] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647774.758020588] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647776.758342897] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647778.758388880] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647780.763805468] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647782.757971011] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647786.760746840] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647786.764086397] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647790.758309987] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647792.757675892] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647794.757912887] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647796.758276285] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647798.758579713] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647802.761422327] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647802.761792063] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647806.758306932] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647808.758079277] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647810.758831099] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647812.760114643] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647814.758708085] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647818.757780894] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647818.758799379] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647822.758007615] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647822.758457672] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647826.758023291] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647826.758407459] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647830.758261885] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647830.759007436] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647834.758782211] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647834.762206793] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647838.758399480] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647840.758101616] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647842.760036438] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647846.757817252] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647846.758273390] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647850.758706035] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647850.759114299] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647854.757995713] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647856.759445468] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647858.758287651] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647862.758472259] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647862.758848203] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647866.757718768] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647868.767802588] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647870.758110164] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647874.759743634] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647874.760729126] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647878.758685880] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647880.762460004] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647882.758105353] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647884.762942602] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647886.758273128] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647890.758137090] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647890.758586187] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647894.763316584] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647894.763749713] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647898.758762151] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647900.760853744] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647902.758618913] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647906.758314263] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647906.761507416] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647910.757961388] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647912.758451668] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647914.764838069] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647918.757655038] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647918.758062310] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647922.757767805] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647922.758170501] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647926.758303460] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647926.762702910] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647930.758419426] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647930.758882252] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647934.758005846] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647936.765822964] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647938.768270468] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647942.757598470] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647942.759882325] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647946.757972458] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647946.759951155] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647950.758969883] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647950.759778572] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647954.758106822] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647956.758017634] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647958.758313478] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647960.758374342] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647962.758289666] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647964.759396343] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647966.758609221] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647970.757692782] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647970.759014441] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647974.757950000] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647974.758780737] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647978.758661755] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647978.762056992] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647982.765965548] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647982.767676591] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647986.758179721] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647988.758147399] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647990.759583074] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647994.758045951] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647994.758888016] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716647998.758087164] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716647998.758492164] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648002.757774802] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648004.762341838] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648006.758382011] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648010.758356887] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648010.759202216] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648014.758189007] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648016.758400978] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648018.757382171] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648020.760890113] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648022.759753128] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648026.758117091] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648026.761424198] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648030.757585940] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648032.758939886] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648034.758031929] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648038.758937160] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648038.759324048] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648042.757882639] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648044.758391448] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648046.758137104] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648048.759064098] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648050.758022858] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648054.758267276] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648054.762478466] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648058.758257928] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648060.758499435] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648062.758993395] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648064.761116445] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648066.758287233] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648070.763560873] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648070.764114996] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648074.758143510] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648076.758202998] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648078.757815660] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648082.758033613] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648082.758445973] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648086.759380965] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648086.762716617] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648090.758498799] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648092.758227847] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648094.759551969] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648096.759355419] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648098.757695639] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648100.762093711] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648102.757981401] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648106.757795569] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648106.761472989] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648110.759721397] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648110.760633320] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648114.758448151] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648116.758984000] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648118.757903048] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648120.764650577] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648122.758433424] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648124.765363899] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648126.758893621] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648130.757953374] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648130.758818160] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648134.760324651] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648134.760823925] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648138.758284862] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648140.757805394] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648142.757996500] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648144.759247244] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648146.759104743] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648150.758055694] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648150.758495351] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648154.758450418] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648154.758854554] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648158.758991993] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648158.759376353] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648162.757857503] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648164.758860401] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648166.760839384] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648170.758307712] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648170.758703432] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648174.758793350] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648174.759198063] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648178.758026387] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648180.758758464] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648182.780308695] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648184.762521097] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648186.760845669] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648190.758332046] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648190.758808184] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648194.757775967] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648196.759192666] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648198.757515254] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648202.764780327] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648202.765184079] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648206.757919607] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648208.757733457] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648210.760444359] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648212.758414875] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648214.758210741] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648216.759079205] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648218.758333780] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648222.758034090] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648222.758492948] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648226.759711145] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648226.760134705] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648230.758127109] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648232.757891262] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648234.758701869] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648236.758043805] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648238.758086492] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648242.757880852] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648242.763208257] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648246.758055156] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648246.758474845] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648250.761754844] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648250.762258214] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648254.760146743] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648256.758586422] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648258.762293120] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648262.758328619] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648262.759128283] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648266.759893671] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648266.760286735] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648270.761251967] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648270.768478579] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648274.758393793] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648276.771443754] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648278.758510528] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648282.760225791] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648282.761070896] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648286.758151537] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648288.764295437] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648290.763205076] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648294.758358542] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648294.759194303] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648298.761923475] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648298.762797445] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648302.758566442] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648304.759363897] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648306.757833176] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648308.769465796] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648310.758323454] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648312.770863677] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648314.758228312] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648316.770940090] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648318.759600881] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648322.758645369] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648322.759165572] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648326.758158828] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648328.757835843] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648330.757845666] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648332.758984023] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648334.759232922] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648336.774122121] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648338.764890346] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648342.771510990] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648342.777042271] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648346.758813478] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648348.758167511] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648350.759055432] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648352.758383640] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648354.773689487] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648356.758410325] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648358.758115021] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648360.759305251] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648362.758073192] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648366.758153222] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648366.758574575] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648370.757878493] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648372.758436454] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648374.765413619] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648376.763808689] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648378.765687445] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648382.758117687] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648382.758603201] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648386.758221941] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648386.758821697] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648390.758140720] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648392.759856337] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648394.769437011] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648396.762532804] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648398.758581905] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648400.763509524] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648402.761645900] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648406.759513437] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648406.759920293] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648410.758249439] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648412.758212477] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648414.760316806] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648416.758895623] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648418.759004199] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648422.760297022] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648422.760785032] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648426.758568887] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648428.766563576] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648430.760342327] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648434.758309962] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648434.759164475] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648438.758821457] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648438.761641162] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648442.757952795] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648444.758262080] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648446.758630501] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648450.759448082] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648450.759896860] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648454.757640682] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648456.759951607] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648458.758896512] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648460.768509122] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648462.758293584] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648466.758080743] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648466.758467215] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648470.758554413] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648470.759001559] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648474.758866832] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648474.759267480] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648478.760443597] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648478.761339999] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648482.759496949] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648484.758111031] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648486.758255000] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648488.758536444] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648490.757775787] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648494.759034529] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648494.759536171] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648498.758612564] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648500.758071752] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648502.784311486] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648504.762621857] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648506.757981856] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648510.758382309] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648510.759895844] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648514.758021625] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648516.758055832] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648518.758440702] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648520.762572305] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648522.770401423] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648526.758219058] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648526.758684060] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648530.757699428] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648532.758775704] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648534.758576306] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648536.759437666] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648538.759451744] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648542.761116031] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648542.764068827] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648546.758567943] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648548.766391909] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648550.758350015] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648554.758011188] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648554.758477341] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648558.758233685] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648558.759067686] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648562.762395142] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648562.766055409] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648566.758760184] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648568.757615711] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648570.758513551] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648572.758412203] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648574.762507133] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648578.758078463] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648578.758517480] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648582.758837323] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648582.759289748] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648586.779106917] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648586.779549070] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648590.758284440] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648592.758375544] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648594.759256904] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648598.758126061] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648598.758551926] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648602.758076073] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648604.758441966] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648606.758569487] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648608.759708932] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648610.761367844] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648614.765147918] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648614.765554934] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648618.759220529] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648620.758273692] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648622.770366129] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648626.761002286] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648626.761407574] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648630.762148962] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648630.762927218] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648634.757766116] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648636.758380559] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648638.758223146] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648642.759128249] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648642.759610499] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648646.757878619] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648648.757873273] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648650.758277408] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648652.758253565] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648654.758469568] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648658.758791235] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648658.759334030] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648662.758939010] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648662.760447585] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648666.758474389] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648668.757959305] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648670.758654037] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648672.758106408] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648674.767070621] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648676.758793330] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648678.757834909] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648682.761129852] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648682.761541413] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648686.758272798] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648688.760983476] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648690.763847244] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648694.757726188] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648694.758215958] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648698.758767293] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648698.759176741] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648702.757782725] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648704.762238270] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648706.759465124] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648710.758193734] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648710.758684528] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648714.758766030] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648714.759571263] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648718.765690392] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648718.766567306] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648722.761683106] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648724.758603169] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648726.758535006] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648728.761643836] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648730.758630396] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648734.766092497] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648734.766498778] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648738.759519623] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648740.758251755] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648742.765009428] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648744.761976532] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648746.758236005] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648750.763340970] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648750.775230141] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648754.758290463] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648756.759268721] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648758.758415454] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648762.758294648] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648762.758700128] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648766.757927020] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648768.760140216] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648770.758101484] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648772.763507161] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648774.757652447] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648778.758743538] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648778.759214556] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648782.767320510] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648782.767720742] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648786.757864601] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648788.758446147] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648790.759713211] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648792.762087849] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648794.765076389] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648798.758915459] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648798.759269642] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648802.758429269] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648804.762513159] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648806.758428369] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648810.759643303] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648810.761160454] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648814.758509964] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648816.758201667] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648818.759529469] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648822.761781383] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648822.765789049] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648826.758017494] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648828.759960380] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648830.757899536] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648834.758609467] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648834.759643824] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648838.758477109] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648840.761318797] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648842.758293549] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648846.757802367] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648846.758565519] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648850.758892850] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648850.759882022] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648854.758067037] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648856.759114769] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648858.757549711] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648862.758185816] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648862.759198285] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648866.757795052] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648868.760690598] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648870.762743214] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648874.758597717] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648874.759374437] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648878.758664307] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648878.762104569] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648882.758315848] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648884.758450121] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648886.762191380] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648888.759874562] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648890.763757328] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648894.759257328] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648894.760171651] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648898.758336154] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648900.758239094] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648902.758722782] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648904.758658235] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648906.757899977] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648908.759212066] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648910.757891397] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648912.759594886] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648914.758220776] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648918.763766070] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648918.764174942] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648922.757813529] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648924.758163390] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648926.765751863] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648928.759515254] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648930.757712623] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648934.757857774] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648934.758753889] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648938.758218738] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648938.758650907] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648942.758042891] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648944.759863982] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648946.758065127] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648948.760311891] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648950.758499405] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648954.760272813] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648954.761839949] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648958.765498228] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648958.765952733] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648962.758097401] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648964.762303277] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648966.758367227] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648970.757879053] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648970.758360983] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648974.763783874] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648974.764190506] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648978.758017449] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648980.765021398] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648982.758795125] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648986.758384553] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648986.759170489] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648990.759035698] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648990.762173906] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648994.759032942] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716648996.757855220] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716648998.757749456] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649000.760233249] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649002.758400826] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649006.758265971] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649006.758658748] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649010.758029867] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649012.758270286] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649014.757980102] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649016.759968941] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649018.758747634] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649022.757980767] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649022.758369319] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649026.758556647] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649026.759027856] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649030.757891029] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649032.757691215] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649034.758230041] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649036.761935331] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649038.757802924] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649042.758455222] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649042.759191141] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649046.757375868] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649048.761736499] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649050.758205065] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649054.757960416] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649054.758454379] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649058.759371706] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649058.762721246] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649062.757696596] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649064.758243325] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649066.758968650] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649070.757651243] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649070.758125525] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649074.758612827] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649074.759665873] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649078.759046112] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649078.761175884] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649082.763977281] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649082.764878100] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649086.757909538] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649088.758468651] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649090.758893586] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649092.770678881] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649094.764790023] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649098.765154891] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649098.768058278] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649102.757634317] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649104.759526770] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649106.760061595] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649110.759501932] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649110.760260603] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649114.758681143] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649116.758024616] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649118.759573158] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649122.758585230] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649122.759291772] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649126.761802732] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649126.765442166] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649130.758131965] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649132.757673266] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649134.758843176] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649136.759945053] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649138.759747415] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649140.759975193] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649142.763335036] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649146.758180047] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649146.758561623] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649150.758371247] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649150.758803384] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649154.760022605] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649154.760464342] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649158.758504235] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649160.777273192] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649162.758609481] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649166.757716051] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649166.758588997] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649170.760274180] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649170.765642673] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649174.770935002] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649174.777743781] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649178.758459159] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649180.758218224] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649182.757469759] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649184.782565150] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649186.763804765] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649190.758128709] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649190.758970198] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649194.758141538] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649196.758611401] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649198.763928308] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649200.759012526] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649202.757944758] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649206.764960994] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649206.766939754] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649210.757541030] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649212.757730536] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649214.759772016] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649216.758166350] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649218.757796772] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649222.759531204] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649222.759980525] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649226.758838930] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649228.757680280] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649230.758278659] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649232.758956623] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649234.758001049] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649236.759693242] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649238.762494994] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649242.758291160] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649242.759008903] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649246.757822699] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649248.758018605] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649250.757754213] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649254.758022887] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649254.758417871] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649258.757817503] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649260.758277255] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649262.757791099] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649264.758358405] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649266.760492686] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649268.759835967] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649270.757736146] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649272.761402139] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649274.757917618] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649278.758421561] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649278.761236402] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649282.758346324] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649284.757916233] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649286.761243627] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649288.758140266] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649290.758121448] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649292.758224488] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649294.758165029] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649296.759579840] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649298.757631702] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649302.757750133] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649302.758639111] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649306.776943354] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649306.777355522] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649310.759010599] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649312.758136147] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649314.758319445] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649316.758463254] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649318.757640228] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649322.757851812] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649322.758237324] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649326.757846688] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649328.757918560] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649330.757632504] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649332.758198882] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649334.758041533] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649336.761820040] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649338.757854197] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649342.758224441] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649342.759050986] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649346.760216958] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649346.760699464] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649350.758384021] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649352.757707045] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649354.761737142] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649356.758468433] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649358.758124808] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649362.757729532] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649362.758112516] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649366.758152097] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649366.758991826] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649370.758282208] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649370.758684584] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649374.758116313] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649376.757820785] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649378.759350863] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649380.759573105] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649382.757875405] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649386.758043564] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649386.759467466] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649390.761292235] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649390.764502765] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649394.758262761] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649396.758990998] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649398.758263558] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649402.760003750] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649402.760934393] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649406.758348992] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649408.757943310] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649410.759237761] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649412.758815483] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649414.757562755] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649418.758356398] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649418.758749897] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649422.758678621] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649422.759206828] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649426.758158385] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649428.757990798] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649430.760652462] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649432.766826485] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649434.759304907] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649438.758763171] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649438.759120868] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649442.764096384] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649442.764963922] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649446.758508406] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649448.757730936] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649450.758078994] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649452.758232519] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649454.758353372] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649456.758279693] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649458.758155869] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649460.758552120] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649462.758792527] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649466.759640357] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649466.761039873] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649470.762505539] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649470.763119823] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649474.759154245] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649476.758127395] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649478.757947890] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649480.758125928] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649482.758856265] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649484.758490484] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649486.758071934] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649488.763626016] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649490.758219430] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649494.759561030] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649494.760493048] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649498.758874045] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649500.758963249] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649502.758633725] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649506.758500831] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649506.759515092] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649510.766039259] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649510.766420707] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649514.759273273] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649516.758314904] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649518.758418669] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649520.759593431] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649522.758125932] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649526.758055695] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649526.761066923] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649530.757965394] [az1.connector_ctrl_bluetooth]: is Advertising
+[INFO] [1716649532.757989413] [az1.connector]:  bluetooth is not connect(app and cyberdog)
+[INFO] [1716649534.757808340] [az1.connector_ctrl_bluetooth]: is Advertising

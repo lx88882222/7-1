@@ -1,0 +1,44 @@
+2024-05-25 21:56:16.846 [info] Extension host with pid 11473 started
+2024-05-25 21:56:16.846 [error] Error: EEXIST: file already exists, open '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock'
+2024-05-25 21:56:16.882 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-05-25 21:56:17.036 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-05-25 21:56:17.043 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-25 21:56:18.545 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock': The pid 25368 appears to be gone.
+2024-05-25 21:56:18.546 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock': Deleting a stale lock.
+2024-05-25 21:56:18.554 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-25 21:56:18.748 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/091b3a67d7dce051ae2bdc59e7211948/vscode.lock': Lock acquired.
+2024-05-25 21:56:19.832 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-25 21:56:19.837 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-25 21:56:21.344 [info] Eager extensions activated
+2024-05-25 21:56:21.347 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-25 21:56:21.354 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-25 21:56:21.355 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-25 21:56:23.149 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-05-25 21:56:23.152 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-05-25 21:56:29.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 687
+2024-05-25 21:56:32.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 688
+2024-05-25 21:56:43.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 692
+2024-05-25 21:56:50.752 [warning] [Decorations] CAPPING events from decorations provider vscode.git 693
+2024-05-25 21:56:59.053 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-05-25 21:56:59.054 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-05-25 21:57:00.810 [warning] [Decorations] CAPPING events from decorations provider vscode.git 696
+2024-05-25 21:57:02.195 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-05-25 21:58:29.140 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-25 21:58:30.917 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-25 21:58:36.702 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-25 21:58:38.173 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-25 21:58:41.802 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-25 22:02:48.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 698
+2024-05-25 22:09:22.150 [warning] [Decorations] CAPPING events from decorations provider vscode.git 707
+2024-05-25 22:13:02.187 [warning] [Decorations] CAPPING events from decorations provider vscode.git 707
+2024-05-25 22:26:28.823 [warning] [Decorations] CAPPING events from decorations provider vscode.git 716
+2024-05-25 22:38:59.039 [warning] [Decorations] CAPPING events from decorations provider vscode.git 716
+2024-05-25 22:39:04.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 716
+2024-05-25 22:52:29.855 [warning] [Decorations] CAPPING events from decorations provider vscode.git 717
+2024-05-25 23:02:35.082 [warning] [Decorations] CAPPING events from decorations provider vscode.git 720
+2024-05-25 23:04:48.364 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

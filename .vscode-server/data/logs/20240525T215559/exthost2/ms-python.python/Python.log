@@ -1,0 +1,22 @@
+2024-05-25 21:56:25.940 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-25 21:56:25.941 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-25 21:56:25.941 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-25 21:56:25.941 [info] Experiment 'pythonTestAdapter' is active
+2024-05-25 21:56:25.941 [info] Default formatter is set to null for workspace /home/mi
+2024-05-25 21:56:26.866 [info] > pyenv which python
+2024-05-25 21:56:26.867 [info] cwd: .
+2024-05-25 21:56:31.853 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-25 21:56:32.085 [info] Python interpreter path: /usr/bin/python3
+2024-05-25 21:56:36.660 [info] Starting Pylance language server.
+2024-05-25 22:02:54.221 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-25 22:06:42.655 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-25 22:06:51.529 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-25 22:07:07.372 [info] > /usr/bin/python3 ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/normalizeSelection.py
+2024-05-25 22:07:07.722 [info] Send text to terminal: /usr/bin/python3
+2024-05-25 22:15:37.308 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-25 22:15:43.910 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-25 22:18:31.887 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-25 22:20:26.653 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-25 22:22:07.564 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-25 22:51:59.047 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-25 22:54:32.771 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py

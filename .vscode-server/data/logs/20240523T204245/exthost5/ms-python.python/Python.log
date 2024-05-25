@@ -1,0 +1,61 @@
+2024-05-23 23:11:30.989 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-23 23:11:30.989 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-23 23:11:30.989 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-23 23:11:30.989 [info] Experiment 'pythonTestAdapter' is active
+2024-05-23 23:11:30.989 [info] Default formatter is set to null for workspace /home/mi
+2024-05-23 23:11:32.498 [info] > pyenv which python
+2024-05-23 23:11:32.498 [info] cwd: .
+2024-05-23 23:11:36.248 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-23 23:11:36.621 [info] Python interpreter path: /usr/bin/python3
+2024-05-23 23:11:41.740 [info] Starting Pylance language server.
+2024-05-23 23:13:00.954 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 23:14:19.096 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 23:29:13.862 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 23:29:14.610 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 23:29:16.372 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 23:29:18.616 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 23:35:56.979 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 23:36:19.936 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-23 23:45:29.020 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 23:45:45.521 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 23:52:43.755 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-23 23:52:45.518 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 23:57:40.010 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/config.py
+2024-05-23 23:58:28.428 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-23 23:58:39.995 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/config.py
+2024-05-23 23:58:58.087 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-24 00:08:54.148 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/config.py
+2024-05-24 00:09:10.463 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/config.py
+2024-05-24 00:10:26.264 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:10:43.040 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:10:45.649 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-24 00:12:30.057 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:12:32.690 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:13:10.540 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-24 00:13:21.511 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-24 00:15:27.059 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:15:29.909 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-24 00:16:00.663 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-24 00:16:48.445 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-24 00:17:08.010 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-24 00:17:35.203 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-24 00:18:07.938 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-24 00:19:21.218 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:19:37.858 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:21:02.105 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:21:15.636 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-24 00:22:01.483 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/main_node.py
+2024-05-24 00:24:18.655 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:24:21.559 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:24:47.313 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:26:43.045 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:30:43.454 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-24 00:30:55.857 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/get_data.py
+2024-05-24 00:32:45.834 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/constants.py
+2024-05-24 00:33:29.493 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-24 00:34:07.435 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-24 00:34:35.216 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-24 00:35:23.195 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py
+2024-05-24 00:35:53.834 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/rgb_cam_suber.py
+2024-05-24 00:38:13.934 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/shoot.py
+2024-05-24 00:39:07.645 [info] Discover tests for workspace name: mi - uri: /home/mi/workplace/src/learning/learning/move_node.py

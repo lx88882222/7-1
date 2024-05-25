@@ -1,0 +1,10 @@
+2024-05-24 00:47:58.619 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-24 00:47:58.619 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-24 00:47:58.619 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-24 00:47:58.619 [info] Experiment 'pythonTestAdapter' is active
+2024-05-24 00:47:58.619 [info] Default formatter is set to null for workspace /home/mi
+2024-05-24 00:47:59.238 [info] > pyenv which python
+2024-05-24 00:47:59.238 [info] cwd: .
+2024-05-24 00:48:03.617 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-24 00:48:04.646 [info] Python interpreter path: /usr/bin/python3
+2024-05-24 00:48:08.561 [info] Starting Pylance language server.

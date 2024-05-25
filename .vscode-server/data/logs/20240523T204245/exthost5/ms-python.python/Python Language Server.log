@@ -1,0 +1,26 @@
+2024-05-23 23:11:38.693 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-23 23:11:41.478 [info] [Info  - 11:11:41 PM] (5700) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-23 23:11:41.491 [info] [Info  - 11:11:41 PM] (5700) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-23 23:11:41.503 [info] [Info  - 11:11:41 PM] (5700) Starting service instance "mi"
+2024-05-23 23:11:41.561 [info] [Info  - 11:11:41 PM] (5700) Auto-Indent enabled
+2024-05-23 23:11:42.036 [info] [Info  - 11:11:42 PM] (5700) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-23 23:11:42.038 [info] [Info  - 11:11:42 PM] (5700) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-23 23:11:42.352 [info] [Info  - 11:11:42 PM] (5700) Assuming Python version 3.6.9.final.0
+2024-05-23 23:11:46.243 [info] [Info  - 11:11:46 PM] (5700) Found 249 source files
+2024-05-23 23:11:50.271 [info] [Info  - 11:11:50 PM] (5700) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-23 23:11:50.277 [info] [Info  - 11:11:50 PM] (5700) Background analysis(1) started
+2024-05-23 23:11:52.130 [info] [Info  - 11:11:52 PM] (5700) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-23 23:11:52.130 [info] [Info  - 11:11:52 PM] (5700) Indexing(2) started
+2024-05-23 23:11:54.828 [info] [Info  - 11:11:54 PM] (5700) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/move_node.py (3708ms)
+2024-05-23 23:11:57.192 [info] [Info  - 11:11:57 PM] (5700) [BG(1)] Long operation: SemanticTokens range 0:0 - 1:15 at vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_33/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fbuild%2Flcm%2Fbuild%2Flib%2Flcm%2Flocalization_lcmt.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fbuild%2Flcm%2Fbuild%2Flib%2Flcm%2Flocalization_lcmt.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A33%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A55%2C%22endColumn%22%3A54%7D%7D%5D%7D (2171ms)
+2024-05-23 23:12:01.587 [info] [Info  - 11:12:01 PM] (5700) [IDX(2)] Long operation: scan packages file:///home/mi (7569ms)
+2024-05-23 23:12:01.620 [info] [Info  - 11:12:01 PM] (5700) scanned(2) 332 files over 1 exec env
+2024-05-23 23:12:01.652 [info] [Info  - 11:12:01 PM] (5700) [BG(1)] Long operation: SemanticTokens full at file:///home/mi/workplace/src/learning/learning/move_node.py (4926ms)
+2024-05-23 23:12:04.625 [info] [Info  - 11:12:04 PM] (5700) indexed(2) 100 files over 1 exec env
+2024-05-23 23:12:05.122 [info] [Info  - 11:12:05 PM] (5700) Indexing finished(2).
+2024-05-23 23:12:08.621 [info] [Info  - 11:12:08 PM] (5700) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (3377ms)
+2024-05-23 23:12:10.019 [info] [Info  - 11:12:10 PM] (5700) [BG(1)] Long operation: checking: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (5239ms)
+2024-05-23 23:12:10.019 [info] [Info  - 11:12:10 PM] (5700) [BG(1)] Long operation: analyzing: vscode-chat-code-block://e91e16be-8c4c-45f7-86b4-9d1dc47973be/response_6/3#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-remote%3A%2F%2Fssh-remote%252B10.0.0.168%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22path%22%3A%22%2Fhome%2Fmi%2Fworkplace%2Fsrc%2Fai%2Fai%2Fphoto.py%22%2C%22scheme%22%3A%22vscode-remote%22%2C%22authority%22%3A%22ssh-remote%2B10.0.0.168%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A9%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A31%2C%22endColumn%22%3A11%7D%7D%5D%7D (5245ms)
+2024-05-23 23:17:00.498 [info] [Info  - 11:17:00 PM] (5700) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/get_data.py (2501ms)
+2024-05-23 23:17:00.498 [info] [Info  - 11:17:00 PM] (5700) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/get_data.py (2503ms)
+2024-05-24 00:37:18.394 [info] [Info  - 12:37:18 AM] (5700) [FG] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2657ms)

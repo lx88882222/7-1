@@ -1,0 +1,194 @@
+2024-05-23 20:42:45.522 [info] 
+
+
+
+
+2024-05-23 20:42:45.610 [info] Extension host agent started.
+2024-05-23 20:42:46.014 [info] [<unknown>][97ac4b99][ManagementConnection] New connection established.
+2024-05-23 20:42:46.023 [info] [<unknown>][3802a19d][ExtensionHostConnection] New connection established.
+2024-05-23 20:42:51.838 [info] [<unknown>][3802a19d][ExtensionHostConnection] <12502> Launched Extension Host Process.
+2024-05-23 20:43:01.999 [info] [<unknown>][34805bd2][ManagementConnection] New connection established.
+2024-05-23 20:43:02.012 [info] [<unknown>][eb892bed][ExtensionHostConnection] New connection established.
+2024-05-23 20:43:02.035 [info] [<unknown>][eb892bed][ExtensionHostConnection] <12736> Launched Extension Host Process.
+2024-05-23 20:43:04.217 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-23 20:47:45.617 [info] New EH opened, aborting shutdown
+2024-05-23 20:47:45.620 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-05-23 20:48:02.425 [info] [<unknown>][3802a19d][ExtensionHostConnection] <12502> Extension Host Process exited with code: 0, signal: null.
+2024-05-23 22:58:07.033 [info] [<unknown>][363114f9][ManagementConnection] New connection established.
+2024-05-23 22:58:07.047 [info] [<unknown>][ccd9ed4e][ExtensionHostConnection] New connection established.
+2024-05-23 22:58:07.093 [info] [<unknown>][ccd9ed4e][ExtensionHostConnection] <27038> Launched Extension Host Process.
+2024-05-23 22:58:09.216 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-23 22:58:20.819 [info] [<unknown>][de124105][ExtensionHostConnection] New connection established.
+2024-05-23 22:58:20.849 [info] [<unknown>][de124105][ExtensionHostConnection] <27292> Launched Extension Host Process.
+2024-05-23 22:58:20.854 [info] [<unknown>][202d7cab][ManagementConnection] New connection established.
+2024-05-23 22:58:32.563 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+2024-05-23 23:03:21.146 [info] [<unknown>][ccd9ed4e][ExtensionHostConnection] <27038> Extension Host Process exited with code: 0, signal: null.
+2024-05-23 23:05:54.690 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-23 23:05:54.702 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-23 23:05:55.810 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-23 23:11:16.091 [info] [<unknown>][6f70710c][ManagementConnection] New connection established.
+2024-05-23 23:11:16.105 [info] [<unknown>][27d973ed][ExtensionHostConnection] New connection established.
+2024-05-23 23:11:16.146 [info] [<unknown>][27d973ed][ExtensionHostConnection] <5169> Launched Extension Host Process.
+2024-05-23 23:11:17.908 [warning] RequestStore#acceptReply was called without receiving a matching request 185
+2024-05-23 23:11:17.910 [warning] RequestStore#acceptReply was called without receiving a matching request 186
+2024-05-23 23:11:17.911 [warning] RequestStore#acceptReply was called without receiving a matching request 187
+2024-05-23 23:11:17.911 [warning] RequestStore#acceptReply was called without receiving a matching request 188
+2024-05-23 23:11:17.911 [warning] RequestStore#acceptReply was called without receiving a matching request 189
+2024-05-23 23:11:17.912 [warning] RequestStore#acceptReply was called without receiving a matching request 190
+2024-05-23 23:11:17.914 [warning] RequestStore#acceptReply was called without receiving a matching request 191
+2024-05-23 23:11:17.914 [warning] RequestStore#acceptReply was called without receiving a matching request 192
+2024-05-23 23:11:17.914 [warning] RequestStore#acceptReply was called without receiving a matching request 193
+2024-05-23 23:11:17.915 [warning] RequestStore#acceptReply was called without receiving a matching request 194
+2024-05-23 23:11:17.915 [warning] RequestStore#acceptReply was called without receiving a matching request 195
+2024-05-23 23:11:17.916 [warning] RequestStore#acceptReply was called without receiving a matching request 196
+2024-05-23 23:11:17.916 [warning] RequestStore#acceptReply was called without receiving a matching request 197
+2024-05-23 23:11:17.916 [warning] RequestStore#acceptReply was called without receiving a matching request 198
+2024-05-23 23:11:17.916 [warning] RequestStore#acceptReply was called without receiving a matching request 199
+2024-05-23 23:11:17.916 [warning] RequestStore#acceptReply was called without receiving a matching request 200
+2024-05-23 23:11:17.917 [warning] RequestStore#acceptReply was called without receiving a matching request 201
+2024-05-23 23:11:17.917 [warning] RequestStore#acceptReply was called without receiving a matching request 202
+2024-05-23 23:11:17.917 [warning] RequestStore#acceptReply was called without receiving a matching request 203
+2024-05-23 23:11:17.917 [warning] RequestStore#acceptReply was called without receiving a matching request 204
+2024-05-23 23:11:17.917 [warning] RequestStore#acceptReply was called without receiving a matching request 205
+2024-05-23 23:11:17.918 [warning] RequestStore#acceptReply was called without receiving a matching request 206
+2024-05-23 23:11:17.918 [warning] RequestStore#acceptReply was called without receiving a matching request 207
+2024-05-23 23:11:17.918 [warning] RequestStore#acceptReply was called without receiving a matching request 208
+2024-05-23 23:11:19.768 [warning] RequestStore#acceptReply was called without receiving a matching request 209
+2024-05-23 23:11:19.770 [warning] RequestStore#acceptReply was called without receiving a matching request 210
+2024-05-23 23:11:19.771 [warning] RequestStore#acceptReply was called without receiving a matching request 211
+2024-05-23 23:11:19.771 [warning] RequestStore#acceptReply was called without receiving a matching request 212
+2024-05-23 23:11:19.771 [warning] RequestStore#acceptReply was called without receiving a matching request 213
+2024-05-23 23:11:19.771 [warning] RequestStore#acceptReply was called without receiving a matching request 214
+2024-05-23 23:11:19.771 [warning] RequestStore#acceptReply was called without receiving a matching request 215
+2024-05-23 23:11:19.772 [warning] RequestStore#acceptReply was called without receiving a matching request 216
+2024-05-23 23:11:21.869 [warning] RequestStore#acceptReply was called without receiving a matching request 217
+2024-05-23 23:11:21.875 [warning] RequestStore#acceptReply was called without receiving a matching request 218
+2024-05-23 23:11:21.875 [warning] RequestStore#acceptReply was called without receiving a matching request 219
+2024-05-23 23:11:21.876 [warning] RequestStore#acceptReply was called without receiving a matching request 220
+2024-05-23 23:11:21.876 [warning] RequestStore#acceptReply was called without receiving a matching request 221
+2024-05-23 23:11:21.876 [warning] RequestStore#acceptReply was called without receiving a matching request 222
+2024-05-23 23:11:21.876 [warning] RequestStore#acceptReply was called without receiving a matching request 223
+2024-05-23 23:11:21.877 [warning] RequestStore#acceptReply was called without receiving a matching request 224
+2024-05-23 23:11:23.316 [warning] RequestStore#acceptReply was called without receiving a matching request 225
+2024-05-23 23:11:23.317 [warning] RequestStore#acceptReply was called without receiving a matching request 226
+2024-05-23 23:11:23.318 [warning] RequestStore#acceptReply was called without receiving a matching request 227
+2024-05-23 23:11:23.318 [warning] RequestStore#acceptReply was called without receiving a matching request 228
+2024-05-23 23:11:23.318 [warning] RequestStore#acceptReply was called without receiving a matching request 229
+2024-05-23 23:11:23.319 [warning] RequestStore#acceptReply was called without receiving a matching request 230
+2024-05-23 23:11:23.319 [warning] RequestStore#acceptReply was called without receiving a matching request 231
+2024-05-23 23:11:23.321 [warning] RequestStore#acceptReply was called without receiving a matching request 232
+2024-05-23 23:11:28.539 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+2024-05-23 23:11:30.668 [warning] RequestStore#acceptReply was called without receiving a matching request 233
+2024-05-23 23:11:30.675 [warning] RequestStore#acceptReply was called without receiving a matching request 234
+2024-05-23 23:11:30.676 [warning] RequestStore#acceptReply was called without receiving a matching request 235
+2024-05-23 23:11:30.676 [warning] RequestStore#acceptReply was called without receiving a matching request 236
+2024-05-23 23:11:30.676 [warning] RequestStore#acceptReply was called without receiving a matching request 237
+2024-05-23 23:11:30.676 [warning] RequestStore#acceptReply was called without receiving a matching request 238
+2024-05-23 23:11:30.676 [warning] RequestStore#acceptReply was called without receiving a matching request 239
+2024-05-23 23:11:30.677 [warning] RequestStore#acceptReply was called without receiving a matching request 240
+2024-05-23 23:16:16.766 [info] [<unknown>][eb892bed][ExtensionHostConnection] <12736> Extension Host Process exited with code: 0, signal: null.
+2024-05-24 00:47:37.908 [info] [<unknown>][0819f1e4][ExtensionHostConnection] New connection established.
+2024-05-24 00:47:37.915 [info] [<unknown>][ddabb684][ManagementConnection] New connection established.
+2024-05-24 00:47:37.958 [info] [<unknown>][0819f1e4][ExtensionHostConnection] <25134> Launched Extension Host Process.
+2024-05-24 00:47:40.134 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-24 00:47:48.816 [info] [<unknown>][b02d8846][ManagementConnection] New connection established.
+2024-05-24 00:47:48.822 [info] [<unknown>][80d5e452][ExtensionHostConnection] New connection established.
+2024-05-24 00:47:48.864 [info] [<unknown>][80d5e452][ExtensionHostConnection] <25368> Launched Extension Host Process.
+2024-05-24 00:47:51.154 [error] CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-24 00:48:00.076 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+2024-05-24 00:52:38.349 [info] [<unknown>][de124105][ExtensionHostConnection] <27292> Extension Host Process exited with code: 0, signal: null.
+2024-05-24 00:52:38.547 [info] [<unknown>][27d973ed][ExtensionHostConnection] <5169> Extension Host Process exited with code: 0, signal: null.
+2024-05-24 00:52:49.315 [info] [<unknown>][0819f1e4][ExtensionHostConnection] <25134> Extension Host Process exited with code: 0, signal: null.

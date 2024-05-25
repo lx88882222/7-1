@@ -1,0 +1,5 @@
+[INFO] [1716645289.824212918] [cyberdog_face]: Creating cyberdog_face object(node)
+[INFO] [1716645289.832649934] [cyberdog_face]: cyberdog_face node spin
+[INFO] [1716645294.347348387] [cyberdog_face]: vision_manager already start.
+[INFO] [1716645327.382703215] [cyberdog_face]: Transition active successfully triggered.
+[INFO] [1716645327.382957522] [cyberdog_face]: face node init

@@ -1,0 +1,44 @@
+[INFO] [1716645288.259131478] [MotionManager]: Init on call
+[INFO] [1716645296.560711263] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1716645296.566397914] [MotionManager MotionAction]: 1
+[INFO] [1716645296.566697758] [MotionManager]: Get Feedback: 5
+[INFO] [1716645296.643317059] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1716645296.643536517] [MotionManager MotionAction]: 1
+[INFO] [1716645296.643689511] [MotionManager]: Get Feedback: 4
+[INFO] [1716645296.643830760] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1716645296.643972618] [MotionManager MotionAction]: 1
+[INFO] [1716645296.644064779] [MotionManager]: Get Feedback: 3
+[INFO] [1716645296.644189132] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1716645296.644324077] [MotionManager MotionAction]: 1
+[INFO] [1716645296.644425230] [MotionManager]: Get Feedback: 2
+[INFO] [1716645296.644542864] [MotionManager MotionAction]: feedback func: St5_BindIFMN8cyberdog6motion13MotionHandlerEFvRKSt10shared_ptrIN8protocol3msg13MotionStatus_ISaIvEEEEEPS2_St12_PlaceholderILi1EEEE
+[INFO] [1716645296.644678641] [MotionManager MotionAction]: 1
+[INFO] [1716645296.644768978] [MotionManager]: Get Feedback: 1
+[INFO] [1716645297.708617662] [MotionManager]: [PROTOCOL][INFO] Creat embed protocol[elec_skin], protocol:"can", path:"/opt/ros2/cyberdog/share/elec_skin/toml_config/elec_skin.toml"
+[INFO] [1716645297.711266970] [MotionManager]: [CAN_PROTOCOL][INFO] Creat can protocol[elec_skin]: 0 error, 0 warning
+[INFO] [1716645297.711534717] [MotionManager]: [CAN_PROTOCOL][INFO][elec_skin] No recv canid, enable send-only mode
+[INFO] [1716645297.753392532] [az1.skin_manager]: Default color: 0
+[INFO] [1716645297.753907418] [az1.skin_manager]: Start direction: 0
+[INFO] [1716645297.754099292] [az1.skin_manager]: Gradual duration: 50
+[INFO] [1716645297.754281534] [az1.skin_manager]: defaul_duration: 2000
+[INFO] [1716645297.754545793] [az1.skin_manager]: enable: 0
+[INFO] [1716645298.289221907] [MotionManager]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+[INFO] [1716645298.401794258] [MotionManager]: MachineActuator start on call.
+[INFO] [1716645298.402055445] [MotionManager]: MachineActuator checkout state: SetUp.
+[INFO] [1716645298.402186742] [MotionManager]: Get fsm: Setup
+[INFO] [1716645298.402298008] [MotionManager]: MachineActuator service setup on call.
+[INFO] [1716645298.412707077] [MotionManager]: Running on...
+[INFO] [1716645313.610549813] [MotionManager]: MachineActuator service callback on call.
+	 ===> target_state: SelfCheck
+[INFO] [1716645313.613974969] [MotionManager]: MachineActuator checkout state: SelfCheck.
+[INFO] [1716645313.614149755] [MotionManager]: Get fsm: SelfCheck
+[INFO] [1716645313.614281948] [MotionManager MotionAction]: MR813 LCM: Ready
+[INFO] [1716645313.614416606] [MotionManager]: MotionManager SelfCheck OK
+[INFO] [1716645314.020754316] [MotionManager]: MachineActuator service callback on call.
+	 ===> target_state: Active
+[INFO] [1716645314.020985806] [MotionManager]: MachineActuator checkout state: Active.
+[INFO] [1716645314.021113776] [MotionManager]: Get fsm: Active
+[INFO] [1716645435.755980117] [MotionManager]: MachineActuator service callback on call.
+	 ===> target_state: Active
+[INFO] [1716645435.756600292] [MotionManager]: MachineActuator checkout state: Active.
+[INFO] [1716645435.757019757] [MotionManager]: Get fsm: Active

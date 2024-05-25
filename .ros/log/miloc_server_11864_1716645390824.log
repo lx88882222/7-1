@@ -1,0 +1,31 @@
+[INFO] [1716645390.928389321] [uninitialized]: Found parameter: config_path, value: /opt/ros2/cyberdog/share/cyberdog_miloc/config/config.yml
+[INFO] [1716645391.330090567] [uninitialized cyberdog_model]: cyberdog_model Constructor
+[INFO] [1716645391.330400906] [uninitialized cyberdog_model]: is_specified_version: 0
+[INFO] [1716645391.330531435] [uninitialized cyberdog_model]: specified_version: 2.0
+[INFO] [1716645391.330653197] [uninitialized cyberdog_model]: module_name: models
+[INFO] [1716645391.330772846] [uninitialized cyberdog_model]: model_dir: /SDCARD/miloc/models/
+[INFO] [1716645391.330893551] [uninitialized cyberdog_model]: temp_download_path: /SDCARD/miloc/models/temp/
+[INFO] [1716645391.331847385] [uninitialized]: Found parameter: reloc_failure_threshold, value: 20
+[INFO] [1716645391.332516992] [uninitialized]: Found parameter: immediately_reconstruct, value: 0
+[INFO] [1716645392.022961912] [az1.miloc_server]: get wifi signal
+[INFO] [1716645392.023641087] [uninitialized cyberdog_model]: init fuc
+[INFO] [1716645393.280584376] [uninitialized cyberdog_model]: models has 1 versions in fsd
+[INFO] [1716645393.280899548] [az1.miloc_server]: internet is ok, start to check miloc models
+[INFO] [1716645393.284429665] [uninitialized cyberdog_model]: update models fuc begin
+[INFO] [1716645393.285223241] [uninitialized cyberdog_model]: init fuc
+[INFO] [1716645393.740991423] [uninitialized cyberdog_model]: models has 1 versions in fsd
+[INFO] [1716645393.741664230] [uninitialized cyberdog_model]: read model version in toml file
+[INFO] [1716645393.742430990] [uninitialized cyberdog_model]: Get_Model_Version func 
+[INFO] [1716645393.746664794] [uninitialized cyberdog_model]: read key value from toml successfully
+[INFO] [1716645393.747320097] [uninitialized cyberdog_model]: the model version in toml file is 2.0 
+[INFO] [1716645393.747819111] [uninitialized cyberdog_model]: temp toml path /SDCARD/miloc/models/temp/version.toml do not exist!
+[INFO] [1716645393.748226891] [uninitialized cyberdog_model]: obj: 2.0/
+[INFO] [1716645393.748504942] [uninitialized cyberdog_model]: ftp_newest_version  is 2.0
+[INFO] [1716645393.748715440] [uninitialized cyberdog_model]: nx_version  is 2.0
+[INFO] [1716645393.748862161] [uninitialized cyberdog_model]: nx model version is the newest version
+[INFO] [1716645393.756410017] [uninitialized cyberdog_model]: DownloadModels fuc
+[INFO] [1716645393.762464800] [uninitialized cyberdog_model]: do not need download
+[ERROR] [1716645393.763228776] [uninitialized cyberdog_model]: download failed or do not need download
+[INFO] [1716645393.763462027] [az1.miloc_server]: model already downloads, do not need to update models
+[INFO] [1716645393.767430933] [uninitialized cyberdog_model]: temp toml path /SDCARD/miloc/models/temp/version.toml do not exist!
+[INFO] [1716645393.767649239] [az1.miloc_server]: load model without replace new model

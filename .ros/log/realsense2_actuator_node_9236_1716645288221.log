@@ -1,0 +1,12 @@
+[INFO] [1716645288.973360744] [RealSenseActuator]: Resetting device...
+[INFO] [1716645289.074764882] [RealSenseActuator]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+[INFO] [1716645289.114146064] [RealSenseActuator]: ActuatorDemo: RealSenseActuator spin.
+[INFO] [1716645289.181695733] [RealSenseActuator]: MachineActuator start on call.
+[INFO] [1716645289.181947448] [RealSenseActuator]: MachineActuator checkout state: SetUp.
+[INFO] [1716645289.182066425] [RealSenseActuator]: ActuatorDemo on setup.
+[INFO] [1716645289.182166746] [RealSenseActuator]: MachineActuator service setup on call.
+[INFO] [1716645313.922776518] [RealSenseActuator]: MachineActuator service callback on call.
+	 ===> target_state: SelfCheck
+[INFO] [1716645313.922996041] [RealSenseActuator]: MachineActuator checkout state: SelfCheck.
+[INFO] [1716645313.923140778] [RealSenseActuator]: ActuatorDemo on selfcheck.
+[INFO] [1716645314.016076795] [RealSenseActuator]: RealSense was found

@@ -1,0 +1,42 @@
+2024-05-23 20:43:13.457 [info] [FetcherService] Using Helix fetcher
+2024-05-23 20:43:13.457 [info] [gitExtensionService] Initializing Git extension service.
+2024-05-23 20:43:13.457 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-05-23 20:43:13.457 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-05-23 20:43:13.457 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-05-23 20:43:14.483 [info] [auth] Logged in as HeFeiW
+2024-05-23 20:43:18.483 [info] [chat] copilot token chat_enabled: true
+2024-05-23 20:43:18.483 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-05-23 20:43:18.483 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-05-23 20:43:18.483 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-05-23 20:43:18.622 [info] [auth] Got Copilot token for HeFeiW
+2024-05-23 21:08:18.706 [info] [auth] Logged in as HeFeiW
+2024-05-23 21:08:19.590 [info] [chat] copilot token chat_enabled: true
+2024-05-23 21:08:19.591 [info] [auth] Got Copilot token for HeFeiW
+2024-05-23 21:33:19.661 [info] [auth] Logged in as HeFeiW
+2024-05-23 21:33:20.797 [info] [chat] copilot token chat_enabled: true
+2024-05-23 21:33:20.797 [info] [auth] Got Copilot token for HeFeiW
+2024-05-23 21:39:03.964 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-05-23 21:39:03.964 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-05-23 21:39:03.964 [info] [chat fetch] modelMaxResponseTokens 2206
+2024-05-23 21:39:03.964 [info] [chat fetch] chat model gpt-4
+2024-05-23 21:39:08.417 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 4444 ms
+2024-05-23 21:39:40.322 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-05-23 21:39:40.330 [info] [streamChoices] request done: requestId: [1cb3610e-425d-4d62-8122-15f0cd9fd79c] model deployment ID: []
+2024-05-23 21:39:40.572 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-05-23 21:39:40.572 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-05-23 21:39:40.572 [info] [chat fetch] modelMaxResponseTokens 2622
+2024-05-23 21:39:40.572 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-05-23 21:39:43.051 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2472 ms
+2024-05-23 21:39:46.751 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-05-23 21:39:46.754 [info] [streamChoices] request done: requestId: [6a1c4deb-43bc-4bfe-8285-ae56948f3b3c] model deployment ID: []
+2024-05-23 21:58:20.858 [info] [auth] Logged in as HeFeiW
+2024-05-23 21:58:23.086 [info] [chat] copilot token chat_enabled: true
+2024-05-23 21:58:23.086 [info] [auth] Got Copilot token for HeFeiW
+2024-05-23 22:23:23.207 [info] [auth] Logged in as HeFeiW
+2024-05-23 22:23:24.251 [info] [chat] copilot token chat_enabled: true
+2024-05-23 22:23:24.251 [info] [auth] Got Copilot token for HeFeiW
+2024-05-23 22:48:24.368 [info] [auth] Logged in as HeFeiW
+2024-05-23 22:48:25.600 [info] [chat] copilot token chat_enabled: true
+2024-05-23 22:48:25.600 [info] [auth] Got Copilot token for HeFeiW

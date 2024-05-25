@@ -1,0 +1,22 @@
+2024-05-23 20:42:53.958 [info] Extension host with pid 12502 started
+2024-05-23 20:42:54.122 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-23 20:42:54.200 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-23 20:42:54.203 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-23 20:42:55.551 [info] Eager extensions activated
+2024-05-23 20:42:55.553 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 20:42:55.555 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 20:42:55.559 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 20:48:02.203 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-05-23 20:48:02.347 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2335
+	at Array.forEach (<anonymous>)
+	at c.dispose (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2273)
+	at f.terminate (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:161:8061)
+	at a.terminate (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:178:9922)
+	at T.a (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:178:6715)
+	at T.h (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20709)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-05-23 20:48:02.391 [info] Extension host with pid 12502 exiting with code 0

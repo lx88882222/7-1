@@ -1,0 +1,21 @@
+[INFO] [1716645423.800032367] [az1.cyberdog_pointnet]: Create service: release_pointnet
+[INFO] [1716645423.825515450] [uninitialized cyberdog_model]: cyberdog_model Constructor
+[INFO] [1716645423.830515021] [uninitialized cyberdog_model]: is_specified_version: 0
+[INFO] [1716645423.830666449] [uninitialized cyberdog_model]: specified_version: 1.1
+[INFO] [1716645423.830773875] [uninitialized cyberdog_model]: module_name: ground_segmentation
+[INFO] [1716645423.830881238] [uninitialized cyberdog_model]: model_dir: /SDCARD/vision/ground_segmentation/
+[INFO] [1716645423.830990008] [uninitialized cyberdog_model]: temp_download_path: /SDCARD/vision/ground_segmentation/temp/
+[INFO] [1716645426.016338168] [az1.cyberdog_pointnet]: [WifiSignalCallback] internet is ok!!!
+[INFO] [1716645426.019262779] [uninitialized cyberdog_model]: update models fuc begin
+[INFO] [1716645426.019514177] [uninitialized cyberdog_model]: init fuc
+[INFO] [1716645426.141434491] [uninitialized cyberdog_model]: ground_segmentation has 2 versions in fsd
+[INFO] [1716645426.142084778] [uninitialized cyberdog_model]: read model version in toml file
+[INFO] [1716645426.142253806] [uninitialized cyberdog_model]: Get_Model_Version func 
+[INFO] [1716645426.145103951] [uninitialized cyberdog_model]: read key value from toml successfully
+[INFO] [1716645426.145352501] [uninitialized cyberdog_model]: the model version in toml file is 1.0 
+[INFO] [1716645426.145529241] [uninitialized cyberdog_model]: temp toml path /SDCARD/vision/ground_segmentation/temp/version.toml exist!
+[INFO] [1716645426.145656540] [uninitialized cyberdog_model]: new models already downloaded into temp path, do not download again
+[INFO] [1716645426.145788479] [uninitialized cyberdog_model]: DownloadModels fuc
+[INFO] [1716645426.146033541] [uninitialized cyberdog_model]: do not need download
+[ERROR] [1716645426.146136711] [uninitialized cyberdog_model]: download failed or do not need download
+[INFO] [1716645426.146333996] [az1.cyberdog_pointnet]: Download and update ground_segmentation model from Fds failed or timeout

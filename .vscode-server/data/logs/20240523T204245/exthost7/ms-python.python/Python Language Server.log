@@ -1,0 +1,20 @@
+2024-05-24 00:48:05.948 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-24 00:48:08.395 [info] [Info  - 12:48:08 AM] (25814) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-24 00:48:08.400 [info] [Info  - 12:48:08 AM] (25814) Server root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-24 00:48:08.405 [info] [Info  - 12:48:08 AM] (25814) Starting service instance "mi"
+2024-05-24 00:48:08.444 [info] [Info  - 12:48:08 AM] (25814) Auto-Indent enabled
+2024-05-24 00:48:08.930 [info] [Info  - 12:48:08 AM] (25814) Setting pythonPath for service "mi": "/usr/bin/python3"
+2024-05-24 00:48:08.931 [info] [Info  - 12:48:08 AM] (25814) Setting environmentName for service "mi": "3.6.9 (global)"
+2024-05-24 00:48:09.145 [info] [Info  - 12:48:09 AM] (25814) Assuming Python version 3.6.9.final.0
+2024-05-24 00:48:12.307 [info] [Info  - 12:48:12 AM] (25814) Found 250 source files
+2024-05-24 00:48:15.332 [info] [Info  - 12:48:15 AM] (25814) Background analysis(1) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-24 00:48:15.332 [info] [Info  - 12:48:15 AM] (25814) Background analysis(1) started
+2024-05-24 00:48:16.575 [info] [Info  - 12:48:16 AM] (25814) Indexer background runner(2) root directory: file:///home/mi/.vscode-server/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-05-24 00:48:16.578 [info] [Info  - 12:48:16 AM] (25814) Indexing(2) started
+2024-05-24 00:48:22.729 [info] [Info  - 12:48:22 AM] (25814) [IDX(2)] Long operation: scan packages file:///home/mi (5004ms)
+2024-05-24 00:48:22.730 [info] [Info  - 12:48:22 AM] (25814) scanned(2) 332 files over 1 exec env
+2024-05-24 00:48:24.959 [info] [Info  - 12:48:24 AM] (25814) indexed(2) 100 files over 1 exec env
+2024-05-24 00:48:25.432 [info] [Info  - 12:48:25 AM] (25814) Indexing finished(2).
+2024-05-24 00:48:27.908 [info] [Info  - 12:48:27 AM] (25814) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.6/dist-packages/numpy/__init__.py (2522ms)
+2024-05-24 00:48:28.574 [info] [Info  - 12:48:28 AM] (25814) [BG(1)] Long operation: checking: file:///home/mi/workplace/src/learning/learning/move_node.py (10232ms)
+2024-05-24 00:48:28.577 [info] [Info  - 12:48:28 AM] (25814) [BG(1)] Long operation: analyzing: file:///home/mi/workplace/src/learning/learning/move_node.py (13414ms)
