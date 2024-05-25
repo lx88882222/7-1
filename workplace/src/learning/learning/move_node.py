@@ -69,7 +69,12 @@ class Move(Node):
         #   一直走。用while循环加订阅话题跳出
         return True
 
-
+    def stop(self,vel=[.0,.0,.0],motion_id = 303):
+        '''
+        stop the robot
+        '''
+        self.go([.0,.0,.0])
+        return
     def go(self,vel,motion_id = 303):
         '''
         一个比较方便的生成并发送cmd封装，输入vel三元列表即可
