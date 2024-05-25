@@ -25,19 +25,22 @@ def main(args=None):
     try:
         # TODO 主循环，实际使用时可以改成 while True循环
         for i in range(5):
-            print(f'-----in loop {i}-----')
-            while time.time()-location.black_dog_loc_rec[4][0] > 1:
+            # print(f'-----in loop {i}-----')
+            while time.time()-location.my_loc_rec()[4][0] > 1:
                 #   确保当前自身位置信息是更新过的（上次时间戳距今小于 1s）
-                print(f'latest rec at {location.black_dog_loc_rec[4][0]}')
+                print(f'latest rec at {location.my_loc_rec()[4][0]}')
                 location.get_data()
-            target,_ = get_goal_coords(location.ball,location.black_dog,C.GATE,C.DIST)
-            print(f'ball:{location.ball},me:{location.black_dog}')
-            print(f'target is{target}')
+            target,_ = get_goal_coords(location.ball,location.my_loc(),C.GATE,C.DIST)
+            # print(f'ball:{location.ball},me:{location.black_dog}')
+            # print(f'target is{target}')
             move.goto(target)
+            # TODO check if ball_loc satisfies the requirements to shoot
+            # if location.CantShoot():
+            #     continue
             move.shoot()
-            print('successfully shoot!')
-            print('sleeping...')
-            time.sleep(5)
+            # print('successfully shoot!')
+            # print('sleeping...')
+            move.goto(C.START_POINT)
             print("Let's do it again!")
         rclpy.shutdown()
     except Exception as e:

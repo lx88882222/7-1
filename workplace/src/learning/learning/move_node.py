@@ -25,9 +25,7 @@ from .rgb_cam_suber import RGBCamSuber
 import rclpy
 class Move(Node):
     def __init__(self,location:Location):
-        super().__init__(self)
-        self.motion_id = 303
-        self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.0
+        super().__init__('move_node')
         self.dog_name = C.NAME
         self.pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 1)
         self.arrived=False
@@ -45,8 +43,7 @@ class Move(Node):
         '''
         print(f'going to{target}')
         while not self.location.in_place(target):
-            my_loc = self.location.get_black_loc()   #   TODO red dog should chang tihs line
-            v =self.max_vel(target,my_loc)
+            v =self.max_vel(target,self.location.my_loc())
             vel = [v[0],v[1],.0]
             self.go(vel)
             time.sleep(frequency)
@@ -69,18 +66,18 @@ class Move(Node):
         #   一直走。用while循环加订阅话题跳出
         return True
 
-    def stop(self,vel=[.0,.0,.0],motion_id = 303):
+    def stop(self):
         '''
         stop the robot
         '''
         self.go([.0,.0,.0])
         return
-    def go(self,vel,motion_id = 303):
+    def go(self,vel):
         '''
         一个比较方便的生成并发送cmd封装，输入vel三元列表即可
         '''
         msg = MotionServoCmd()
-        msg.motion_id =motion_id
+        msg.motion_id =C.MOTION_ID
         msg.cmd_type = 1
         msg.value = 2
         msg.vel_des = [vel[1],-vel[0],vel[2]]
@@ -116,28 +113,29 @@ class Move(Node):
             rclpy.spin_once(self.rgb_node)
             ball_x, ball_y = self.rgb_node.ball_position
             size = self.rgb_node.size
+            vel = [.0,.0,.0]
             if ball_x != 0:
                 self.x_rec.pop(0)
                 self.x_rec.append(ball_x)
             if size < 100:
                 av=sum(self.x_rec)/len(self.x_rec)
                 if av < 10:
-                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.5*self.prefer_direc
+                    vel = [0.0, 0.0, 0.5*self.prefer_direc]
                 if  av < 320:
-                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.5
+                    vel = [0.0, 0.0, 0.5]
                 else:
-                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, -0.5
+                    vel = [0.0, 0.0, -0.5]
             elif ball_x > 360 and ball_x < 420:
-                self.speed_z = 0.0
+                vel = [.0,.0,.0]
                 self.aim = True
                 return self.total_rotation
             elif ball_x <= 360:
-                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.25
+                vel = [0.0, 0.0, 0.25]
             else:
-                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, -0.25
-            self.total_rotation += self.speed_z * 0.1  # 更新累积的角度，注意这里的0.1是时间间隔
-            self.go(self.speed_x,self.speed_y,self.speed_z)
-            self.get_logger().info(f"x={ball_x},arr={self.x_rec}rotate={self.speed_z}")
+                vel = [0.0, 0.0, -0.25]
+            self.total_rotation += vel[2] * 0.1  # 更新累积的角度，注意这里的0.1是时间间隔
+            self.go(vel)
+            self.get_logger().info(f"x={ball_x},arr={self.x_rec}rotate={vel[2]}")
             time.sleep(0.1)    
         return self.total_rotation
     def shoot(self,mode=0,redundancy = 0.5):
@@ -155,8 +153,8 @@ class Move(Node):
             duration = (self.DIST + redundancy)/self.max_speed_x
             self.go_for(duration,[self.max_speed_x,.0,.0])
         elif mode == 1:
-            ball_loc,me_loc = self.location.ball,self.location.red_dog
-            if(me_loc[0] - ball_loc[0] < 0):
+            ball_loc,my_loc = self.location.ball,self.location.my_loc()
+            if(my_loc[0] - ball_loc[0] < 0):
                 left = -1
             else:
                 left = 1

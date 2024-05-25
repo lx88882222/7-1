@@ -1,0 +1,41 @@
+[INFO] [1716645350.864796712] [az1.camera.camera]: 
+	camera lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1716650134.083080835] [az1.camera.camera]: RealSense ROS v4.0.4
+[INFO] [1716650134.083326312] [az1.camera.camera]: Built with LibRealSense v2.50.0
+[INFO] [1716650134.083498796] [az1.camera.camera]: Running with LibRealSense v2.50.0
+[INFO] [1716650134.345527011] [az1.camera.camera]: Device with serial number 215222075522 was found.
+
+[INFO] [1716650134.346716923] [az1.camera.camera]: Device with physical ID /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video4 was found.
+[INFO] [1716650134.346924863] [az1.camera.camera]: Device with name Intel RealSense D430I was found.
+[INFO] [1716650134.348958472] [az1.camera.camera]: Device with port number 2-3.3 was found.
+[INFO] [1716650134.349142155] [az1.camera.camera]: Device USB type: 3.2
+[INFO] [1716650134.349310767] [az1.camera.camera]: set_devices_changed_callback
+[INFO] [1716650134.374616233] [az1.camera.realsense2_camera_node]: getParameters...
+[INFO] [1716650134.390985936] [az1.camera.realsense2_camera_node]: JSON file is not provided
+[INFO] [1716650134.391217077] [az1.camera.realsense2_camera_node]: Device Name: Intel RealSense D430I
+[INFO] [1716650134.391374072] [az1.camera.realsense2_camera_node]: Device Serial No: 215222075522
+[INFO] [1716650134.391514331] [az1.camera.realsense2_camera_node]: Device physical port: /sys/devices/3610000.xhci/usb2/2-3/2-3.3/2-3.3:1.0/video4linux/video4
+[INFO] [1716650134.391630237] [az1.camera.realsense2_camera_node]: Device FW version: 05.13.00.55
+[INFO] [1716650134.391747135] [az1.camera.realsense2_camera_node]: Device Product ID: 0x0B4B
+[INFO] [1716650134.391867394] [az1.camera.realsense2_camera_node]: Sync Mode: On
+[WARN] [1716650135.574105945] [az1.camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[WARN] [1716650135.747658279] [az1.camera.realsense2_camera_node]: re-enable the stream for the change to take effect.
+[ERROR] [1716650136.772477875] [az1.camera.realsense2_camera_node]: The PointCloudHeightScale is out of range,make PointCloudHeightScale = 5
+[INFO] [1716650136.774069970] [az1.camera.realsense2_camera_node]: PointCloudHeightScale = 5
+[ERROR] [1716650136.775419981] [az1.camera.realsense2_camera_node]: The PointCloudWeightScale is out of range,make PointCloudWeightScale = 1
+[INFO] [1716650136.775579409] [az1.camera.realsense2_camera_node]: PointCloudWeightScale = 1
+[ERROR] [1716650136.776891083] [az1.camera.realsense2_camera_node]: The PointCloudPublishFrequency is out of range,make PointCloudPublishFrequency = 1
+[INFO] [1716650136.777037582] [az1.camera.realsense2_camera_node]: PointCloudPublishFrequency = 1
+[INFO] [1716650136.778127139] [az1.camera.realsense2_camera_node]: PointCloudTop = 0
+[ERROR] [1716650136.917985328] [az1.camera.realsense2_camera_node]: The PointCloudBottom is out of range,make PointCloudBottom = 480
+[INFO] [1716650136.918217269] [az1.camera.realsense2_camera_node]: PointCloudBottom = 480
+[INFO] [1716650136.933203360] [az1.camera.realsense2_camera_node]: Start Sensor: Stereo Module
+[INFO] [1716650137.239236487] [az1.camera.realsense2_camera_node]: Open profile: stream_type: Infra(1), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1716650137.239530477] [az1.camera.realsense2_camera_node]: Open profile: stream_type: Infra(2), Format: Y8, Width: 640, Height: 480, FPS: 30
+[INFO] [1716650137.239695825] [az1.camera.realsense2_camera_node]: Open profile: stream_type: Depth(0), Format: Z16, Width: 640, Height: 480, FPS: 30
+[INFO] [1716650137.240015479] [az1.camera.realsense2_camera_node]: Start Sensor: Motion Module
+[INFO] [1716650137.302016783] [az1.camera.realsense2_camera_node]: Open profile: stream_type: Accel(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1716650137.302518745] [az1.camera.realsense2_camera_node]: Open profile: stream_type: Gyro(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1716650137.308057768] [az1.camera.realsense2_cam

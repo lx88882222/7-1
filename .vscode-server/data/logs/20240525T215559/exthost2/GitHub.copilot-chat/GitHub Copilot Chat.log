@@ -21,3 +21,25 @@ Its package.json#enabledApiProposals-property declares: interactive, terminalDat
 2024-05-25 22:46:34.587 [info] [auth] Logged in as HeFeiW
 2024-05-25 22:46:35.277 [info] [chat] copilot token chat_enabled: true
 2024-05-25 22:46:35.278 [info] [auth] Got Copilot token for HeFeiW
+2024-05-25 23:11:35.337 [info] [auth] Logged in as HeFeiW
+2024-05-25 23:11:36.035 [info] [chat] copilot token chat_enabled: true
+2024-05-25 23:11:36.035 [info] [auth] Got Copilot token for HeFeiW
+2024-05-25 23:36:36.114 [info] [auth] Logged in as HeFeiW
+2024-05-25 23:36:36.820 [info] [chat] copilot token chat_enabled: true
+2024-05-25 23:36:36.820 [info] [auth] Got Copilot token for HeFeiW
+2024-05-26 00:01:36.858 [info] [auth] Logged in as HeFeiW
+2024-05-26 00:01:37.554 [info] [chat] copilot token chat_enabled: true
+2024-05-26 00:01:37.554 [info] [auth] Got Copilot token for HeFeiW
+2024-05-26 00:26:37.618 [info] [auth] Logged in as HeFeiW
+2024-05-26 00:26:38.293 [info] [chat] copilot token chat_enabled: true
+2024-05-26 00:26:38.293 [info] [auth] Got Copilot token for HeFeiW
+2024-05-26 00:51:38.335 [info] [auth] Logged in as HeFeiW
+2024-05-26 00:51:38.981 [info] [chat] copilot token chat_enabled: true
+2024-05-26 00:51:38.981 [info] [auth] Got Copilot token for HeFeiW
+2024-05-26 00:53:43.578 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-05-26 00:53:43.578 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-05-26 00:53:43.578 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-05-26 00:53:43.578 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-05-26 01:16:39.033 [info] [auth] Logged in as HeFeiW
+2024-05-26 01:16:39.696 [info] [chat] copilot token chat_enabled: true
+2024-05-26 01:16:39.696 [info] [auth] Got Copilot token for HeFeiW

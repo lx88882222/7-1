@@ -148,3 +148,5 @@
 [INFO] [1716645435.781292253] [sensor_manager Ydlidar]: Start ydlidar ...
 [ERROR] [1716645435.781544035] [sensor_manager Ydlidar]: Start ydlidar failed (Unknown error).
 [ERROR] [1716645435.981943725] [sensor_manager]: Lidar start fail.
+[WARN] [1716649997.159222594] [sensor_manager cyberdog_tof]: [right_rear_tof] get error data:[1]/[600] ,interval[60000] !
+[WARN] [1716654198.008572591] [sensor_manager cyberdog_tof]: [right_rear_tof] get error data:[1]/[600] ,interval[60000] !

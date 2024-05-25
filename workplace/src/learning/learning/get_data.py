@@ -40,6 +40,7 @@ class Location():
         self.ball_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
         self.red_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
         self.black_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
+        
     def get_data(self):
         DATA_GOT = False
         while not DATA_GOT:
@@ -61,7 +62,8 @@ class Location():
         black_dog = [float(parts[4]) if parts[4] != 'None' else None, float(parts[5]) if parts[5] != 'None' else None]
         
         print(f'self.ball = {self.ball}')
-        print(f'self.black_dog = {self.black_dog}')
+        print(f'self.my_loc = {self.my_loc()}')
+
         print('----------------')
         
         if not (None in ball):
@@ -80,11 +82,7 @@ class Location():
         return self.ball, self.red_dog, self.black_dog
     def in_place(self,target,error = C.ERROR):
         self.get_data()
-        if self.color == 'red':
-            loc = [self.red_dog_loc_rec[4][1],self.red_dog_loc_rec[4][2]]
-        else:
-            loc = [self.black_dog_loc_rec[4][1],self.black_dog_loc_rec[4][2]]
-        offset = self.dist(target,loc)
+        offset = self.dist(target,self.my_loc())
         return offset < error
     def NotOut(self,loc):# TODO what to do if about to get out of the field? 
         if loc[0] < C.MARGIN[0][0]:
@@ -100,12 +98,47 @@ class Location():
             # y too small
             return False
         return True
-    def crash(self,my_loc,target,oppo_loc):
+    def MayCrash(self,my_loc,target,oppo_loc):
         line = Line(my_loc,target)
-        if C.SAFE_DIST * math.sqrt(line.slope * line.slope +1) > abs(line.slope * oppo_loc[0] - oppo_loc[1] + line.interception)
-            # may crash if go the opt path
-
-        return False
+        if not self.blockingWay(line,oppo_loc):
+            return target
+        else:
+            # vec1 = [target[0] - my_loc[0],target[1] - my_loc[1]]
+            # vec2 = [oppo_loc[0] - my_loc[0],oppo_loc[1] - my_loc[1]]
+            # crossProduct = vec1[0] * vec2[1] - vec1[1] * vec2[1]
+            # if crossProduct > 0:
+            try:
+                vertic_line = Line(oppo_loc,-1/line.slope)
+                if line.get_y(oppo_loc[0]) > oppo_loc[1]:
+                    mode = 1
+                else :
+                    mode = -1
+                NewTarget = vertic_line.get_target(C.SAFE_DIST,mode)
+                return NewTarget
+            except Exception as e:
+                print(f'Excepting occured in MayCrash, still go original path:{e}')
+                return target
+    
+    def blockingWay(self,line,oppo_loc):
+        if C.SAFE_DIST * math.sqrt(line.slope * line.slope +1) < abs(line.slope * oppo_loc[0] - oppo_loc[1] + line.interception):
+            # opponent is not close to target path
+            return False
+        vec1 = [line.point1[0]-oppo_loc[0],line.point1[1]-oppo_loc[1]]
+        vec2 = [line.point2[0]-oppo_loc[0],line.point2[1]-oppo_loc[1]]
+        if vec1[0] *vec2[0] + vec1[1] *vec2[1] > 0: # 两个向量成锐角 表示在target与my_loc为直径的圆周之外
+            # opponent is close to target path but I wont go pass it
+            return False
+        return True
+    def my_loc(self):
+        if self.color == 1:#black
+            return self.black_dog
+        if self.color == 0:#red
+            return self.red_dog
+    def my_loc_rec(self):
+        if self.color == 1:#black
+            return self.black_dog_loc_rec
+        if self.color == 0:#red
+            return self.red_dog_loc_rec
     def get_ball_loc(self):
         # self.get_data()
         loc = [self.ball_loc_rec[4][1],self.ball_loc_rec[4][2]]

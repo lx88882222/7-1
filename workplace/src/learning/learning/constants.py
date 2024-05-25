@@ -16,4 +16,6 @@ class C():
     UPPER_PORT = 40000
     FREQUENCY = 0.3                 # frequency of updating status for move.goto()
     MARGIN = [[-2.0,8.8],[2.0,0.0]]
-    SAFE_DIST = 0.2
+    SAFE_DIST = 0.5
+    START_POINT = [-0.2,4.4-DIST]   # 每次射门成功后恢复到一个有利点位
+    MOTION_ID = 305

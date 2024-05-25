@@ -1450,3 +1450,27 @@ git config --global --unset http.proxy
 git push origin whf_play
 git push origin mast
 git push origin whf_play
+git add workplace
+git commit -m "0525"
+git push origin whf_play
+git init
+git add workplace
+git commit -m "lxplay"
+git branch lx_main
+git remote add https://github.com/lx88882222/7-1.git
+git push origin lx_main
+ros2 launch realsense2_camera on_dog.py
+ros2 lifecycle set /az2/camera/camera configure
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az2/camera/camera activate
+ros2 lifecycle set /az1/camera/camera activate
+ros2 topic list
+ros2 topic echo /camera/infra1/image_rect_raw
+ros2 topic type /camera/infra1/image_rect_raw
+ros2 topic echo /camera/infra1/image_rect_raw
+sudo apt install ros-kinetic-uvc-camera
+ros2 topic echo /camera/infra1/image_rect_raw
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 topic echo /camera/infra1/image_rect_raw
+ros2 topic echo /az1/camera/infra1/image_rect_raw
