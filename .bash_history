@@ -1474,3 +1474,19 @@ ros2 lifecycle set /az1/camera/camera configure
 ros2 lifecycle set /az1/camera/camera activate
 ros2 topic echo /camera/infra1/image_rect_raw
 ros2 topic echo /az1/camera/infra1/image_rect_raw
+git add workplace
+/usr/bin/python3
+git add .
+git rm --cached Downloads/lcm
+git rm --cached Downloads/lcm -f
+git add .
+git add -u
+git status
+git commit -m '0525 update'
+git push 
+git push --set-upstream origin whf_play
+git add -u
+git commit -m '0526'
+git push 
+git push --set-upstream origin lx_main
+git push

@@ -1,4 +1,0 @@
-1716645284.5197358 [INFO] [launch]: All log files can be found below /home/mi/.ros/log/2024-05-25-21-54-44-497118-mi-desktop-8619
-1716645284.5219123 [INFO] [launch]: Default logging verbosity is set to INFO
-1716645285.2877595 [INFO] [charging_localization_node-1]: process started with pid [8983]
-1716645285.2903910 [INFO] [seat_adjust_server-2]: process started with pid [8988]

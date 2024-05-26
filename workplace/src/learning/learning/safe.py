@@ -13,12 +13,12 @@ from protocol.msg import MotionServoCmd
 from std_msgs.msg import String
 import time
 import threading
-from .sensor_node import sensor_suber
+from .sensor_node import ultrasonic
 
 class safe_node(Node):
     def __init__(self, name):
         super().__init__(name)
-        self.sensor_node = sensor_suber('sensor')
+        self.sensor_node = ultrasonic('sensor')
         self.speed_x, self.speed_y, self.speed_z = 0.1, 0.0, 0.0
 
         self.cmd_pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 10)

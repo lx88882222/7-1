@@ -23,18 +23,20 @@ from .rotate import rotate_aim_ball
 from .constants import C
 from .rgb_cam_suber import RGBCamSuber
 import rclpy
+import traceback
 class Move(Node):
     def __init__(self,location:Location):
         super().__init__('move_node')
         self.dog_name = C.NAME
         self.pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 1)
         self.arrived=False
-        self.max_speed_x = 0.3
-        self.max_speed_y = 0.65
-        self.max_speed_z = 1.25
+        self.max_speed_x = C.MAX_SPEED_X
+        self.max_speed_y = C.MAX_SPEED_Y
+        self.max_speed_z = C.MAX_SPEED_Z
         self.GATE = C.GATE
         self.DIST = C.DIST
         self.location = location
+        self.rgb_node = RGBCamSuber("rgb_cam_suber")
     def goto(self,target,frequency = C.FREQUENCY):
         '''
         goto(self,target:target_coords)
@@ -43,6 +45,8 @@ class Move(Node):
         '''
         print(f'going to{target}')
         while not self.location.in_place(target):
+            if self.rgb_node.CloseToBall():
+                break
             v =self.max_vel(target,self.location.my_loc())
             vel = [v[0],v[1],.0]
             self.go(vel)
@@ -72,17 +76,25 @@ class Move(Node):
         '''
         self.go([.0,.0,.0])
         return
-    def go(self,vel):
+    def go(self,vel,mode = 0):
         '''
         一个比较方便的生成并发送cmd封装，输入vel三元列表即可
+        若mode缺省或为0，输入上位机坐标系下速度，在函数内映射为自身速度；
+        若mode为 1 ，输入自身坐标系下速度。
         '''
         msg = MotionServoCmd()
         msg.motion_id =C.MOTION_ID
         msg.cmd_type = 1
         msg.value = 2
-        msg.vel_des = [vel[1],-vel[0],vel[2]]
+        if mode == 0:
+            if C.COLOR == 0:    # RED
+                msg.vel_des = [vel[1],-vel[0],vel[2]]
+            elif C.COLOR == 1:
+                msg.vel_des = [-vel[1],vel[0],vel[2]]
+        else:
+            msg.vel_des = vel
         print(f'vel:{msg.vel_des}')
-        msg.step_height = [0.05,0.05]
+        msg.step_height = C.STEP_HEIGHT
         self.pub.publish(msg)
     def max_vel(self,target,me):
         '''
@@ -121,7 +133,7 @@ class Move(Node):
                 av=sum(self.x_rec)/len(self.x_rec)
                 if av < 10:
                     vel = [0.0, 0.0, 0.5*self.prefer_direc]
-                if  av < 320:
+                elif  av < 320:
                     vel = [0.0, 0.0, 0.5]
                 else:
                     vel = [0.0, 0.0, -0.5]
@@ -138,6 +150,41 @@ class Move(Node):
             self.get_logger().info(f"x={ball_x},arr={self.x_rec}rotate={vel[2]}")
             time.sleep(0.1)    
         return self.total_rotation
+    def translate_aim_ball(self,left=1):
+        if (1 == left):
+            self.x_rec=[.0,.0,.0,.0,.0]
+        else :
+            self.x_rec=[640.,640.,640.,640.,640.]
+        self.aim_horizontal = False
+        self.prefer_direc_horizontal = left # 1 for left, -1 for right
+        while self.aim_horizontal is not True:
+            rclpy.spin_once(self.rgb_node)
+            ball_x, ball_y = self.rgb_node.ball_position
+            size = self.rgb_node.size
+            if ball_x != 0:
+                self.x_rec.pop(0)
+                self.x_rec.append(ball_x)
+            if size < 100:
+                av=sum(self.x_rec)/len(self.x_rec)
+                if av < 10:
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.3*self.prefer_direc_horizontal, 0.0
+                elif  av < 320:
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.3, 0.0
+                else:
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, -0.3, 0.0
+            elif ball_x > 380 and ball_x < 410:
+                self.speed_y = 0.0
+                self.aim_horizontal = True
+                return
+            elif ball_x <= 360:
+                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.25, 0.0
+            else:
+                self.speed_x, self.speed_y, self.speed_z = 0.0, -0.25, 0.0
+            self.go([self.speed_x,self.speed_y,self.speed_z],1)
+            self.get_logger().info(f"translating,x={ball_x},arr={self.x_rec}")
+            time.sleep(0.1)
+        return True
+        
     def shoot(self,mode=0,redundancy = 0.5):
         '''
         shooting

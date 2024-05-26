@@ -2,11 +2,11 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Range
 from protocol.msg import MotionServoCmd
-from .sensor_node import sensor_suber
+from .sensor_node import ultrasonic
 class avoid_node(Node):
     def __init__(self, name):
         super().__init__(name)
-        self.sensor_node = sensor_suber(name)
+        self.sensor_node = ultrasonic(name)
         self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.0
         self.dog_name = "az1"
         self.pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 10)
@@ -44,7 +44,7 @@ class avoid_node(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    sensor_node = sensor_suber("my_sensor")
+    sensor_node = ultrasonic("my_sensor")
     move_node = avoid("move_node")
     rclpy.spin_once(sensor_node)
     rclpy.spin(move_node)

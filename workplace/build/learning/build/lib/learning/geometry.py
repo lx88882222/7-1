@@ -20,29 +20,47 @@ import math
 import threading
 class Line:
     
-    def __init__(self,slope,interception):
-        self.slope = slope
-        self.interception = interception
-        self.point1 = [.0,.0] 
-        self.point2 = [.0,.0] # always save ball's loc as point2
-    @classmethod
-    def point_slope(cls,point,slope):
-        interception = point[1]-slope*point[0]
-        s=cls(slope,interception)
-        s.point1=point
-        return s
-    @classmethod
-    def point_point(cls,point1,point2):
-        if (point2[0]-point1[0]) < 0.05:
-            slope = None
-            interception =point2[0]
+    def __init__(self,slope,interception,mode = 0):
+        if mode ==0:
+            self.slope = slope
+            self.interception = interception
+            self.point1 = [.0,.0] 
+            self.point2 = [.0,.0] # always save ball's loc as point2
+        elif mode == 1:
+            # (point,slope)
+            point = slope
+            slope = interception
+            interception = point[1]-slope*point[0]
+            self.point2 = point
+            self.point1 = [.0,.0]
         else:
-            slope = (point2[1]-point1[1])/(point2[0]-point1[0])
-            interception = point1[1]-slope*point1[0]
-        s=cls(slope,interception)
-        s.point1 = point1
-        s.point2 = point2
-        return s
+            # (point,point)
+            self.point1 = slope
+            self.point2 = interception
+            if (self.point2[0]-self.point1[0]) < 0.05:
+                self.slope = None
+                self.interception = self.point2[0]
+            else:
+                self.slope = (self.point2[1]-self.point1[1])/(self.point2[0]-self.point1[0])
+                self.interception = self.point1[1]-slope*self.point1[0]
+    # @classmethod
+    # def point_slope(cls,point,slope):
+    #     interception = point[1]-slope*point[0]
+    #     s = cls(slope,interception)
+    #     s.point2 = point
+    #     return s
+    # @classmethod
+    # def point_point(cls,point1,point2):
+    #     if (point2[0]-point1[0]) < 0.05:
+    #         slope = None
+    #         interception = point2[0]
+    #     else:
+    #         slope = (point2[1]-point1[1])/(point2[0]-point1[0])
+    #         interception = point1[1]-slope*point1[0]
+    #     s=cls(slope,interception)
+    #     s.point1 = point1
+    #     s.point2 = point2
+    #     return s
     def update_by_point(self,point2,point1=None):
         self.point2 = point2
         if point1 is not None:
@@ -53,10 +71,6 @@ class Line:
         else:
             self.slope = (point2[1]-point1[1])/(point2[0]-point1[0])
             self.interception = point1[1]-self.slope*point1[0]
-    def update_in_thread(self):
-        thread = threading.Thread(target=self.update)
-        thread.update_by_point()
-
     #   given x or y return intersection
     def get_y(self,x):
         if self.slope == None:
@@ -78,12 +92,12 @@ class Line:
             p=1*mode
         else:
             p=-1*mode
-        if point == None and self.point2 == [.0,.0]:
+        if point is None and self.point2 == [.0,.0]:
             return None
-        elif point == None:
-            center = point
-        else:
+        elif point is None:
             center = self.point2
+        else:
+            center = point
         dist_y=dist*(p*self.slope/math.sqrt(1+self.slope*self.slope))
         dist_x=dist*(p/math.sqrt(1+self.slope*self.slope))
         target_loc=(center[0]+dist_x,center[1]+dist_y)

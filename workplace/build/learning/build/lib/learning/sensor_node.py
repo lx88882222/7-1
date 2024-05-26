@@ -13,24 +13,25 @@ from rclpy.node import Node
 from sensor_msgs.msg import Range
 from protocol.msg import MotionServoCmd
 import time
-class sensor_suber(Node):
+from .constants import C
+class ultrasonic(Node):
     '''subscribe the message of sensor'''
-    def __init__(self, name) -> None:
-        super().__init__(name)
-        self.dog_name = "az1"
-        self.declare_parameter("dog_name", "az1")
+    def __init__(self) -> None:
+        super().__init__('sensor_mode')
         self.dist=0.0
-        dog_name = self.get_parameter("dog_name").get_parameter_value().string_value
-        self.sub = self.create_subscription(Range, f'/{dog_name}/ultrasonic_payload', self.sub_callback, 10)
-        self.cmd_pub = self.create_publisher(MotionServoCmd, f"/{self.dog_name}/motion_servo_cmd", 10)
+        self.sub = self.create_subscription(Range, f'/{C.NAME}/ultrasonic_payload', self.sub_callback, 10)
+        self.cmd_pub = self.create_publisher(MotionServoCmd, f"/{C.NAME}/motion_servo_cmd", 10)
     def sub_callback(self, msg: Range):
         '''the callback function of subscriber'''
-        self.dist=msg.range
-        self.get_logger().info(f"the distance is {self.dist}")
-        if self.dist is not None and self.dist < 0.9:
-            self.avoid() 
-        if self.dist is not None and self.dist >= 0.9:
+        if msg.range is None:
             pass
+        else:
+            self.dist=msg.range
+        self.get_logger().info(f"the distance is {self.dist}")
+        if self.dist > C.AVOID_DIST:
+            pass
+        else:
+            self.avoid()
     def avoid(self):
     # 如果距离小于90cm，则开转
         self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.5

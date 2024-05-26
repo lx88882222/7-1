@@ -19,3 +19,11 @@ class C():
     SAFE_DIST = 0.5
     START_POINT = [-0.2,4.4-DIST]   # 每次射门成功后恢复到一个有利点位
     MOTION_ID = 305
+    MAX_SPEED_X = 0.3
+    MAX_SPEED_Y = 0.65
+    MAX_SPEED_Z = 1.25
+    GATE_RANGE = [-1.5,1.5]                 # 球门左右边界
+    STEP_HEIGHT = [0.05,0.05]
+    INFO_DELAY = 0.3                # threshold for determing a data is to dated to use.
+    AVOID_DIST = 0.5
+    BALL_SIZE_CLOSE = 100

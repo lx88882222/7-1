@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Range
 from protocol.msg import MotionServoCmd
-from .sensor_node import sensor_suber
+from .sensor_node import ultrasonic
 
 class basic_move(Node):
     def __init__(self, name, sensor_node):
@@ -36,7 +36,7 @@ class basic_move(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    sensor_node = sensor_suber("my_sensor")
+    sensor_node = ultrasonic("my_sensor")
     move_node = basic_move("move_node", sensor_node)
     rclpy.spin_once(sensor_node)
     rclpy.spin(move_node)

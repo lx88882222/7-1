@@ -3,7 +3,7 @@ import threading
 from rclpy.node import Node
 from protocol.msg import MotionServoCmd
 from std_msgs.msg import String
-from .sensor_node import sensor_suber
+from .sensor_node import ultrasonic
 from .rgb_cam_suber import RGBCamSuber
 from get_data import Location
 from .walk_t_sec import move_t_sec

@@ -1,4 +1,0 @@
-[INFO] [1716645287.807333162] [az1.seat_adjust_server]: create_init---------------
-[INFO] [1716645290.843341932] [az1.seat_adjust_server]: motion service not available, waiting again...
-[INFO] [1716645290.845849830] [az1.seat_adjust_server]: self.timer.cancel()
-[INFO] [1716645290.854514849] [az1.seat_adjust_server]: __init__0 complete

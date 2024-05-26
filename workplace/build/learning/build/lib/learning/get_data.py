@@ -2,37 +2,45 @@
 '''
 >   get_data.py
 >   author: whf
->   date: 2024-05-18
+>   date: 2024-05-23
 >   receive data from the upper computer
-# >   start() function constantly receive data and update the instance's attributes
-#     start_in_thread() function run start() in thread
-    get_data() function - receive data once and return the data (invalid date are directly returned as None)
+>   get_data() function - receive data once and return the data
                         - and keep record of 5 latest location info with timestamp
-    in_place(self,target,error = 0.3):if in place, return True, otherwise False.
+                        - if data is None, will not update nor report.
+                        - keep requesting if received no data from upper-computer # TODO set [mode] to allow for quiting
+    in_place(self,target,error = 0.3):
+                        - if in place, return True, otherwise False.
+                        - update data for once
     attibutes:
-        ball_coords: tuple, the coordinates of the ball, (x,y) (float)
-        dog_coords: tuple, the coordinates of the dog
+        ball: list, the coordinates of the ball, [x,y] (float)
+        red_dog: list, the coordinates of the dog
+        black_dog: list, the coordinates of the dog
         ball_loc_rec: list, record of 5 latest ball location info with timestamp, [[timestamp(seconds, of e-3 precision),x,y],[[],[],[]],...]
-        dog_loc_rec: the same as ball_loc_rec.
+        red_dog_loc_rec: the same as ball_loc_rec
+        red_dog_loc_rec: the same as ball_loc_rec
 '''
 import socket
 import math
 import time
+from .constants import C
+from .geometry import Line
 class Location():
     def __init__(self) -> None:
-        self.dog_name="az1"
-        self.color = 'black'
-        self.upper_ip = '10.0.0.144' # 查看上位机ip，进行修改
+        self.dog_name=C.NAME
+        self.color = C.COLOR
+        self.upper_ip = C.UPPER_IP # 查看上位机ip，进行修改
+        self.upper_port = C.UPPER_PORT
         self.delay = 1
         self.client_socket = socket.socket()
         self.client_socket.settimeout(1)
-        self.client_socket.connect((self.upper_ip, 40000))
+        self.client_socket.connect((self.upper_ip, self.upper_port))
         self.ball=[.0,.0]
         self.red_dog=[.0,.0]
         self.black_dog=[.0,.0]
         self.ball_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
         self.red_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
         self.black_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
+        self.LatestInfo = False
     def get_data(self):
         DATA_GOT = False
         while not DATA_GOT:
@@ -54,7 +62,8 @@ class Location():
         black_dog = [float(parts[4]) if parts[4] != 'None' else None, float(parts[5]) if parts[5] != 'None' else None]
         
         print(f'self.ball = {self.ball}')
-        print(f'self.black_dog = {self.black_dog}')
+        print(f'self.my_loc = {self.my_loc()}')
+
         print('----------------')
         
         if not (None in ball):
@@ -69,15 +78,101 @@ class Location():
             self.black_dog = black_dog
             self.black_dog_loc_rec.pop(0)
             self.black_dog_loc_rec.append([timestamp] + list(self.black_dog))
+        
         return self.ball, self.red_dog, self.black_dog
-    def in_place(self,target,error = 0.3):
+    
+    def in_place(self,target,error = C.ERROR):
         self.get_data()
-        if self.color == 'red':
-            loc = [self.red_dog_loc_rec[4][1],self.red_dog_loc_rec[4][2]]
-        else:
-            loc = [self.black_dog_loc_rec[4][1],self.black_dog_loc_rec[4][2]]
-        offset = self.dist(target,loc)
+        offset = self.dist(target,self.my_loc())
         return offset < error
+    def NotOut(self,loc):# TODO what to do if about to get out of the field? 
+        if loc[0] < C.MARGIN[0][0]:
+            # too left
+            return False
+        elif loc[0] > C.MARGIN[1][0]:
+            # too right
+            return False
+        elif loc[1] > C.MARGIN[0][1]:
+            # y too big
+            return False
+        elif loc[0] < C.MARGIN[1][1]:
+            # y too small
+            return False
+        return True
+    def MayCrash(self,target):
+        my_loc = self.my_loc()
+        oppo_loc = self.oppo_loc()
+        line = Line(my_loc,target,2)
+        if not self.blockingWay(line,oppo_loc):
+            return target
+        else:
+            # vec1 = [target[0] - my_loc[0],target[1] - my_loc[1]]
+            # vec2 = [oppo_loc[0] - my_loc[0],oppo_loc[1] - my_loc[1]]
+            # crossProduct = vec1[0] * vec2[1] - vec1[1] * vec2[1]
+            # if crossProduct > 0:
+            try:
+                vertic_line = Line(oppo_loc,-1/line.slope,1)
+                if line.get_y(oppo_loc[0]) > oppo_loc[1]:
+                    mode = 1
+                else :
+                    mode = -1
+                NewTarget = vertic_line.get_target(C.SAFE_DIST,mode)
+                return NewTarget
+            except Exception as e:
+                print(f'Excepting occured in MayCrash, still go original path:{e}')
+                return target
+    def info_is_latest(self):
+        current = time.time()
+        ball_delay = current - self.ball_loc_rec[4][1]
+        red_delay = current - self.red_dog_loc_rec[4][1]
+        black_delay = current - self.black_dog_loc_rec[4][1]
+        return ball_delay < C.INFO_DELAY and red_delay < C.INFO_DELAY and black_delay < C.INFO_DELAY
+    def blockingWay(self,line,oppo_loc):
+        print(line.slope)
+        if C.SAFE_DIST * math.sqrt(line.slope * line.slope +1) < abs(line.slope * oppo_loc[0] - oppo_loc[1] + line.interception):
+            # opponent is not close to target path
+            return False
+        vec1 = [line.point1[0]-oppo_loc[0],line.point1[1]-oppo_loc[1]]
+        vec2 = [line.point2[0]-oppo_loc[0],line.point2[1]-oppo_loc[1]]
+        if vec1[0] *vec2[0] + vec1[1] *vec2[1] > 0: # 两个向量成锐角 表示在target与my_loc为直径的圆周之外
+            # opponent is close to target path but I wont go pass it
+            return False
+        return True
+    def CanShoot(self):
+        self.get_data()
+        shoot_line = Line(self.my_loc(),self.ball,2)
+        aim = shoot_line.get_x(C.GATE[1])
+        if aim < C.GATE_RANGE[0]:
+            return False   # 预期射门位置x偏小
+        elif aim > C.GATE_RANGE[1]:
+            return False    # 预期射门位置x偏大
+        else:
+            return True    # 预期射门位置在球门范围内
+    def Scored(self):
+        self.get_data()
+        if self.ball[1] < C.GATE[1]:
+            print('did not scored...')
+            return False
+        else:
+            print('YEAAAAAAAH------')
+            return True 
+           
+
+    def my_loc(self):
+        if self.color == 1:#black
+            return self.black_dog
+        if self.color == 0:#red
+            return self.red_dog
+    def oppo_loc(self):
+        if self.color == 1:# im black
+            return self.red_dog
+        if self.color == 0:# im red
+            return self.black_dog
+    def my_loc_rec(self):
+        if self.color == 1:#black
+            return self.black_dog_loc_rec
+        if self.color == 0:#red
+            return self.red_dog_loc_rec
     def get_ball_loc(self):
         # self.get_data()
         loc = [self.ball_loc_rec[4][1],self.ball_loc_rec[4][2]]
@@ -90,9 +185,11 @@ class Location():
         # self.get_data()
         loc = [self.black_dog_loc_rec[4][1],self.black_dog_loc_rec[4][2]]
         return loc
+    
     def dist(self,point1, point2):
         distance = math.sqrt((point2[0]-point1[0])**2 + (point2[1]-point1[1])**2)
         return distance
+    
     def close(self):
         self.client_socket.close()
         print('socket connection closed.')
