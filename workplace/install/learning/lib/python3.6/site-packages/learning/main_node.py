@@ -32,7 +32,7 @@ def main(args=None):
                 #   确保当前自身位置信息是更新过的（上次时间戳距今小于 1s）
                 print(f'latest rec at {location.my_loc_rec()[4][0]}')
                 location.get_data()
-            target,_ = get_goal_coords(location.ball,location.my_loc(),C.GATE,C.DIST)
+            target,_,shoot_mode= get_goal_coords(location.ball,location.my_loc(),C.GATE,C.DIST)
             print(f'ball:{location.ball},me:{location.black_dog}')
             print(f'target is{target}')
             target = location.MayCrash(target)
@@ -40,7 +40,7 @@ def main(args=None):
             # TODO check if ball_loc satisfies the requirements to shoot
             if not location.CanShoot():
                 continue
-            move.shoot()
+            move.shoot(shoot_mode)
             print('successfully shoot!')
             print('sleeping...')
             if location.Scored():

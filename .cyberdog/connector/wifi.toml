@@ -2,23 +2,23 @@
 [wifi]
 user_boots_first_time = false
 
-[wifi.mi]
-provider = ""
-password = ""
-
-[wifi.Cyberdog]
-provider = "10.0.0.102"
-password = ""
-
-[wifi.Cyberdog2]
-provider = ""
-password = ""
+[wifi.ssid]
+password = "password"
+provider = "provider"
 
 [wifi."180******88的Mate 60 Pro"]
-provider = "183.173.11.102"
 password = ""
+provider = "183.173.11.102"
 
-[wifi.ssid]
-provider = "provider"
-password = "password"
+[wifi.Cyberdog2]
+password = ""
+provider = ""
+
+[wifi.Cyberdog]
+password = ""
+provider = ""
+
+[wifi.mi]
+password = ""
+provider = ""
 

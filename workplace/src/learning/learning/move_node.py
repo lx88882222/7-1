@@ -37,21 +37,34 @@ class Move(Node):
         self.DIST = C.DIST
         self.location = location
         self.rgb_node = RGBCamSuber("rgb_cam_suber")
-    def goto(self,target,frequency = C.FREQUENCY):
+    def goto(self,target,accurate_mode = True, frequency = C.FREQUENCY):    # mode == 1， accurate mode, get data while going; mode == 0, fast mode, dont get data.
         '''
         goto(self,target:target_coords)
         go to point [target] at max speed.
         update movement cmd evert [frequency] seconds.
         '''
+        mid_target = target
         print(f'going to{target}')
+        ratio = 1.0 #speed ratio, 1.0 for full speed,decays with distance
         while not self.location.in_place(target):
-            if self.rgb_node.CloseToBall():
-                break
-            v =self.max_vel(target,self.location.my_loc())
+            if accurate_mode:
+                if not self.location.CanShoot(target):
+                    #   如果发现在目标点已经不符合射门要求（即球移动了，使得原先的target失效），此时判定为这一次goto失效。
+                    return False
+                mid_target = self.location.MayCrash(target)
+            dist_to_target = dist(self.location.my_loc(), target)
+            if dist_to_target > C.DIST_TO_TARGET_THRESHOLD:
+                ratio = 1.0
+            else:
+                ratio = 0.2+dist_to_target/6.25 #decay speed with distance
+            v =self.max_vel(mid_target,self.location.my_loc(),ratio)
             vel = [v[0],v[1],.0]
             self.go(vel)
-            time.sleep(frequency)
-        print(f'targeting {target}, arrived at {self.location.black_dog}') 
+            time.sleep(0.1)
+            print(f'goto() targeting {target}') 
+            if mid_target is not target:
+                print(f'--- goto():mid_target {mid_target}')
+        print(f'targeting {target}, arrived at {self.location.my_loc}') 
         return True
     def go_for(self,duration,vel):
         '''
@@ -96,7 +109,7 @@ class Move(Node):
         print(f'vel:{msg.vel_des}')
         msg.step_height = C.STEP_HEIGHT
         self.pub.publish(msg)
-    def max_vel(self,target,me):
+    def max_vel(self,target,me,ratio = 1.0):
         '''
         max_vel(self,target:target_coords,me: my_coords)
         return the max velocity pointing from me to target.
@@ -106,14 +119,16 @@ class Move(Node):
         vector[0]=target[0]-me[0]
         vector[1]=target[1]-me[1]
         dir = [vector[0]/abs(vector[0]),vector[1]/abs(vector[1])]
-        vel_x = abs(self.max_speed_y * vector[0] / vector[1])
-        if vel_x <= self.max_speed_x:
-            vel = [dir[0] * vel_x,dir[1] * self.max_speed_y]
+        max_x = self.max_speed_x * ratio
+        max_y = self.max_speed_y * ratio
+        max_z = self.max_speed_z * ratio
+        vel_x = abs(max_y * vector[0] / vector[1])   #   TODO xy好像有问题
+        if vel_x <= max_x:
+            vel = [dir[0] * vel_x,dir[1] * max_y]
         else:
-            vel = [dir[0] * self.max_speed_x , dir[1] * abs(self.max_speed_x * vector[1] / vector[0])]
+            vel = [dir[0] * max_x , dir[1] * abs(max_x * vector[1] / vector[0])]
         return vel 
     def rotate_aim_ball(self,mode=0,left=1):
-        self.rgb_node = RGBCamSuber("rgb_cam_suber")
         if (1 == left):
             self.x_rec=[.0,.0,.0,.0,.0]
         else :
@@ -121,7 +136,8 @@ class Move(Node):
         self.aim = False
         self.prefer_direc = left # 1 for left, -1 for right
         self.total_rotation = 0.0  #total rotation
-        while self.aim is not True:
+        current_time = time.time()
+        while self.aim is not True and time.time()-current_time < C.TRANSLATE_TIMEOUT:   # timeout
             rclpy.spin_once(self.rgb_node)
             ball_x, ball_y = self.rgb_node.ball_position
             size = self.rgb_node.size
@@ -151,13 +167,20 @@ class Move(Node):
             time.sleep(0.1)    
         return self.total_rotation
     def translate_aim_ball(self,left=1):
+        '''
+        author:lx
+        date:2024/0527
+        >   translate to aim the ball
+        >   if timeout,break
+        '''
         if (1 == left):
             self.x_rec=[.0,.0,.0,.0,.0]
         else :
             self.x_rec=[640.,640.,640.,640.,640.]
         self.aim_horizontal = False
         self.prefer_direc_horizontal = left # 1 for left, -1 for right
-        while self.aim_horizontal is not True:
+        current_time = time.time()
+        while self.aim_horizontal is not True and time.time()-current_time < C.TRANSLATE_TIMEOUT:#timeout
             rclpy.spin_once(self.rgb_node)
             ball_x, ball_y = self.rgb_node.ball_position
             size = self.rgb_node.size
@@ -167,25 +190,25 @@ class Move(Node):
             if size < 100:
                 av=sum(self.x_rec)/len(self.x_rec)
                 if av < 10:
-                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.3*self.prefer_direc_horizontal, 0.0
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, -0.3*self.prefer_direc_horizontal, 0.0
                 elif  av < 320:
-                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.3, 0.0
-                else:
                     self.speed_x, self.speed_y, self.speed_z = 0.0, -0.3, 0.0
+                else:
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.3, 0.0
             elif ball_x > 380 and ball_x < 410:
                 self.speed_y = 0.0
                 self.aim_horizontal = True
                 return
             elif ball_x <= 360:
-                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.25, 0.0
-            else:
                 self.speed_x, self.speed_y, self.speed_z = 0.0, -0.25, 0.0
+            else:
+                self.speed_x, self.speed_y, self.speed_z = 0.0, 0.25, 0.0
             self.go([self.speed_x,self.speed_y,self.speed_z],1)
             self.get_logger().info(f"translating,x={ball_x},arr={self.x_rec}")
             time.sleep(0.1)
         return True
         
-    def shoot(self,mode=0,redundancy = 0.5):
+    def shoot(self,mode=0,redundancy = 1.0):
         '''
         shooting
         Mode 0: Shoot from directly behind the football
@@ -218,3 +241,22 @@ class Move(Node):
 def dist(point1, point2):
         distance = math.sqrt((point2[0]-point1[0])**2 + (point2[1]-point1[1])**2)
         return distance
+def main():
+    rclpy.init()
+    location = Location()  # Assuming Location is initialized without parameters
+    GATE = [8.8,-0.2]
+    DIST = 2.5
+    move_node = Move(location)
+    # Test go_for method
+    # move_node.shoot(1)
+    duration = 6.28  # Duration in seconds
+    vel = [1.0, 0.0, 0.00]  # Velocity in x, y, z
+    move_node.go_for(duration, vel)
+    # vel = [0.0, 0.0, -1.00]
+    # move_node.go_for(duration, vel)
+    move_node.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()

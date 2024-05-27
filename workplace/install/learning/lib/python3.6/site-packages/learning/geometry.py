@@ -19,7 +19,6 @@
 import math
 import threading
 class Line:
-    
     def __init__(self,slope,interception,mode = 0):
         if mode ==0:
             self.slope = slope
@@ -28,17 +27,16 @@ class Line:
             self.point2 = [.0,.0] # always save ball's loc as point2
         elif mode == 1:
             # (point,slope)
-            point = slope
-            slope = interception
-            interception = point[1]-slope*point[0]
-            self.point2 = point
+            self.point2 = slope
+            self.slope = interception
+            self.interception = self.point2[1]-self.slope*self.point2[0]
             self.point1 = [.0,.0]
         else:
             # (point,point)
             self.point1 = slope
             self.point2 = interception
             if (self.point2[0]-self.point1[0]) < 0.05:
-                self.slope = None
+                self.slope = float('inf')
                 self.interception = self.point2[0]
             else:
                 self.slope = (self.point2[1]-self.point1[1])/(self.point2[0]-self.point1[0])
@@ -83,7 +81,7 @@ class Line:
         elif self.slope == None:
             return self.interception
         else:
-            return (self.y-self.interception)/self.slope
+            return (y-self.interception)/self.slope
     
     #   find a point on the line that have certain diatance (dist) to the given point (point,if not given, then use piont2 of Line)
     def get_target(self,dist,mode=-1,point=None): #   mode=-1: get the target with smaller y; mode=1, get the target with larger y

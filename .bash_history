@@ -1490,3 +1490,54 @@ git commit -m '0526'
 git push 
 git push --set-upstream origin lx_main
 git push
+cd workplace
+colcon build --packages-select learning
+ros2 run learning main
+ros2 run learning stand
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+colcon build --packages-select learning
+ros2 run learning main
+git add -u
+cd ..
+git add -u
+git commit -m '0526whf'
+git push
+git push origin lx_main
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure 
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 lifecycle set /az1/camera/camera configure
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+git add workplace
+git commit -m "0526"
+git push origin lx_main
+colcon build
+cd workplace
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main

@@ -19,7 +19,6 @@
 import math
 import threading
 class Line:
-    
     def __init__(self,slope,interception,mode = 0):
         if mode ==0:
             self.slope = slope
@@ -82,7 +81,7 @@ class Line:
         elif self.slope == None:
             return self.interception
         else:
-            return (self.y-self.interception)/self.slope
+            return (y-self.interception)/self.slope
     
     #   find a point on the line that have certain diatance (dist) to the given point (point,if not given, then use piont2 of Line)
     def get_target(self,dist,mode=-1,point=None): #   mode=-1: get the target with smaller y; mode=1, get the target with larger y

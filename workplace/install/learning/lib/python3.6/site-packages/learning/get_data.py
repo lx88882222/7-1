@@ -45,9 +45,11 @@ class Location():
         DATA_GOT = False
         while not DATA_GOT:
             self.client_socket.send('start'.encode())
+            start  = time.time()
             try:
                 print('trying...')
                 data = self.client_socket.recv(1024).decode()
+                print(f'time to get data: {time.time() - start}')
                 DATA_GOT = True
             except socket.timeout:
                 print('socket timeout, retry...')
@@ -81,10 +83,7 @@ class Location():
         
         return self.ball, self.red_dog, self.black_dog
     
-    def in_place(self,target,error = C.ERROR):
-        self.get_data()
-        offset = self.dist(target,self.my_loc())
-        return offset < error
+    
     def NotOut(self,loc):# TODO what to do if about to get out of the field? 
         if loc[0] < C.MARGIN[0][0]:
             # too left
@@ -104,6 +103,7 @@ class Location():
         oppo_loc = self.oppo_loc()
         line = Line(my_loc,target,2)
         if not self.blockingWay(line,oppo_loc):
+            print(f'wont crash set target {target} ')
             return target
         else:
             # vec1 = [target[0] - my_loc[0],target[1] - my_loc[1]]
@@ -114,10 +114,17 @@ class Location():
                 vertic_line = Line(oppo_loc,-1/line.slope,1)
                 if line.get_y(oppo_loc[0]) > oppo_loc[1]:
                     mode = 1
-                else :
+                else:
                     mode = -1
                 NewTarget = vertic_line.get_target(C.SAFE_DIST,mode)
-                return NewTarget
+                if self.NotOut(NewTarget):
+                    print(f'May crash, get new target:{NewTarget}')
+                    return NewTarget
+                else:
+                    print(f'new target {NewTarget} out of flied')
+                    NewTarget = vertic_line.get_target(C.SAFE_DIST,-mode)
+                    print(f'shift target:{NewTarget}')
+                    return NewTarget
             except Exception as e:
                 print(f'Excepting occured in MayCrash, still go original path:{e}')
                 return target
@@ -127,6 +134,7 @@ class Location():
         red_delay = current - self.red_dog_loc_rec[4][1]
         black_delay = current - self.black_dog_loc_rec[4][1]
         return ball_delay < C.INFO_DELAY and red_delay < C.INFO_DELAY and black_delay < C.INFO_DELAY
+    
     def blockingWay(self,line,oppo_loc):
         print(line.slope)
         if C.SAFE_DIST * math.sqrt(line.slope * line.slope +1) < abs(line.slope * oppo_loc[0] - oppo_loc[1] + line.interception):
@@ -156,7 +164,10 @@ class Location():
         else:
             print('YEAAAAAAAH------')
             return True 
-           
+    def in_place(self,target,error = C.ERROR):
+        self.get_data()
+        offset = self.dist(target,self.my_loc())
+        return offset < error      
 
     def my_loc(self):
         if self.color == 1:#black
@@ -185,7 +196,17 @@ class Location():
         # self.get_data()
         loc = [self.black_dog_loc_rec[4][1],self.black_dog_loc_rec[4][2]]
         return loc
-    
+    def isLeft(self):
+        if self.color == 1:#black
+            if self.black_dog[0] - self.ball[0] > 0:
+                return 1
+            else:
+                return -1
+        if self.color == 0:#red
+            if self.red_dog[0] - self.ball[0] < 0:
+                return 1
+            else:
+                return -1    
     def dist(self,point1, point2):
         distance = math.sqrt((point2[0]-point1[0])**2 + (point2[1]-point1[1])**2)
         return distance
@@ -193,3 +214,11 @@ class Location():
     def close(self):
         self.client_socket.close()
         print('socket connection closed.')
+
+def main():
+    location = Location()
+    location.get_data()
+
+
+if __name__ == "__main__":
+    main()

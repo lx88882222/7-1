@@ -48,7 +48,7 @@ dbus-update-activation-environment: setting LD_PRELOAD=libgtk3-nocsd.so.0
 dbus-update-activation-environment: setting RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 dbus-update-activation-environment: setting ROS_DISTRO=galactic
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-** Message: 21:36:50.524: main.vala:102: Session is LXDE
-** Message: 21:36:50.524: main.vala:103: DE is LXDE
-** Message: 21:36:50.645: main.vala:134: log directory: /home/mi/.cache/lxsession/LXDE
-** Message: 21:36:50.645: main.vala:135: log path: /home/mi/.cache/lxsession/LXDE/run.log
+** Message: 21:06:49.248: main.vala:102: Session is LXDE
+** Message: 21:06:49.249: main.vala:103: DE is LXDE
+** Message: 21:06:49.368: main.vala:134: log directory: /home/mi/.cache/lxsession/LXDE
+** Message: 21:06:49.368: main.vala:135: log path: /home/mi/.cache/lxsession/LXDE/run.log

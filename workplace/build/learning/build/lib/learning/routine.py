@@ -1,9 +1,14 @@
+'''
+>   author: wmy whf lx
+>   edit date:2024-05-22
+>   get_goal_coords:
+        add an parameter 'mode' to return shoot mode
+'''
 import math
-
+from .constants import C
 def get_goal_coords(ball_coords,dog_coords,gate_coords,dist):
     right = 0
-    
-    # 计算球门和球之间的直线斜率
+    shoot_mode = 0
     slope = (gate_coords[1] - ball_coords[1]) / (gate_coords[0] - ball_coords[0])
     intercept = ((gate_coords[1] - slope * gate_coords[0])+ball_coords[1]-slope*ball_coords[0])/2
     # p是便于计算最终坐标的系数
@@ -16,10 +21,27 @@ def get_goal_coords(ball_coords,dog_coords,gate_coords,dist):
     goal_coords=[ball_coords[0]+dist_x , ball_coords[1]+dist_y]
     intersection_x=(dog_coords[1]-intercept)/slope
     if intersection_x>ball_coords[0]:
-        right = 1
+        right = -1
     else:
-        right = 0
-    return goal_coords,right
+        right = 1
+    if gate_coords[0]-1.1<ball_coords[0]<gate_coords[0]+1.1: #球在门框范围内
+        shoot_mode=0
+        goal_coords[0]=ball_coords[0]-0.1
+        if C.COLOR == 0: #红狗
+            goal_coords[1]=ball_coords[1]-dist
+        else:#黑狗
+            goal_coords[1]=ball_coords[1]+dist
+    else: #球在门框外
+        shoot_mode = 1
+        if (goal_coords[0]<gate_coords[0]-1.0) or (goal_coords[0]>gate_coords[0]+1.0) or (goal_coords[1]>8.0) or (goal_coords[1]<2.0):
+            #如果位置不合法，到球正后方踢球
+            shoot_mode = 0
+            goal_coords[0]=ball_coords[0]-0.1
+            if C.COLOR == 0: #红狗
+                goal_coords[1]=ball_coords[1]-dist
+            else:#黑狗
+                goal_coords[1]=ball_coords[1]+dist
+    return goal_coords,right,shoot_mode
 
 def get_routine(ball_coords,dog_coords,goal_coords,right):
     #dis(dog,ball)^2

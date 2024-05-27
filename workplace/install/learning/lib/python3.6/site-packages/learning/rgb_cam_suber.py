@@ -19,7 +19,7 @@ import numpy as np
 from cv_bridge import CvBridge
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-
+from .constants import C
 class RGBCamSuber(Node):
     '''subscribe the message of stereo camera'''
     def __init__(self, name) -> None:
@@ -56,4 +56,8 @@ class RGBCamSuber(Node):
             self.ball_position = (x, y)
         # cv2.imshow("rgb_image", cv_image)
         cv2.waitKey(1)
-    
+    def CloseToBall(self):
+        if self.size > C.BALL_SIZE_CLOSE:
+            return True
+        else:
+            return False

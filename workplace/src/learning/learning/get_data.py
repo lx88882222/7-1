@@ -45,9 +45,11 @@ class Location():
         DATA_GOT = False
         while not DATA_GOT:
             self.client_socket.send('start'.encode())
+            start  = time.time()
             try:
                 print('trying...')
                 data = self.client_socket.recv(1024).decode()
+                print(f'time to get data: {time.time() - start}')
                 DATA_GOT = True
             except socket.timeout:
                 print('socket timeout, retry...')
@@ -101,6 +103,7 @@ class Location():
         oppo_loc = self.oppo_loc()
         line = Line(my_loc,target,2)
         if not self.blockingWay(line,oppo_loc):
+            print(f'wont crash set target {target} ')
             return target
         else:
             # vec1 = [target[0] - my_loc[0],target[1] - my_loc[1]]
@@ -114,7 +117,14 @@ class Location():
                 else:
                     mode = -1
                 NewTarget = vertic_line.get_target(C.SAFE_DIST,mode)
-                return NewTarget
+                if self.NotOut(NewTarget):
+                    print(f'May crash, get new target:{NewTarget}')
+                    return NewTarget
+                else:
+                    print(f'new target {NewTarget} out of flied')
+                    NewTarget = vertic_line.get_target(C.SAFE_DIST,-mode)
+                    print(f'shift target:{NewTarget}')
+                    return NewTarget
             except Exception as e:
                 print(f'Excepting occured in MayCrash, still go original path:{e}')
                 return target
@@ -136,9 +146,11 @@ class Location():
             # opponent is close to target path but I wont go pass it
             return False
         return True
-    def CanShoot(self):
+    def CanShoot(self,my_loc = None):
         self.get_data()
-        shoot_line = Line(self.my_loc(),self.ball,2)
+        if my_loc is None:
+            my_loc = self.my_loc()
+        shoot_line = Line(my_loc,self.ball,2)
         aim = shoot_line.get_x(C.GATE[1])
         if aim < C.GATE_RANGE[0]:
             return False   # 预期射门位置x偏小
@@ -204,3 +216,12 @@ class Location():
     def close(self):
         self.client_socket.close()
         print('socket connection closed.')
+
+def main():
+    location = Location()
+    location.get_data()
+    location.close()
+
+
+if __name__ == "__main__":
+    main()
