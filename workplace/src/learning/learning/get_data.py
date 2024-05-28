@@ -24,6 +24,7 @@ import math
 import time
 from .constants import C
 from .geometry import Line
+
 class Location():
     def __init__(self) -> None:
         self.dog_name=C.NAME
@@ -42,14 +43,17 @@ class Location():
         self.black_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
         self.LatestInfo = False
     def get_data(self):
+        '''
+        一定会得到一次data
+        '''
         DATA_GOT = False
         while not DATA_GOT:
             self.client_socket.send('start'.encode())
             start  = time.time()
             try:
-                print('trying...')
+                # print('trying...')
                 data = self.client_socket.recv(1024).decode()
-                print(f'time to get data: {time.time() - start}')
+                # print(f'time to get data: {time.time() - start}')
                 DATA_GOT = True
             except socket.timeout:
                 print('socket timeout, retry...')
@@ -62,12 +66,12 @@ class Location():
         ball = [float(parts[0]) if parts[0] != 'None' else None, float(parts[1]) if parts[1] != 'None' else None]
         red_dog = [float(parts[2]) if parts[2] != 'None' else None, float(parts[3]) if parts[3] != 'None' else None]
         black_dog = [float(parts[4]) if parts[4] != 'None' else None, float(parts[5]) if parts[5] != 'None' else None]
-        
-        print(f'self.ball = {self.ball}')
-        print(f'self.my_loc = {self.my_loc()}')
+        if not self.ball ==self.ball_loc_rec[3]:
+            print(f'self.ball = {self.ball}')
+            print(f'self.my_loc = {self.my_loc()}')
 
-        print('----------------')
-        
+            print('----------------')
+            
         if not (None in ball):
             self.ball = ball
             self.ball_loc_rec.pop(0)
@@ -103,13 +107,9 @@ class Location():
         oppo_loc = self.oppo_loc()
         line = Line(my_loc,target,2)
         if not self.blockingWay(line,oppo_loc):
-            print(f'wont crash set target {target} ')
+            print(f'MayCrash:wont crash')
             return target
         else:
-            # vec1 = [target[0] - my_loc[0],target[1] - my_loc[1]]
-            # vec2 = [oppo_loc[0] - my_loc[0],oppo_loc[1] - my_loc[1]]
-            # crossProduct = vec1[0] * vec2[1] - vec1[1] * vec2[1]
-            # if crossProduct > 0:
             try:
                 vertic_line = Line(oppo_loc,-1/line.slope,1)
                 if line.get_y(oppo_loc[0]) > oppo_loc[1]:
@@ -121,14 +121,17 @@ class Location():
                     print(f'May crash, get new target:{NewTarget}')
                     return NewTarget
                 else:
-                    print(f'new target {NewTarget} out of flied')
+                    print(f'new target {NewTarget} out of filed')
                     NewTarget = vertic_line.get_target(C.SAFE_DIST,-mode)
-                    print(f'shift target:{NewTarget}')
+                    print(f'shifted target:{NewTarget}')
                     return NewTarget
             except Exception as e:
-                print(f'Excepting occured in MayCrash, still go original path:{e}')
-                return target
+                print(f'Excepting occured in MayCrash, still go to original target:{e}')
+                return target 
     def info_is_latest(self):
+        '''
+        if the set of data is updated within C.INFO_DELAY seconds, return True
+        '''
         current = time.time()
         ball_delay = current - self.ball_loc_rec[4][1]
         red_delay = current - self.red_dog_loc_rec[4][1]
@@ -152,7 +155,9 @@ class Location():
             my_loc = self.my_loc()
         shoot_line = Line(my_loc,self.ball,2)
         aim = shoot_line.get_x(C.GATE[1])
-        if aim < C.GATE_RANGE[0]:
+        if aim is None:
+            return True #斜率小于0.05
+        elif aim < C.GATE_RANGE[0]:
             return False   # 预期射门位置x偏小
         elif aim > C.GATE_RANGE[1]:
             return False    # 预期射门位置x偏大
@@ -198,17 +203,17 @@ class Location():
         # self.get_data()
         loc = [self.black_dog_loc_rec[4][1],self.black_dog_loc_rec[4][2]]
         return loc
-    def isLeft(self):
+    def isLeft(self):#返回球在狗的左边还是右边， 1 for left, -1 for right
         if self.color == 1:#black
-            if self.black_dog[0] - self.ball[0] > 0:
+            if self.my_loc()[0] - self.ball[0] < 0:#球在黑狗左边
                 return 1
             else:
                 return -1
-        if self.color == 0:#red
-            if self.red_dog[0] - self.ball[0] < 0:
+        elif self.color == 0:#red
+            if self.my_loc()[0] - self.ball[0] > 0:#球在红狗左边
                 return 1
             else:
-                return -1    
+                return -1 
     def dist(self,point1, point2):
         distance = math.sqrt((point2[0]-point1[0])**2 + (point2[1]-point1[1])**2)
         return distance

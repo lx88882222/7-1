@@ -1,6 +1,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/routine.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/keeper.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/main_node.py
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/draw.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/walk.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/rotate_to_line.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/sensor_node.py
@@ -32,6 +33,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/routine.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/keeper.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/main_node.cpython-36.pyc
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/draw.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/walk.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/rotate_to_line.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/sensor_node.cpython-36.pyc

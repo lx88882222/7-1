@@ -41,6 +41,7 @@ def get_goal_coords(ball_coords,dog_coords,gate_coords,dist):
                 goal_coords[1]=ball_coords[1]-dist
             else:#黑狗
                 goal_coords[1]=ball_coords[1]+dist
+    print(f"shoot mode is {shoot_mode}")
     return goal_coords,right,shoot_mode
 
 def get_routine(ball_coords,dog_coords,goal_coords,right):

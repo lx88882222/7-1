@@ -36,11 +36,12 @@ class Line:
             self.point1 = slope
             self.point2 = interception
             if (self.point2[0]-self.point1[0]) < 0.05:
+                print('SELF_WARNING: line slope = inf')
                 self.slope = float('inf')
                 self.interception = self.point2[0]
             else:
                 self.slope = (self.point2[1]-self.point1[1])/(self.point2[0]-self.point1[0])
-                self.interception = self.point1[1]-slope*self.point1[0]
+                self.interception = self.point1[1]-self.slope*self.point1[0]
     # @classmethod
     # def point_slope(cls,point,slope):
     #     interception = point[1]-slope*point[0]

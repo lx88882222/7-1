@@ -33,13 +33,15 @@ def main(args=None):
                 print(f'latest rec at {location.my_loc_rec()[4][0]}')
                 location.get_data()
             target,_,shoot_mode= get_goal_coords(location.ball,location.my_loc(),C.GATE,C.DIST)
-            print(f'ball:{location.ball},me:{location.black_dog}')
+            print(f'ball:{location.ball},me:{location.my_loc()}')
             print(f'target is{target}')
             target = location.MayCrash(target)
-            move.goto(target)
+            if not move.goto(target):
+                continue
             # TODO check if ball_loc satisfies the requirements to shoot
             if not location.CanShoot():
                 continue
+            print(f'Can Shoot!')
             move.shoot(shoot_mode)
             print('successfully shoot!')
             print('sleeping...')

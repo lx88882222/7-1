@@ -24,6 +24,7 @@ import math
 import time
 from .constants import C
 from .geometry import Line
+
 class Location():
     def __init__(self) -> None:
         self.dog_name=C.NAME
@@ -42,6 +43,9 @@ class Location():
         self.black_dog_loc_rec = [[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0],[.0,.0,.0]]
         self.LatestInfo = False
     def get_data(self):
+        '''
+        一定会得到一次data
+        '''
         DATA_GOT = False
         while not DATA_GOT:
             self.client_socket.send('start'.encode())
@@ -121,7 +125,7 @@ class Location():
                     print(f'May crash, get new target:{NewTarget}')
                     return NewTarget
                 else:
-                    print(f'new target {NewTarget} out of flied')
+                    print(f'new target {NewTarget} out of filed')
                     NewTarget = vertic_line.get_target(C.SAFE_DIST,-mode)
                     print(f'shift target:{NewTarget}')
                     return NewTarget
@@ -146,11 +150,15 @@ class Location():
             # opponent is close to target path but I wont go pass it
             return False
         return True
-    def CanShoot(self):
+    def CanShoot(self,my_loc = None):
         self.get_data()
-        shoot_line = Line(self.my_loc(),self.ball,2)
+        if my_loc is None:
+            my_loc = self.my_loc()
+        shoot_line = Line(my_loc,self.ball,2)
         aim = shoot_line.get_x(C.GATE[1])
-        if aim < C.GATE_RANGE[0]:
+        if aim is None:
+            return True #斜率小于0.05
+        elif aim < C.GATE_RANGE[0]:
             return False   # 预期射门位置x偏小
         elif aim > C.GATE_RANGE[1]:
             return False    # 预期射门位置x偏大
@@ -196,17 +204,17 @@ class Location():
         # self.get_data()
         loc = [self.black_dog_loc_rec[4][1],self.black_dog_loc_rec[4][2]]
         return loc
-    def isLeft(self):
+    def isLeft(self):#返回球在狗的左边还是右边， 1 for left, -1 for right
         if self.color == 1:#black
-            if self.black_dog[0] - self.ball[0] > 0:
+            if self.my_loc()[0] - self.ball[0] < 0:#球在黑狗左边
                 return 1
             else:
                 return -1
-        if self.color == 0:#red
-            if self.red_dog[0] - self.ball[0] < 0:
+        elif self.color == 0:#red
+            if self.my_loc()[0] - self.ball[0] > 0:#球在红狗左边
                 return 1
             else:
-                return -1    
+                return -1 
     def dist(self,point1, point2):
         distance = math.sqrt((point2[0]-point1[0])**2 + (point2[1]-point1[1])**2)
         return distance
@@ -218,6 +226,7 @@ class Location():
 def main():
     location = Location()
     location.get_data()
+    location.close()
 
 
 if __name__ == "__main__":

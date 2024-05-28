@@ -1541,3 +1541,72 @@ colcon build
 ros2 run learning main
 colcon build
 ros2 run learning main
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 launch camera_test stereo_camera.py
+cd workplace
+colcon build --packages-select learning 
+ros2 run learning get_data
+cd ..
+git add -u
+git commit -m '0527whf'
+git push origin lx_mian
+git push origin lx_main
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+cd workplace
+colcon build
+ros2 run learning stand
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+colcon build --learning
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+ros2 run learning main
+colcon build
+cd ..
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+cd workplace
+colcon build
+ros2 run learning stand
+ros2 run learning main
+colcon build -learning
+colcon build --learning
+colcon build learning
+colcon build --packages-up-to learning
+ros2 run learning main
+colcon build --packages-up-to learning
+ros2 run learning main
+colcon build --packages-up-to learning
+ros2 run learning main
+colcon build --packages-up-to learning
+ros2 run learning main
+colcon build --packages-up-to learning
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az1/camera/camera configure
+ros2 lifecycle set /az1/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 lifecycle set /az1/camera/camera configure
+ros2 launch camera_test stereo_camera.py

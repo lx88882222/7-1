@@ -5,21 +5,20 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-5b4dd510-643a-43ad-a523-0650cf14b4c2
-Extension host agent listening on /tmp/code-5b4dd510-643a-43ad-a523-0650cf14b4c2
+Server bound to /tmp/code-70fdb7df-818e-4269-aee4-d80aba757a52
+Extension host agent listening on /tmp/code-70fdb7df-818e-4269-aee4-d80aba757a52
 
-[21:14:50] 
-
-
+[20:29:08] 
 
 
-[21:14:50] Extension host agent started.
-[21:14:50] [<unknown>][ecc16f12][ExtensionHostConnection] New connection established.
-[21:14:50] [<unknown>][f378b015][ManagementConnection] New connection established.
-[21:14:56] [<unknown>][ecc16f12][ExtensionHostConnection] <16445> Launched Extension Host Process.
-[21:15:04] [<unknown>][c55bebf2][ManagementConnection] New connection established.
-[21:15:04] [<unknown>][70884cb3][ExtensionHostConnection] New connection established.
-[21:15:04] [<unknown>][70884cb3][ExtensionHostConnection] <16667> Launched Extension Host Process.
+
+
+[20:29:08] Extension host agent started.
+[20:29:09] [<unknown>][cee600fc][ManagementConnection] New connection established.
+[20:29:09] [<unknown>][80558bed][ExtensionHostConnection] New connection established.
+[20:29:13] [<unknown>][7d68ae88][ManagementConnection] Unknown reconnection token (never seen).
+[20:29:13] [<unknown>][f6d8931d][ExtensionHostConnection] Unknown reconnection token (never seen).
+[20:29:15] [<unknown>][80558bed][ExtensionHostConnection] <10804> Launched Extension Host Process.
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
@@ -35,7 +34,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[21:15:06] Error [CodeExpectedError]: Could not find pty on pty host
+[20:29:18] Error [CodeExpectedError]: Could not find pty on pty host
     at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
     at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
     at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
@@ -49,3 +48,243 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[20:29:18] Error [CodeExpectedError]: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[20:29:22] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/mi/.vscode-server/data/logs/20240518T195426/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/mi)
+[20:29:22] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/mi/.vscode-server/data/logs/20240518T195426/exthost1/vscode.github' failed: No such file or directory
+New EH opened, aborting shutdown
+[20:34:08] New EH opened, aborting shutdown
+[20:35:25] [<unknown>][7051a4ba][ManagementConnection] New connection established.
+[20:35:26] [<unknown>][b53316bd][ExtensionHostConnection] New connection established.
+[20:35:26] [<unknown>][b53316bd][ExtensionHostConnection] <14906> Launched Extension Host Process.
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 41
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 42
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 43
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 44
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 45
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 46
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 47
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 48
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 49
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 50
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 51
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 52
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 53
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 54
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 55
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 56
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 57
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 58
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 59
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 60
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 61
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 62
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 63
+[20:35:27] RequestStore#acceptReply was called without receiving a matching request 64
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 65
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 66
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 67
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 68
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 69
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 70
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 71
+[20:35:29] RequestStore#acceptReply was called without receiving a matching request 72
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[20:35:29] Error [CodeExpectedError]: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 73
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 74
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 75
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 76
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 77
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 78
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 79
+[20:35:30] RequestStore#acceptReply was called without receiving a matching request 80
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 81
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 82
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 83
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 84
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 85
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 86
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 87
+[20:35:34] RequestStore#acceptReply was called without receiving a matching request 88
+[20:35:35] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 89
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 90
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 91
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 92
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 93
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 94
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 95
+[20:37:03] RequestStore#acceptReply was called without receiving a matching request 96
+[21:03:13] [<unknown>][5e27c958][ManagementConnection] New connection established.
+[21:03:13] [<unknown>][02ffffba][ExtensionHostConnection] New connection established.
+[21:03:14] [<unknown>][02ffffba][ExtensionHostConnection] <31544> Launched Extension Host Process.
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 97
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 98
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 99
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 100
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 101
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 102
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 103
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 104
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 105
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 106
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 107
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 108
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 109
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 110
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 111
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 112
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 113
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 114
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 115
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 116
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 117
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 118
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 119
+[21:03:15] RequestStore#acceptReply was called without receiving a matching request 120
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 121
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 122
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 123
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 124
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 125
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 126
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 127
+[21:03:18] RequestStore#acceptReply was called without receiving a matching request 128
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 129
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 130
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 131
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 132
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 133
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 134
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 135
+[21:03:19] RequestStore#acceptReply was called without receiving a matching request 136
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 137
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 138
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 139
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 140
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 141
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 142
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 143
+[21:03:21] RequestStore#acceptReply was called without receiving a matching request 144
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 145
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 146
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 147
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 148
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 149
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 150
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 151
+[21:03:26] RequestStore#acceptReply was called without receiving a matching request 152
+[21:03:29] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+[21:07:02] [<unknown>][40403522][ExtensionHostConnection] New connection established.
+[21:07:02] [<unknown>][b24c1a40][ManagementConnection] New connection established.
+[21:07:03] [<unknown>][40403522][ExtensionHostConnection] <1880> Launched Extension Host Process.
+[21:07:11] [<unknown>][f0485862][ManagementConnection] New connection established.
+[21:07:11] [<unknown>][39ecec7e][ExtensionHostConnection] New connection established.
+[21:07:11] [<unknown>][39ecec7e][ExtensionHostConnection] <2116> Launched Extension Host Process.
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 193
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 194
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 195
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 196
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 197
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 198
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 199
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 200
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 201
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 202
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 203
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 204
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 205
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 206
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 207
+[21:07:12] RequestStore#acceptReply was called without receiving a matching request 208
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 209
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 210
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 211
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 212
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 213
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 214
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 215
+[21:07:13] RequestStore#acceptReply was called without receiving a matching request 216
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 217
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 218
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 219
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 220
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 221
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 222
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 223
+[21:07:15] RequestStore#acceptReply was called without receiving a matching request 224
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 225
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 226
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 227
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 228
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 229
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 230
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 231
+[21:07:17] RequestStore#acceptReply was called without receiving a matching request 232
+[21:07:22] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/mi)
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 233
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 234
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 235
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 236
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 237
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 238
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 239
+[21:07:33] RequestStore#acceptReply was called without receiving a matching request 240
+[21:08:14] [<unknown>][b53316bd][ExtensionHostConnection] <14906> Extension Host Process exited with code: 0, signal: null.
+[21:12:03] [<unknown>][02ffffba][ExtensionHostConnection] <31544> Extension Host Process exited with code: 0, signal: null.
+[21:12:12] [<unknown>][40403522][ExtensionHostConnection] <1880> Extension Host Process exited with code: 0, signal: null.

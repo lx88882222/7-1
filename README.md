@@ -167,3 +167,6 @@ x==410,y==378,area==31450
 `colcon build --packages-select <pkg_name>   //注意要在workplace里build`
 + 初次build前记得source一下，不然会报错package not found
 `source ~/workplace/install/setup.bash`
+
+translate aim ball 如果出视野 优先查上位机，如果上位机长时间不想答应，转到rotate模式，
+todo:避障

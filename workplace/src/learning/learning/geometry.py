@@ -18,6 +18,8 @@
 '''
 import math
 import threading
+import sys
+import traceback
 class Line:
     def __init__(self,slope,interception,mode = 0):
         if mode ==0:
@@ -35,30 +37,16 @@ class Line:
             # (point,point)
             self.point1 = slope
             self.point2 = interception
-            if (self.point2[0]-self.point1[0]) < 0.05:
-                self.slope = float('inf')
-                self.interception = self.point2[0]
-            else:
+            try:
                 self.slope = (self.point2[1]-self.point1[1])/(self.point2[0]-self.point1[0])
-                self.interception = self.point1[1]-slope*self.point1[0]
-    # @classmethod
-    # def point_slope(cls,point,slope):
-    #     interception = point[1]-slope*point[0]
-    #     s = cls(slope,interception)
-    #     s.point2 = point
-    #     return s
-    # @classmethod
-    # def point_point(cls,point1,point2):
-    #     if (point2[0]-point1[0]) < 0.05:
-    #         slope = None
-    #         interception = point2[0]
-    #     else:
-    #         slope = (point2[1]-point1[1])/(point2[0]-point1[0])
-    #         interception = point1[1]-slope*point1[0]
-    #     s=cls(slope,interception)
-    #     s.point1 = point1
-    #     s.point2 = point2
-    #     return s
+                self.interception = self.point1[1]-self.slope*self.point1[0]
+            except ZeroDivisionError as e:
+                print(e)
+                exc_type, exc_value, exc_traceback = sys.exc_info()
+                traceback.print_exception(exc_type, exc_value, exc_traceback, limit=None, file=sys.stdout)
+                self.slope = 10000  # 随便一个很大的数
+                self.interception = self.point2[0]
+                print('---SELF_WARNING: line slope = inf---')
     def update_by_point(self,point2,point1=None):
         self.point2 = point2
         if point1 is not None:

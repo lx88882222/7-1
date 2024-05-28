@@ -32,7 +32,7 @@ def get_goal_coords(ball_coords,dog_coords,gate_coords,dist):
         else:#黑狗
             goal_coords[1]=ball_coords[1]+dist
     else: #球在门框外
-        shoot_mode = 1
+        # shoot_mode = 1    # TODO 旋转射门需要用到rotate，不稳定。如果可以重构rotate射门程序，则可以恢复这个mode应对更多情况。
         if (goal_coords[0]<gate_coords[0]-1.0) or (goal_coords[0]>gate_coords[0]+1.0) or (goal_coords[1]>8.0) or (goal_coords[1]<2.0):
             #如果位置不合法，到球正后方踢球
             shoot_mode = 0
@@ -41,6 +41,7 @@ def get_goal_coords(ball_coords,dog_coords,gate_coords,dist):
                 goal_coords[1]=ball_coords[1]-dist
             else:#黑狗
                 goal_coords[1]=ball_coords[1]+dist
+    print(f"shoot mode is {shoot_mode}")
     return goal_coords,right,shoot_mode
 
 def get_routine(ball_coords,dog_coords,goal_coords,right):

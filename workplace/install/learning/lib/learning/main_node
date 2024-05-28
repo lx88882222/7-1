@@ -7,7 +7,7 @@ import sys
 __requires__ = 'learning==0.0.0'
 
 try:
-    from importlib.metadata import distribution
+    from importlib_metadata import distribution
 except ImportError:
     try:
         from importlib_metadata import distribution

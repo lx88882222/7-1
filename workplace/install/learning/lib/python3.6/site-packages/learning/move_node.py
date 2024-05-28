@@ -37,26 +37,34 @@ class Move(Node):
         self.DIST = C.DIST
         self.location = location
         self.rgb_node = RGBCamSuber("rgb_cam_suber")
-    def goto(self,target,frequency = C.FREQUENCY):
+    def goto(self,target,accurate_mode = True, frequency = C.FREQUENCY):    # mode == 1， accurate mode, get data while going; mode == 0, fast mode, dont get data.
         '''
         goto(self,target:target_coords)
         go to point [target] at max speed.
         update movement cmd evert [frequency] seconds.
         '''
+        mid_target = target
         print(f'going to{target}')
         ratio = 1.0 #speed ratio, 1.0 for full speed,decays with distance
         while not self.location.in_place(target):
+            if accurate_mode:
+                if not self.location.CanShoot(target):
+                    #   如果发现在目标点已经不符合射门要求（即球移动了，使得原先的target失效），此时判定为这一次goto失效。
+                    return False
+                mid_target = self.location.MayCrash(target)
             dist_to_target = dist(self.location.my_loc(), target)
-            if dist_to_target > 5.0:
+            if dist_to_target > C.DIST_TO_TARGET_THRESHOLD:
                 ratio = 1.0
             else:
-                ratio = 0.2+dist_to_target/6.25 #decay speed with distance
-            v =self.max_vel(target,self.location.my_loc(),ratio)
+                ratio = 0.2+0.8 * dist_to_target/C.DIST_TO_TARGET_THRESHOLD #decay speed with distance
+            v =self.max_vel(mid_target,self.location.my_loc(),ratio)
             vel = [v[0],v[1],.0]
             self.go(vel)
             time.sleep(0.1)
             print(f'goto() targeting {target}') 
-        print(f'targeting {target}, arrived at {self.location.my_loc}') 
+            if mid_target is not target:
+                print(f'--- goto():mid_target {mid_target}')
+        print(f'targeting {target}, arrived at {self.location.my_loc()}') 
         return True
     def go_for(self,duration,vel):
         '''
@@ -182,47 +190,49 @@ class Move(Node):
             if size < 100:
                 av=sum(self.x_rec)/len(self.x_rec)
                 if av < 10:
-                    self.speed_x, self.speed_y, self.speed_z = 0.0, -0.3*self.prefer_direc_horizontal, 0.0
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, 0.3*self.prefer_direc_horizontal, 0.0
                 elif  av < 320:
-                    self.speed_x, self.speed_y, self.speed_z = 0.0, -0.3, 0.0
-                else:
                     self.speed_x, self.speed_y, self.speed_z = 0.0, 0.3, 0.0
+                else:
+                    self.speed_x, self.speed_y, self.speed_z = 0.0, -0.3, 0.0
             elif ball_x > 380 and ball_x < 410:
                 self.speed_y = 0.0
                 self.aim_horizontal = True
                 return
-            elif ball_x <= 360:
-                self.speed_x, self.speed_y, self.speed_z = 0.0, -0.25, 0.0
-            else:
+            elif ball_x <= 380:
                 self.speed_x, self.speed_y, self.speed_z = 0.0, 0.25, 0.0
+            else:
+                self.speed_x, self.speed_y, self.speed_z = 0.0, -0.25, 0.0
             self.go([self.speed_x,self.speed_y,self.speed_z],1)
             self.get_logger().info(f"translating,x={ball_x},arr={self.x_rec}")
             time.sleep(0.1)
         return True
         
-    def shoot(self,mode=0,redundancy = 1.0):
+    def shoot(self,mode=0,redundancy = 1.5):
         '''
         shooting
         Mode 0: Shoot from directly behind the football
         Mode 1: Rotate to face the ball and then shoot
-        Mode 2: The ball is in the no-shooting zone on the left side of the field, move right to drag the ball to the shooting area and then shoot from directly behind
-        Mode 3: The ball is in the no-shooting zone on the right side of the field, move left to drag the ball to the shooting area and then shoot from directly behind
-        Mode 4: No shooting, do nothing
+        Mode 2: No shooting, do nothing
 
         go [redundancy] meters further
         '''
+        left = self.location.isLeft()
+        print(f"ball is on the {left}")
         if mode == 0:
-            duration = (self.DIST + redundancy)/self.max_speed_x
-            self.go_for(duration,[self.max_speed_x,.0,.0])
+            self.translate_aim_ball(left)
+            print(f"ball is on the {left}")
+            duration = (self.DIST + redundancy)/self.max_speed_y
+            self.go_for(duration,[.0,-self.max_speed_y,.0])
+            self.go_for(duration,[.0,self.max_speed_y,.0])
+            self.go_for(duration,[.0,-self.max_speed_y,.0]) #TODO change +/-
         elif mode == 1:
-            ball_loc,my_loc = self.location.ball,self.location.my_loc()
-            if(my_loc[0] - ball_loc[0] < 0):
-                left = -1
-            else:
-                left = 1
-            rotation=self.rotate_aim_ball(0,left)*1.1 #请别吐槽。。
-            duration = (self.DIST + redundancy)/self.max_speed_x
-            self.go_for(duration,[self.max_speed_x,.0,.0])
+            ball_loc,me_loc = self.location.ball,self.location.my_loc()
+            rotation=self.rotate_aim_ball(0,left) 
+            duration = (self.DIST + redundancy)/self.max_speed_y
+            self.go_for(duration,[.0,-self.max_speed_y,.0])
+            self.go_for(duration,[.0,self.max_speed_y,.0])
+            self.go_for(duration,[.0,-self.max_speed_y,.0])#TODO change +/-
             if rotation>0:
                 self.go_for(rotation/0.5,[.0,.0,-0.5])
             else:
